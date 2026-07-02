@@ -6,6 +6,7 @@ max/*.jar
 
 # Données préparées (générées par scripts/prepare-tei.mjs depuis ../grand-siecle-TeiAPP/data)
 build/
+max/editions/grand-siecle/data/
 
 # Sortie du crawl statique (générée par scripts/freeze.sh)
 static-site/_pagefind/
