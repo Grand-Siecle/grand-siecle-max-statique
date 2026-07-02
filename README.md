@@ -37,7 +37,11 @@ python3 -m http.server 8899 --directory static-site
 ```
 
 Le site **dynamique** (avant gel) tourne sur http://localhost:1234/grand-siecle/
-(`./max/basex/bin/basexhttp -h1234 -S` pour le relancer).
+(`./max/basex/bin/basexhttp -h1234 -S` pour le relancer). Les fiches d'entités
+(`registres/…`) n'existent pas dans le moteur MaX : en dynamique, elles sont servies
+par la **couche statique de Jetty/BaseX** (copie dans `basex/webapp/grand-siecle/` +
+mapping `web.xml`, mis en place par `install.sh`) — illustration concrète de la
+limite « pas de pages d'entités » de MaX.
 
 ## Architecture
 

@@ -69,6 +69,29 @@ sleep 2
 echo "== 7. Invalidation du cache des index =="
 rm -f "$MAX"/editions/grand-siecle/fragments/fr/index/*.frag.html
 
+
+echo "== 8. Fiches d'entités servies aussi en dynamique (couche statique Jetty) =="
+# MaX n'a pas de pages d'entités : en dynamique, les fiches pré-générées sont
+# servies par la servlet statique de BaseX (mapping instance, pas le cœur MaX).
+mkdir -p "$MAX/basex/webapp/grand-siecle"
+rsync -a --delete "$ROOT/build/site-extra/registres/" "$MAX/basex/webapp/grand-siecle/registres/"
+python3 - "$MAX/basex/webapp/WEB-INF/web.xml" <<'PYEOF'
+import sys
+p = sys.argv[1]
+c = open(p, encoding='utf-8').read()
+add = """  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/grand-siecle/registres/*</url-pattern>
+  </servlet-mapping>
+
+"""
+if '/grand-siecle/registres/*' not in c:
+    open(p, 'w', encoding='utf-8').write(c.replace('</web-app>', add + '</web-app>'))
+    print('web.xml : mapping /grand-siecle/registres/* ajouté')
+PYEOF
+"$BX/basexhttpstop" 2>/dev/null || true
+"$BX/basexhttp" -h1234 -S
+
 echo
 echo "Site dynamique : http://localhost:1234/grand-siecle/accueil.html"
 echo "Gel statique   : ./scripts/freeze.sh"
