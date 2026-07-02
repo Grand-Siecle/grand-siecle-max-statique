@@ -1,0 +1,237 @@
+.ead-search{
+    margin-top: 100px;
+}
+
+.ead-search button{
+    cursor: pointer;
+}
+
+.ead-search-ul {
+    list-style-type: none;
+    display: inline-block;
+    margin:0;
+    padding:0
+}
+
+section.browse section p,  section.browse section ul{
+    line-height: 1.3;
+   
+}
+
+section.browse section p {
+    margin-bottom: 2px;
+    margin-top:7px;
+}
+
+section.browse section ul{
+    margin: 0px;
+}
+
+
+.ead-search-ul li {
+    display: inline-block;
+    margin-left:5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-size:0.8rem;
+}
+
+.ead-search-ul li button {
+    display :inline-block;
+    border: none;
+    background-color: none;
+    padding: 4px;
+    margin: 0px 0px 0px 7px;
+    color: red;
+    cursor : pointer;
+}
+
+.ead-search label{
+    display :inline-block;
+    min-width: 200px;
+}
+
+section#ead-search-section #ead-search-date-wrap{
+    border-top: 1px solid #ccc;
+    margin-top:10px;
+    padding-top:10px;
+    width: 70%;
+}
+
+section#ead-search-section #ead-search-date-wrap div{
+margin:10px;
+}
+
+#ead-search-date-wrap div span{
+    display :inline-block;
+    min-width: 50px;
+}
+
+#ead-search-results {
+    border-top: 1px solid #888;
+    margin-bottom:51px;
+}
+
+#ead-search-results section{
+    width: 66%;
+    min-width: 700px;
+    margin-bottom:66px;
+}
+
+#searchLoading{
+    padding-top: 20px;
+    display:none;
+    text-align: center;
+    position: absolute;
+
+  }
+
+div.boutonSearch button {
+    margin-left: 365px;
+  
+}
+
+.ead-search-popup-wrap{
+    display: inline;
+    position: relative;
+}
+
+.ead-search-popup{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 10px;
+    border:1px solid #999;
+    min-width:500px;
+    background-color: white;
+    z-index:10;
+    font-size:0.8rem;
+}
+
+.ead-search-close-popup {
+    position: absolute;
+    top :5px;
+    right: 5px;
+}
+.ead-search-popup button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 32px;
+    max-height: 32px;
+
+    padding: 3px 6px;
+}
+
+.ead-search-popup ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left:0;
+}
+
+.ead-search-popup ul li{
+    cursor: pointer;
+    line-height: 1.2;
+}
+
+.ead-search-popup ul li:hover{
+    color: #888;
+}
+
+.ead-search-popup-alphabet{
+    text-align :center;
+}
+.ead-search-index-pager{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ead-search-index-pager button{
+    margin: 5px;
+}
+.ead-search-index-pager input{
+    max-width: 80px;
+}
+
+.ead-search-index-n{
+    display: inline-block;
+    margin-right: 15px;
+    min-width: 25px;
+    font-weight: bold;
+    text-align:right;
+}
+.ead-search-alpha {
+    cursor : pointer;
+}
+.ead-search-alpha.selected{
+    color: black;
+    font-weight: bold;
+}
+
+section.browse section#ead-search-section div#ead-search-simple {
+    border-bottom: 1px solid #888;
+    padding-bottom: 3px;
+    border-top: 1px solid #888;
+    padding-top: 3px;
+    margin-top:10px;
+    margin-left:0px;
+    margin-bottom:10px;
+}
+
+
+section#ead-search-section ul li {
+    line-height: 1.5;
+}
+
+section#ead-search-section div {
+    margin: 0px;
+}
+
+section#ead-search-section div.ead-search-popup-alphabet {
+    margin: 10px;
+    padding-left:5px;
+}
+
+
+
+section.browse .ead-search {
+    margin-top: 17em;
+    margin-left: 24px;
+}
+
+input[type="text"] {
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    background-size: 18px;
+}
+
+input[type="text"][id="searchInput"] {
+    padding: 6px 33px;
+background: transparent url("loupe.png") no-repeat 10px 4px;
+background-size: 18px;
+}
+
+button {
+    border: 1px solid #ccc;
+    padding: 6px 15px;
+    margin: 8px 0;
+}
+
+section.porte-documents button {
+    padding: 3px 6px;
+}
+
+button.iconeListe {
+    padding: 18px 15px;
+    margin: 8px 0;
+    border: none;
+    background: transparent url("liste.png") no-repeat 6px 4px;
+background-size: 21px;
+}
+
+section#ead-search-section div.contexte {
+    margin: 3px 0px 2px 9px;
+    line-height: 1.3;
+}

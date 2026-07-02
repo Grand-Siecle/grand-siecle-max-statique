@@ -1,0 +1,17 @@
+.align-right, .align-left{
+  width: 45%;
+  padding:10px;
+}
+
+.align-left{
+  float:left;
+}
+
+.align-right{
+  float:right;
+}
+
+.clearer{
+  clear:both;
+}
+

@@ -1,0 +1,16 @@
+# Binaires téléchargés par l'installation (make install / scripts/install.sh)
+max/basex/
+max/node_modules/
+max/BaseX107.zip
+max/*.jar
+
+# Données préparées (générées par scripts/prepare-tei.mjs depuis ../grand-siecle-TeiAPP/data)
+build/
+
+# Sortie du crawl statique (générée par scripts/freeze.sh)
+static-site/_pagefind/
+
+# Divers
+*.log
+.DS_Store
+*:Zone.Identifier

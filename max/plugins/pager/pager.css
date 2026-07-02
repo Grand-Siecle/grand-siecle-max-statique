@@ -1,0 +1,46 @@
+.links {
+  text-decoration: none;
+  padding: 2px;
+}
+.links:visited {
+  color: #000000;
+}
+.curPageLink {
+/*  background: #ff8822;*/
+background: #ddd;
+  text-decoration: none;
+  padding: 2px;
+}
+.curPageLink:visited {
+  color: #000000;
+}
+.pageLink {
+  color: #000000;
+  text-decoration: none;
+  padding: 2px;
+}
+.pageLink:visited {
+  color: #000000;
+}
+#pagerNav {
+  width: 50%;
+  margin: auto;
+  font-size:1.5em;
+}
+#lastPage,
+#firstPage {
+  text-decoration: none;
+  padding: 2px;
+}
+#lastPage:visited,
+#firstPage:visited {
+  color: #000000;
+}
+
+.max-doc-title {
+overflow:visible;
+}
+
+#pagerBlocks h2.subpart {
+text-align:left;
+}

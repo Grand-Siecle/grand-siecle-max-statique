@@ -1,0 +1,27 @@
+<!DOCTYPE html>{
+    declare function local:tocRender($map){
+    <ul>
+        <li>LABEL : {map:get($map, 'label')}</li>
+        <li>PATH : {map:get($map, 'fullPath')}</li>
+        {
+        if(map:contains($map,'dirs'))
+        then
+        <li>{
+            try{local:htmlSubDirs2(map:get($map,'dirs'))}catch * {()}
+            }</li>
+        }
+    </ul>
+    };
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+    {
+    for $map in map:get($toc_map,'toc')
+        return local:tocRender($toc_map)
+    }
+</body>
+</html>

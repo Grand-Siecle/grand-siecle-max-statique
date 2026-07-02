@@ -1,0 +1,27 @@
+.sic{
+  color:brown;
+  display:none;
+}
+
+.corr{
+  color:pink;
+}
+
+.reg{
+  color:red;
+  display:none;
+}
+
+.orig{
+  color:green;
+}
+
+.am{
+  color:black;
+  display:none;
+}
+
+.ex{
+  color:blue;
+
+}

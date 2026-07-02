@@ -1,0 +1,10 @@
+*~
+/node_modules
+/ui/js/lib
+/editions/*
+/configuration/configuration.xml
+.idea
+.DS_Store
+/plugins/**/.ignore
+tools/dist
+basex

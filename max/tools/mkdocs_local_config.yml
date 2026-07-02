@@ -1,0 +1,28 @@
+site_name: MaX - Documentation
+nav:
+  - Documentation d’utilisation de MaX : index.md
+  - Installation : install.md
+  - Création d'une édition : script.md
+  - Organisation des dossiers et des fichiers : files.md
+  - Configuration : config.md
+  - Fonctionnement : features.md
+  - Fichiers XML : basex.md
+  - Pages HTML statiques : static_pages.md
+  - Page d’accueil : home_page.md
+  - Menu : menu.md
+  - Sommaires : toc.md
+  - Textes : text.md
+  - Gabarits, mise en page : layout.md
+  - Fichier i18n : i18n.md
+  - Surcharges : overriding.md
+  - Plugins : plugins.md
+  - Métadonnées HTML : metadata.md
+  - Mise en production : production.md
+  - Glossaire : glossary.md
+theme: readthedocs
+extra_javascript:
+  - javascripts/mermaid.min.js
+extra_css:
+  - css/mermaid.css
+  - css/test.css
+use_directory_urls: false

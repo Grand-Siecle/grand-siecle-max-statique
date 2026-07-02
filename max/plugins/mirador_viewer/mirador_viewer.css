@@ -1,0 +1,4 @@
+.mirador-link {
+  cursor:pointer;
+  color:var(--ead-link-color);
+}

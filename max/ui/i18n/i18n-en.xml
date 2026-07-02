@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <entry key="menu.home">Home</entry>
+  <entry key="menu.sommaire">Summary</entry>
+  <entry key="menu.contacts">Contacts</entry>
+  <entry key="menu.recherche">Search</entry>
+  <entry key="menu.about">About</entry>
+
+  <entry key="search.loading">Searching ...</entry>
+  <entry key="search.results">Result(s)</entry>
+
+  <entry key="pb">Page breaks</entry>
+  <entry key="reading-options">Reading options</entry>
+
+  <!-- Recherche -->
+  <entry key="search.title">Advanced search</entry>
+  <entry key="search.label1">The search can be done in two independent ways:</entry>
+  <entry key="search.label2">by a full text search,</entry>
+  <entry key="search.label3">by a multi-criteria search.</entry>
+  <entry key="search.label4">(These two types of research cannot be crossed.)</entry>
+  <entry key="search.label5">Search</entry>
+  <entry key="search.fulltext">Full text search</entry>
+
+  <!-- Porte-documents -->
+  <entry key="basket.title">Basket</entry>
+  <entry key="basket.label1">Your basket contains all the documents you put aside during your visit.</entry>
+  <entry key="basket.label2">You can remove documents, view them or make a PDF output.</entry>
+  <entry key="basket.label3">Empty basket</entry>
+  <entry key="basket.label4">Download all the PDF</entry>
+  <entry key="basket.label5">Create a PDF output</entry>
+</properties>

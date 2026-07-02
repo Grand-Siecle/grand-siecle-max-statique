@@ -1,0 +1,58 @@
+stages:
+  - build
+  - upload
+  - release
+
+variables:
+  REGISTRY_PROJECT_ID: "855"
+#  ASSET: "test_ci-${PACKAGE_VERSION}-release.txt"
+# PACKAGE_REGISTRY_URL: "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/MaX/${PACKAGE_VERSION}"
+
+build:
+  stage: build
+  image: node:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  before_script:
+    - apt-get update
+    - apt-get install -y zip git python3 mkdocs
+    - yarn install --prefer-offline
+  script:
+    - echo $SHELL
+    - MAX_VERSION=$(node -p -e "require('./package.json').version")
+    - cd tools
+    - ./build.sh
+    - echo $MAX_VERSION > dist/version
+    - mv dist ../max-build
+  artifacts:
+    paths:
+      - max-build/
+
+upload:
+  stage: upload
+  image: curlimages/curl:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - MAX_VERSION=$(cat max-build/version)
+    - ASSET="max-v${MAX_VERSION}.zip"
+    - PACKAGE_REGISTRY_URL=${CI_API_V4_URL}/projects/${REGISTRY_PROJECT_ID}/packages/generic/MaX/${MAX_VERSION}
+    - echo "will upload "$ASSET" at "${PACKAGE_REGISTRY_URL}/${ASSET}
+    - |
+      curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file max-build/${ASSET} "${PACKAGE_REGISTRY_URL}/${ASSET}"
+
+release:
+  # Caution, as of 2021-02-02 these assets links require a login, see:
+  # https://gitlab.com/gitlab-org/gitlab/-/issues/299384
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - MAX_VERSION=$(cat max-build/version)
+    - ASSET="max-v${MAX_VERSION}.zip"
+    - PACKAGE_REGISTRY_URL=${CI_API_V4_URL}/projects/${REGISTRY_PROJECT_ID}/packages/generic/MaX/${MAX_VERSION}
+    - |
+      release-cli create --name "MaX-$CI_COMMIT_TAG" --tag-name $CI_COMMIT_TAG \
+        --description "Pour installer MaX, télécharger l'archive packagée (rubrique *other*) ci-dessus." \
+        --assets-link "{\"name\":\"Télécharger la version packagée - ${ASSET}\",\"url\":\"${PACKAGE_REGISTRY_URL}/${ASSET}\"}"

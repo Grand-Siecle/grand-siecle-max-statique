@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xs:import namespace="http://www.w3.org/2001/XInclude" schemaLocation="xi.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="basexBaseURI"/>
+        <xs:element ref="editions"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="basexBaseURI">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="editions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="edition"/>
+        <xs:element ref="xi:include"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="edition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="docsToIgnore"/>
+        <xs:element minOccurs="0" ref="layout"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="navigationFragment"/>
+          <xs:element ref="plugins"/>
+          <xs:element ref="routeList"/>
+          <xs:element ref="textOptions"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="dbpath" use="required" type="xs:NCName"/>
+      <xs:attribute name="env" use="required" type="xs:NCName"/>
+      <xs:attribute ref="xml:id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="docsToIgnore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="docToIgnore"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="docToIgnore" type="xs:NMTOKEN"/>
+  <xs:element name="layout">
+    <xs:complexType>
+      <xs:attribute name="template" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="navigationFragment">
+    <xs:complexType>
+      <xs:attribute name="xquery-file" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="plugins">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="plugin"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="plugin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="parameters"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="parameters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="parameter"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="parameter">
+    <xs:complexType>
+      <xs:attribute name="key" use="required" type="xs:NCName"/>
+      <xs:attribute name="value" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="routeList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="route"/>
+      </xs:sequence>
+      <xs:attribute name="file"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+      <xs:attribute name="xsl"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="route">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="xi:include"/>
+      </xs:sequence>
+      <xs:attribute name="align" type="xs:boolean"/>
+      <xs:attribute name="align-xquery-file"/>
+      <xs:attribute name="document" use="required" type="xs:NCName"/>
+      <xs:attribute name="first-prefix" type="xs:NCName"/>
+      <xs:attribute name="label" use="required"/>
+      <xs:attribute name="second-prefix" type="xs:NCName"/>
+      <xs:attribute name="xsl"/>
+      <xs:attribute ref="xml:id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="textOptions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="checkboxOptions"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="checkboxOptions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="targetClass"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="targetClass" type="xs:NCName"/>
+</xs:schema>

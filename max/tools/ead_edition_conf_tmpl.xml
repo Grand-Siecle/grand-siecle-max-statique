@@ -1,0 +1,10 @@
+ <edition xml:id="%ID%" dbpath="%DB%" env="ead" prettyName="My EAD edition">
+
+   <textOptions>
+   </textOptions>
+
+    <plugins>
+       <plugin name="side_toc"/>
+    </plugins>
+   
+ </edition>

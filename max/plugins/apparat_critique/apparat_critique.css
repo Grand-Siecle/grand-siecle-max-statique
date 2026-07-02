@@ -1,0 +1,25 @@
+
+.apparat-witnesses{
+    position : fixed;
+    top: 150px;
+    right: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.25);
+    padding:5px;
+}
+
+.apparat-witnesses h3{
+    margin: 5px;
+    font-size: 1.2em;
+    text-align: center;
+}
+.apparat-witnesses ul {
+    list-style-type: none;
+    padding-left:0px;
+    color: #555;
+    font-size : 0.9em;
+
+}
+.apparat-witnesses ul li input{
+    vertical-align: middle;
+}

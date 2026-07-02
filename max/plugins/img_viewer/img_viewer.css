@@ -1,0 +1,71 @@
+#img_dialog_wrap .modal-dialog{
+    min-width: 800px;
+    min-height: 600px;
+}
+#osd-viewer .openseadragon-container{
+    min-height: 500px;
+}
+#all-images-btn{
+    position: fixed;
+    bottom: 100px;
+    right:10px;
+}
+
+.viewable{
+ cursor : pointer;
+}
+.modal {
+    position : fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(100,100,100,0.5);
+    z-index: 1100;
+    margin:0;
+}
+
+.close {
+    border: 1px solid #ddd2c6;
+    font-size: 13px;
+    font-family: arial;
+    padding: 2px 4px;
+}
+
+.modal-content{
+    position :relative;
+    width: 900px;
+    margin: 150px auto;
+    background-color:white;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px
+}
+
+.modal-header{
+    position: relative;
+    padding:10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-header .close {
+    position : absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1120;
+}
+
+canvas {
+    top :30px;
+}
+
+.modal-content img {
+    width: 20px;
+    padding-right:20px;
+}
+
+#gallery-wrap img {
+    width: 20px;
+}

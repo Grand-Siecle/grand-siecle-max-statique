@@ -1,0 +1,11 @@
+
+.side-toc{
+  position: fixed;
+  left: 0;
+  right: 60vw;
+  top: 5.1em;
+  bottom: 3.2em;
+  margin: 0;
+  padding: 1em;
+  overflow: auto;
+}

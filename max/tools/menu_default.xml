@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+  <entry type="main" default="true">
+    <id>home</id>
+    <target>accueil.html</target>
+  </entry>
+  <entry type="main">
+    <id>sommaire</id>
+    <target>sommaire.html</target>
+  </entry>
+  <entry type="main">
+    <id>about</id>
+    <target>about.html</target>
+  </entry>
+</menu>

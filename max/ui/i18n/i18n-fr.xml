@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <entry key="menu.home">Accueil</entry>
+  <entry key="menu.sommaire">Sommaire</entry>
+  <entry key="menu.contacts">Contacts</entry>
+  <entry key="menu.recherche">Rechercher</entry>
+  <entry key="menu.about">À propos</entry>
+  <entry key="menu.porte-document">Porte-documents</entry>
+
+  <entry key="search.label">Recherche</entry>
+  <entry key="search.loading">Recherche en cours ...</entry>
+  <entry key="search.results">résultat(s)</entry>
+
+	<!-- Label -->
+	<entry key="label.dansvotre">Dans votre </entry>
+	<entry key="label.porte-documents">porte-documents</entry>
+
+  <entry key="pb">Afficher les sauts de page</entry>
+  <entry key="reading-options">Options de lecture</entry>
+
+  <!-- Recherche -->
+  <entry key="search.title">Recherche avancée</entry>
+  <entry key="search.label1">La recherche peut se faire de deux manières indépendantes :</entry>
+  <entry key="search.label2">soit par une recherche en plein texte,</entry>
+  <entry key="search.label3">soit par une recherche multicritère.</entry>
+  <entry key="search.label4">(On ne peut pas croiser ces deux types de recherche.)</entry>
+  <entry key="search.label5">Rechercher</entry>
+  <entry key="search.fulltext">Recherche plein texte</entry>
+
+  <!-- Porte-documents -->
+  <entry key="basket.title">Porte-documents</entry>
+  <entry key="basket.label1">Votre porte-documents regroupe tous les documents que vous avez mis de côté pendant votre visite.</entry>
+  <entry key="basket.label2">Vous pouvez retirer des documents, les consulter ou faire une sortie PDF.</entry>
+  <entry key="basket.label3">Vider le porte-documents</entry>
+  <entry key="basket.label4">Télécharger tous les PDF</entry>
+  <entry key="basket.label5">Faire une sortie PDF</entry>
+</properties>

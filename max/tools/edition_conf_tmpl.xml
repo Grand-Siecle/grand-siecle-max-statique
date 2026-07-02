@@ -1,0 +1,9 @@
+ <edition xml:id="%ID%" dbpath="%DB%" env="%ENV%" prettyName="My edition">
+
+    <textOptions>
+    </textOptions>
+
+    <plugins>
+    </plugins>
+   
+ </edition>

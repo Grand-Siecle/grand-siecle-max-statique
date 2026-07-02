@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<search>
+    <tags>
+        <tag name="corpname" label="corpname"/>
+        <tag name="famname" label="famname"/>
+        <tag name="function" label="Fonction"/>
+        <tag name="genreform" label="genreform"/>
+        <tag name="geogname" label="geogname"/>
+        <tag name="occupation" label="Occupation"/>
+        <tag name="name" label="Nom"/>
+        <tag name="persname" label="Nom de personne"/>
+        <tag name="subject" label="Sujet"/>
+        <tag name="title" label="Titre"/>
+    </tags>
+    <dates format="YYYY"></dates>
+</search>

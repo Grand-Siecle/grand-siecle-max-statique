@@ -1,0 +1,13 @@
+.tei2pdf span.texte {
+    font-size:10px;
+    color:#155a84;
+    padding-left:1px;
+}
+
+.tei2pdf a {
+    text-decoration: none;
+}
+
+.tei2pdf a:hover {
+    color:initial;
+}

@@ -1,0 +1,47 @@
+/*
+ * Le porte-documents
+ */
+
+#porte-document-contenu {
+    padding-left: 0;
+}
+
+.porte-document-doc-group {
+    list-style-type: none;
+    border: var(--ead-box-border);
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    width: 80vw;
+}
+
+#porte-document-contenu li {
+    list-style-type: none;
+    border: var(--ead-box-border);
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+
+#porte-document-contenu li:hover {
+    cursor: ns-resize;
+}
+
+#porte-document-contenu li button {
+    margin-right: 1em;
+}
+
+section.porte-documents {
+    margin-top: 5.1em;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.sortable-ghost {
+    opacity: 1;
+    background: var(--ead-selected-bg-color);
+}
+
+.sortable-drag {
+    opacity: 0;
+}

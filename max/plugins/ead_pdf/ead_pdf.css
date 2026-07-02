@@ -1,0 +1,21 @@
+.ead2pdf {
+    margin-left:10px;
+    position:absolute;
+    top: 0px;
+    width: 150px;
+}
+
+.ead2pdf a {
+ text-decoration: none;
+}
+
+.ead2pdf span.texte {
+    font-size:10px;
+    color:#155a84;
+    padding-left:1px;
+}
+
+section.browse > div > div[id*="wrap"] {
+    margin-top: 20px;
+    padding-top:0px;
+}

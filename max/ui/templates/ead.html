@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="{$baseURI}core/ui/css/ead.css"/>
+    <script type="text/javascript" src="{$baseURI}core/ui/lib/Sortable.min.js"/>
+    <script type="text/javascript" src="{$baseURI}plugins/side_toc/_side_toc.js"/>
+    <script type="text/javascript" src="{$baseURI}core/ui/js/ead.js"/>
+    <title>{$prettyName}</title>
+    {$head}
+  </head>
+  <body>
+    <header>
+      <h1><a href="{$baseURI}{$projectId}/accueil.html">{$prettyName}</a></h1>
+      <div id="menu">
+        {$menu}
+      </div>
+    </header>
+    <section class="browse">
+    {$content}
+    </section>
+    <!-- footer -->
+    {$footer}
+    <script type="module" src="{$baseURI}core/ui/js/Max.js"/>
+    {$jsImports}
+    <script>
+      initEADPage();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+# Changelog
+
+## [1.1.0] - 02/04/2025
+
+* Compatible BaseX 10.4+ (incompatible avec les versions 9.*)
+* Mise en place d'un Makefile utilisateur
+* Mise en place d'un Makefile de dév
+* Mise à jour du plugin mirador-viewer pour passage des options
+* Correctif JS (MaXTEI.js)
+* TEI to PDF: prise en charge du cas document complet (en plus des fragments)
+* Sommaire : toc.xsl surchargeable dans max/<mon_projet>/ui/xsl/core/toc.xsl
+* Correctifs et améliorations du script max.sh
+* Mise à jour de la documentation
+* Suppression de la variable de configuration baseURI
+* Release avec BaseX intégré
+
+## [1.0.2] - 16/06/2022
+
+* Correctifs du script max.sh (appels curl)
+* Remplacement des appels rxq dépréciés de la fonction xquery:invoke par la fonction xquery:eval
+* Fonctionnalité de focus/mise en surbrillance dans le index
+
+## [1.0.1] - 02/05/2022
+
+* Correctif du plugin apparat critique
+* Uniformisation du traitement xquery lors de la consultation d'un fragment ou d'un document complet (text_hook.xq)
+
+## [1.0.0] - 01/04/2022
+
+Première version packagée de MaX

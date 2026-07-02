@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+       <meta charset="UTF-8"/>
+       <link rel="icon" href="{$baseURI}favicon.ico" />
+       <link rel="stylesheet" href="{$baseURI}core/ui/lib/bootstrap.min.css"/>
+       <link rel="stylesheet" type="text/css" href="{$baseURI}core/ui/css/tei.css"/>
+       <link rel="stylesheet" type="text/css" href="{$baseURI}core/ui/css/alignment.css"/>
+      {$head}
+  </head>
+
+  <body>
+    <header id="topbar" class="navbar fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="{$home}">
+        {$prettyName}
+      </a>
+      <div id="menu">
+        {$menu}
+      </div>
+      <div id="navigation-wrap">
+        {$navigationSelect}
+      </div>
+      <div>
+        {$textOptions}
+      </div>
+    </header>
+
+    <!-- main contents -->
+    <main id="main-max-container" class="container px-5">
+        {$content}
+    </main>
+
+    <!-- footer -->
+    {$footer}
+
+    <!-- js imports -->
+    <script type="text/javascript" src="{$baseURI}core/ui/lib/bootstrap.bundle.min.js"/>
+    <script type="module" src="{$baseURI}core/ui/js/MaxTEI.js"/>
+    {$jsImports}
+
+  </body>
+</html>

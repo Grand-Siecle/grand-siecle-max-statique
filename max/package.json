@@ -1,0 +1,41 @@
+{
+  "name": "MaX",
+  "version": "1.1.0",
+  "description": "Moteur d'Affichage XML / XML renderer engine",
+  "repository": "git@git.unicaen.fr:pdn-certic/MaX.git",
+  "contributors": [
+    {
+      "name": "Jérôme Chauveau",
+      "email": "jerome.chauveau@unicaen.fr"
+    },
+    {
+      "name": "Mickaël Desfresnes",
+      "email": "mickael.desfresnes@unicaen.fr"
+    },
+    {
+      "name": "Arnaud Daret",
+      "email": "arnaud.daret@unicaen.fr"
+    },
+    {
+      "name": "Anne Goloubkoff",
+      "email": "anne.goloubkoff@unicaen.fr"
+    },
+    {
+      "name": "Orderic-Vital Pain",
+      "email": "orderic-vital.pain@unicaen.fr"
+    },
+    {
+      "name": "Pierre-Yves Buard",
+      "email": "pierre-yves.buard@unicaen.fr"
+    }
+  ],
+  "license": "CECILL",
+  "scripts": {},
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^5.0.2",
+    "mathjax": "^3.2.0",
+    "openseadragon": "^3.0.0",
+    "popper.js": "^1.14.7"
+  }
+}

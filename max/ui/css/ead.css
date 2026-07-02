@@ -1,0 +1,411 @@
+@import 'header.css';
+
+.super {
+    vertical-align: super;
+    font-size: 66%;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.smcaps {
+    font-variant: small-caps;
+}
+
+#toc,
+.side-toc nav,
+.browse nav {
+    margin-top: 6em;
+}
+
+.side-toc>nav {
+    margin-top: 1em;
+}
+
+:root {
+    --ead-box-border: 1px solid #aaaaaa;
+    /* --ead-link-color: #0f6674; */
+    --ead-link-color: #155a84;
+    --ead-link-color-hover: black;
+    --ead-table-border-color: #aaaaaa;
+    --ead-table-row-odd-background-color: #e9ecef;
+    --ead-selected-bg-color: #ECF2FA;
+    --ead-xl-breakpoint: 1000px;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*
+ * Header & Footer
+ */
+
+header {
+    position: fixed;
+    height: 5em;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #1b1e21;
+    background-color: white;
+    display: flex;
+}
+
+header h1 {
+    text-transform: capitalize;
+    padding-left: 0.5em;
+}
+
+
+/* menu top */
+
+header #menu,
+header #menu nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav button {
+    display: none;
+    /*...*/
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+header nav ul li.active {
+    font-weight: bold;
+}
+
+
+/*----------*/
+
+footer {
+    border-top: 1px solid #f1f3f4;
+    text-align: center;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    background-color: white;
+}
+
+footer p {
+    margin: 0;
+    padding: 7px 0px 9px 0px;
+}
+
+
+/*
+ * Affichage si aucun noeud sélectionné
+ */
+
+section.home {
+    position: fixed;
+    top: 5.1em;
+    bottom: 3.2em;
+    margin: 0;
+    padding: 1em;
+    overflow: auto;
+}
+
+
+/*
+ * Panneau de droite, le détail de l'item
+ */
+
+section.browse>div>div {
+    position: fixed;
+    left: 40vw;
+    margin: 0;
+    padding: 1em;
+    top: 5.1em;
+    bottom: 3.2em;
+    overflow: auto;
+}
+
+section.browse > div > div[id*="wrap"] {
+    width: 70%;
+}
+
+section.browse div#text {
+    min-height: 500px;
+    width: 68%;
+}
+
+
+
+table.ead_details {
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+table.ead_details th {
+    text-align: left;
+    vertical-align: top;
+    color: #775e4b;
+    width: 25%;
+}
+
+table.desc th {
+    text-align: left;
+    vertical-align: top;
+    color: #775e4b;
+}
+
+table.ead_details td {
+    vertical-align: top;
+    border-bottom : 1px solid #ccc;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+img {
+    width: 100px;
+    margin: 5px;
+}
+
+h2.collapsible {
+    margin-bottom:0px;
+    width: 90%;
+}
+
+
+.collapsible {
+    color: #775e4b;
+    width: 93%;
+    cursor: pointer;
+    padding-right: -65px;
+    outline: none;
+    font-size: 110%;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-left: 25px;
+    margin-left: 0px;
+}
+
+.collapsible::after {
+    content: "▶";
+    font-size: 11px;
+    padding-left: 9px;
+}
+
+.collapsible.active::after {
+    content: "▼";
+    font-size: 11px;
+    padding-left: 9px;
+}
+
+.collapsible:hover,
+.collapsible.active {
+    background-color: #e7e1de;
+}
+
+.developper {
+    display: none;
+    overflow: hidden;
+    border: 1px dotted #ccc;
+    background-color: #fff;
+    padding: 0px 0px 0px 15px;
+    width: 91%;
+    margin: 0px 0px 0px 0px;
+}
+
+
+/*
+ * Affichage de l'arborescence
+ */
+
+summary, div.detail {
+    border: 1px dotted transparent;
+    /*margin-bottom: 0.3em;*/
+    cursor: context-menu;
+    padding: 0;
+}
+
+div.detail {
+    margin: 0px 0px 0px 30px;
+}
+
+summary:hover, div.detail:hover {
+    border: 1px dotted black;
+}
+
+summary a, div.detail a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--ead-link-color);
+}
+
+.side-toc summary a:hover {
+    background-color: var(--ead-selected-bg-color);
+    color: var(--ead-link-color-hover);
+}
+
+.side-toc details details {
+    padding: 0;
+    margin-left: 2em;
+}
+
+.side-toc details.selected_details, .side-toc div.selected_details {
+    background-color: var(--ead-selected-bg-color);
+    padding: 0.5em;
+    border: var(--ead-box-border);
+    border-radius: 5px;
+}
+
+.side-toc details.selected_details a {
+    color: var(--ead-link-color-hover);
+}
+
+.side-toc details.selected_details a:hover {
+    background-color: #F9F9F9;
+}
+
+nav.article_actions {
+    padding: 0;
+    margin: 0;
+}
+
+nav.article_actions>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.article_actions>ul>li {
+    display: inline;
+}
+
+nav.article_actions label {
+    font-size: 0.8em;
+}
+
+nav.article_actions label>input {
+    vertical-align: middle;
+}
+
+/* pour le bouton du porte-document */
+
+section.browse nav.article_actions {
+    position: fixed;
+    top: 210px;
+    left: 91%;
+    right: 0px;
+}
+
+section.browse nav.article_actions label a {
+    text-decoration: none;
+}
+
+section.browse > div > div.plugins-wrapper {
+    width:100%;
+}
+
+/*
+ * Adaptation pour écran large
+ */
+
+@media (min-width: 1000px) {
+    section.browse nav {
+        right: 60vw;
+    }
+    section.browse article {
+        left: 40vw;
+    }
+}
+
+section.browse nav details {
+    margin-left: 2em;
+}
+
+table.ead_details {
+    border-spacing: 10px;
+    border-collapse: separate;
+    font-size: 100%;
+    /* border: 1px solid var(--ead-link-color); */
+    width: 98%;
+    margin-top:20px;
+}
+
+table.desc {
+    border-spacing: 0;
+    border-collapse: separate;
+    font-size: 90%;
+}
+
+h2 {
+    font-size: 110%;
+}
+
+div {
+    margin: 10px;
+}
+
+.index {
+    color: var(--ead-link-color);
+}
+
+a {
+    color: var(--ead-link-color);
+}
+
+.intitule {
+    color: #775e4b;
+    font-weight: bold;
+}
+
+
+/*
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(40, 61, 83);
+        color: #97AEC4;
+    }
+
+    a {
+        color: #F7D7A4;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    summary a {
+        color: #F7D7A4;
+    }
+
+    details.selected_details {
+        background-color: #D2D1D1;
+    }
+}
+ */
