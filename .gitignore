@@ -8,8 +8,8 @@ max/*.jar
 build/
 max/editions/grand-siecle/data/
 
-# Sortie du crawl statique (générée par scripts/freeze.sh)
-static-site/_pagefind/
+# Sortie du crawl : static-site/ est commis (livrable) ; journaux exclus
+
 
 # Divers
 *.log

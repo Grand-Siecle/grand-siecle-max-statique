@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000894" n="5">
+        <persName type="main">Philemon</persName>
+        <persName type="sort">Philémon de Colosses</persName>
+        <persName type="standard">Philémon de Colosses</persName>
+        <persName type="variant">Phiemon</persName>
+        <birth><date when="0100-01-01"/></birth>
+        <death><date when="0070"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q831474">prêtre chrétien</occupation>
+        <occupation key="Q29182">évêque</occupation>
+        <idno type="wikidata" cert="high">Q709209</idno>
+        <idno type="viaf">23144813884440338803</idno>
+        <idno type="gnd">1079104763</idno>
+        <note type="description">personnage biblique</note>
+        <note type="mentions">5</note>
+        <note type="sources">LIV0020|LIV0024|LIV0025b</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1061547|Q28226876|Q37561840</note>
+      </person>

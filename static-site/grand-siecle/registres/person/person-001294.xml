@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001294" n="3">
+        <persName type="main">Chriſtina</persName>
+        <persName type="sort">Christine I de Suède</persName>
+        <persName type="standard">Christine I de Suède</persName>
+        <persName type="variant">Chriſtinam</persName>
+        <birth><date when="1626-12-18"/></birth>
+        <death><date when="1689-04-19"/></death>
+        <sex value="Q6581072">féminin</sex>
+        <occupation key="Q10732476">collectionneur ou collectionneuse d'œuvres d'art</occupation>
+        <occupation key="Q116">monarque</occupation>
+        <occupation key="Q1028181">artiste peintre</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q34">Suède</nationality>
+        <idno type="wikidata" cert="high">Q52937</idno>
+        <idno type="viaf">4931803</idno>
+        <idno type="isni">0000000112298199</idno>
+        <idno type="gnd">118520652</idno>
+        <idno type="bnf">119101172</idno>
+        <idno type="lccn">n50047934</idno>
+        <note type="description">reine de Suède de 1632 à 1654</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1083457|Q37485863|Q184103</note>
+      </person>

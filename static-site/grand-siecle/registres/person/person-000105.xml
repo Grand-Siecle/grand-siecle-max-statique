@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000105" n="43">
+        <persName type="main">Charles-Quint</persName>
+        <persName type="sort">Charles Quint</persName>
+        <persName type="standard">Charles Quint</persName>
+        <persName type="variant">Charles</persName>
+        <persName type="variant">Charles Quint</persName>
+        <persName type="variant">CharlesQuint</persName>
+        <persName type="variant">CarlesQuint</persName>
+        <persName type="variant">Charles.Quint</persName>
+        <persName type="variant">Charles- Détription</persName>
+        <persName type="variant">Quint</persName>
+        <persName type="variant">Charles- Quint</persName>
+        <persName type="variant">Charles. Quint</persName>
+        <birth><date when="1500-02-24"/></birth>
+        <death><date when="1558-09-21"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q116">monarque</occupation>
+        <nationality key="Q12548">Saint-Empire romain germanique</nationality>
+        <idno type="wikidata" cert="high">Q32500</idno>
+        <idno type="viaf">88598818</idno>
+        <idno type="isni">0000000120965852</idno>
+        <idno type="gnd">118560093</idno>
+        <idno type="bnf">12038246v</idno>
+        <idno type="lccn">n79112289</idno>
+        <note type="description">roi des Espagnes et empereur du Saint-Empire romain germanique d'origine flamande, XVIe siècle</note>
+        <note type="mentions">43</note>
+        <note type="sources">LIV0009|LIV0019</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

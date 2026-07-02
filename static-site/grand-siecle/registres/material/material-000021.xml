@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="material-000021" n="7">
+        <catDesc>
+          <term type="main">chaux</term>
+          <term type="variant">la chaux</term>
+        </catDesc>
+        <note type="mentions">7</note>
+        <note type="sources">LIV0009|LIV0014|LIV0019|LIV0026b</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q694575|Q837466|Q845587</note>
+      </category>

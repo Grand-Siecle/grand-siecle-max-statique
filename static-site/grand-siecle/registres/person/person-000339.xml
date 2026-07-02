@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000339" n="13">
+        <persName type="main">Théocrite</persName>
+        <persName type="sort">Théocrite</persName>
+        <persName type="standard">Théocrite</persName>
+        <birth><date when="-0400"/></birth>
+        <death><date when="-0260"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q4420718">Syracuse ancienne</nationality>
+        <idno type="wikidata" cert="high">Q219484</idno>
+        <idno type="viaf">95161348</idno>
+        <idno type="isni">0000000122831508</idno>
+        <idno type="gnd">118621769</idno>
+        <idno type="bnf">11985438h</idno>
+        <idno type="lccn">n50033430</idno>
+        <note type="description">poète bucolique grec de l'Antiquité</note>
+        <note type="mentions">13</note>
+        <note type="sources">LIV0012|LIV0015|LIV0019|LIV0025a|LIV0026c|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1375623|Q12902326|Q11951711</note>
+      </person>

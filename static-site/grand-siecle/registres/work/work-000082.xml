@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000082" n="2">
+        <title type="main">Dialéctique</title>
+        <title type="standard">Dialectique</title>
+        <author key="Q4295">Pierre Abélard</author>
+        <textLang key="Q397">latin</textLang>
+        <note type="genre" key="Q35760">essai</note>
+        <idno type="wikidata" cert="high">Q3706551</idno>
+        <note type="description">œuvre de Pierre Abélard</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0017</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q9453|Q1974273|Q1208415</note>
+      </bibl>

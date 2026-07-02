@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="material-000033" n="5">
+        <catDesc>
+          <term type="main">sable</term>
+          <term type="standard">sable</term>
+        </catDesc>
+        <idno type="wikidata" cert="high">Q34679</idno>
+        <idno type="aat">300014341</idno>
+        <note type="description">matériau granulaire constitué de petites particules provenant de la désagrégation d'autres roches</note>
+        <note type="mentions">5</note>
+        <note type="sources">LIV0019|LIV0025b</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q936496|Q37133498|Q97657833</note>
+      </category>

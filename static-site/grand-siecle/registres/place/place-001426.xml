@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-001426" n="1">
+        <placeName type="main">Mekelburgum</placeName>
+        <placeName type="sort">Mekelburgum</placeName>
+        <placeName type="variant">Merelburgus</placeName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0010</note>
+      </place>

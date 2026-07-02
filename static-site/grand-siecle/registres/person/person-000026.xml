@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000026" n="161">
+        <persName type="main">S. Jean</persName>
+        <persName type="sort">S. Jean Herriot Emans</persName>
+        <persName type="standard">S. Jean Herriot Emans</persName>
+        <persName type="variant">Jean</persName>
+        <persName type="variant">saint Jean</persName>
+        <persName type="variant">S.</persName>
+        <persName type="variant">St Jean</persName>
+        <persName type="variant">s Jean</persName>
+        <persName type="variant">par Jean</persName>
+        <persName type="variant">qui Jean</persName>
+        <persName type="variant">avoir Jean</persName>
+        <sex value="Q6581072">féminin</sex>
+        <occupation key="Q1650915">chercheur ou chercheuse</occupation>
+        <occupation key="Q2640827">gynécologue</occupation>
+        <occupation key="Q5758653">enseignant ou enseignante du secondaire</occupation>
+        <occupation key="Q1919436">pédiatre</occupation>
+        <nationality key="Q30">États-Unis</nationality>
+        <idno type="wikidata" cert="medium">Q66947792</idno>
+        <idno type="viaf">1762158369759501460009</idno>
+        <idno type="isni">0000000116435998</idno>
+        <idno type="gnd">1205828125</idno>
+        <idno type="bnf">16607325w</idno>
+        <idno type="lccn">n83042627</idno>
+        <note type="description">chercheur</note>
+        <note type="mentions">161</note>
+        <note type="sources">LIV0001|LIV0002b|LIV0003|LIV0005|LIV0006|LIV0008|LIV0009|LIV0012|LIV0015|LIV0019|LIV0022|LIV0023|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q121749485</note>
+      </person>

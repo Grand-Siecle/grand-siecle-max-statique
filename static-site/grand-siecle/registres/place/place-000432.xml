@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000432" n="2">
+        <placeName type="main">Barbarie</placeName>
+        <placeName type="sort">Barbarie</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0025a</note>
+      </place>

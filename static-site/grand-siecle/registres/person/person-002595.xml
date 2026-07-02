@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002595" n="2">
+        <persName type="main">Pison</persName>
+        <persName type="sort">Pison</persName>
+        <persName type="standard">Pison</persName>
+        <persName type="variant">De Pison</persName>
+        <birth><date when="0050"/></birth>
+        <death><date when="0065-04-19"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q469118</idno>
+        <idno type="viaf">52081019</idno>
+        <idno type="isni">0000000078535807</idno>
+        <idno type="gnd">102383995</idno>
+        <idno type="bnf">12475526v</idno>
+        <idno type="lccn">n85196664</idno>
+        <note type="description">homme politique romain</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q4046999|Q37235283|Q135334</note>
+      </person>

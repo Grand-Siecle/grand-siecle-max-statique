@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000375" n="3">
+        <placeName type="main">Savoie</placeName>
+        <placeName type="sort">Savoie</placeName>
+        <placeName type="standard">Savoie</placeName>
+        <location><geo>45.58333 6.33333</geo></location>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="high">Q12745</idno>
+        <idno type="geonames">2975517</idno>
+        <note type="description">département français numéro 73</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0007|LIV0008|LIV0019</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q37250400|Q426025|Q200229</note>
+      </place>

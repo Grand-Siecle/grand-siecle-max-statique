@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000500" n="2">
+        <placeName type="main">Delphos</placeName>
+        <placeName type="sort">Dervio</placeName>
+        <placeName type="standard">Dervio</placeName>
+        <placeName type="variant">Delphi</placeName>
+        <location><geo>46.07639 9.30667</geo></location>
+        <country key="Q38">Italie</country>
+        <idno type="wikidata" cert="high">Q42933</idno>
+        <idno type="geonames">6541383</idno>
+        <note type="description">commune italienne</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q768210|Q2673377|Q2322448</note>
+      </place>

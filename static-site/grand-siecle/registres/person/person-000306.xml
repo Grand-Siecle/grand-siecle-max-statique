@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000306" n="14">
+        <persName type="main">Sophocle</persName>
+        <persName type="sort">Sophocle</persName>
+        <persName type="variant">SOphocles</persName>
+        <persName type="variant">Sophol</persName>
+        <note type="mentions">14</note>
+        <note type="sources">LIV0017|LIV0020|LIV0025a|LIV0025b|LIV0027|LIV0031_t1</note>
+      </person>

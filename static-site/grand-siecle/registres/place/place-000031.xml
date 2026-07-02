@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000031" n="20">
+        <placeName type="main">Égypte</placeName>
+        <placeName type="sort">Égypte</placeName>
+        <placeName type="standard">Égypte</placeName>
+        <location><geo>27.00000 29.00000</geo></location>
+        <country key="Q79">Égypte</country>
+        <idno type="wikidata" cert="high">Q79</idno>
+        <idno type="geonames">357994</idno>
+        <note type="description">État situé au nord-est de l'Afrique et au sud-ouest de l'Asie</note>
+        <note type="mentions">20</note>
+        <note type="sources">LIV0001|LIV0007|LIV0012|LIV0026a|LIV0026b|LIV0026c|LIV0028|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q2261041|Q2780035|Q2141030</note>
+      </place>

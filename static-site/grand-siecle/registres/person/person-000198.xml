@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000198" n="21">
+        <persName type="main">Pericles</persName>
+        <persName type="sort">Périclès</persName>
+        <persName type="standard">Périclès</persName>
+        <birth><date when="-0494"/></birth>
+        <death><date when="-0429-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q372436">homme ou femme d'État</occupation>
+        <occupation key="Q12859263">orateur ou oratrice</occupation>
+        <nationality key="Q844930">Athènes</nationality>
+        <idno type="wikidata" cert="high">Q80398</idno>
+        <idno type="viaf">84036422</idno>
+        <idno type="isni">0000000118277540</idno>
+        <idno type="gnd">118739972</idno>
+        <idno type="bnf">119402487</idno>
+        <idno type="lccn">n50009680</idno>
+        <note type="description">homme d'État, orateur et stratège athénien (vers 495-429 avant JC)</note>
+        <note type="mentions">21</note>
+        <note type="sources">LIV0012|LIV0014|LIV0020|LIV0025a|LIV0026a|LIV0027|LIV0031_t1|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000252" n="4">
+        <placeName type="main">Ienicopiam</placeName>
+        <placeName type="sort">Ienicopiam</placeName>
+        <placeName type="variant">Lincopiam</placeName>
+        <placeName type="variant">Nicopiam</placeName>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0010</note>
+      </place>

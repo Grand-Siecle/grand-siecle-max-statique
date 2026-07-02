@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000063" n="70">
+        <persName type="main">Lysias</persName>
+        <persName type="sort">Lysias</persName>
+        <persName type="standard">Lysias</persName>
+        <persName type="variant">Lisias</persName>
+        <persName type="variant">LyRias</persName>
+        <persName type="variant">Lyias</persName>
+        <persName type="variant">Lyfias</persName>
+        <birth><date when="-0445"/></birth>
+        <death><date when="-0380"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q12859263">orateur ou oratrice</occupation>
+        <occupation key="Q286651">logographe</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <idno type="wikidata" cert="high">Q310164</idno>
+        <idno type="viaf">183417170</idno>
+        <idno type="isni">0000000433569586</idno>
+        <idno type="gnd">11872987X</idno>
+        <idno type="bnf">120673784</idno>
+        <idno type="lccn">n50000909</idno>
+        <note type="description">orateur et logographe grec de l'Antiquité</note>
+        <note type="mentions">70</note>
+        <note type="sources">LIV0012|LIV0017|LIV0020|LIV0027|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1370594|Q1387170|Q1878965</note>
+      </person>

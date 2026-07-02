@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000070" n="64">
+        <persName type="main">Horace</persName>
+        <persName type="sort">Horace</persName>
+        <persName type="standard">Horace</persName>
+        <persName type="variant">OraCle</persName>
+        <persName type="variant">Horace d’Homère</persName>
+        <birth><date when="-0065-12-08"/></birth>
+        <death><date when="-0008-11-27"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q4964182">philosophe</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q6197</idno>
+        <idno type="viaf">100227522</idno>
+        <idno type="isni">0000000121452178</idno>
+        <idno type="gnd">118553569</idno>
+        <idno type="bnf">11886570b</idno>
+        <idno type="lccn">n79081354</idno>
+        <note type="description">poète lyrique latin</note>
+        <note type="mentions">64</note>
+        <note type="sources">LIV0004a|LIV0012|LIV0015|LIV0017|LIV0020|LIV0021|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

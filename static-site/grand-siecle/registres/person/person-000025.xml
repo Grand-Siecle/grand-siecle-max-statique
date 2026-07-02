@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000025" n="169">
+        <persName type="main">Aristote</persName>
+        <persName type="sort">Aristote</persName>
+        <persName type="standard">Aristote</persName>
+        <persName type="variant">eκAristot</persName>
+        <persName type="variant">AristoOte</persName>
+        <persName type="variant">Ariste</persName>
+        <persName type="variant">Aristore</persName>
+        <persName type="variant">RISTOTR</persName>
+        <persName type="variant">RISTOTE</persName>
+        <persName type="variant">Aristrate</persName>
+        <persName type="variant">Aristoteles</persName>
+        <persName type="variant">Aristote-ci-dessus</persName>
+        <persName type="variant">Aristot</persName>
+        <persName type="variant">Ariftote</persName>
+        <persName type="variant">Aristee</persName>
+        <birth><date when="-0384"/></birth>
+        <death><date when="-0322"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q864503">biologiste</occupation>
+        <occupation key="Q2998308">cosmologiste</occupation>
+        <occupation key="Q14565331">logicien ou logicienne</occupation>
+        <occupation key="Q350979">zoologiste</occupation>
+        <idno type="wikidata" cert="high">Q868</idno>
+        <idno type="viaf">7524651</idno>
+        <idno type="isni">0000000123748095</idno>
+        <idno type="gnd">118650130</idno>
+        <idno type="bnf">13091331s</idno>
+        <idno type="lccn">n79004182</idno>
+        <note type="description">philosophe grec de l'Antiquité (384-322 av. J.-C.)</note>
+        <note type="mentions">169</note>
+        <note type="sources">LIV0005|LIV0007|LIV0012|LIV0014|LIV0015|LIV0018|LIV0020|LIV0023|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q113030456</note>
+      </person>

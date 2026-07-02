@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001143" n="4">
+        <persName type="main">Protogène</persName>
+        <persName type="sort">Protogène</persName>
+        <persName type="standard">Protogène</persName>
+        <birth><date when="-0400-01-01"/></birth>
+        <death><date when="-0360"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1028181">artiste peintre</occupation>
+        <idno type="wikidata" cert="high">Q930914</idno>
+        <idno type="viaf">96594171</idno>
+        <idno type="gnd">119505916</idno>
+        <idno type="bnf">136163034</idno>
+        <idno type="lccn">nr97033216</idno>
+        <note type="description">peintre antique</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0020|LIV0026c</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q3924305|Q3924304|Q1572248</note>
+      </person>

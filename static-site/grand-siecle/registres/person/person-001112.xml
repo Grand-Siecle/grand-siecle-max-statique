@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001112" n="4">
+        <persName type="main">Nicias</persName>
+        <persName type="sort">Nicias</persName>
+        <persName type="standard">Nicias</persName>
+        <birth><date when="-0500-01-01"/></birth>
+        <death><date when="-0413-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <nationality key="Q844930">Athènes</nationality>
+        <idno type="wikidata" cert="high">Q315822</idno>
+        <idno type="viaf">46743110</idno>
+        <idno type="isni">0000000097853931</idno>
+        <idno type="gnd">118587641</idno>
+        <idno type="lccn">n82024043</idno>
+        <note type="description">homme politique et général athénien</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0020|LIV0026b</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q14825781|Q2583871|Q1218013</note>
+      </person>

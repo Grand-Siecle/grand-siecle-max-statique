@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000636" n="2">
+        <placeName type="main">Perse</placeName>
+        <placeName type="sort">Iran</placeName>
+        <placeName type="standard">Iran</placeName>
+        <location><geo>32.00000 53.00000</geo></location>
+        <country key="Q794">Iran</country>
+        <idno type="wikidata" cert="high">Q794</idno>
+        <idno type="geonames">130758</idno>
+        <note type="description">État d'Asie de l'Ouest</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0026a</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q9168|Q37224426|Q10511</note>
+      </place>

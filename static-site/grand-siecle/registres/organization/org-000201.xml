@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000201" n="2">
+        <orgName type="main">Architectes</orgName>
+        <orgName type="sort">architecte</orgName>
+        <orgName type="standard">architecte</orgName>
+        <orgName type="variant">Les Architectes</orgName>
+        <orgName type="variant">architecte</orgName>
+        <orgName type="variant">le architecte</orgName>
+        <idno type="wikidata" cert="high">Q42973</idno>
+        <idno type="gnd">4002844-6</idno>
+        <note type="description">créateur artistique et technique d'un bâtiment</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q2860249|Q6335683|Q754679</note>
+      </org>

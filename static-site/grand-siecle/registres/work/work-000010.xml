@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000010" n="9">
+        <title type="main">Romans</title>
+        <title type="standard">Épître aux Romains</title>
+        <title type="variant">roman</title>
+        <author key="Q9200">Paul de Tarse</author>
+        <note type="genre" key="Q215495">épître</note>
+        <idno type="wikidata" cert="high">Q48203</idno>
+        <note type="description">livre du Nouveau Testament</note>
+        <note type="mentions">9</note>
+        <note type="sources">LIV0009|LIV0015|LIV0020|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q613120|Q1344108|Q239078</note>
+      </bibl>

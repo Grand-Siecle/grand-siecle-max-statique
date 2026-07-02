@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000267" n="15">
+        <persName type="main">Caiphe</persName>
+        <persName type="sort">Caïphe</persName>
+        <persName type="standard">Caïphe</persName>
+        <persName type="variant">Calyphe</persName>
+        <persName type="variant">Caliphe</persName>
+        <persName type="variant">cayphe</persName>
+        <persName type="variant">Caièphe</persName>
+        <birth><date when="0100"/></birth>
+        <death><date when="0100-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q728973">cohen</occupation>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <idno type="wikidata" cert="high">Q211246</idno>
+        <idno type="viaf">161055492</idno>
+        <idno type="gnd">129446424</idno>
+        <idno type="lccn">n94114587</idno>
+        <note type="description">grand prêtre du temple de Jérusalem</note>
+        <note type="mentions">15</note>
+        <note type="sources">LIV0001|LIV0008|LIV0015|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

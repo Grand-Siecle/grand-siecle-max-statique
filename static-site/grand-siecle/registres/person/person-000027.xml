@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000027" n="156">
+        <persName type="main">Pline</persName>
+        <persName type="sort">Pline l'Ancien</persName>
+        <persName type="standard">Pline l'Ancien</persName>
+        <persName type="variant">Plin</persName>
+        <persName type="variant">Plinc</persName>
+        <persName type="variant">Plines</persName>
+        <persName type="variant">Éline</persName>
+        <persName type="variant">Line</persName>
+        <persName type="variant">Plino</persName>
+        <persName type="variant">de Pline</persName>
+        <persName type="variant">Bline</persName>
+        <persName type="variant">Iline</persName>
+        <birth><date when="0020"/></birth>
+        <death><date when="0079"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q18805">naturaliste</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q82778</idno>
+        <idno type="viaf">100219162</idno>
+        <idno type="isni">0000000123213947</idno>
+        <idno type="gnd">118595083</idno>
+        <idno type="bnf">11887294r</idno>
+        <idno type="lccn">n79042075</idno>
+        <note type="description">homme politique, naturaliste et philosophe romain du Ier siècle (23 apr. J.-C.-79)</note>
+        <note type="mentions">156</note>
+        <note type="sources">LIV0007|LIV0008|LIV0011|LIV0012|LIV0015|LIV0020|LIV0023|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028|LIV0031_t1</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q168707</note>
+      </person>

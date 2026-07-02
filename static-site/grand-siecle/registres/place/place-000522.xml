@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000522" n="2">
+        <placeName type="main">GENVA</placeName>
+        <placeName type="sort">Genval</placeName>
+        <placeName type="standard">Genval</placeName>
+        <placeName type="variant">Genua</placeName>
+        <location><geo>50.72556 4.51528</geo></location>
+        <country key="Q31">Belgique</country>
+        <idno type="wikidata" cert="medium">Q2845873</idno>
+        <note type="description">gare ferroviaire belge</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010|LIV0011</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q2553167|Q4488861|Q481394</note>
+      </place>

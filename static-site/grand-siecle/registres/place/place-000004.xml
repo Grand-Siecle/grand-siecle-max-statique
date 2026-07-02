@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000004" n="207">
+        <placeName type="main">Paris</placeName>
+        <placeName type="sort">Paris</placeName>
+        <placeName type="standard">Paris</placeName>
+        <placeName type="variant">Paradis</placeName>
+        <placeName type="variant">De Paris</placeName>
+        <placeName type="variant">Parvis</placeName>
+        <placeName type="variant">Paris ce</placeName>
+        <placeName type="variant">avoir de Paris</placeName>
+        <location><geo>48.85667 2.35222</geo></location>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="high">Q90</idno>
+        <idno type="geonames">2968815</idno>
+        <note type="description">capitale et ville la plus peuplée de France</note>
+        <note type="mentions">207</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0002b|LIV0003|LIV0004a|LIV0005|LIV0006|LIV0007|LIV0008|LIV0009|LIV0011|LIV0012|LIV0013|LIV0015|LIV0017|LIV0018|LIV0019|LIV0020|LIV0021|LIV0022|LIV0023|LIV0025a|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0031_t1|LIV0031_t2|LIV0032|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q483020|Q830149|Q3181341</note>
+      </place>

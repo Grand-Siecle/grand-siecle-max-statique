@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="technique-000004" n="6">
+        <catDesc>
+          <term type="main">prose</term>
+        </catDesc>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0015|LIV0020</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q37004182|Q1416480|Q507027</note>
+      </category>

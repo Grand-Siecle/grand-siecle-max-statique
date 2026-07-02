@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000308" n="14">
+        <persName type="main">Tibère</persName>
+        <persName type="sort">Tibère</persName>
+        <persName type="standard">Tibère</persName>
+        <persName type="variant">Tybere</persName>
+        <birth><date when="-0042-11-16"/></birth>
+        <death><date when="0037-03-16"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q4991371">soldat</occupation>
+        <occupation key="Q725434">imperator</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q1407</idno>
+        <idno type="viaf">89600176</idno>
+        <idno type="isni">0000000109233028</idno>
+        <idno type="gnd">118622501</idno>
+        <idno type="bnf">120494832</idno>
+        <idno type="lccn">n50049381</idno>
+        <note type="description">deuxième empereur romain, de 14 à 37</note>
+        <note type="mentions">14</note>
+        <note type="sources">LIV0018|LIV0020|LIV0027|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q31491|Q41637</note>
+      </person>

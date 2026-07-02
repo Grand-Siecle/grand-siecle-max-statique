@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002310" n="2">
+        <persName type="main">Lentulus</persName>
+        <persName type="sort">Lentulus</persName>
+        <persName type="standard">Lentulus</persName>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q674067">mime</occupation>
+        <occupation key="Q67135648">mimographe</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q20100889</idno>
+        <idno type="viaf">14663398</idno>
+        <idno type="lccn">nr95039338</idno>
+        <note type="description">mime romain</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0015|LIV0017</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q54203632|Q63521267|Q378683</note>
+      </person>

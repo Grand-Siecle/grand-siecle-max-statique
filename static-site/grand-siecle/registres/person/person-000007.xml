@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000007" n="320">
+        <persName type="main">David</persName>
+        <persName type="sort">David</persName>
+        <persName type="standard">David</persName>
+        <persName type="variant">Daid</persName>
+        <persName type="variant">Dauid</persName>
+        <persName type="variant">Dauvid</persName>
+        <persName type="variant">Danid</persName>
+        <birth><date when="-1040"/></birth>
+        <death><date when="-0969"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q12059906">gardien de troupeau</occupation>
+        <occupation key="Q1097498">dirigeant ou dirigeante</occupation>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q220098">seigneur de guerre</occupation>
+        <nationality key="Q3185305">Monarchie unifiée d'Israël et Juda</nationality>
+        <idno type="wikidata" cert="high">Q41370</idno>
+        <idno type="viaf">28348953</idno>
+        <idno type="isni">0000000101373309</idno>
+        <idno type="gnd">118523929</idno>
+        <idno type="bnf">14569207z</idno>
+        <idno type="lccn">n79055293</idno>
+        <note type="description">personnage de la Bible, deuxième roi d'Israël</note>
+        <note type="mentions">320</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0002b|LIV0003|LIV0004a|LIV0007|LIV0008|LIV0011|LIV0012|LIV0021|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q331697|Q239486|Q216787</note>
+      </person>

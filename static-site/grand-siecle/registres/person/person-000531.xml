@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000531" n="8">
+        <persName type="main">Jules César</persName>
+        <persName type="sort">Jules César</persName>
+        <persName type="standard">Jules César</persName>
+        <persName type="variant">Jules</persName>
+        <persName type="variant">Jules-César</persName>
+        <persName type="variant">César</persName>
+        <persName type="variant">iules César</persName>
+        <birth><date when="-0100-07-12"/></birth>
+        <death><date when="-0044-03-15"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q12859263">orateur ou oratrice</occupation>
+        <occupation key="Q11774156">mémorialiste</occupation>
+        <occupation key="Q1097498">dirigeant ou dirigeante</occupation>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q1048</idno>
+        <idno type="viaf">286265178</idno>
+        <idno type="isni">0000000382473815</idno>
+        <idno type="gnd">118518275</idno>
+        <idno type="bnf">11894764p</idno>
+        <idno type="lccn">n79021400</idno>
+        <note type="description">général et homme d'État romain (100–44 av. J.-C.)</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0002a|LIV0017|LIV0025a|LIV0026a|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q111313984|Q215750|Q59465682</note>
+      </person>

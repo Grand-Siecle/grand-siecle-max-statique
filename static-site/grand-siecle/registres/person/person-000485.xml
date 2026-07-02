@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000485" n="9">
+        <persName type="main">S. Marc</persName>
+        <persName type="sort">Marc</persName>
+        <persName type="standard">Marc</persName>
+        <persName type="variant">Marc</persName>
+        <persName type="variant">S.Marc</persName>
+        <persName type="variant">s Marc</persName>
+        <persName type="variant">que Marc</persName>
+        <birth><date when="0012"/></birth>
+        <death><date when="0068-04-25"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q831474">prêtre chrétien</occupation>
+        <occupation key="Q1381391">évangéliste</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q31966</idno>
+        <idno type="viaf">264405984</idno>
+        <idno type="isni">0000000382148035</idno>
+        <idno type="gnd">118578030</idno>
+        <idno type="bnf">12544621q</idno>
+        <idno type="lccn">n50044098</idno>
+        <note type="description">évangéliste du Nouveau Testament</note>
+        <note type="mentions">9</note>
+        <note type="sources">LIV0001|LIV0002b|LIV0008|LIV0022|LIV0024|LIV0025b|LIV0026c|LIV0033</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q85516567|Q140004|Q106315503</note>
+      </person>

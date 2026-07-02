@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000596" n="7">
+        <persName type="main">Isaac</persName>
+        <persName type="sort">Isaac</persName>
+        <persName type="standard">Isaac</persName>
+        <birth><date when="-1851"/></birth>
+        <death><date when="-1533"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q12059906">gardien de troupeau</occupation>
+        <idno type="wikidata" cert="high">Q671872</idno>
+        <idno type="viaf">143826097</idno>
+        <idno type="isni">0000000458758420</idno>
+        <idno type="gnd">118555898</idno>
+        <idno type="bnf">119548184</idno>
+        <idno type="lccn">n82057089</idno>
+        <note type="description">personnage de la Bible et du Coran, fils d'Abraham et de Sarah</note>
+        <note type="mentions">7</note>
+        <note type="sources">LIV0001|LIV0005|LIV0015|LIV0026b|LIV0027|LIV0028</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q5920537|Q24232039|Q3154724</note>
+      </person>

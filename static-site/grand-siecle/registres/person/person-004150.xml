@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-004150" n="1">
+        <persName type="main">Dordracum</persName>
+        <persName type="sort">Dordracum</persName>
+        <persName type="variant">Dordraces</persName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0010</note>
+      </person>

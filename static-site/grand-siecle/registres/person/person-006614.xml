@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-006614" n="1">
+        <persName type="main">Suet</persName>
+        <persName type="sort">Suet</persName>
+        <persName type="variant">Sueton</persName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0020</note>
+      </person>

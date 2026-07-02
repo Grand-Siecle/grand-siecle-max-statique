@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000340" n="13">
+        <persName type="main">Tite</persName>
+        <persName type="sort">Tite</persName>
+        <persName type="standard">Tite</persName>
+        <birth><date when="0013"/></birth>
+        <death><date when="0107"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q219477">missionnaire</occupation>
+        <occupation key="Q831474">prêtre chrétien</occupation>
+        <occupation key="Q29182">évêque</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q320136</idno>
+        <idno type="viaf">55594351</idno>
+        <idno type="gnd">102408653</idno>
+        <note type="description">personnage biblique</note>
+        <note type="mentions">13</note>
+        <note type="sources">LIV0008|LIV0017|LIV0018|LIV0022|LIV0026b|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q40652|Q21510234|Q3991840</note>
+      </person>

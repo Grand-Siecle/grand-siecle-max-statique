@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000145" n="30">
+        <persName type="main">Caligula</persName>
+        <persName type="sort">Caligula</persName>
+        <persName type="standard">Caligula</persName>
+        <birth><date when="0012-08-31"/></birth>
+        <death><date when="0041-01-24"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q1409</idno>
+        <idno type="viaf">59052351</idno>
+        <idno type="isni">0000000093108408</idno>
+        <idno type="gnd">118518410</idno>
+        <idno type="bnf">11956741v</idno>
+        <idno type="lccn">n50032169</idno>
+        <note type="description">troisième empereur romain, de 37 à 41</note>
+        <note type="mentions">30</note>
+        <note type="sources">LIV0004a|LIV0017|LIV0020|LIV0024|LIV0025a|LIV0026c|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000003" n="612">
+        <persName type="main">Jésus-Christ</persName>
+        <persName type="sort">Jésus-Christ</persName>
+        <persName type="standard">Jésus-Christ</persName>
+        <persName type="variant">Jésus</persName>
+        <persName type="variant">Jésus Christ</persName>
+        <persName type="variant">JésusChrist</persName>
+        <persName type="variant">JÉUS-CHRIST</persName>
+        <persName type="variant">Christ</persName>
+        <persName type="variant">JESVS-CHRIST</persName>
+        <persName type="variant">Jefus-Christ</persName>
+        <persName type="variant">JésusChrit</persName>
+        <persName type="variant">lesus Christ</persName>
+        <persName type="variant">IEsvs-CHRIST</persName>
+        <persName type="variant">Jrsvs-CHRIST</persName>
+        <persName type="variant">de Jésus-Christ</persName>
+        <birth><date when="-0007"/></birth>
+        <death><date when="0030-04-07"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q432386">prédicateur</occupation>
+        <occupation key="Q42857">prophète ou prophétesse</occupation>
+        <occupation key="Q154549">charpentier ou charpentière</occupation>
+        <occupation key="Q133485">rabbin</occupation>
+        <nationality key="Q16000109">Royaume d'Hérode</nationality>
+        <idno type="wikidata" cert="high">Q302</idno>
+        <idno type="viaf">141145970137232251241</idno>
+        <idno type="isni">0000000120370699</idno>
+        <idno type="gnd">118557513</idno>
+        <idno type="bnf">119392246</idno>
+        <idno type="lccn">n79084784</idno>
+        <note type="description">messie et fils unique de Dieu pour les chrétiens</note>
+        <note type="mentions">612</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0002b|LIV0004a|LIV0005|LIV0006|LIV0007|LIV0008|LIV0022|LIV0023|LIV0024|LIV0025b|LIV0026a|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

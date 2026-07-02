@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000009" n="51">
+        <orgName type="main">Sénat</orgName>
+        <orgName type="sort">Sénat des États-Unis</orgName>
+        <orgName type="standard">Sénat des États-Unis</orgName>
+        <orgName type="variant">Sénats</orgName>
+        <event type="foundation"><date when="1789"/></event>
+        <idno type="wikidata" cert="high">Q66096</idno>
+        <idno type="viaf">129637095</idno>
+        <idno type="isni">0000000405077242</idno>
+        <idno type="gnd">1020979-7</idno>
+        <note type="description">chambre haute du Congrès des États-Unis</note>
+        <note type="mentions">51</note>
+        <note type="sources">LIV0004a|LIV0014|LIV0017|LIV0024|LIV0025a|LIV0027|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q215987|Q855343|Q389423</note>
+      </org>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000398" n="3">
+        <placeName type="main">Viſtula</placeName>
+        <placeName type="sort">Vistula</placeName>
+        <placeName type="standard">Vistula</placeName>
+        <placeName type="variant">Viſtulæ</placeName>
+        <placeName type="variant">Viſtulam</placeName>
+        <placeName type="variant">uistula</placeName>
+        <location><geo>41.74920 -85.72810</geo></location>
+        <country key="Q30">États-Unis</country>
+        <idno type="wikidata" cert="high">Q7936498</idno>
+        <idno type="geonames">4927807</idno>
+        <note type="description">établissement humain, comté d'Elkhart, Indiana, États-Unis</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q548|Q9368933|Q2887520</note>
+      </place>

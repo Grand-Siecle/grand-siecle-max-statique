@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000107" n="8">
+        <placeName type="main">monde</placeName>
+        <placeName type="sort">Terre</placeName>
+        <placeName type="standard">Terre</placeName>
+        <idno type="wikidata" cert="high">Q2</idno>
+        <idno type="geonames">6295630</idno>
+        <note type="description">troisième planète à partir du Soleil dans le système solaire</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0001|LIV0021|LIV0026b|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1|Q16502|Q13780930</note>
+      </place>

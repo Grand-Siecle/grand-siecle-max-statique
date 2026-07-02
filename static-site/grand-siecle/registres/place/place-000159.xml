@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000159" n="6">
+        <placeName type="main">Syracuse</placeName>
+        <placeName type="sort">Syracuse</placeName>
+        <placeName type="standard">Syracuse</placeName>
+        <location><geo>37.06917 15.28750</geo></location>
+        <country key="Q38">Italie</country>
+        <idno type="wikidata" cert="high">Q13670</idno>
+        <idno type="geonames">6542286</idno>
+        <note type="description">commune et ville portuaire de Sicile, Italie</note>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0020|LIV0025b|LIV0026a|LIV0028</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q128069|Q37018461|Q482405</note>
+      </place>

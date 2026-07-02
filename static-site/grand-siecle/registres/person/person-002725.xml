@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002725" n="2">
+        <persName type="main">Salluste</persName>
+        <persName type="sort">Salluste</persName>
+        <persName type="standard">Salluste</persName>
+        <persName type="variant">Sallust</persName>
+        <birth><date when="-0086-10-01"/></birth>
+        <death><date when="-0035-05-13"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q7170</idno>
+        <idno type="viaf">104162705</idno>
+        <idno type="isni">0000000121462501</idno>
+        <idno type="gnd">118605097</idno>
+        <idno type="bnf">11887462p</idno>
+        <idno type="lccn">n79018348</idno>
+        <note type="description">homme politique, militaire et historien romain</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0027</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q60589676|Q7405016|Q3469966</note>
+      </person>

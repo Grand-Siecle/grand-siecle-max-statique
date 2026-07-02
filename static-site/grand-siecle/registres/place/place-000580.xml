@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000580" n="2">
+        <placeName type="main">Mantua</placeName>
+        <placeName type="sort">Mantua</placeName>
+        <placeName type="standard">Mantua</placeName>
+        <placeName type="variant">MANTVA</placeName>
+        <location><geo>41.49750 -111.94222</geo></location>
+        <country key="Q30">États-Unis</country>
+        <idno type="wikidata" cert="high">Q483588</idno>
+        <idno type="geonames">5777881</idno>
+        <note type="description">établissement humain, comté de Box Elder, Utah, États-Unis</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q6247|Q2131270|Q37133739</note>
+      </place>

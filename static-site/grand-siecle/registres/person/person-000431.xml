@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000431" n="10">
+        <persName type="main">Laert</persName>
+        <persName type="sort">Laërte</persName>
+        <persName type="standard">Laërte</persName>
+        <persName type="variant">Laérus</persName>
+        <persName type="variant">Laéèrt</persName>
+        <sex value="Q6581097">masculin</sex>
+        <idno type="wikidata" cert="medium">Q748296</idno>
+        <idno type="viaf">3547157342842410100002</idno>
+        <note type="description">personnage de la mythologie grecque</note>
+        <note type="mentions">10</note>
+        <note type="sources">LIV0020|LIV0025a|LIV0025b|LIV0027|LIV0032</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q123819897|Q3825511|Q2471533</note>
+      </person>

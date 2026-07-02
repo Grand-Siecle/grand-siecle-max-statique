@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-004861" n="1">
+        <persName type="main">Ioannem Philippum</persName>
+        <persName type="sort">Ioannem Philippum</persName>
+        <persName type="variant">Ioannes Philippus</persName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0010</note>
+      </person>

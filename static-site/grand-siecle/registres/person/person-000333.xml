@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000333" n="13">
+        <persName type="main">Longinus</persName>
+        <persName type="sort">Jan Długosz</persName>
+        <persName type="standard">Jan Długosz</persName>
+        <persName type="variant">Longnus</persName>
+        <persName type="variant">Longus</persName>
+        <birth><date when="1415-12-01"/></birth>
+        <death><date when="1480-05-19"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q193391">diplomate</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q250867">prêtre catholique</occupation>
+        <nationality key="Q171348">couronne du royaume de Pologne</nationality>
+        <idno type="wikidata" cert="high">Q326493</idno>
+        <idno type="viaf">56628654</idno>
+        <idno type="isni">0000000122803873</idno>
+        <idno type="gnd">11867210X</idno>
+        <idno type="bnf">12053524k</idno>
+        <idno type="lccn">n81053862</idno>
+        <note type="description">évêque, diplomate et chroniqueur médiéval polonais</note>
+        <note type="mentions">13</note>
+        <note type="sources">LIV0020|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q319947|Q22917097|Q886936</note>
+      </person>

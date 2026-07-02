@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000969" n="4">
+        <persName type="main">Apollonius</persName>
+        <persName type="sort">Apollonius</persName>
+        <persName type="standard">Apollonius</persName>
+        <birth><date when="0450"/></birth>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q1439407</idno>
+        <note type="description">consul romain en 460</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0020|LIV0024</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q18200050|Q107378074|Q3620723</note>
+      </person>

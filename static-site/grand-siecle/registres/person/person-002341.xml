@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002341" n="2">
+        <persName type="main">Lucius Crassus</persName>
+        <persName type="sort">Lucius Crassus</persName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0017|LIV0018</note>
+      </person>

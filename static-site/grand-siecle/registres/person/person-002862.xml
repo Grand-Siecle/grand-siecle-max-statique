@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002862" n="2">
+        <persName type="main">Vulcain</persName>
+        <persName type="sort">Vulcain</persName>
+        <persName type="standard">Vulcain</persName>
+        <sex value="Q6581097">masculin</sex>
+        <idno type="wikidata" cert="high">Q4640</idno>
+        <idno type="viaf">42633769</idno>
+        <idno type="gnd">118770462</idno>
+        <idno type="lccn">no2018067309</idno>
+        <note type="description">dieu romain du feu, de la forge, des volcans, etc.</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q3563805|Q44532|Q156454</note>
+      </person>

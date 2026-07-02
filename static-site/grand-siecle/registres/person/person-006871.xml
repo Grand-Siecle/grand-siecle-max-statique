@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-006871" n="1">
+        <persName type="main">Valentinianus</persName>
+        <persName type="sort">Valentinianus</persName>
+        <persName type="variant">Ualentinianus</persName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0010</note>
+      </person>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002344" n="2">
+        <persName type="main">Ludouicus</persName>
+        <persName type="sort">Ludovico Gozzadini</persName>
+        <persName type="standard">Ludovico Gozzadini</persName>
+        <persName type="variant">Ludouices</persName>
+        <birth><date when="1479-01-01"/></birth>
+        <death><date when="1536-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q185351">juriste</occupation>
+        <idno type="wikidata" cert="medium">Q41569854</idno>
+        <idno type="viaf">66823222</idno>
+        <idno type="isni">0000000116627850</idno>
+        <idno type="gnd">100965539</idno>
+        <idno type="lccn">n94011075</idno>
+        <note type="description">Italian jurist (1479-1536)</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0008|LIV0010</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q5983777|Q103842834|Q41568494</note>
+      </person>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000081" n="3">
+        <label type="main">siècles passés</label>
+        <label type="variant">siècle passe</label>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0017|LIV0019|LIV0025b</note>
+      </event>

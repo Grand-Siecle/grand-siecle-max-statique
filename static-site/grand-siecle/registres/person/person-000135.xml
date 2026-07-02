@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000135" n="34">
+        <persName type="main">Marie</persName>
+        <persName type="sort">Marie</persName>
+        <persName type="standard">Marie</persName>
+        <persName type="variant">Mariæ</persName>
+        <persName type="variant">D. Marie</persName>
+        <persName type="variant">Carie</persName>
+        <persName type="variant">Sainte Marie</persName>
+        <persName type="variant">Marin</persName>
+        <persName type="variant">Marfise</persName>
+        <persName type="variant">Maurice</persName>
+        <persName type="variant">saint Marie magdelaine</persName>
+        <persName type="variant">d Marie</persName>
+        <birth><date when="-0018"/></birth>
+        <death><date when="0048"/></death>
+        <sex value="Q6581072">féminin</sex>
+        <occupation key="Q67205775">piqueuse</occupation>
+        <idno type="wikidata" cert="high">Q345</idno>
+        <idno type="viaf">86913753</idno>
+        <idno type="isni">0000000427570951</idno>
+        <idno type="gnd">118640909</idno>
+        <idno type="bnf">11934598c</idno>
+        <idno type="lccn">n81018544</idno>
+        <note type="description">mère de Jésus de Nazareth</note>
+        <note type="mentions">34</note>
+        <note type="sources">LIV0001|LIV0002b|LIV0003|LIV0005|LIV0006|LIV0008|LIV0009|LIV0012|LIV0024|LIV0026a|LIV0026b|LIV0026c|LIV0028|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="technique-000001" n="20">
+        <catDesc>
+          <term type="main">style</term>
+          <term type="standard">style</term>
+        </catDesc>
+        <idno type="wikidata" cert="high">Q1292119</idno>
+        <idno type="aat">300055835</idno>
+        <note type="description">aspect caractéristique prononcée des objets, de l'art et de la culture</note>
+        <note type="mentions">20</note>
+        <note type="sources">LIV0012|LIV0015|LIV0017|LIV0019|LIV0020|LIV0026b</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q37552559|Q18786715|Q2313235</note>
+      </category>

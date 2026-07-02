@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000006" n="13">
+        <title type="main">Oraison</title>
+        <title type="standard">Oraison</title>
+        <title type="variant">L’oraison</title>
+        <note type="genre" key="Q40953">prière</note>
+        <idno type="wikidata" cert="high">Q3355021</idno>
+        <note type="description">call to prayer</note>
+        <note type="mentions">13</note>
+        <note type="sources">LIV0002b|LIV0006|LIV0015|LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q501501|Q125407141|Q5110313</note>
+      </bibl>

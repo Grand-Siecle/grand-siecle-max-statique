@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-001930" n="1">
+        <placeName type="main">Viburgo</placeName>
+        <placeName type="sort">Viburgo</placeName>
+        <placeName type="variant">uiburgo</placeName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0010</note>
+      </place>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000024" n="173">
+        <persName type="main">Socrate</persName>
+        <persName type="sort">Socrate</persName>
+        <persName type="standard">Socrate</persName>
+        <persName type="variant">Isocrate</persName>
+        <persName type="variant">Jsocrate</persName>
+        <persName type="variant">Hipocrate</persName>
+        <persName type="variant">Hypocrate</persName>
+        <persName type="variant">Isoerate</persName>
+        <persName type="variant">Jsocrates</persName>
+        <persName type="variant">Soerate</persName>
+        <persName type="variant">Socrates</persName>
+        <persName type="variant">Isocrat</persName>
+        <birth><date when="-0470"/></birth>
+        <death><date when="-0399-02-15"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q4964182">philosophe</occupation>
+        <occupation key="Q37226">enseignant ou enseignante</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q5403434">éthicien ou éthicienne</occupation>
+        <nationality key="Q844930">Athènes</nationality>
+        <idno type="wikidata" cert="high">Q913</idno>
+        <idno type="viaf">88039167</idno>
+        <idno type="isni">0000000121426535</idno>
+        <idno type="gnd">118615270</idno>
+        <idno type="bnf">12013325j</idno>
+        <idno type="lccn">n79055329</idno>
+        <note type="description">philosophe de la Grèce antique</note>
+        <note type="mentions">173</note>
+        <note type="sources">LIV0004a|LIV0012|LIV0015|LIV0018|LIV0020|LIV0023|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q221182|Q11926974</note>
+      </person>

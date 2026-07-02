@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000041" n="9">
+        <orgName type="main">Compagnie</orgName>
+        <orgName type="sort">compagnie</orgName>
+        <orgName type="standard">compagnie</orgName>
+        <idno type="wikidata" cert="high">Q783794</idno>
+        <idno type="gnd">4231694-7</idno>
+        <note type="description">association de personnes individuelles réelles et/ou d'autres sociétés</note>
+        <note type="mentions">9</note>
+        <note type="sources">LIV0003|LIV0004a|LIV0015|LIV0019</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q6881511|Q36380|Q102538</note>
+      </org>

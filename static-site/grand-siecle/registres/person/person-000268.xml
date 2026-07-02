@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000268" n="15">
+        <persName type="main">Catilina</persName>
+        <persName type="sort">Catilina</persName>
+        <persName type="standard">Catilina</persName>
+        <birth><date when="-0108"/></birth>
+        <death><date when="-0062-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q75826</idno>
+        <idno type="viaf">84032760</idno>
+        <idno type="isni">0000000109201114</idno>
+        <idno type="gnd">118668811</idno>
+        <idno type="bnf">12312444c</idno>
+        <idno type="lccn">n79026681</idno>
+        <note type="description">homme politique romain</note>
+        <note type="mentions">15</note>
+        <note type="sources">LIV0010|LIV0014|LIV0019|LIV0025a|LIV0031_t1|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

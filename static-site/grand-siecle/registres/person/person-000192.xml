@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000192" n="21">
+        <persName type="main">Auguste</persName>
+        <persName type="sort">Auguste</persName>
+        <persName type="standard">Auguste</persName>
+        <persName type="variant">Augustin</persName>
+        <persName type="variant">Ruguste</persName>
+        <persName type="variant">August</persName>
+        <persName type="variant">Augustus</persName>
+        <birth><date when="-0063"/></birth>
+        <death><date when="0014-08-19"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q1097498">dirigeant ou dirigeante</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q1405</idno>
+        <idno type="viaf">18013086</idno>
+        <idno type="isni">0000000121227317</idno>
+        <idno type="gnd">118505122</idno>
+        <idno type="bnf">12326866z</idno>
+        <idno type="lccn">n79033006</idno>
+        <note type="description">premier empereur romain de 27 av. J.-C. à 14</note>
+        <note type="mentions">21</note>
+        <note type="sources">LIV0011|LIV0013|LIV0014|LIV0015|LIV0018|LIV0020|LIV0025a</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000001" n="393">
+        <placeName type="main">Rome</placeName>
+        <placeName type="sort">Rome</placeName>
+        <placeName type="standard">Rome</placeName>
+        <placeName type="variant">Româ</placeName>
+        <placeName type="variant">broome</placeName>
+        <location><geo>41.89306 12.48278</geo></location>
+        <country key="Q38">Italie</country>
+        <idno type="wikidata" cert="high">Q220</idno>
+        <idno type="geonames">3169070</idno>
+        <note type="description">capitale de l'Italie</note>
+        <note type="mentions">393</note>
+        <note type="sources">LIV0002a|LIV0003|LIV0005|LIV0006|LIV0007|LIV0008|LIV0011|LIV0012|LIV0013|LIV0014|LIV0015|LIV0017|LIV0018|LIV0019|LIV0020|LIV0021|LIV0023|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0031_t1|LIV0031_t2|LIV0032|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q17167|Q567806|Q6580</note>
+      </place>

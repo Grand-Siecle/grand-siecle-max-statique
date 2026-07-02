@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="material-000042" n="4">
+        <catDesc>
+          <term type="main">marmore</term>
+        </catDesc>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0010|LIV0032</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q3294512|Q40861|Q17637371</note>
+      </category>

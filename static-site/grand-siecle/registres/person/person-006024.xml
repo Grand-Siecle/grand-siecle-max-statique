@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-006024" n="1">
+        <persName type="main">Polilates</persName>
+        <persName type="sort">Polilates</persName>
+        <persName type="variant">policletes</persName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0020</note>
+      </person>

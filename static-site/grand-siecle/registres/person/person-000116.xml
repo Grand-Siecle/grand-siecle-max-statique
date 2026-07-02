@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000116" n="40">
+        <persName type="main">Quintilien</persName>
+        <persName type="sort">Quintilien</persName>
+        <persName type="standard">Quintilien</persName>
+        <persName type="variant">Quintilian</persName>
+        <persName type="variant">Quntilien</persName>
+        <persName type="variant">Quintil</persName>
+        <birth><date when="0035-01-01"/></birth>
+        <death><date when="0096-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1231865">pédagogue</occupation>
+        <occupation key="Q361809">rhéteur ou rhétrice</occupation>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q40348">avocat ou avocate</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q193769</idno>
+        <idno type="viaf">34451872</idno>
+        <idno type="isni">0000000121271967</idno>
+        <idno type="gnd">118597396</idno>
+        <idno type="bnf">11887333t</idno>
+        <idno type="lccn">n80046563</idno>
+        <note type="description">rhéteur romain</note>
+        <note type="mentions">40</note>
+        <note type="sources">LIV0009|LIV0012|LIV0015|LIV0017|LIV0019|LIV0020|LIV0026a|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q28495279</note>
+      </person>

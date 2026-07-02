@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000216" n="19">
+        <persName type="main">Judas</persName>
+        <persName type="sort">Judas Iscariote</persName>
+        <persName type="standard">Judas Iscariote</persName>
+        <death><date when="0030"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q388338">trésorier</occupation>
+        <nationality key="Q1003997">Judée</nationality>
+        <idno type="wikidata" cert="medium">Q81018</idno>
+        <idno type="viaf">78757239</idno>
+        <idno type="isni">0000000107841951</idno>
+        <idno type="gnd">118558536</idno>
+        <idno type="bnf">16604390m</idno>
+        <idno type="lccn">n82053231</idno>
+        <note type="description">apôtre traître de Jésus de Nazareth selon le Nouveau Testament</note>
+        <note type="mentions">19</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0003|LIV0013|LIV0026a|LIV0031_t2</note>
+        <note type="reconciliation-confidence">medium</note>
+      </person>

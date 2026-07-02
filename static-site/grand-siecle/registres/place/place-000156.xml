@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000156" n="6">
+        <placeName type="main">Poloniæ</placeName>
+        <placeName type="sort">Polonia Varsovie</placeName>
+        <placeName type="standard">Polonia Varsovie</placeName>
+        <placeName type="variant">Poloniam</placeName>
+        <placeName type="variant">Polonia</placeName>
+        <placeName type="variant">POLONGA</placeName>
+        <country key="Q36">Pologne</country>
+        <idno type="wikidata" cert="medium">Q262569</idno>
+        <note type="description">club polonais de football</note>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q4272155|Q19731014|Q50749595</note>
+      </place>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000374" n="11">
+        <persName type="main">Arondelle</persName>
+        <persName type="sort">Arondelle</persName>
+        <persName type="variant">Herondelle</persName>
+        <persName type="variant">Érondelle</persName>
+        <persName type="variant">Hirondelle</persName>
+        <note type="mentions">11</note>
+        <note type="sources">LIV0015|LIV0019</note>
+      </person>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001252" n="3">
+        <persName type="main">Aurelia</persName>
+        <persName type="sort">Aurelia Cotta</persName>
+        <persName type="standard">Aurelia Cotta</persName>
+        <birth><date when="-0119"/></birth>
+        <death><date when="-0054"/></death>
+        <sex value="Q6581072">féminin</sex>
+        <occupation key="Q2478141">aristocrate</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q232725</idno>
+        <note type="description">citoyenne romaine, mère de Jules César</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0017|LIV0018</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q21034949|Q3235994|Q32978881</note>
+      </person>

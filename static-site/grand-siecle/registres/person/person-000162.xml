@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000162" n="26">
+        <persName type="main">Clement Alexandrin</persName>
+        <persName type="sort">Clément de Rome</persName>
+        <persName type="standard">Clément de Rome</persName>
+        <persName type="variant">Clement</persName>
+        <persName type="variant">Cléle Alexandrin</persName>
+        <persName type="variant">Clement AlexanAleran</persName>
+        <persName type="variant">Alexandrin</persName>
+        <persName type="variant">Cléx Alexandrin</persName>
+        <birth><date when="0100"/></birth>
+        <death><date when="0099"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1234713">théologien ou théologienne</occupation>
+        <occupation key="Q250867">prêtre catholique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q42887</idno>
+        <idno type="viaf">46860095</idno>
+        <idno type="isni">0000000091885959</idno>
+        <idno type="gnd">118809199</idno>
+        <idno type="bnf">120508131</idno>
+        <idno type="lccn">n50066852</idno>
+        <note type="description">prélat catholique, évêque et pape, saint chrétien</note>
+        <note type="mentions">26</note>
+        <note type="sources">LIV0006|LIV0019|LIV0024|LIV0025b|LIV0031_t1|LIV0033</note>
+        <note type="reconciliation-confidence">medium</note>
+      </person>

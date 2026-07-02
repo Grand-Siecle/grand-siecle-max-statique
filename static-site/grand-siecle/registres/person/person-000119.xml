@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000119" n="39">
+        <persName type="main">Philosophe</persName>
+        <persName type="sort">Philosophe</persName>
+        <persName type="variant">Philesophe</persName>
+        <persName type="variant">Philosonhe</persName>
+        <persName type="variant">Le Philosophe</persName>
+        <persName type="variant">Philofophe</persName>
+        <persName type="variant">philosophe chrétien</persName>
+        <note type="mentions">39</note>
+        <note type="sources">LIV0004a|LIV0005|LIV0008|LIV0012|LIV0019|LIV0022|LIV0025b|LIV0026a|LIV0026b|LIV0026c</note>
+      </person>

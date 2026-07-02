@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000130" n="3">
+        <orgName type="main">Academies</orgName>
+        <orgName type="sort">Société royale du Canada</orgName>
+        <orgName type="standard">Société royale du Canada</orgName>
+        <orgName type="variant">académique</orgName>
+        <orgName type="variant">académie</orgName>
+        <event type="foundation"><date when="1882"/></event>
+        <idno type="wikidata" cert="medium">Q94301</idno>
+        <idno type="viaf">159113084</idno>
+        <idno type="isni">0000000110343590</idno>
+        <idno type="gnd">37845-8</idno>
+        <note type="description">plus ancien organisme national bilingue regroupant les plus éminents universitaires, humanistes, scientifiques et artistes canadiens</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0017|LIV0031_t1</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q955824|Q3233780|Q16058015</note>
+      </org>

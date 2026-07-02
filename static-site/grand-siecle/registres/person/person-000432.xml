@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000432" n="10">
+        <persName type="main">Lomenius</persName>
+        <persName type="sort">Lomenius</persName>
+        <persName type="variant">Lomenium</persName>
+        <persName type="variant">Lomenio</persName>
+        <note type="mentions">10</note>
+        <note type="sources">LIV0010</note>
+      </person>

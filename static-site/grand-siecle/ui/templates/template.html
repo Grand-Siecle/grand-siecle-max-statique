@@ -1,0 +1,37 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="{$baseURI}ui/images/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&amp;display=swap"/>
+    <link rel="stylesheet" href="{$baseURI}core/ui/lib/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{$baseURI}core/ui/css/tei.css"/>
+    {$head}
+  </head>
+
+  <body>
+    <header id="topbar" class="gs-header">
+      <div class="gs-menubar">
+        <a class="gs-brand" href="{$home}" aria-label="{$prettyName}">
+          <span class="gs-brand-grand">Grand</span>
+          <span class="gs-brand-siecle">Siècle</span>
+        </a>
+        <div id="menu" class="gs-menu">{$menu}</div>
+        <div id="navigation-wrap" class="gs-navigation-wrap">{$navigationSelect}</div>
+        <div class="gs-textoptions-wrap">{$textOptions}</div>
+      </div>
+    </header>
+
+    <main data-pagefind-body id="main-max-container" class="container gs-main"><span hidden data-pagefind-filter="Type">Pages du site</span>
+      {$content}
+    </main>
+
+    {$footer}
+
+    <script type="text/javascript" src="{$baseURI}core/ui/lib/bootstrap.bundle.min.js"/>
+    <script type="module" src="{$baseURI}core/ui/js/MaxTEI.js"/>
+    {$jsImports}
+  </body>
+</html>

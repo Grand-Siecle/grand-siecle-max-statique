@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000264" n="15">
+        <persName type="main">Anselme</persName>
+        <persName type="sort">Anselme de Cantorbéry</persName>
+        <persName type="standard">Anselme de Cantorbéry</persName>
+        <persName type="variant">Saint Anselme</persName>
+        <persName type="variant">Ansème</persName>
+        <birth><date when="1033"/></birth>
+        <death><date when="1109-04-21"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q4964182">philosophe</occupation>
+        <occupation key="Q1234713">théologien ou théologienne</occupation>
+        <occupation key="Q1469535">prêtre catholique de rite romain</occupation>
+        <occupation key="Q49476">archevêque</occupation>
+        <nationality key="Q70972">royaume de France</nationality>
+        <idno type="wikidata" cert="medium">Q43939</idno>
+        <idno type="viaf">100187025</idno>
+        <idno type="isni">0000000121451191</idno>
+        <idno type="gnd">118503278</idno>
+        <idno type="bnf">11888917g</idno>
+        <idno type="lccn">n50024763</idno>
+        <note type="description">abbé bénédictin, archevêque de Cantorbéry, saint et docteur de l'Église</note>
+        <note type="mentions">15</note>
+        <note type="sources">LIV0001|LIV0003|LIV0024|LIV0025b|LIV0028</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q1818116</note>
+      </person>

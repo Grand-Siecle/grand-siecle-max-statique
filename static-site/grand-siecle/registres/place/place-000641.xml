@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000641" n="2">
+        <placeName type="main">Phéniicie</placeName>
+        <placeName type="sort">Phéniicie</placeName>
+        <placeName type="variant">Phenicie</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020</note>
+      </place>

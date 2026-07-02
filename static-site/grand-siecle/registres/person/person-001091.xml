@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001091" n="4">
+        <persName type="main">Marc Antonin</persName>
+        <persName type="sort">Marc-Antonin Hennebert</persName>
+        <persName type="standard">Marc-Antonin Hennebert</persName>
+        <sex value="Q6581097">masculin</sex>
+        <nationality key="Q16">Canada</nationality>
+        <idno type="wikidata" cert="medium">Q55722732</idno>
+        <idno type="viaf">147127747</idno>
+        <idno type="isni">0000000106705464</idno>
+        <idno type="bnf">16227437w</idno>
+        <idno type="lccn">n2010075171</idno>
+        <note type="description">professeur adjoint au Service de l'enseignement de la gestion des ressources humaines à HEC Montréal (en 2010)</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0020|LIV0031_t1</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q72609436|Q95611075</note>
+      </person>

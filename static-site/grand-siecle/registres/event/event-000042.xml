@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000042" n="5">
+        <label type="main">bello</label>
+        <label type="standard">Bello</label>
+        <label type="variant">bellum</label>
+        <placeName key="Q3926556">quadrangle de Beethoven</placeName>
+        <idno type="wikidata" cert="high">Q3696572</idno>
+        <desc>cratère sur Mercure</desc>
+        <note type="mentions">5</note>
+        <note type="sources">LIV0010|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q3637811|Q24663955|Q16479858</note>
+      </event>

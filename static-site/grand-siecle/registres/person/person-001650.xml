@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001650" n="2">
+        <persName type="main">Abram</persName>
+        <persName type="sort">Abraham</persName>
+        <persName type="standard">Abraham</persName>
+        <persName type="variant">Abraham</persName>
+        <birth><date when="-1813"/></birth>
+        <death><date when="-1638"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q12059906">gardien de troupeau</occupation>
+        <occupation key="Q2142783">fondateur d'une religion</occupation>
+        <occupation key="Q42857">prophète ou prophétesse</occupation>
+        <idno type="wikidata" cert="high">Q9181</idno>
+        <idno type="viaf">89660956</idno>
+        <idno type="isni">0000000096500173</idno>
+        <idno type="gnd">118500201</idno>
+        <idno type="bnf">165820767</idno>
+        <idno type="lccn">n79065663</idno>
+        <note type="description">patriarche et prophète des religions juive, chrétienne et musulmane</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0001</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q12783920|Q323415|Q1194316</note>
+      </person>

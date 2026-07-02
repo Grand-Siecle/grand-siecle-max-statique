@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="material-000011" n="15">
+        <catDesc>
+          <term type="main">papier</term>
+          <term type="standard">papier</term>
+        </catDesc>
+        <idno type="wikidata" cert="high">Q11472</idno>
+        <idno type="aat">300014109</idno>
+        <note type="description">matière fabriquée à partir de fibres cellulosiques végétales et animales</note>
+        <note type="mentions">15</note>
+        <note type="sources">LIV0018|LIV0019|LIV0020|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q37266561|Q21279007|Q1513685</note>
+      </category>

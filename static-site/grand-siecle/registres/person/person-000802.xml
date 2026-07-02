@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000802" n="5">
+        <persName type="main">Caius</persName>
+        <persName type="sort">Caïus</persName>
+        <persName type="standard">Caïus</persName>
+        <death><date when="0296-04-22"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q250867">prêtre catholique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q160882</idno>
+        <idno type="viaf">248159474307527662288</idno>
+        <idno type="isni">0000000050961185</idno>
+        <idno type="gnd">118921363</idno>
+        <idno type="lccn">nr91009373</idno>
+        <note type="description">28e pape de l'Église catholique, de 283 à 296</note>
+        <note type="mentions">5</note>
+        <note type="sources">LIV0014|LIV0017</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q5517401|Q1026023|Q863940</note>
+      </person>

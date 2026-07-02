@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000341" n="13">
+        <persName type="main">Vespasian</persName>
+        <persName type="sort">Vespasien</persName>
+        <persName type="standard">Vespasien</persName>
+        <birth><date when="0009-11-17"/></birth>
+        <death><date when="0079-06-04"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q1419</idno>
+        <idno type="viaf">96539514</idno>
+        <idno type="isni">0000000115788097</idno>
+        <idno type="gnd">11862671X</idno>
+        <idno type="bnf">14480609t</idno>
+        <idno type="lccn">n50013948</idno>
+        <note type="description">neuvième empereur romain de 69 à 79, fondateur de la dynastie des Flaviens</note>
+        <note type="mentions">13</note>
+        <note type="sources">LIV0008|LIV0011|LIV0017|LIV0025b|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q1012546|Q7923274|Q104382680</note>
+      </person>

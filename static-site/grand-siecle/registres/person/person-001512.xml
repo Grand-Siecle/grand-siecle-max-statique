@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001512" n="3">
+        <persName type="main">Phauorin</persName>
+        <persName type="sort">Phauorin</persName>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0004a|LIV0020</note>
+      </person>

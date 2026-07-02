@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000445" n="10">
+        <persName type="main">Simeon</persName>
+        <persName type="sort">Pierre</persName>
+        <persName type="standard">Pierre</persName>
+        <persName type="variant">Simon</persName>
+        <persName type="variant">Symeon</persName>
+        <birth><date when="-0001"/></birth>
+        <death><date when="0065"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q331432">pêcheur ou pêcheuse</occupation>
+        <occupation key="Q611644">évêque catholique</occupation>
+        <occupation key="Q43412">apôtre</occupation>
+        <idno type="wikidata" cert="high">Q33923</idno>
+        <idno type="viaf">13581141</idno>
+        <idno type="isni">0000000119847373</idno>
+        <idno type="gnd">118593323</idno>
+        <idno type="bnf">120020645</idno>
+        <idno type="lccn">n79022118</idno>
+        <note type="description">apôtre de Jésus Christ</note>
+        <note type="mentions">10</note>
+        <note type="sources">LIV0001|LIV0006|LIV0012|LIV0024</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1557|Q16883346|Q12514943</note>
+      </person>

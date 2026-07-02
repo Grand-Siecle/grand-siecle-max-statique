@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000037" n="6">
+        <label type="main">Rencontre</label>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0015|LIV0020</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q2761147|Q16510064|Q52359320</note>
+      </event>

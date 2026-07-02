@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000605" n="2">
+        <placeName type="main">Montibelſigardo</placeName>
+        <placeName type="sort">Montibelſigardo</placeName>
+        <placeName type="variant">Montbeliard</placeName>
+        <placeName type="variant">Montbeliardi</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+      </place>

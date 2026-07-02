@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000420" n="10">
+        <persName type="main">Diodore</persName>
+        <persName type="sort">Diodoros</persName>
+        <note type="mentions">10</note>
+        <note type="sources">LIV0020|LIV0031_t2</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q611868|Q171241|Q729492</note>
+      </person>

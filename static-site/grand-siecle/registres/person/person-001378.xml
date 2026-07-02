@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001378" n="3">
+        <persName type="main">Hortensius</persName>
+        <persName type="sort">Hortensius</persName>
+        <persName type="variant">hortessius</persName>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0014|LIV0020|LIV0026c</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q60589372|Q1630211|Q32979230</note>
+      </person>

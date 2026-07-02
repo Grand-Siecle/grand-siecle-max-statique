@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000178" n="23">
+        <persName type="main">Gorgias</persName>
+        <persName type="sort">Gorgias</persName>
+        <persName type="standard">Gorgias</persName>
+        <persName type="variant">Gorguas</persName>
+        <birth><date when="-0483"/></birth>
+        <death><date when="-0375"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q3750514">sophiste</occupation>
+        <idno type="wikidata" cert="high">Q179785</idno>
+        <idno type="viaf">305414374</idno>
+        <idno type="isni">0000000448914231</idno>
+        <idno type="gnd">118696521</idno>
+        <idno type="bnf">12135750x</idno>
+        <idno type="lccn">n82106049</idno>
+        <note type="description">philosophe antique</note>
+        <note type="mentions">23</note>
+        <note type="sources">LIV0012|LIV0013|LIV0018|LIV0020|LIV0025b|LIV0027|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1092175|Q1331497|Q20002721</note>
+      </person>

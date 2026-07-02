@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000146" n="30">
+        <persName type="main">Hercule</persName>
+        <persName type="sort">Héraclès</persName>
+        <persName type="standard">Héraclès</persName>
+        <persName type="variant">Hercules</persName>
+        <persName type="variant">HHercule</persName>
+        <persName type="variant">Herculeen</persName>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q4271324">personnage mythologique</occupation>
+        <nationality key="Q11225429">Thèbes</nationality>
+        <idno type="wikidata" cert="high">Q122248</idno>
+        <idno type="viaf">68982877</idno>
+        <idno type="isni">0000000123346176</idno>
+        <idno type="gnd">118639552</idno>
+        <idno type="lccn">no2014084680</idno>
+        <note type="description">héros de la mythologie grecque, fils de Zeus et d’Alcmène</note>
+        <note type="mentions">30</note>
+        <note type="sources">LIV0004a|LIV0009|LIV0020|LIV0024|LIV0025a|LIV0025b|LIV0026c|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q931846</note>
+      </person>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000516" n="2">
+        <placeName type="main">Flenſburgum</placeName>
+        <placeName type="sort">Flenſburgum</placeName>
+        <placeName type="variant">Flenſhurgum</placeName>
+        <placeName type="variant">Flenscurgus</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+      </place>

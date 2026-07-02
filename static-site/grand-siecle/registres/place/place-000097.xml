@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000097" n="8">
+        <placeName type="main">Bethléem</placeName>
+        <placeName type="sort">Bethléem</placeName>
+        <placeName type="standard">Bethléem</placeName>
+        <placeName type="variant">bethlewem</placeName>
+        <location><geo>31.70444 35.20611</geo></location>
+        <country key="Q219060">État de Palestine</country>
+        <idno type="wikidata" cert="high">Q5776</idno>
+        <idno type="geonames">284315</idno>
+        <note type="description">ville située en Cisjordanie, dans les Territoires palestiniens occupés</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0002b|LIV0006|LIV0012|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q28162526|Q111821255|Q831475</note>
+      </place>

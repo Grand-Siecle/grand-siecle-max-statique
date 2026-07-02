@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001350" n="3">
+        <persName type="main">Gallus Asinius</persName>
+        <persName type="sort">Gallus Asinius</persName>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0015|LIV0019|LIV0020</note>
+      </person>

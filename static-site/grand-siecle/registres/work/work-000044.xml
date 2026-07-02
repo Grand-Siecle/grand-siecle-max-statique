@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000044" n="4">
+        <title type="main">Remarques</title>
+        <title type="standard">Notes critiques sur la question nationale</title>
+        <title type="variant">remarque</title>
+        <author key="Q1394">Lénine</author>
+        <textLang key="Q7737">russe</textLang>
+        <idno type="wikidata" cert="medium">Q6045549</idno>
+        <note type="description">livre de Vladimir Lenin</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0019</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q64706686|Q19227288|Q64706617</note>
+      </bibl>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000699" n="6">
+        <persName type="main">Germanicus</persName>
+        <persName type="sort">Germanicus</persName>
+        <persName type="standard">Germanicus</persName>
+        <birth><date when="-0015-05-24"/></birth>
+        <death><date when="0019-10-10"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q191039</idno>
+        <idno type="viaf">56580498</idno>
+        <idno type="isni">0000000121339474</idno>
+        <idno type="gnd">118538748</idno>
+        <idno type="bnf">11904724r</idno>
+        <idno type="lccn">n82158317</idno>
+        <note type="description">homme politique et général romain</note>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0015|LIV0019|LIV0026c|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q2695351|Q137610810|Q5551938</note>
+      </person>

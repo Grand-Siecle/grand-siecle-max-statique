@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001957" n="2">
+        <persName type="main">Cœlius</persName>
+        <persName type="sort">Cœlius</persName>
+        <persName type="variant">Cælius</persName>
+        <persName type="variant">Culius</persName>
+        <persName type="variant">Célius</persName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0017|LIV0026b</note>
+      </person>

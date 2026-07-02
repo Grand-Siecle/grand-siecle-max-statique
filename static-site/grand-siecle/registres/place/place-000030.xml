@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000030" n="21">
+        <placeName type="main">ville</placeName>
+        <placeName type="sort">Ville-la-Grand</placeName>
+        <placeName type="standard">Ville-la-Grand</placeName>
+        <placeName type="variant">La Ville</placeName>
+        <placeName type="variant">Village</placeName>
+        <placeName type="variant">Lille</placeName>
+        <placeName type="variant">le ville</placeName>
+        <location><geo>46.20222 6.24694</geo></location>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="high">Q829285</idno>
+        <idno type="geonames">2968703</idno>
+        <note type="description">commune française du département de la Haute-Savoie</note>
+        <note type="mentions">21</note>
+        <note type="sources">LIV0007|LIV0011|LIV0013|LIV0014|LIV0018|LIV0019|LIV0021|LIV0027</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1165252|Q1159891|Q1388654</note>
+      </place>

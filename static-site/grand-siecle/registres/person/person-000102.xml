@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000102" n="45">
+        <persName type="main">Joab</persName>
+        <persName type="sort">Joab</persName>
+        <persName type="standard">Joab</persName>
+        <persName type="variant">Ioab</persName>
+        <birth><date when="-1100"/></birth>
+        <death><date when="-0970"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1402561">chef militaire</occupation>
+        <nationality key="Q3185305">Monarchie unifiée d'Israël et Juda</nationality>
+        <idno type="wikidata" cert="high">Q1141064</idno>
+        <idno type="viaf">59882373</idno>
+        <idno type="gnd">118891294</idno>
+        <idno type="lccn">nr92043181</idno>
+        <note type="description">personnage de la Bible</note>
+        <note type="mentions">45</note>
+        <note type="sources">LIV0001|LIV0005|LIV0026a|LIV0026c|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q73298219</note>
+      </person>

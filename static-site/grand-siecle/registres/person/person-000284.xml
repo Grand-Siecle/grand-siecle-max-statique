@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000284" n="15">
+        <persName type="main">Pindare</persName>
+        <persName type="sort">Pindare</persName>
+        <persName type="standard">Pindare</persName>
+        <birth><date when="-0522"/></birth>
+        <death><date when="-0450"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q24387326">mythographe</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q833665">Confédération béotienne</nationality>
+        <idno type="wikidata" cert="high">Q134929</idno>
+        <idno type="viaf">100181310</idno>
+        <idno type="isni">0000000121451036</idno>
+        <idno type="gnd">118594427</idno>
+        <idno type="bnf">119920037</idno>
+        <idno type="lccn">n79138879</idno>
+        <note type="description">poète lyrique de la Grèce antique (518-438 av. J.-C.)</note>
+        <note type="mentions">15</note>
+        <note type="sources">LIV0012|LIV0020|LIV0025a|LIV0025b|LIV0026a|LIV0027|LIV0028</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q12146205</note>
+      </person>

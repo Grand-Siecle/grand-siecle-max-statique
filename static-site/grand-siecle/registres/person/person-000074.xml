@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000074" n="58">
+        <persName type="main">Jérémie</persName>
+        <persName type="sort">Jérémie</persName>
+        <persName type="standard">Jérémie</persName>
+        <persName type="variant">Ieremie</persName>
+        <persName type="variant">Hérémie</persName>
+        <persName type="variant">Jéréome</persName>
+        <persName type="variant">ÉREMI</persName>
+        <persName type="variant">Hièremie</persName>
+        <persName type="variant">Hyèremie</persName>
+        <birth><date when="-0645"/></birth>
+        <death><date when="-0587"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q48685">royaume de Juda</nationality>
+        <idno type="wikidata" cert="high">Q158825</idno>
+        <idno type="viaf">69721584</idno>
+        <idno type="isni">0000000097224246</idno>
+        <idno type="gnd">118557394</idno>
+        <idno type="lccn">n80067482</idno>
+        <note type="description">prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens</note>
+        <note type="mentions">58</note>
+        <note type="sources">LIV0001|LIV0005|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0028|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q3539735</note>
+      </person>

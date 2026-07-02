@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000061" n="12">
+        <placeName type="main">Temple</placeName>
+        <placeName type="sort">Temple</placeName>
+        <placeName type="standard">Temple</placeName>
+        <placeName type="variant">Les Temples</placeName>
+        <location><geo>51.51095 -0.11433</geo></location>
+        <country key="Q145">Royaume-Uni</country>
+        <idno type="wikidata" cert="high">Q1431071</idno>
+        <idno type="geonames">6954820</idno>
+        <note type="description">station du métro de Londres</note>
+        <note type="mentions">12</note>
+        <note type="sources">LIV0001|LIV0003|LIV0014|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q44539|Q21500480|Q18608513</note>
+      </place>

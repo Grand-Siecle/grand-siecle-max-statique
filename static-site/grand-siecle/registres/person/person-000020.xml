@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000020" n="187">
+        <persName type="main">Plutarque</persName>
+        <persName type="sort">Plutarque</persName>
+        <persName type="standard">Plutarque</persName>
+        <persName type="variant">Lutarque</persName>
+        <persName type="variant">Piutarq</persName>
+        <persName type="variant">Plutarg</persName>
+        <persName type="variant">Plutarq.</persName>
+        <persName type="variant">Patarque</persName>
+        <persName type="variant">Plutaeq</persName>
+        <persName type="variant">Plutaque</persName>
+        <persName type="variant">PlutarccEn</persName>
+        <persName type="variant">Piutarque</persName>
+        <birth><date when="0040"/></birth>
+        <death><date when="0120"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q11774202">essayiste</occupation>
+        <occupation key="Q42603">prêtre</occupation>
+        <occupation key="Q4594605">magistrat ou magistrate</occupation>
+        <occupation key="Q864380">biographe</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q41523</idno>
+        <idno type="viaf">268955446</idno>
+        <idno type="isni">000000036386663X</idno>
+        <idno type="gnd">118595237</idno>
+        <idno type="bnf">119200813</idno>
+        <idno type="lccn">n79026763</idno>
+        <note type="description">philosophe, biographe et moraliste grec de la Rome antique</note>
+        <note type="mentions">187</note>
+        <note type="sources">LIV0004a|LIV0007|LIV0012|LIV0014|LIV0015|LIV0019|LIV0020|LIV0022|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q115921725|Q537304|Q713525</note>
+      </person>

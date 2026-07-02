@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000053" n="82">
+        <persName type="main">César</persName>
+        <persName type="sort">César</persName>
+        <persName type="variant">Cefar</persName>
+        <persName type="variant">Césarée</persName>
+        <persName type="variant">Ccsar</persName>
+        <persName type="variant">Cæsar</persName>
+        <persName type="variant">Césarius</persName>
+        <note type="mentions">82</note>
+        <note type="sources">LIV0001|LIV0003|LIV0004a|LIV0005|LIV0009|LIV0012|LIV0017|LIV0018|LIV0020|LIV0021|LIV0025a|LIV0025b|LIV0026a|LIV0031_t1|LIV0031_t2</note>
+      </person>

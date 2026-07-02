@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001381" n="3">
+        <persName type="main">Hécube</persName>
+        <persName type="sort">Hécube</persName>
+        <persName type="standard">Hécube</persName>
+        <sex value="Q6581072">féminin</sex>
+        <occupation key="Q16511993">reine</occupation>
+        <nationality key="Q22647">Troie</nationality>
+        <idno type="wikidata" cert="high">Q193433</idno>
+        <idno type="viaf">155536230</idno>
+        <idno type="gnd">142076430</idno>
+        <idno type="bnf">14629837w</idno>
+        <idno type="lccn">no2014085140</idno>
+        <note type="description">personnage de la mythologie grecque</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0004a|LIV0020|LIV0026b|LIV0026c</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q19172675|Q98425990|Q132948</note>
+      </person>

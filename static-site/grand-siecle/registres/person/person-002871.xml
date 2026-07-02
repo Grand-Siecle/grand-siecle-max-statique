@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002871" n="2">
+        <persName type="main">Zeuxis</persName>
+        <persName type="sort">Zeuxis</persName>
+        <persName type="standard">Zeuxis</persName>
+        <birth><date when="-0500-01-01"/></birth>
+        <death><date when="-0400-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1028181">artiste peintre</occupation>
+        <idno type="wikidata" cert="high">Q197044</idno>
+        <idno type="viaf">8183622</idno>
+        <idno type="isni">0000000440388249</idno>
+        <idno type="gnd">118772651</idno>
+        <idno type="lccn">no2005061794</idno>
+        <note type="description">peintre grec de l'Antiquité</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0025a</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q18390990|Q197035|Q197037</note>
+      </person>

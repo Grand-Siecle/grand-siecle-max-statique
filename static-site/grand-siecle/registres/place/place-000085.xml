@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000085" n="9">
+        <placeName type="main">Macedoine</placeName>
+        <placeName type="sort">Macédoine du Nord</placeName>
+        <placeName type="standard">Macédoine du Nord</placeName>
+        <placeName type="variant">Macédone</placeName>
+        <location><geo>41.65000 21.71667</geo></location>
+        <country key="Q221">Macédoine du Nord</country>
+        <idno type="wikidata" cert="high">Q221</idno>
+        <idno type="geonames">718075</idno>
+        <note type="description">pays du sud-est de l’Europe</note>
+        <note type="mentions">9</note>
+        <note type="sources">LIV0012|LIV0014|LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q83958|Q103251|Q5277967</note>
+      </place>

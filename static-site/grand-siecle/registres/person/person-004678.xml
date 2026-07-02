@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-004678" n="1">
+        <persName type="main">Henri quatriesme</persName>
+        <persName type="sort">Henri quatriesme</persName>
+        <persName type="variant">Henry quatrième</persName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0019</note>
+      </person>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="material-000067" n="3">
+        <catDesc>
+          <term type="main">toile</term>
+          <term type="standard">toile</term>
+        </catDesc>
+        <idno type="wikidata" cert="high">Q12321255</idno>
+        <idno type="aat">300014078</idno>
+        <note type="description">tissu sur lequel on peint</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0019|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q4259259|Q813966|Q1153946</note>
+      </category>

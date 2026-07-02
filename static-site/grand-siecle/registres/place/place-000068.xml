@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000068" n="10">
+        <placeName type="main">Bourges</placeName>
+        <placeName type="sort">Bourges</placeName>
+        <placeName type="standard">Bourges</placeName>
+        <placeName type="variant">Bourgage</placeName>
+        <placeName type="variant">Bourg</placeName>
+        <location><geo>47.08361 2.39556</geo></location>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="high">Q132404</idno>
+        <idno type="geonames">3031005</idno>
+        <note type="description">commune française du département du Cher (chef-lieu)</note>
+        <note type="mentions">10</note>
+        <note type="sources">LIV0001|LIV0003|LIV0013|LIV0023</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q38243224|Q730221|Q895218</note>
+      </place>

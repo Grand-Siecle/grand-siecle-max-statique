@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001068" n="4">
+        <persName type="main">Lacédémone</persName>
+        <persName type="sort">Lacédémon</persName>
+        <persName type="standard">Lacédémon</persName>
+        <sex value="Q6581097">masculin</sex>
+        <nationality key="Q5690">Sparte</nationality>
+        <idno type="wikidata" cert="medium">Q1065774</idno>
+        <note type="description">personnage de la mythologie grecque et roi de Sparte</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0017|LIV0026b|LIV0026c</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q5690|Q11130899|Q1209337</note>
+      </person>

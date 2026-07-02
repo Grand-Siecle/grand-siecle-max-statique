@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000655" n="2">
+        <placeName type="main">Poſonij</placeName>
+        <placeName type="sort">Poſonij</placeName>
+        <placeName type="variant">POSONIVM</placeName>
+        <placeName type="variant">Posonius</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+      </place>

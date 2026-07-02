@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="material-000001" n="136">
+        <catDesc>
+          <term type="main">matière</term>
+          <term type="variant">matières</term>
+          <term type="variant">matière solide</term>
+        </catDesc>
+        <note type="mentions">136</note>
+        <note type="sources">LIV0002b|LIV0004a|LIV0006|LIV0007|LIV0008|LIV0011|LIV0012|LIV0015|LIV0017|LIV0018|LIV0020|LIV0021|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q496|Q41872|Q35758</note>
+      </category>

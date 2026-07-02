@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001705" n="2">
+        <persName type="main">Anaxagore</persName>
+        <persName type="sort">Anaxagoras</persName>
+        <persName type="standard">Anaxagoras</persName>
+        <sex value="Q6581097">masculin</sex>
+        <idno type="wikidata" cert="high">Q488558</idno>
+        <note type="description">roi mythique d'Argos</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0026c</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1936078|Q15225098|Q15398281</note>
+      </person>

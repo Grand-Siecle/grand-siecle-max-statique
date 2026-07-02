@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000654" n="6">
+        <persName type="main">Anne</persName>
+        <persName type="sort">Anne</persName>
+        <persName type="standard">Anne</persName>
+        <birth><date when="-0055"/></birth>
+        <death><date when="0012"/></death>
+        <sex value="Q6581072">féminin</sex>
+        <occupation key="Q67205775">piqueuse</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q164294</idno>
+        <idno type="viaf">120155150</idno>
+        <idno type="isni">0000000107883393</idno>
+        <idno type="gnd">118649418</idno>
+        <idno type="lccn">n81096009</idno>
+        <note type="description">mère de Marie de Nazareth</note>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0001|LIV0024|LIV0026c|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q564684|Q47860848|Q37456956</note>
+      </person>

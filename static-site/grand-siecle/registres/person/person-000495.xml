@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000495" n="9">
+        <persName type="main">Ulysse</persName>
+        <persName type="sort">Ulysse</persName>
+        <persName type="standard">Ulysse</persName>
+        <persName type="variant">Vlysse</persName>
+        <sex value="Q6581097">masculin</sex>
+        <idno type="wikidata" cert="high">Q47231</idno>
+        <idno type="viaf">62341158</idno>
+        <idno type="gnd">118589385</idno>
+        <idno type="lccn">no2014054320</idno>
+        <note type="description">roi légendaire d'Ithaque</note>
+        <note type="mentions">9</note>
+        <note type="sources">LIV0020|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q3548139|Q37444096|Q6511</note>
+      </person>

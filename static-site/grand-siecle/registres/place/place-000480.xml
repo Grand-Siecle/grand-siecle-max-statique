@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000480" n="2">
+        <placeName type="main">Comora</placeName>
+        <placeName type="sort">Comora</placeName>
+        <placeName type="variant">COMARA</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q8460668|Q970|Q18113566</note>
+      </place>

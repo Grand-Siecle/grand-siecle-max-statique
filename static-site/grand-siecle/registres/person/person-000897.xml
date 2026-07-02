@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000897" n="5">
+        <persName type="main">Polybe</persName>
+        <persName type="sort">Polybe</persName>
+        <persName type="standard">Polybe</persName>
+        <persName type="variant">Potybe</persName>
+        <birth><date when="-0200"/></birth>
+        <death><date when="-0120"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q244796">Ligue achéenne</nationality>
+        <idno type="wikidata" cert="high">Q131169</idno>
+        <idno type="viaf">267920293</idno>
+        <idno type="isni">0000000120987680</idno>
+        <idno type="gnd">118595571</idno>
+        <idno type="bnf">11920194q</idno>
+        <idno type="lccn">n79006487</idno>
+        <note type="description">historien grec du IIe siècle av. J.-C.</note>
+        <note type="mentions">5</note>
+        <note type="sources">LIV0004a|LIV0020|LIV0024|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q3395492|Q3266310|Q31954</note>
+      </person>

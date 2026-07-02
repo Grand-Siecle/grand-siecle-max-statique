@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000197" n="1">
+        <label type="main">brigandages</label>
+        <label type="variant">brigandage</label>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0017</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q106437260</note>
+      </event>

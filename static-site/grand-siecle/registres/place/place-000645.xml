@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000645" n="2">
+        <placeName type="main">Piſtoia</placeName>
+        <placeName type="sort">Pistoia</placeName>
+        <placeName type="standard">Pistoia</placeName>
+        <location><geo>43.93333 10.91667</geo></location>
+        <country key="Q38">Italie</country>
+        <idno type="wikidata" cert="high">Q13376</idno>
+        <idno type="geonames">6541867</idno>
+        <note type="description">commune italienne</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q37196753|Q765790|Q42437</note>
+      </place>

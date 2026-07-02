@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001280" n="3">
+        <persName type="main">Cassius Severus</persName>
+        <persName type="sort">Cassius Severus</persName>
+        <persName type="standard">Cassius Severus</persName>
+        <persName type="variant">Séverus</persName>
+        <persName type="variant">Cassius Seuresus Seuresus</persName>
+        <persName type="variant">Cassius Seures</persName>
+        <birth><date when="-0050"/></birth>
+        <death><date when="0032-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q709941</idno>
+        <idno type="viaf">5317611</idno>
+        <idno type="gnd">102384207</idno>
+        <note type="description">Roman orator and teacher of rhetoric who was active during the reigns of Augustus and Tiberius</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0004a|LIV0017</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q24437643</note>
+      </person>

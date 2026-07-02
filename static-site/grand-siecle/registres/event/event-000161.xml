@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000161" n="2">
+        <label type="main">Tragédie</label>
+        <label type="variant">trage</label>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0012|LIV0017</note>
+      </event>

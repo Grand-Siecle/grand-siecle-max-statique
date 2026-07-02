@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000311" n="14">
+        <persName type="main">Épicure</persName>
+        <persName type="sort">Épicure</persName>
+        <persName type="standard">Épicure</persName>
+        <persName type="variant">Épicurus</persName>
+        <birth><date when="-0342"/></birth>
+        <death><date when="-0270"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q4964182">philosophe</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q844930">Athènes</nationality>
+        <idno type="wikidata" cert="high">Q43216</idno>
+        <idno type="viaf">64141756</idno>
+        <idno type="isni">0000000121366309</idno>
+        <idno type="gnd">118530585</idno>
+        <idno type="bnf">13091438g</idno>
+        <idno type="lccn">n79121664</idno>
+        <note type="description">philosophe grec, fondateur de l'épicurisme</note>
+        <note type="mentions">14</note>
+        <note type="sources">LIV0020|LIV0025a|LIV0025b|LIV0026b|LIV0026c|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

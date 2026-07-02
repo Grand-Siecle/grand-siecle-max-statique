@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000405" n="2">
+        <placeName type="main">Acacio</placeName>
+        <placeName type="sort">Acacio</placeName>
+        <placeName type="standard">Acacio</placeName>
+        <location><geo>24.84111 -102.78222</geo></location>
+        <country key="Q96">Mexique</country>
+        <idno type="wikidata" cert="medium">Q49845902</idno>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q15332145|Q37477480|Q2634123</note>
+      </place>

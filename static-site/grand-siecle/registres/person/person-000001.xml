@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000001" n="1029">
+        <persName type="main">Augustin</persName>
+        <persName type="sort">Augustin d’Hippone</persName>
+        <persName type="standard">Augustin d’Hippone</persName>
+        <persName type="variant">Saint Augustin</persName>
+        <persName type="variant">S. Augustin</persName>
+        <persName type="variant">S.Augustin</persName>
+        <persName type="variant">Auguste</persName>
+        <persName type="variant">St. Augustin</persName>
+        <persName type="variant">Ausustin</persName>
+        <persName type="variant">SAugustin</persName>
+        <persName type="variant">August</persName>
+        <persName type="variant">Auguste César</persName>
+        <persName type="variant">SieAugustin</persName>
+        <persName type="variant">Augustinn</persName>
+        <persName type="variant">SAuguftin</persName>
+        <birth><date when="0354-11-13"/></birth>
+        <death><date when="0430-08-28"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q4964182">philosophe</occupation>
+        <occupation key="Q1234713">théologien ou théologienne</occupation>
+        <occupation key="Q18814623">autobiographe</occupation>
+        <occupation key="Q16031530">théoricien ou théoricienne de la musique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q8018</idno>
+        <idno type="viaf">66806872</idno>
+        <idno type="isni">0000000121376443</idno>
+        <idno type="gnd">118505114</idno>
+        <idno type="bnf">11889551s</idno>
+        <idno type="lccn">n80126290</idno>
+        <note type="description">théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique</note>
+        <note type="mentions">1029</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0002b|LIV0003|LIV0004a|LIV0005|LIV0006|LIV0008|LIV0009|LIV0012|LIV0019|LIV0020|LIV0022|LIV0023|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">medium</note>
+      </person>

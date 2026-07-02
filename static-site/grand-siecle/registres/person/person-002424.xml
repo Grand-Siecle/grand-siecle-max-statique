@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002424" n="2">
+        <persName type="main">Melantho</persName>
+        <persName type="sort">Mélantho</persName>
+        <persName type="standard">Mélantho</persName>
+        <sex value="Q6581072">féminin</sex>
+        <idno type="wikidata" cert="high">Q1862383</idno>
+        <note type="description">daughter of Dolius in Greek mythology</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0019</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q2458545|Q16664021|Q3854114</note>
+      </person>

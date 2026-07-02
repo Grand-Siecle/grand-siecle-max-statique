@@ -1,0 +1,9178 @@
+{
+ "generated": "2026-07-02T14:11:19.910Z",
+ "documents": {
+  "LIV0001": {
+   "id": "LIV0001",
+   "title": "La Perpétuelle croix",
+   "author": {
+    "name": "Judocus Andries",
+    "ref": "PERS0023",
+    "birth": {
+     "when": "1588/04/15",
+     "place": null
+    },
+    "death": {
+     "when": "1658/12/21",
+     "place": null
+    },
+    "ark": "ark:/12148/cb121335637",
+    "isni": "https://isni.org/isni/109071380",
+    "rawName": "s Andries"
+   },
+   "pubDate": "1659",
+   "pubPlace": "Paris",
+   "printers": [
+    {
+     "role": "Libraire",
+     "ref": "PERS0022",
+     "name": "Florentin Lambert"
+    },
+    {
+     "role": "Libraire",
+     "ref": "PERS0024",
+     "name": "Hermann Weyer"
+    }
+   ],
+   "shelfmark": "8-Z LE SENNE-6243",
+   "arkNotice": "ark:/12148/cb31721367g",
+   "iiifManifest": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8597163/manifest.json",
+   "arkImages": "bpt6k8597163",
+   "nbImages": 259,
+   "languages": [
+    {
+     "ident": "fra",
+     "usage": 510
+    },
+    {
+     "ident": "lat",
+     "usage": 47
+    },
+    {
+     "ident": "grc",
+     "usage": 10
+    }
+   ],
+   "persons": [
+    {
+     "id": "pers-9b32bb7d-e861-47eb-ac52-1d1e2a317af8",
+     "name": "jesvs",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e7cb8641-0b82-4c11-b851-785f5cda7705",
+     "name": "pilate",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5b334ff5-735e-46b0-8108-7fc44fc245ee",
+     "name": "jesu Christe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a0a695bd-6cb4-4c54-bfbe-683efdc03e80",
+     "name": "irsvschrist",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4188636a-e368-4e71-8f32-4b655ab60a60",
+     "name": "Riginal",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-10535ed7-68db-44c9-8ab5-035c8ec03f5e",
+     "name": "Marie",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-07e2ae5d-ec82-4845-9403-dd1478e2d86d",
+     "name": "Siméon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2595f78c-27c9-421b-9a37-989760971881",
+     "name": "Pierre",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b538c10a-d7fb-4d82-895f-248b43f1eb3f",
+     "name": "cayphe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d5375dd6-dc48-427d-bd90-8e258a847222",
+     "name": "Mériman Zlheyen",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-81d52cf4-31b4-433a-a47f-dcc15fcfda22",
+     "name": "Anne",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7d0f0778-2d57-49dd-aba2-85ecc5e42d74",
+     "name": "Salomon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8e797eaa-8589-4112-b8b7-c8139e2aae33",
+     "name": "Iean",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c20a82c3-5d02-4538-8d5a-c5fe4b85bf0d",
+     "name": "origer",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-66650de6-2c8a-4ed5-92bc-a31c69f3e388",
+     "name": "Abram",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f38f5349-b3dd-465a-9912-492999c96058",
+     "name": "saumais",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-70abdd75-3b6b-41cc-81b6-a1aa2e116d5f",
+     "name": "dauid",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-19ca29a5-dc9d-46fa-bce9-1002bf5a8760",
+     "name": "divin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f4f87123-e021-47e0-b82a-cdc53c52732c",
+     "name": "Daniel",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b0eb9366-807e-428a-b280-39a7361a378e",
+     "name": "iisvi",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9d82ef1b-7e22-49eb-b5ef-91f5d3debe88",
+     "name": "marier de beauvillier",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ca015ac5-d33c-4051-9702-a2259a077232",
+     "name": "Florentin lambert",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-71e8314b-583c-4c3e-87f6-d43c909d5adb",
+     "name": "Hièremie",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f8f5693f-029b-43da-ab05-031d66bfb8e3",
+     "name": "isaac",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b4238312-07e8-4f51-b4af-f5c3e545e52f",
+     "name": "Moïse",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-6873b6f5-1bfe-4a47-8b3d-062fd58850a8",
+     "name": "heupruse",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bae11ee1-3b99-4bbd-ad17-c1faab59c470",
+     "name": "Judas",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-3cb5a32d-8909-4b3b-8b33-c7634f2f6e95",
+     "name": "l",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b3fcec58-a582-4541-951b-be0c07eba770",
+     "name": "Leonard Lefsius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b7fa0fcf-8083-4514-849e-c6966155585a",
+     "name": "Jean",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c232b95d-6dd1-413f-8ec2-d865f904eb94",
+     "name": "joab",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2e3403d7-efd3-4c73-85c4-8a3012248d1c",
+     "name": "hostie",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d9ff7e37-9594-4778-9314-ecc0ef9d3a7f",
+     "name": "autel",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-29dd87b5-8604-4ef7-ba9e-0d280de27a16",
+     "name": "bellarmin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2bc419c6-d09f-4a9b-8228-bcf69105348e",
+     "name": "sunamite",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4538bd4a-7e2c-4c42-bab3-d994dffcfe18",
+     "name": "saint Jean",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-45a5c022-ecfc-4462-82c9-8d1101df6d79",
+     "name": "Éminentissime cardinal Robert Bellarmin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-81bc83f8-6e14-4330-9d52-aa2a306c86e4",
+     "name": "Hermen htleyen",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4ae33526-bd55-4dda-a8e0-f130f4649d53",
+     "name": "caidhe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-12bc2e31-70ad-4a24-a0f2-21149c3a0793",
+     "name": "saint Augustin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-48f70680-9533-4027-ae12-64199e943489",
+     "name": "iacob",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-74e49e7a-f18c-454f-82be-f148f6446368",
+     "name": "je",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-28d245ed-b93f-46a5-b6f6-bafcde62e55b",
+     "name": "saint Anselme",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-54136332-ffd0-45ea-b16f-5095591ede21",
+     "name": "Mcemnan Jlawesn",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d88d7c4f-e61e-4977-9435-ab955194e969",
+     "name": "iosias",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-22d468d2-0c85-4f14-8543-15ae7719a74d",
+     "name": "chtr",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1d085419-989d-4bfe-9650-a40e60b606c0",
+     "name": "du chrétien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-813e0065-e958-44b1-ac6d-7fdeac126dcf",
+     "name": "igfus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bb64bbf8-c396-49d7-bb9e-ed65f3ff00dd",
+     "name": "César",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bae1cff8-8f02-494a-98b4-ddf24cecda6d",
+     "name": "poitiène",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9fc8a182-414c-462c-a532-e7bfc5cf1a9f",
+     "name": "gerson",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4ab72f9e-0ba1-4db7-8d49-51ecd76366d9",
+     "name": "s Marc 1",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-31be5260-f1f8-4bea-bf82-a6113a288061",
+     "name": "olivier Richecoeur",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-afb0b7ef-d221-4701-aaa2-6ed0d5421d8f",
+     "name": "saint Hierosme",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-800a6207-f475-48b8-b3cb-40a5a82e2d10",
+     "name": "s bonauenture",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e9721eac-633b-4533-9dcb-667b8c51ece9",
+     "name": "Larron",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b8666c30-dd3d-4001-ac81-eb32f876cf4b",
+     "name": "Darlée",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-979723a6-e2a6-48b7-b68b-fed0616f2a56",
+     "name": "eoraison",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7aa40ddf-34c7-445d-a81d-36d0566cdfe4",
+     "name": "saint Bernard",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ea2edf9a-ee81-4cb1-ab0f-4b7d5e4115ab",
+     "name": "le vierge",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-76d9e01e-0030-4146-996a-43c85f3e44af",
+     "name": "Dieu",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c8f7edf7-6bdf-4332-97c3-ff2a4641e3a4",
+     "name": "ami dévot",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d9ca05d3-3e35-4d03-ba80-5f5a3ed6179e",
+     "name": "Christe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b74d7cf4-af52-4756-9c89-345e4455ca16",
+     "name": "joseph",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8df8a5b6-a117-4f28-9d90-12c5c9462cac",
+     "name": "amer de Dieu",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e9f34c15-9214-40db-8db7-07534f868636",
+     "name": "Jodoma",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    }
+   ],
+   "defaultLayer": "reg",
+   "pageCount": 246,
+   "pages": [
+    {
+     "n": 1,
+     "facsId": "f2",
+     "printed": null
+    },
+    {
+     "n": 2,
+     "facsId": "f3",
+     "printed": null
+    },
+    {
+     "n": 3,
+     "facsId": "f9",
+     "printed": null
+    },
+    {
+     "n": 4,
+     "facsId": "f11",
+     "printed": null
+    },
+    {
+     "n": 5,
+     "facsId": "f13",
+     "printed": null
+    },
+    {
+     "n": 6,
+     "facsId": "f14",
+     "printed": null
+    },
+    {
+     "n": 7,
+     "facsId": "f15",
+     "printed": null
+    },
+    {
+     "n": 8,
+     "facsId": "f16",
+     "printed": null
+    },
+    {
+     "n": 9,
+     "facsId": "f17",
+     "printed": null
+    },
+    {
+     "n": 10,
+     "facsId": "f19",
+     "printed": null
+    },
+    {
+     "n": 11,
+     "facsId": "f20",
+     "printed": "2"
+    },
+    {
+     "n": 12,
+     "facsId": "f21",
+     "printed": null
+    },
+    {
+     "n": 13,
+     "facsId": "f22",
+     "printed": null
+    },
+    {
+     "n": 14,
+     "facsId": "f23",
+     "printed": null
+    },
+    {
+     "n": 15,
+     "facsId": "f24",
+     "printed": "6"
+    },
+    {
+     "n": 16,
+     "facsId": "f25",
+     "printed": null
+    },
+    {
+     "n": 17,
+     "facsId": "f26",
+     "printed": null
+    },
+    {
+     "n": 18,
+     "facsId": "f27",
+     "printed": null
+    },
+    {
+     "n": 19,
+     "facsId": "f28",
+     "printed": "0"
+    },
+    {
+     "n": 20,
+     "facsId": "f29",
+     "printed": "1"
+    },
+    {
+     "n": 21,
+     "facsId": "f30",
+     "printed": "̧3"
+    },
+    {
+     "n": 22,
+     "facsId": "f31",
+     "printed": null
+    },
+    {
+     "n": 23,
+     "facsId": "f32",
+     "printed": "14"
+    },
+    {
+     "n": 24,
+     "facsId": "f33",
+     "printed": null
+    },
+    {
+     "n": 25,
+     "facsId": "f34",
+     "printed": "16"
+    },
+    {
+     "n": 26,
+     "facsId": "f35",
+     "printed": null
+    },
+    {
+     "n": 27,
+     "facsId": "f36",
+     "printed": "18"
+    },
+    {
+     "n": 28,
+     "facsId": "f37",
+     "printed": null
+    },
+    {
+     "n": 29,
+     "facsId": "f38",
+     "printed": "20"
+    },
+    {
+     "n": 30,
+     "facsId": "f39",
+     "printed": "2i"
+    },
+    {
+     "n": 31,
+     "facsId": "f40",
+     "printed": "22"
+    },
+    {
+     "n": 32,
+     "facsId": "f41",
+     "printed": "4"
+    },
+    {
+     "n": 33,
+     "facsId": "f42",
+     "printed": "24"
+    },
+    {
+     "n": 34,
+     "facsId": "f43",
+     "printed": "25"
+    },
+    {
+     "n": 35,
+     "facsId": "f44",
+     "printed": "26"
+    },
+    {
+     "n": 36,
+     "facsId": "f45",
+     "printed": "y"
+    },
+    {
+     "n": 37,
+     "facsId": "f46",
+     "printed": "13"
+    },
+    {
+     "n": 38,
+     "facsId": "f47",
+     "printed": "25"
+    },
+    {
+     "n": 39,
+     "facsId": "f48",
+     "printed": null
+    },
+    {
+     "n": 40,
+     "facsId": "f49",
+     "printed": "31"
+    },
+    {
+     "n": 41,
+     "facsId": "f50",
+     "printed": "32"
+    },
+    {
+     "n": 42,
+     "facsId": "f51",
+     "printed": null
+    },
+    {
+     "n": 43,
+     "facsId": "f52",
+     "printed": "14"
+    },
+    {
+     "n": 44,
+     "facsId": "f53",
+     "printed": null
+    },
+    {
+     "n": 45,
+     "facsId": "f54",
+     "printed": null
+    },
+    {
+     "n": 46,
+     "facsId": "f55",
+     "printed": "37"
+    },
+    {
+     "n": 47,
+     "facsId": "f56",
+     "printed": "38"
+    },
+    {
+     "n": 48,
+     "facsId": "f57",
+     "printed": null
+    },
+    {
+     "n": 49,
+     "facsId": "f58",
+     "printed": "46"
+    },
+    {
+     "n": 50,
+     "facsId": "f59",
+     "printed": "41"
+    },
+    {
+     "n": 51,
+     "facsId": "f60",
+     "printed": "42"
+    },
+    {
+     "n": 52,
+     "facsId": "f61",
+     "printed": "43"
+    },
+    {
+     "n": 53,
+     "facsId": "f62",
+     "printed": null
+    },
+    {
+     "n": 54,
+     "facsId": "f63",
+     "printed": "45"
+    },
+    {
+     "n": 55,
+     "facsId": "f64",
+     "printed": "46"
+    },
+    {
+     "n": 56,
+     "facsId": "f65",
+     "printed": "47"
+    },
+    {
+     "n": 57,
+     "facsId": "f66",
+     "printed": "48"
+    },
+    {
+     "n": 58,
+     "facsId": "f67",
+     "printed": null
+    },
+    {
+     "n": 59,
+     "facsId": "f68",
+     "printed": null
+    },
+    {
+     "n": 60,
+     "facsId": "f69",
+     "printed": null
+    },
+    {
+     "n": 61,
+     "facsId": "f70",
+     "printed": "2"
+    },
+    {
+     "n": 62,
+     "facsId": "f71",
+     "printed": null
+    },
+    {
+     "n": 63,
+     "facsId": "f72",
+     "printed": null
+    },
+    {
+     "n": 64,
+     "facsId": "f73",
+     "printed": "5"
+    },
+    {
+     "n": 65,
+     "facsId": "f74",
+     "printed": null
+    },
+    {
+     "n": 66,
+     "facsId": "f75",
+     "printed": null
+    },
+    {
+     "n": 67,
+     "facsId": "f76",
+     "printed": null
+    },
+    {
+     "n": 68,
+     "facsId": "f77",
+     "printed": null
+    },
+    {
+     "n": 69,
+     "facsId": "f78",
+     "printed": "EO"
+    },
+    {
+     "n": 70,
+     "facsId": "f79",
+     "printed": "61"
+    },
+    {
+     "n": 71,
+     "facsId": "f80",
+     "printed": "s"
+    },
+    {
+     "n": 72,
+     "facsId": "f81",
+     "printed": "G3"
+    },
+    {
+     "n": 73,
+     "facsId": "f82",
+     "printed": null
+    },
+    {
+     "n": 74,
+     "facsId": "f83",
+     "printed": null
+    },
+    {
+     "n": 75,
+     "facsId": "f84",
+     "printed": "66"
+    },
+    {
+     "n": 76,
+     "facsId": "f85",
+     "printed": "57"
+    },
+    {
+     "n": 77,
+     "facsId": "f86",
+     "printed": "22"
+    },
+    {
+     "n": 78,
+     "facsId": "f87",
+     "printed": "65"
+    },
+    {
+     "n": 79,
+     "facsId": "f88",
+     "printed": "7O"
+    },
+    {
+     "n": 80,
+     "facsId": "f89",
+     "printed": "71"
+    },
+    {
+     "n": 81,
+     "facsId": "f90",
+     "printed": "2"
+    },
+    {
+     "n": 82,
+     "facsId": "f91",
+     "printed": null
+    },
+    {
+     "n": 83,
+     "facsId": "f92",
+     "printed": null
+    },
+    {
+     "n": 84,
+     "facsId": "f93",
+     "printed": null
+    },
+    {
+     "n": 85,
+     "facsId": "f94",
+     "printed": "76"
+    },
+    {
+     "n": 86,
+     "facsId": "f95",
+     "printed": null
+    },
+    {
+     "n": 87,
+     "facsId": "f96",
+     "printed": "8"
+    },
+    {
+     "n": 88,
+     "facsId": "f97",
+     "printed": null
+    },
+    {
+     "n": 89,
+     "facsId": "f98",
+     "printed": null
+    },
+    {
+     "n": 90,
+     "facsId": "f99",
+     "printed": "81"
+    },
+    {
+     "n": 91,
+     "facsId": "f100",
+     "printed": "g2"
+    },
+    {
+     "n": 92,
+     "facsId": "f101",
+     "printed": "G3"
+    },
+    {
+     "n": 93,
+     "facsId": "f102",
+     "printed": "4"
+    },
+    {
+     "n": 94,
+     "facsId": "f103",
+     "printed": null
+    },
+    {
+     "n": 95,
+     "facsId": "f104",
+     "printed": "76"
+    },
+    {
+     "n": 96,
+     "facsId": "f105",
+     "printed": "87"
+    },
+    {
+     "n": 97,
+     "facsId": "f106",
+     "printed": "88"
+    },
+    {
+     "n": 98,
+     "facsId": "f107",
+     "printed": null
+    },
+    {
+     "n": 99,
+     "facsId": "f108",
+     "printed": null
+    },
+    {
+     "n": 100,
+     "facsId": "f109",
+     "printed": null
+    },
+    {
+     "n": 101,
+     "facsId": "f110",
+     "printed": "2"
+    },
+    {
+     "n": 102,
+     "facsId": "f111",
+     "printed": null
+    },
+    {
+     "n": 103,
+     "facsId": "f112",
+     "printed": "94"
+    },
+    {
+     "n": 104,
+     "facsId": "f113",
+     "printed": null
+    },
+    {
+     "n": 105,
+     "facsId": "f114",
+     "printed": "o"
+    },
+    {
+     "n": 106,
+     "facsId": "f115",
+     "printed": null
+    },
+    {
+     "n": 107,
+     "facsId": "f116",
+     "printed": null
+    },
+    {
+     "n": 108,
+     "facsId": "f117",
+     "printed": null
+    },
+    {
+     "n": 109,
+     "facsId": "f118",
+     "printed": "¿8"
+    },
+    {
+     "n": 110,
+     "facsId": "f119",
+     "printed": null
+    },
+    {
+     "n": 111,
+     "facsId": "f120",
+     "printed": "100"
+    },
+    {
+     "n": 112,
+     "facsId": "f121",
+     "printed": "101i"
+    },
+    {
+     "n": 113,
+     "facsId": "f122",
+     "printed": "162"
+    },
+    {
+     "n": 114,
+     "facsId": "f123",
+     "printed": "183"
+    },
+    {
+     "n": 115,
+     "facsId": "f124",
+     "printed": "I04"
+    },
+    {
+     "n": 116,
+     "facsId": "f125",
+     "printed": "105"
+    },
+    {
+     "n": 117,
+     "facsId": "f126",
+     "printed": "106"
+    },
+    {
+     "n": 118,
+     "facsId": "f127",
+     "printed": "1O7"
+    },
+    {
+     "n": 119,
+     "facsId": "f128",
+     "printed": "SOS"
+    },
+    {
+     "n": 120,
+     "facsId": "f129",
+     "printed": "109"
+    },
+    {
+     "n": 121,
+     "facsId": "f130",
+     "printed": null
+    },
+    {
+     "n": 122,
+     "facsId": "f131",
+     "printed": "11"
+    },
+    {
+     "n": 123,
+     "facsId": "f132",
+     "printed": null
+    },
+    {
+     "n": 124,
+     "facsId": "f133",
+     "printed": "113"
+    },
+    {
+     "n": 125,
+     "facsId": "f134",
+     "printed": "I14"
+    },
+    {
+     "n": 126,
+     "facsId": "f135",
+     "printed": "15"
+    },
+    {
+     "n": 127,
+     "facsId": "f136",
+     "printed": "I 6"
+    },
+    {
+     "n": 128,
+     "facsId": "f137",
+     "printed": "I77"
+    },
+    {
+     "n": 129,
+     "facsId": "f138",
+     "printed": "118"
+    },
+    {
+     "n": 130,
+     "facsId": "f139",
+     "printed": "115"
+    },
+    {
+     "n": 131,
+     "facsId": "f140",
+     "printed": "TæO"
+    },
+    {
+     "n": 132,
+     "facsId": "f141",
+     "printed": "121"
+    },
+    {
+     "n": 133,
+     "facsId": "f142",
+     "printed": "122"
+    },
+    {
+     "n": 134,
+     "facsId": "f143",
+     "printed": "123"
+    },
+    {
+     "n": 135,
+     "facsId": "f144",
+     "printed": null
+    },
+    {
+     "n": 136,
+     "facsId": "f145",
+     "printed": "125"
+    },
+    {
+     "n": 137,
+     "facsId": "f146",
+     "printed": "126"
+    },
+    {
+     "n": 138,
+     "facsId": "f147",
+     "printed": "127"
+    },
+    {
+     "n": 139,
+     "facsId": "f148",
+     "printed": null
+    },
+    {
+     "n": 140,
+     "facsId": "f149",
+     "printed": "M29"
+    },
+    {
+     "n": 141,
+     "facsId": "f150",
+     "printed": null
+    },
+    {
+     "n": 142,
+     "facsId": "f151",
+     "printed": "131"
+    },
+    {
+     "n": 143,
+     "facsId": "f152",
+     "printed": "132"
+    },
+    {
+     "n": 144,
+     "facsId": "f153",
+     "printed": "33"
+    },
+    {
+     "n": 145,
+     "facsId": "f154",
+     "printed": "134"
+    },
+    {
+     "n": 146,
+     "facsId": "f155",
+     "printed": "33"
+    },
+    {
+     "n": 147,
+     "facsId": "f156",
+     "printed": "136"
+    },
+    {
+     "n": 148,
+     "facsId": "f157",
+     "printed": "r57"
+    },
+    {
+     "n": 149,
+     "facsId": "f158",
+     "printed": "138"
+    },
+    {
+     "n": 150,
+     "facsId": "f159",
+     "printed": "Y39"
+    },
+    {
+     "n": 151,
+     "facsId": "f160",
+     "printed": null
+    },
+    {
+     "n": 152,
+     "facsId": "f161",
+     "printed": "141"
+    },
+    {
+     "n": 153,
+     "facsId": "f162",
+     "printed": null
+    },
+    {
+     "n": 154,
+     "facsId": "f163",
+     "printed": "145"
+    },
+    {
+     "n": 155,
+     "facsId": "f164",
+     "printed": "144"
+    },
+    {
+     "n": 156,
+     "facsId": "f165",
+     "printed": "i45"
+    },
+    {
+     "n": 157,
+     "facsId": "f166",
+     "printed": "146"
+    },
+    {
+     "n": 158,
+     "facsId": "f167",
+     "printed": "P47"
+    },
+    {
+     "n": 159,
+     "facsId": "f168",
+     "printed": "148"
+    },
+    {
+     "n": 160,
+     "facsId": "f169",
+     "printed": "149"
+    },
+    {
+     "n": 161,
+     "facsId": "f170",
+     "printed": "150"
+    },
+    {
+     "n": 162,
+     "facsId": "f171",
+     "printed": null
+    },
+    {
+     "n": 163,
+     "facsId": "f172",
+     "printed": "34"
+    },
+    {
+     "n": 164,
+     "facsId": "f173",
+     "printed": null
+    },
+    {
+     "n": 165,
+     "facsId": "f174",
+     "printed": "I54"
+    },
+    {
+     "n": 166,
+     "facsId": "f175",
+     "printed": null
+    },
+    {
+     "n": 167,
+     "facsId": "f176",
+     "printed": "156"
+    },
+    {
+     "n": 168,
+     "facsId": "f177",
+     "printed": null
+    },
+    {
+     "n": 169,
+     "facsId": "f178",
+     "printed": null
+    },
+    {
+     "n": 170,
+     "facsId": "f179",
+     "printed": "159"
+    },
+    {
+     "n": 171,
+     "facsId": "f180",
+     "printed": "I60"
+    },
+    {
+     "n": 172,
+     "facsId": "f181",
+     "printed": "161"
+    },
+    {
+     "n": 173,
+     "facsId": "f182",
+     "printed": "162"
+    },
+    {
+     "n": 174,
+     "facsId": "f183",
+     "printed": "ŕ;"
+    },
+    {
+     "n": 175,
+     "facsId": "f184",
+     "printed": "164"
+    },
+    {
+     "n": 176,
+     "facsId": "f185",
+     "printed": "r65"
+    },
+    {
+     "n": 177,
+     "facsId": "f186",
+     "printed": "1e6"
+    },
+    {
+     "n": 178,
+     "facsId": "f187",
+     "printed": "167"
+    },
+    {
+     "n": 179,
+     "facsId": "f188",
+     "printed": null
+    },
+    {
+     "n": 180,
+     "facsId": "f189",
+     "printed": "169"
+    },
+    {
+     "n": 181,
+     "facsId": "f190",
+     "printed": null
+    },
+    {
+     "n": 182,
+     "facsId": "f191",
+     "printed": null
+    },
+    {
+     "n": 183,
+     "facsId": "f192",
+     "printed": null
+    },
+    {
+     "n": 184,
+     "facsId": "f193",
+     "printed": null
+    },
+    {
+     "n": 185,
+     "facsId": "f194",
+     "printed": "174"
+    },
+    {
+     "n": 186,
+     "facsId": "f195",
+     "printed": "A75"
+    },
+    {
+     "n": 187,
+     "facsId": "f196",
+     "printed": "176"
+    },
+    {
+     "n": 188,
+     "facsId": "f197",
+     "printed": null
+    },
+    {
+     "n": 189,
+     "facsId": "f198",
+     "printed": "178"
+    },
+    {
+     "n": 190,
+     "facsId": "f199",
+     "printed": "I79"
+    },
+    {
+     "n": 191,
+     "facsId": "f200",
+     "printed": "180"
+    },
+    {
+     "n": 192,
+     "facsId": "f201",
+     "printed": "I81"
+    },
+    {
+     "n": 193,
+     "facsId": "f202",
+     "printed": "182"
+    },
+    {
+     "n": 194,
+     "facsId": "f203",
+     "printed": "183"
+    },
+    {
+     "n": 195,
+     "facsId": "f204",
+     "printed": "184"
+    },
+    {
+     "n": 196,
+     "facsId": "f205",
+     "printed": null
+    },
+    {
+     "n": 197,
+     "facsId": "f206",
+     "printed": "186"
+    },
+    {
+     "n": 198,
+     "facsId": "f207",
+     "printed": "187"
+    },
+    {
+     "n": 199,
+     "facsId": "f208",
+     "printed": "¡81"
+    },
+    {
+     "n": 200,
+     "facsId": "f209",
+     "printed": "9"
+    },
+    {
+     "n": 201,
+     "facsId": "f210",
+     "printed": null
+    },
+    {
+     "n": 202,
+     "facsId": "f211",
+     "printed": "191"
+    },
+    {
+     "n": 203,
+     "facsId": "f212",
+     "printed": "192"
+    },
+    {
+     "n": 204,
+     "facsId": "f213",
+     "printed": "19"
+    },
+    {
+     "n": 205,
+     "facsId": "f214",
+     "printed": "194"
+    },
+    {
+     "n": 206,
+     "facsId": "f215",
+     "printed": "A"
+    },
+    {
+     "n": 207,
+     "facsId": "f216",
+     "printed": null
+    },
+    {
+     "n": 208,
+     "facsId": "f217",
+     "printed": "197"
+    },
+    {
+     "n": 209,
+     "facsId": "f218",
+     "printed": null
+    },
+    {
+     "n": 210,
+     "facsId": "f219",
+     "printed": "198"
+    },
+    {
+     "n": 211,
+     "facsId": "f220",
+     "printed": "200"
+    },
+    {
+     "n": 212,
+     "facsId": "f221",
+     "printed": null
+    },
+    {
+     "n": 213,
+     "facsId": "f222",
+     "printed": "202"
+    },
+    {
+     "n": 214,
+     "facsId": "f223",
+     "printed": "LO3"
+    },
+    {
+     "n": 215,
+     "facsId": "f224",
+     "printed": "204"
+    },
+    {
+     "n": 216,
+     "facsId": "f225",
+     "printed": null
+    },
+    {
+     "n": 217,
+     "facsId": "f226",
+     "printed": null
+    },
+    {
+     "n": 218,
+     "facsId": "f227",
+     "printed": null
+    },
+    {
+     "n": 219,
+     "facsId": "f228",
+     "printed": null
+    },
+    {
+     "n": 220,
+     "facsId": "f229",
+     "printed": null
+    },
+    {
+     "n": 221,
+     "facsId": "f230",
+     "printed": null
+    },
+    {
+     "n": 222,
+     "facsId": "f231",
+     "printed": null
+    },
+    {
+     "n": 223,
+     "facsId": "f232",
+     "printed": null
+    },
+    {
+     "n": 224,
+     "facsId": "f233",
+     "printed": null
+    },
+    {
+     "n": 225,
+     "facsId": "f234",
+     "printed": "18"
+    },
+    {
+     "n": 226,
+     "facsId": "f235",
+     "printed": null
+    },
+    {
+     "n": 227,
+     "facsId": "f236",
+     "printed": null
+    },
+    {
+     "n": 228,
+     "facsId": "f237",
+     "printed": null
+    },
+    {
+     "n": 229,
+     "facsId": "f238",
+     "printed": "14"
+    },
+    {
+     "n": 230,
+     "facsId": "f239",
+     "printed": null
+    },
+    {
+     "n": 231,
+     "facsId": "f240",
+     "printed": null
+    },
+    {
+     "n": 232,
+     "facsId": "f241",
+     "printed": null
+    },
+    {
+     "n": 233,
+     "facsId": "f242",
+     "printed": null
+    },
+    {
+     "n": 234,
+     "facsId": "f243",
+     "printed": null
+    },
+    {
+     "n": 235,
+     "facsId": "f244",
+     "printed": "20"
+    },
+    {
+     "n": 236,
+     "facsId": "f245",
+     "printed": "21"
+    },
+    {
+     "n": 237,
+     "facsId": "f246",
+     "printed": "32"
+    },
+    {
+     "n": 238,
+     "facsId": "f247",
+     "printed": null
+    },
+    {
+     "n": 239,
+     "facsId": "f248",
+     "printed": null
+    },
+    {
+     "n": 240,
+     "facsId": "f249",
+     "printed": null
+    },
+    {
+     "n": 241,
+     "facsId": "f250",
+     "printed": null
+    },
+    {
+     "n": 242,
+     "facsId": "f251",
+     "printed": null
+    },
+    {
+     "n": 243,
+     "facsId": "f252",
+     "printed": null
+    },
+    {
+     "n": 244,
+     "facsId": "f256",
+     "printed": null
+    },
+    {
+     "n": 245,
+     "facsId": "f257",
+     "printed": null
+    },
+    {
+     "n": 246,
+     "facsId": "f259",
+     "printed": null
+    }
+   ]
+  },
+  "LIV0010": {
+   "id": "LIV0010",
+   "title": "Itinerarium",
+   "author": {
+    "name": "Louis-Henri de Loménie",
+    "ref": "PERS0037",
+    "birth": {
+     "when": "1635",
+     "place": "Paris"
+    },
+    "death": {
+     "when": null,
+     "place": "Château-Landon (Seine-et-Marne)"
+    },
+    "ark": "ark:/12148/cb130108825",
+    "isni": null
+   },
+   "pubDate": "1662",
+   "pubPlace": "Paris",
+   "printers": [
+    {
+     "role": "Libraire",
+     "ref": "PERS0038",
+     "name": "Claude Cramoisy"
+    },
+    {
+     "role": "Libraire",
+     "ref": "PERS0129",
+     "name": "Jean du Bray"
+    },
+    {
+     "role": "Éditeur",
+     "ref": "PERS0128",
+     "name": "Charles Patin"
+    }
+   ],
+   "shelfmark": "G-10903",
+   "arkNotice": "ark:/12148/cb30829649b",
+   "iiifManifest": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1065194/manifest.json",
+   "arkImages": "bpt6k1065194",
+   "nbImages": 124,
+   "languages": [
+    {
+     "ident": "lat",
+     "usage": 196
+    },
+    {
+     "ident": "fra",
+     "usage": 72
+    }
+   ],
+   "persons": [
+    {
+     "id": "pers-82c91005-14fb-4c61-85cc-2d399ff58e95",
+     "name": "Lomenius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0384fdfd-7fa2-4ab7-9dd6-269ad3089b35",
+     "name": "Auaugurius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b491654f-ec24-4fd2-a941-e41929d5866e",
+     "name": "Ariostus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-11e43b7e-73a7-4636-80a3-7319eb0b568a",
+     "name": "Brienneus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ee8cbc49-f594-4053-9f94-510321462fc6",
+     "name": "Christina",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-02bffddb-7b59-4c7b-9046-87815214b686",
+     "name": "Chanutius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7e30b160-7069-4631-9c03-2eb13e93a618",
+     "name": "regina Ludouices Maria Gorzaga",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fb868998-0195-48c6-84b1-a484589cb0c6",
+     "name": "Camoena",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fb9790cf-6153-4a85-adeb-a912e8d0c06d",
+     "name": "Olomutius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a0bd0a60-8584-48a1-a80e-49e7954f2d6b",
+     "name": "ludis Her Lomenius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1b9c2ecb-7c12-4f7c-a1b4-a78bba6e1f6b",
+     "name": "Brienna comes",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c82f4d74-04b9-466b-b572-f8e78574cc4e",
+     "name": "Catullus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-69400abe-504c-4f5e-a96c-124e1c4c4a79",
+     "name": "Descartes",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f126b537-1263-4d53-a7aa-acb28b5865d3",
+     "name": "Manima",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f16f4129-e996-4e87-a5eb-929c1319d98f",
+     "name": "Gorzaga",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e2e0ab1d-e6c7-476e-b790-abe8fe67cdc9",
+     "name": "Gustauus Magnus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-14527499-8111-4448-91ac-2413d927ac7b",
+     "name": "Ulanislaus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-293e2c96-7188-4ecc-a967-62f595b34174",
+     "name": "Oenipontius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1e41cb60-d396-4e54-bd7e-980313802f33",
+     "name": "Ioannes Philippus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9d003f36-1330-4d3f-94a6-d71e996676f1",
+     "name": "Franciscus Ogerius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5d37a689-f2c0-4ceb-9fbc-e8eb2d58d026",
+     "name": "larius Oxenstiernus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-743664b0-9a04-4c44-a262-c62239a1e705",
+     "name": "Gustauus Hornius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-359bc9bb-6794-4f24-a824-be8c586e3935",
+     "name": "Henricus Ranthouius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fe66022f-c137-41f2-9bb2-e9640e211aa6",
+     "name": "Eugenius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-83ea29a3-df0c-4dda-bb30-8c36013575b0",
+     "name": "Beniaminus Priolus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b7a56f1d-78f5-4801-ae3a-09c447ee1ac4",
+     "name": "Catilina",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b63a487a-b275-4e56-ac72-1c2c25ea8b69",
+     "name": "Popielus rex",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d62d38f2-a6c6-4100-bad0-f7cd09113721",
+     "name": "Bohemia",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-47c3d9e9-27ba-4eed-80f8-4f9c7b9da45b",
+     "name": "Susanus comes",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-cbfd79d2-11a2-477f-9e4c-5c41dfd7a4f8",
+     "name": "Cossartius semis1 1",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c6181b4f-5032-4c34-bc2f-9707c79ec682",
+     "name": "ferdinor Romani rex",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f8c155f8-6abf-405a-9d70-31dca4b2f993",
+     "name": "Nouiomagus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-98c26a66-d25d-4c2e-bb1a-aa2e9c682a0d",
+     "name": "Dordraces",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-05e244db-7f36-4c4e-bbae-63bf06704d20",
+     "name": "uua Fiasconia",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-82975e75-46bb-4c2b-899a-440d5bc64b3d",
+     "name": "Lioneus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-21097924-cf91-424a-85e3-7d4a687b571b",
+     "name": "roterodo",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5f6afe41-bbc8-48d4-a6ff-bf2b7670a1a7",
+     "name": "Bromius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bffe06a0-0d17-428e-88a6-ca072aa0614b",
+     "name": "Carolus Carolus Gustauus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-26fb7bd2-cc30-44e0-ba9a-2e9dd9929fa8",
+     "name": "cardinalis Mazarinus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-20c4c909-143c-4e73-8152-1ffcefed1adb",
+     "name": "Alemannus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a3cb33d2-ae24-4bc9-8b78-7d0223d02e51",
+     "name": "Uiator",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-153d6241-5679-46fa-b272-a4014aa02a89",
+     "name": "Liuius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c6b0880d-faa1-48ef-8387-74ae79c48c28",
+     "name": "Crispus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c7c1bffd-f9d7-4323-b3a8-c06674b78c0e",
+     "name": "Gabriel Cossartius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-845a9783-e18b-4b4f-8aad-f816261d1e49",
+     "name": "Mentelius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bf5971d2-d086-4c00-8a07-2dd869de13f4",
+     "name": "herus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-edd6b85a-3103-4c87-8b23-6ad142d25190",
+     "name": "Sigisnundus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5c73f1b3-adca-4738-a37b-4b7c2faf2f3e",
+     "name": "Piaserius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f8337a05-e5d7-4ec3-85df-765e8fccee41",
+     "name": "Magontinus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ecbda1da-e31a-4b64-81b4-f4ad434b1ba0",
+     "name": "Hetroscus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-015d2b7a-e49f-4a08-98aa-8e7ed305c77c",
+     "name": "Ludouices",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1358b428-23e8-403a-8a9b-a164744bd34e",
+     "name": "guillelmus Arausionenses princeps1",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2372fb13-5560-4489-a79b-b08f564381c8",
+     "name": "Cardinalis Grimaldus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-505750dd-b4a8-46e7-bbca-e5a9ab6139d7",
+     "name": "illustris Brienne",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e94f6d37-f3b0-491a-83a8-2baa7f3a1742",
+     "name": "Auaugurius magnus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-811f68a2-8542-4035-b775-e0439ab59ce9",
+     "name": "Pierides",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7123d820-7664-4103-8c1f-2612d4b2ef9f",
+     "name": "elector Brandeburgicus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f5d8959b-1691-4952-b344-1486f87dd086",
+     "name": "Germani Episcopus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-99851fe3-1e8a-4e26-af9c-78c7677c4787",
+     "name": "Magontiacum elector",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9312f2be-0e07-4737-bc17-b389756ecedb",
+     "name": "mestrer Venetias 3",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e73a7e1b-4242-40e0-ba24-7b94b6a9b016",
+     "name": "5 Dantas",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-19d21f57-868a-4225-8748-11826893b702",
+     "name": "Groeningensis",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d51a274e-1df6-4b8a-8e6a-d1f47670243a",
+     "name": "Caesar",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-95f0dfe2-7787-45f7-b5c2-5b7f48966a46",
+     "name": "Lucus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e1fb975c-338e-4971-9d30-c5b448b47a67",
+     "name": "Ualentinianus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-93c9165a-14db-4ca3-bf04-2c4d78bbd078",
+     "name": "Charleuoius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5a94c806-e960-4e33-a83c-40b44c181a9d",
+     "name": "Ludouici Henricus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7db8ab46-0000-4e34-be77-f884ac0f517f",
+     "name": "Herletus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-3774eda3-330f-4547-a0b4-34c465f847d8",
+     "name": "Sextus Lucas",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5d833513-9603-4915-a8a1-70c102d5a81f",
+     "name": "Bataui",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9fcd4dbd-c217-4653-bcc5-f40c4bd37900",
+     "name": "Fridericus tertius impedio",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d746377f-5ce8-463a-910e-8c296ca5e962",
+     "name": "Nero",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-03172aea-22c2-41bf-8ad7-029e2fb4abc1",
+     "name": "Cynthius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    }
+   ],
+   "defaultLayer": "orig",
+   "pageCount": 124,
+   "pages": [
+    {
+     "n": 1,
+     "facsId": "f0-np",
+     "printed": null
+    },
+    {
+     "n": 2,
+     "facsId": "f1-np",
+     "printed": null
+    },
+    {
+     "n": 3,
+     "facsId": "f2-np",
+     "printed": null
+    },
+    {
+     "n": 4,
+     "facsId": "f3-np",
+     "printed": null
+    },
+    {
+     "n": 5,
+     "facsId": "f4-np",
+     "printed": null
+    },
+    {
+     "n": 6,
+     "facsId": "f5-np",
+     "printed": null
+    },
+    {
+     "n": 7,
+     "facsId": "f6-np",
+     "printed": null
+    },
+    {
+     "n": 8,
+     "facsId": "f7-np",
+     "printed": null
+    },
+    {
+     "n": 9,
+     "facsId": "f8-np",
+     "printed": null
+    },
+    {
+     "n": 10,
+     "facsId": "f9-np",
+     "printed": null
+    },
+    {
+     "n": 11,
+     "facsId": "f10-np",
+     "printed": null
+    },
+    {
+     "n": 12,
+     "facsId": "f11-np",
+     "printed": null
+    },
+    {
+     "n": 13,
+     "facsId": "f12-np",
+     "printed": null
+    },
+    {
+     "n": 14,
+     "facsId": "f13-np",
+     "printed": null
+    },
+    {
+     "n": 15,
+     "facsId": "f14-np",
+     "printed": null
+    },
+    {
+     "n": 16,
+     "facsId": "f15-np",
+     "printed": null
+    },
+    {
+     "n": 17,
+     "facsId": "f16-np",
+     "printed": null
+    },
+    {
+     "n": 18,
+     "facsId": "f17-np",
+     "printed": "A"
+    },
+    {
+     "n": 19,
+     "facsId": "f18-np",
+     "printed": null
+    },
+    {
+     "n": 20,
+     "facsId": "f19-np",
+     "printed": null
+    },
+    {
+     "n": 21,
+     "facsId": "f20-np",
+     "printed": null
+    },
+    {
+     "n": 22,
+     "facsId": "f21-np",
+     "printed": null
+    },
+    {
+     "n": 23,
+     "facsId": "f22-np",
+     "printed": null
+    },
+    {
+     "n": 24,
+     "facsId": "f23-np",
+     "printed": null
+    },
+    {
+     "n": 25,
+     "facsId": "f24-np",
+     "printed": null
+    },
+    {
+     "n": 26,
+     "facsId": "f25-np",
+     "printed": null
+    },
+    {
+     "n": 27,
+     "facsId": "f26-1",
+     "printed": "1"
+    },
+    {
+     "n": 28,
+     "facsId": "f27-2",
+     "printed": "2"
+    },
+    {
+     "n": 29,
+     "facsId": "f28-3",
+     "printed": "3"
+    },
+    {
+     "n": 30,
+     "facsId": "f29-4",
+     "printed": "4"
+    },
+    {
+     "n": 31,
+     "facsId": "f30-5",
+     "printed": "5"
+    },
+    {
+     "n": 32,
+     "facsId": "f31-6",
+     "printed": "6"
+    },
+    {
+     "n": 33,
+     "facsId": "f32-7",
+     "printed": "7"
+    },
+    {
+     "n": 34,
+     "facsId": "f33-8",
+     "printed": "8"
+    },
+    {
+     "n": 35,
+     "facsId": "f34-9",
+     "printed": "9"
+    },
+    {
+     "n": 36,
+     "facsId": "f35-10",
+     "printed": "10"
+    },
+    {
+     "n": 37,
+     "facsId": "f36-11",
+     "printed": "11"
+    },
+    {
+     "n": 38,
+     "facsId": "f37-12",
+     "printed": "12"
+    },
+    {
+     "n": 39,
+     "facsId": "f38-13",
+     "printed": "13"
+    },
+    {
+     "n": 40,
+     "facsId": "f39-14",
+     "printed": "14"
+    },
+    {
+     "n": 41,
+     "facsId": "f40-15",
+     "printed": "15"
+    },
+    {
+     "n": 42,
+     "facsId": "f41-16",
+     "printed": "16"
+    },
+    {
+     "n": 43,
+     "facsId": "f42-17",
+     "printed": "17"
+    },
+    {
+     "n": 44,
+     "facsId": "f43-18",
+     "printed": "18"
+    },
+    {
+     "n": 45,
+     "facsId": "f44-19",
+     "printed": "19"
+    },
+    {
+     "n": 46,
+     "facsId": "f45-20",
+     "printed": "20"
+    },
+    {
+     "n": 47,
+     "facsId": "f46-21",
+     "printed": "21"
+    },
+    {
+     "n": 48,
+     "facsId": "f47-22",
+     "printed": "22"
+    },
+    {
+     "n": 49,
+     "facsId": "f48-23",
+     "printed": "23"
+    },
+    {
+     "n": 50,
+     "facsId": "f49-24",
+     "printed": "24"
+    },
+    {
+     "n": 51,
+     "facsId": "f50-25",
+     "printed": "25"
+    },
+    {
+     "n": 52,
+     "facsId": "f51-26",
+     "printed": "26"
+    },
+    {
+     "n": 53,
+     "facsId": "f52-27",
+     "printed": "27"
+    },
+    {
+     "n": 54,
+     "facsId": "f53-28",
+     "printed": "28"
+    },
+    {
+     "n": 55,
+     "facsId": "f54-29",
+     "printed": "29"
+    },
+    {
+     "n": 56,
+     "facsId": "f55-30",
+     "printed": "30"
+    },
+    {
+     "n": 57,
+     "facsId": "f56-31",
+     "printed": "31"
+    },
+    {
+     "n": 58,
+     "facsId": "f57-32",
+     "printed": "32"
+    },
+    {
+     "n": 59,
+     "facsId": "f58-33",
+     "printed": "33"
+    },
+    {
+     "n": 60,
+     "facsId": "f59-34",
+     "printed": "34"
+    },
+    {
+     "n": 61,
+     "facsId": "f60-35",
+     "printed": "35"
+    },
+    {
+     "n": 62,
+     "facsId": "f61-36",
+     "printed": "36"
+    },
+    {
+     "n": 63,
+     "facsId": "f62-37",
+     "printed": "37"
+    },
+    {
+     "n": 64,
+     "facsId": "f63-38",
+     "printed": "38"
+    },
+    {
+     "n": 65,
+     "facsId": "f64-39",
+     "printed": "39"
+    },
+    {
+     "n": 66,
+     "facsId": "f65-40",
+     "printed": "40"
+    },
+    {
+     "n": 67,
+     "facsId": "f66-41",
+     "printed": "41"
+    },
+    {
+     "n": 68,
+     "facsId": "f67-42",
+     "printed": "42"
+    },
+    {
+     "n": 69,
+     "facsId": "f68-43",
+     "printed": "43"
+    },
+    {
+     "n": 70,
+     "facsId": "f69-44",
+     "printed": "44"
+    },
+    {
+     "n": 71,
+     "facsId": "f70-45",
+     "printed": "45"
+    },
+    {
+     "n": 72,
+     "facsId": "f71-46",
+     "printed": "46"
+    },
+    {
+     "n": 73,
+     "facsId": "f72-47",
+     "printed": "47"
+    },
+    {
+     "n": 74,
+     "facsId": "f73-48",
+     "printed": "48"
+    },
+    {
+     "n": 75,
+     "facsId": "f74-49",
+     "printed": "49"
+    },
+    {
+     "n": 76,
+     "facsId": "f75-50",
+     "printed": "50"
+    },
+    {
+     "n": 77,
+     "facsId": "f76-51",
+     "printed": "51"
+    },
+    {
+     "n": 78,
+     "facsId": "f77-52",
+     "printed": "52"
+    },
+    {
+     "n": 79,
+     "facsId": "f78-53",
+     "printed": "53"
+    },
+    {
+     "n": 80,
+     "facsId": "f79-54",
+     "printed": "54"
+    },
+    {
+     "n": 81,
+     "facsId": "f80-55",
+     "printed": "55"
+    },
+    {
+     "n": 82,
+     "facsId": "f81-56",
+     "printed": "56"
+    },
+    {
+     "n": 83,
+     "facsId": "f82-57",
+     "printed": "57"
+    },
+    {
+     "n": 84,
+     "facsId": "f83-58",
+     "printed": "58"
+    },
+    {
+     "n": 85,
+     "facsId": "f84-59",
+     "printed": "59"
+    },
+    {
+     "n": 86,
+     "facsId": "f85-60",
+     "printed": "60"
+    },
+    {
+     "n": 87,
+     "facsId": "f86-61",
+     "printed": "61"
+    },
+    {
+     "n": 88,
+     "facsId": "f87-62",
+     "printed": "62"
+    },
+    {
+     "n": 89,
+     "facsId": "f88-63",
+     "printed": "63"
+    },
+    {
+     "n": 90,
+     "facsId": "f89-64",
+     "printed": "64"
+    },
+    {
+     "n": 91,
+     "facsId": "f90-65",
+     "printed": "65"
+    },
+    {
+     "n": 92,
+     "facsId": "f91-66",
+     "printed": "66"
+    },
+    {
+     "n": 93,
+     "facsId": "f92-67",
+     "printed": "67"
+    },
+    {
+     "n": 94,
+     "facsId": "f93-68",
+     "printed": "68"
+    },
+    {
+     "n": 95,
+     "facsId": "f94-69",
+     "printed": "69"
+    },
+    {
+     "n": 96,
+     "facsId": "f95-70",
+     "printed": "70"
+    },
+    {
+     "n": 97,
+     "facsId": "f96-71",
+     "printed": "71"
+    },
+    {
+     "n": 98,
+     "facsId": "f97-72",
+     "printed": "72"
+    },
+    {
+     "n": 99,
+     "facsId": "f98-73",
+     "printed": "73"
+    },
+    {
+     "n": 100,
+     "facsId": "f99-74",
+     "printed": "74"
+    },
+    {
+     "n": 101,
+     "facsId": "f100-75",
+     "printed": "75"
+    },
+    {
+     "n": 102,
+     "facsId": "f101-76",
+     "printed": "76"
+    },
+    {
+     "n": 103,
+     "facsId": "f102-77",
+     "printed": "77"
+    },
+    {
+     "n": 104,
+     "facsId": "f103-78",
+     "printed": "78"
+    },
+    {
+     "n": 105,
+     "facsId": "f104-79",
+     "printed": "79"
+    },
+    {
+     "n": 106,
+     "facsId": "f105-80",
+     "printed": "80"
+    },
+    {
+     "n": 107,
+     "facsId": "f106-81",
+     "printed": "81"
+    },
+    {
+     "n": 108,
+     "facsId": "f107-82",
+     "printed": "82"
+    },
+    {
+     "n": 109,
+     "facsId": "f108-83",
+     "printed": "83"
+    },
+    {
+     "n": 110,
+     "facsId": "f109-84",
+     "printed": "84"
+    },
+    {
+     "n": 111,
+     "facsId": "f110-85",
+     "printed": "85"
+    },
+    {
+     "n": 112,
+     "facsId": "f111-86",
+     "printed": "86"
+    },
+    {
+     "n": 113,
+     "facsId": "f112-87",
+     "printed": "87"
+    },
+    {
+     "n": 114,
+     "facsId": "f113-88",
+     "printed": "88"
+    },
+    {
+     "n": 115,
+     "facsId": "f114-89",
+     "printed": "89"
+    },
+    {
+     "n": 116,
+     "facsId": "f115-90",
+     "printed": "90"
+    },
+    {
+     "n": 117,
+     "facsId": "f116-91",
+     "printed": "91"
+    },
+    {
+     "n": 118,
+     "facsId": "f117-92",
+     "printed": "92"
+    },
+    {
+     "n": 119,
+     "facsId": "f118-93",
+     "printed": "93"
+    },
+    {
+     "n": 120,
+     "facsId": "f119-94",
+     "printed": "94"
+    },
+    {
+     "n": 121,
+     "facsId": "f120-95",
+     "printed": "95"
+    },
+    {
+     "n": 122,
+     "facsId": "f121-96",
+     "printed": "96"
+    },
+    {
+     "n": 123,
+     "facsId": "f122-np",
+     "printed": null
+    },
+    {
+     "n": 124,
+     "facsId": "f123-np",
+     "printed": null
+    }
+   ]
+  },
+  "LIV0017": {
+   "id": "LIV0017",
+   "title": "Dialogue des causes de la corruption de l'éloquence",
+   "author": {
+    "name": "Tacite",
+    "ref": "PERS0054",
+    "birth": {
+     "when": "55",
+     "place": null
+    },
+    "death": null,
+    "ark": "ark:/12148/cb11887667z",
+    "isni": "https://isni.org/isni/121033889"
+   },
+   "pubDate": "1630",
+   "pubPlace": "Paris",
+   "printers": [
+    {
+     "role": "Libraire",
+     "ref": "PERS0013",
+     "name": "Jean Camusat"
+    },
+    {
+     "role": "Éditeur",
+     "ref": "PERS0012",
+     "name": "Louis Giry"
+    }
+   ],
+   "shelfmark": "X-342",
+   "arkNotice": "ark:/12148/cb31165844z",
+   "iiifManifest": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8620790x/manifest.json",
+   "arkImages": "btv1b8620790x",
+   "nbImages": 166,
+   "languages": [
+    {
+     "ident": "fra",
+     "usage": 323
+    },
+    {
+     "ident": "lat",
+     "usage": 76
+    }
+   ],
+   "persons": [
+    {
+     "id": "pers-5620e100-4828-42ae-8373-a619cad5060e",
+     "name": "Cicéron",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-98ad036f-b117-4efe-b629-e9a76598b92d",
+     "name": "maternus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-6845738d-5504-43b6-9024-e60eddcc24a0",
+     "name": "vatinius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ac22fad9-b5fc-4291-895e-b5d6177e7521",
+     "name": "messalla",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c50d7094-9534-4d58-9ad5-201ab85866ba",
+     "name": "Caluus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fab60edd-7d9e-4e12-8976-b0bc062cf98b",
+     "name": "saleius bassus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-18a0fcd4-eaa4-4518-8c6d-691213954e05",
+     "name": "Brutus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-39292c9d-3d14-4776-babd-705f0e57bcbc",
+     "name": "Caton",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d456689c-591e-4bb1-b81c-366adbb3e73f",
+     "name": "Démosthène",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a49c7394-f3fb-4d8e-825f-5d20a87d763c",
+     "name": "César",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-23894dac-6be4-451e-af60-1c9a6e23895d",
+     "name": "Tacite",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-85e6fe91-720d-4f23-93be-3a2b4ed3bcbe",
+     "name": "Crassus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-35acea12-0156-432f-87d4-5740190133db",
+     "name": "iules César",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a396a931-6771-49c1-b532-73a0ece6ee94",
+     "name": "Platon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-720957c5-bfc9-4db1-8733-b31019349daf",
+     "name": "coruinus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4ca94c40-bd48-4afe-8ee6-a15b708f4d89",
+     "name": "aper",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7791c33a-4b1a-46f4-be67-5b8bbe889ba4",
+     "name": "Lacédémone",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f6db82dd-5fe5-42d9-a74b-f8c20dc43dba",
+     "name": "Lysias",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-af846f7c-85e7-47eb-9cc3-1f940f142fe1",
+     "name": "Aurelia",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-42585258-eff7-4bbb-9236-656490f3b4f6",
+     "name": "gallion",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-20c9a0a0-f3bc-49f0-b0c2-1306ae848212",
+     "name": "Orphée",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a1323326-b6f3-41cb-bb4e-2aaa746db954",
+     "name": "Horace",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fea38c68-4d89-4a4e-a594-9944d396d98b",
+     "name": "Sergius Galba",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-25538868-cf90-423f-ac44-5f754153e3dd",
+     "name": "carpuisque",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bc89c147-0661-4b89-81e5-9cea462902cd",
+     "name": "archias",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d25e952c-f3d2-4b06-93cd-f8664749402e",
+     "name": "César Auguste",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2e385aa5-1c5c-4803-890d-4e0d8a7629b9",
+     "name": "Crispus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fe6f53da-9f60-4766-a267-b66013527b3b",
+     "name": "Quintilien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-22442843-0c5f-4e17-9ccf-2cfd8e44a22d",
+     "name": "Vespasian",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8f77b0d5-6a17-41c2-9a20-5ea02f69f592",
+     "name": "diatogue",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d839dbb8-3b06-4fc7-b8bc-3c0d0f0ca5e1",
+     "name": "Culius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-39d6b73e-36ac-4b4c-8528-55ccda5aecde",
+     "name": "Pacuuius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1eb20dda-390c-4d5d-87a7-43ba3e4b70f1",
+     "name": "Charles chappellain",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b3a4b198-f273-474e-bfed-70edc97294e9",
+     "name": "vibius car",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-6b91ea10-1559-4d0d-bf07-39555e9aeb22",
+     "name": "canutius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b7e259c2-5085-4af2-9dca-6408b3e6626a",
+     "name": "Marcellus eprius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-6ab6d1e9-9b67-43ff-b232-e6c9ca8c6a59",
+     "name": "lanature",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0641d407-9e89-4bea-8abc-74569e555b9f",
+     "name": "furnius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5fd0a0ff-099a-4ae8-be84-cbb80dfcd965",
+     "name": "Lentulus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-aa1c01e4-4c85-4c16-859f-d6959ce1a3ae",
+     "name": "l",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-dd4d4763-c9a5-4901-a52a-e9391edd3185",
+     "name": "Marcellus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-dca03007-ba76-4fab-a918-ce4011419455",
+     "name": "Caius graccus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-74178a71-3e29-4966-befd-b109af4480cf",
+     "name": "Cornelia",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0c4f4e53-2b11-4517-8a46-774d0d5ff5eb",
+     "name": "vipsanius messalla",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-eb6dc5c8-7d0f-4b7e-bfc5-2f84e4a7574a",
+     "name": "Lucilius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-44c2f897-3211-49e5-b98e-223065b8269f",
+     "name": "Gneius Pompeus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-81bd7869-3206-4fc0-83f2-96ac5a912707",
+     "name": "Dolabella",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-03f95523-3063-4f01-bf86-8c764638cd26",
+     "name": "comédien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bb46925e-6fea-4fd1-bfb2-77832e330255",
+     "name": "t Milo",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-6b91a6cc-580c-47e7-9f35-e1a49d936107",
+     "name": "Curiatius maternus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-43753ad0-5806-46db-95bd-d2df773ef3ee",
+     "name": "Sylla",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4562010f-93ea-4cbd-820d-a87f6aea5c0b",
+     "name": "eprius Marcellus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-96c404b1-e60d-4500-87f0-43059c9359ca",
+     "name": "Varius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d394e429-f019-47d5-bd58-09c8ff1da47b",
+     "name": "Lucain",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d7c9903d-e1b6-45fb-8f54-8a023b7906a2",
+     "name": "Gracchus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-90972b4d-6772-4140-956d-6d02568c2f62",
+     "name": "aufidius bassus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-21e8789f-67be-4186-921a-91c8670f1134",
+     "name": "mecenas",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0a7e4ab3-96df-4c88-b855-4def9e8bfc72",
+     "name": "juste Fabius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e3410fb7-276c-4edb-9e2c-d130a9201f39",
+     "name": "Virgile",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-743c8c64-bb7f-41cc-9425-07298c894277",
+     "name": "Pompeus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-23cbe5d5-8177-4214-a236-9481352ba8d6",
+     "name": "Sophocle",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7c7b5bdf-404d-44c9-aed5-6b7987a8a1da",
+     "name": "Seruilius nouianus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bf8e3c25-6686-41af-815c-b99b455bc897",
+     "name": "Philippe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-795f773f-11d6-45c8-a386-52075f3e29ec",
+     "name": "afer",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5082d714-d365-4107-87a1-21e4aad76beb",
+     "name": "Caius Lelius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-281db001-803d-47b7-86b0-2756f891bb97",
+     "name": "Cassius Seures",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-82ecf77c-97cc-4312-be2f-babc9fc97736",
+     "name": "l Bestia",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-397c9850-2b1d-4750-995d-4ad58597d9c7",
+     "name": "Cécina",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-43de7ab6-4e35-4dad-b4b6-4ce3f2d51ed0",
+     "name": "metrodorus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bff59fb8-afe7-47e6-a23c-febf97bff598",
+     "name": "vigenere",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-38d684b1-8e08-4032-8826-7bb3480d66e3",
+     "name": "Ménenius agrippa",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-526aa95b-05af-41cb-9c61-fa93667f202d",
+     "name": "Asiaticus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e85a8745-3210-46d3-8852-1e0174eadd3c",
+     "name": "julius Secundus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4c760e7a-4645-4ed3-8e09-a6e30dcbdf2c",
+     "name": "son lue",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-32e34007-2b01-4dd1-9f2d-0aec5afcf153",
+     "name": "appollon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8dc22cab-d19f-4938-a4c2-a8e2df3e5ee9",
+     "name": "lipse",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-6338471a-f44b-4b9e-a624-5e3084128030",
+     "name": "an c",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-666f49a5-a064-4f3b-8eab-855bb28498aa",
+     "name": "Varron",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d13d8516-01c1-4010-b0d8-a4a9929fbaa0",
+     "name": "Sisenna",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-056cecd2-4b5a-4c1a-89d9-e74bc5b9365c",
+     "name": "p Quintius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-44bacfc6-1f32-47ae-ab9e-5a0096a89509",
+     "name": "Caligula",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-63e42359-548c-4bca-ad5e-e5697e9b3fae",
+     "name": "éphèse",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4110ca16-9096-4d77-9eb2-e09e11f59e10",
+     "name": "Domitius aper",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b71b0682-1e9d-4046-b576-414a5c96d1c7",
+     "name": "ausfi",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fe2af4be-2915-4bf1-8290-065571112d77",
+     "name": "Agamemnon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-71433db8-485f-4ae1-b9c6-a9437c775ca3",
+     "name": "de graccus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4dd7f123-1950-4d89-b499-8f9de3972e1b",
+     "name": "Alexandre",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-83e73806-471f-40e5-9277-bafe8908be82",
+     "name": "Quintus Pédius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-47d87d87-d4a5-4106-8498-9309c16c1e0f",
+     "name": "Diodore le stoïque",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-40128b94-94b2-480b-b6a9-c527cb4eed34",
+     "name": "Caton le vieux",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-3f260de0-e1bb-4bc8-87d3-07b272127e07",
+     "name": "Lucius Crassus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5cada04b-077a-4930-83ce-c750c82b5ca5",
+     "name": "jeaurie bas yrees anjtere veterth",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    }
+   ],
+   "defaultLayer": "reg",
+   "pageCount": 163,
+   "pages": [
+    {
+     "n": 1,
+     "facsId": "f1",
+     "printed": null
+    },
+    {
+     "n": 2,
+     "facsId": "f2",
+     "printed": null
+    },
+    {
+     "n": 3,
+     "facsId": "f3",
+     "printed": null
+    },
+    {
+     "n": 4,
+     "facsId": "f4",
+     "printed": null
+    },
+    {
+     "n": 5,
+     "facsId": "f5",
+     "printed": null
+    },
+    {
+     "n": 6,
+     "facsId": "f6",
+     "printed": null
+    },
+    {
+     "n": 7,
+     "facsId": "f7",
+     "printed": null
+    },
+    {
+     "n": 8,
+     "facsId": "f8",
+     "printed": null
+    },
+    {
+     "n": 9,
+     "facsId": "f9",
+     "printed": null
+    },
+    {
+     "n": 10,
+     "facsId": "f10",
+     "printed": null
+    },
+    {
+     "n": 11,
+     "facsId": "f11",
+     "printed": null
+    },
+    {
+     "n": 12,
+     "facsId": "f12",
+     "printed": null
+    },
+    {
+     "n": 13,
+     "facsId": "f13",
+     "printed": null
+    },
+    {
+     "n": 14,
+     "facsId": "f14",
+     "printed": null
+    },
+    {
+     "n": 15,
+     "facsId": "f16",
+     "printed": null
+    },
+    {
+     "n": 16,
+     "facsId": "f17",
+     "printed": null
+    },
+    {
+     "n": 17,
+     "facsId": "f18",
+     "printed": null
+    },
+    {
+     "n": 18,
+     "facsId": "f19",
+     "printed": null
+    },
+    {
+     "n": 19,
+     "facsId": "f20",
+     "printed": null
+    },
+    {
+     "n": 20,
+     "facsId": "f21",
+     "printed": null
+    },
+    {
+     "n": 21,
+     "facsId": "f22",
+     "printed": null
+    },
+    {
+     "n": 22,
+     "facsId": "f23",
+     "printed": null
+    },
+    {
+     "n": 23,
+     "facsId": "f24",
+     "printed": null
+    },
+    {
+     "n": 24,
+     "facsId": "f25",
+     "printed": null
+    },
+    {
+     "n": 25,
+     "facsId": "f26",
+     "printed": null
+    },
+    {
+     "n": 26,
+     "facsId": "f27",
+     "printed": null
+    },
+    {
+     "n": 27,
+     "facsId": "f28",
+     "printed": null
+    },
+    {
+     "n": 28,
+     "facsId": "f29",
+     "printed": null
+    },
+    {
+     "n": 29,
+     "facsId": "f30",
+     "printed": null
+    },
+    {
+     "n": 30,
+     "facsId": "f31",
+     "printed": null
+    },
+    {
+     "n": 31,
+     "facsId": "f32",
+     "printed": null
+    },
+    {
+     "n": 32,
+     "facsId": "f33",
+     "printed": null
+    },
+    {
+     "n": 33,
+     "facsId": "f34",
+     "printed": null
+    },
+    {
+     "n": 34,
+     "facsId": "f35",
+     "printed": null
+    },
+    {
+     "n": 35,
+     "facsId": "f36",
+     "printed": null
+    },
+    {
+     "n": 36,
+     "facsId": "f37",
+     "printed": null
+    },
+    {
+     "n": 37,
+     "facsId": "f38",
+     "printed": null
+    },
+    {
+     "n": 38,
+     "facsId": "f39",
+     "printed": null
+    },
+    {
+     "n": 39,
+     "facsId": "f40",
+     "printed": null
+    },
+    {
+     "n": 40,
+     "facsId": "f41",
+     "printed": null
+    },
+    {
+     "n": 41,
+     "facsId": "f42",
+     "printed": null
+    },
+    {
+     "n": 42,
+     "facsId": "f43",
+     "printed": null
+    },
+    {
+     "n": 43,
+     "facsId": "f44",
+     "printed": null
+    },
+    {
+     "n": 44,
+     "facsId": "f45",
+     "printed": "2"
+    },
+    {
+     "n": 45,
+     "facsId": "f46",
+     "printed": null
+    },
+    {
+     "n": 46,
+     "facsId": "f47",
+     "printed": "4"
+    },
+    {
+     "n": 47,
+     "facsId": "f48",
+     "printed": null
+    },
+    {
+     "n": 48,
+     "facsId": "f49",
+     "printed": "6"
+    },
+    {
+     "n": 49,
+     "facsId": "f50",
+     "printed": null
+    },
+    {
+     "n": 50,
+     "facsId": "f51",
+     "printed": null
+    },
+    {
+     "n": 51,
+     "facsId": "f52",
+     "printed": null
+    },
+    {
+     "n": 52,
+     "facsId": "f53",
+     "printed": null
+    },
+    {
+     "n": 53,
+     "facsId": "f54",
+     "printed": "11"
+    },
+    {
+     "n": 54,
+     "facsId": "f55",
+     "printed": "12"
+    },
+    {
+     "n": 55,
+     "facsId": "f56",
+     "printed": "."
+    },
+    {
+     "n": 56,
+     "facsId": "f57",
+     "printed": null
+    },
+    {
+     "n": 57,
+     "facsId": "f58",
+     "printed": null
+    },
+    {
+     "n": 58,
+     "facsId": "f59",
+     "printed": null
+    },
+    {
+     "n": 59,
+     "facsId": "f60",
+     "printed": null
+    },
+    {
+     "n": 60,
+     "facsId": "f61",
+     "printed": "15"
+    },
+    {
+     "n": 61,
+     "facsId": "f62",
+     "printed": "4"
+    },
+    {
+     "n": 62,
+     "facsId": "f63",
+     "printed": "20"
+    },
+    {
+     "n": 63,
+     "facsId": "f64",
+     "printed": "21"
+    },
+    {
+     "n": 64,
+     "facsId": "f65",
+     "printed": null
+    },
+    {
+     "n": 65,
+     "facsId": "f66",
+     "printed": "A3"
+    },
+    {
+     "n": 66,
+     "facsId": "f67",
+     "printed": "24"
+    },
+    {
+     "n": 67,
+     "facsId": "f68",
+     "printed": "e25"
+    },
+    {
+     "n": 68,
+     "facsId": "f69",
+     "printed": null
+    },
+    {
+     "n": 69,
+     "facsId": "f70",
+     "printed": "2"
+    },
+    {
+     "n": 70,
+     "facsId": "f71",
+     "printed": "t8"
+    },
+    {
+     "n": 71,
+     "facsId": "f72",
+     "printed": "22"
+    },
+    {
+     "n": 72,
+     "facsId": "f73",
+     "printed": null
+    },
+    {
+     "n": 73,
+     "facsId": "f74",
+     "printed": null
+    },
+    {
+     "n": 74,
+     "facsId": "f75",
+     "printed": "32"
+    },
+    {
+     "n": 75,
+     "facsId": "f76",
+     "printed": "3"
+    },
+    {
+     "n": 76,
+     "facsId": "f77",
+     "printed": "4"
+    },
+    {
+     "n": 77,
+     "facsId": "f78",
+     "printed": null
+    },
+    {
+     "n": 78,
+     "facsId": "f79",
+     "printed": "36"
+    },
+    {
+     "n": 79,
+     "facsId": "f80",
+     "printed": null
+    },
+    {
+     "n": 80,
+     "facsId": "f81",
+     "printed": null
+    },
+    {
+     "n": 81,
+     "facsId": "f82",
+     "printed": null
+    },
+    {
+     "n": 82,
+     "facsId": "f83",
+     "printed": null
+    },
+    {
+     "n": 83,
+     "facsId": "f84",
+     "printed": "41"
+    },
+    {
+     "n": 84,
+     "facsId": "f85",
+     "printed": null
+    },
+    {
+     "n": 85,
+     "facsId": "f86",
+     "printed": "F"
+    },
+    {
+     "n": 86,
+     "facsId": "f87",
+     "printed": null
+    },
+    {
+     "n": 87,
+     "facsId": "f88",
+     "printed": "4"
+    },
+    {
+     "n": 88,
+     "facsId": "f89",
+     "printed": null
+    },
+    {
+     "n": 89,
+     "facsId": "f90",
+     "printed": "4"
+    },
+    {
+     "n": 90,
+     "facsId": "f91",
+     "printed": "48"
+    },
+    {
+     "n": 91,
+     "facsId": "f92",
+     "printed": "42"
+    },
+    {
+     "n": 92,
+     "facsId": "f93",
+     "printed": null
+    },
+    {
+     "n": 93,
+     "facsId": "f94",
+     "printed": null
+    },
+    {
+     "n": 94,
+     "facsId": "f95",
+     "printed": "52"
+    },
+    {
+     "n": 95,
+     "facsId": "f96",
+     "printed": "3"
+    },
+    {
+     "n": 96,
+     "facsId": "f97",
+     "printed": "4"
+    },
+    {
+     "n": 97,
+     "facsId": "f98",
+     "printed": null
+    },
+    {
+     "n": 98,
+     "facsId": "f99",
+     "printed": null
+    },
+    {
+     "n": 99,
+     "facsId": "f100",
+     "printed": "7"
+    },
+    {
+     "n": 100,
+     "facsId": "f101",
+     "printed": null
+    },
+    {
+     "n": 101,
+     "facsId": "f102",
+     "printed": null
+    },
+    {
+     "n": 102,
+     "facsId": "f103",
+     "printed": null
+    },
+    {
+     "n": 103,
+     "facsId": "f104",
+     "printed": "61"
+    },
+    {
+     "n": 104,
+     "facsId": "f105",
+     "printed": null
+    },
+    {
+     "n": 105,
+     "facsId": "f106",
+     "printed": "63"
+    },
+    {
+     "n": 106,
+     "facsId": "f107",
+     "printed": null
+    },
+    {
+     "n": 107,
+     "facsId": "f108",
+     "printed": null
+    },
+    {
+     "n": 108,
+     "facsId": "f109",
+     "printed": null
+    },
+    {
+     "n": 109,
+     "facsId": "f110",
+     "printed": "6"
+    },
+    {
+     "n": 110,
+     "facsId": "f111",
+     "printed": null
+    },
+    {
+     "n": 111,
+     "facsId": "f112",
+     "printed": "6e"
+    },
+    {
+     "n": 112,
+     "facsId": "f113",
+     "printed": "70"
+    },
+    {
+     "n": 113,
+     "facsId": "f114",
+     "printed": null
+    },
+    {
+     "n": 114,
+     "facsId": "f115",
+     "printed": "72"
+    },
+    {
+     "n": 115,
+     "facsId": "f116",
+     "printed": "2"
+    },
+    {
+     "n": 116,
+     "facsId": "f117",
+     "printed": "74"
+    },
+    {
+     "n": 117,
+     "facsId": "f118",
+     "printed": null
+    },
+    {
+     "n": 118,
+     "facsId": "f119",
+     "printed": null
+    },
+    {
+     "n": 119,
+     "facsId": "f120",
+     "printed": "7"
+    },
+    {
+     "n": 120,
+     "facsId": "f121",
+     "printed": "78"
+    },
+    {
+     "n": 121,
+     "facsId": "f122",
+     "printed": null
+    },
+    {
+     "n": 122,
+     "facsId": "f123",
+     "printed": null
+    },
+    {
+     "n": 123,
+     "facsId": "f124",
+     "printed": "81"
+    },
+    {
+     "n": 124,
+     "facsId": "f125",
+     "printed": null
+    },
+    {
+     "n": 125,
+     "facsId": "f126",
+     "printed": "83"
+    },
+    {
+     "n": 126,
+     "facsId": "f127",
+     "printed": null
+    },
+    {
+     "n": 127,
+     "facsId": "f128",
+     "printed": "8"
+    },
+    {
+     "n": 128,
+     "facsId": "f129",
+     "printed": null
+    },
+    {
+     "n": 129,
+     "facsId": "f130",
+     "printed": "57"
+    },
+    {
+     "n": 130,
+     "facsId": "f131",
+     "printed": null
+    },
+    {
+     "n": 131,
+     "facsId": "f132",
+     "printed": "8"
+    },
+    {
+     "n": 132,
+     "facsId": "f133",
+     "printed": null
+    },
+    {
+     "n": 133,
+     "facsId": "f134",
+     "printed": "1"
+    },
+    {
+     "n": 134,
+     "facsId": "f135",
+     "printed": "2"
+    },
+    {
+     "n": 135,
+     "facsId": "f136",
+     "printed": null
+    },
+    {
+     "n": 136,
+     "facsId": "f137",
+     "printed": null
+    },
+    {
+     "n": 137,
+     "facsId": "f138",
+     "printed": null
+    },
+    {
+     "n": 138,
+     "facsId": "f139",
+     "printed": null
+    },
+    {
+     "n": 139,
+     "facsId": "f140",
+     "printed": null
+    },
+    {
+     "n": 140,
+     "facsId": "f141",
+     "printed": "98"
+    },
+    {
+     "n": 141,
+     "facsId": "f142",
+     "printed": null
+    },
+    {
+     "n": 142,
+     "facsId": "f143",
+     "printed": null
+    },
+    {
+     "n": 143,
+     "facsId": "f144",
+     "printed": "181"
+    },
+    {
+     "n": 144,
+     "facsId": "f145",
+     "printed": null
+    },
+    {
+     "n": 145,
+     "facsId": "f146",
+     "printed": "103"
+    },
+    {
+     "n": 146,
+     "facsId": "f147",
+     "printed": null
+    },
+    {
+     "n": 147,
+     "facsId": "f148",
+     "printed": "105"
+    },
+    {
+     "n": 148,
+     "facsId": "f149",
+     "printed": null
+    },
+    {
+     "n": 149,
+     "facsId": "f150",
+     "printed": "1°7"
+    },
+    {
+     "n": 150,
+     "facsId": "f151",
+     "printed": null
+    },
+    {
+     "n": 151,
+     "facsId": "f152",
+     "printed": "189"
+    },
+    {
+     "n": 152,
+     "facsId": "f153",
+     "printed": null
+    },
+    {
+     "n": 153,
+     "facsId": "f154",
+     "printed": "11"
+    },
+    {
+     "n": 154,
+     "facsId": "f155",
+     "printed": null
+    },
+    {
+     "n": 155,
+     "facsId": "f156",
+     "printed": "-213"
+    },
+    {
+     "n": 156,
+     "facsId": "f157",
+     "printed": null
+    },
+    {
+     "n": 157,
+     "facsId": "f158",
+     "printed": null
+    },
+    {
+     "n": 158,
+     "facsId": "f159",
+     "printed": null
+    },
+    {
+     "n": 159,
+     "facsId": "f161",
+     "printed": null
+    },
+    {
+     "n": 160,
+     "facsId": "f162",
+     "printed": null
+    },
+    {
+     "n": 161,
+     "facsId": "f163",
+     "printed": null
+    },
+    {
+     "n": 162,
+     "facsId": "f165",
+     "printed": null
+    },
+    {
+     "n": 163,
+     "facsId": "f166",
+     "printed": null
+    }
+   ]
+  },
+  "LIV0019": {
+   "id": "LIV0019",
+   "title": "Lettres touchant... la langue françoise",
+   "author": {
+    "name": "François de La Mothe Le Vayer",
+    "ref": "PERS0016",
+    "birth": {
+     "when": "1588/08/01",
+     "place": "Paris (France)"
+    },
+    "death": {
+     "when": "1672/05/09",
+     "place": "Paris (France)"
+    },
+    "ark": "ark:/12148/cb12068202v",
+    "isni": "https://isni.org/isni/108666681"
+   },
+   "pubDate": "1647",
+   "pubPlace": "Paris",
+   "printers": [
+    {
+     "role": "Libraire",
+     "ref": "PERS0017",
+     "name": "Nicolas de La Coste"
+    },
+    {
+     "role": "Libraire",
+     "ref": "PERS0018",
+     "name": "Jean de La Coste"
+    }
+   ],
+   "shelfmark": "8-BL-1605",
+   "arkNotice": "ark:/12148/cb39326672h",
+   "iiifManifest": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1043573t/manifest.json",
+   "arkImages": "bpt6k1043573t",
+   "nbImages": 137,
+   "languages": [
+    {
+     "ident": "fra",
+     "usage": 325
+    },
+    {
+     "ident": "lat",
+     "usage": 37
+    }
+   ],
+   "persons": [
+    {
+     "id": "pers-98788302-f070-443d-97f3-2838c10ce620",
+     "name": "Marcellus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5ddbcc22-0b2d-4b94-a62d-b7ff9a0e5620",
+     "name": "Malherbe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-164d8686-b393-41e1-9760-6b4f5b0773b0",
+     "name": "Arondelle",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-3b6b552f-c836-435c-82df-3579725db06b",
+     "name": "Cicéron",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-6a50bb44-3ea7-47c9-b152-c54859a952a1",
+     "name": "Plutarque",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d6da2f3b-3530-4e36-9ea5-497f7f143fbb",
+     "name": "Platon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d4c548f7-832f-4839-8a8f-9933fbbfa641",
+     "name": "philosophe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-34ed7980-41ad-4981-824a-32c869ff691f",
+     "name": "Sénèque",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-403289bb-d497-42b7-a516-64274ed38218",
+     "name": "écrivain",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b9b87ddf-9a67-4695-a2b4-bedc034d3004",
+     "name": "Olympias",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-624fb6a0-ebd4-40d9-85a5-9e968abd2a47",
+     "name": "moièse",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1e08c41c-b392-4ebd-96f9-a0dab241a892",
+     "name": "largius licinius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b64e7130-af92-4923-91e3-ad927e958ece",
+     "name": "Clément Alexandrin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5d52101e-d681-4e56-b3ba-a1d565487e5c",
+     "name": "Macrobe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-07196bed-ca90-44c4-abbd-0055f5d8f589",
+     "name": "Zénon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7290baae-8f0f-4086-b20e-ec92dc025148",
+     "name": "Virgile",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9fe47f9f-e853-4f9a-910e-4425cccbe753",
+     "name": "Hésiode",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f6559edc-6785-487a-a34a-942d89b2d908",
+     "name": "un gallus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0ff54469-a4fb-42f3-9774-5a5094ba395d",
+     "name": "Thomas non",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a22af00e-c163-4fb5-bc5f-0b72345dcdfd",
+     "name": "Germanicus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8e4a7893-1a53-4f35-864f-546376be99c2",
+     "name": "Théocrite",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2c2f05fb-5311-4f3a-9716-68b0170a814f",
+     "name": "saint Jean",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fe4224d7-5f3a-4121-a073-e4c212016dd3",
+     "name": "saint Augustin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1327f874-97b0-4914-9af7-d64959faf710",
+     "name": "Pomponius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a7aa27b0-298e-4e89-8c98-e7550854e8c6",
+     "name": "catilina",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-51b80945-47da-4c86-918a-e8a87a6f3687",
+     "name": "Salluste",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-354fe8c1-64a1-4c6d-9c37-3015a5133b6e",
+     "name": "Augustin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-07901c9a-1cfd-4cdd-938f-4ebc054c16a0",
+     "name": "Melantho",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4229897b-cd10-420f-b0ac-2dc1c2b18928",
+     "name": "florus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-18fe1114-37e6-406c-94c2-6403c3f4c5a4",
+     "name": "Quintilien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-97102189-8501-43c8-a5c4-78736348e9f5",
+     "name": "niailierbe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-831f9670-ba81-4aa6-b516-9bdb265b8f15",
+     "name": "iacques",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c1bc34e4-670e-47b6-8d9d-0b13209ec6a6",
+     "name": "saint Pierre",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0032c1b3-fd2a-41c6-aac3-adc46cb51887",
+     "name": "Alexandre le grand",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-5fd2b6f7-ad6d-415e-81cb-6e2415566087",
+     "name": "Nicolas de le côte",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2610302c-65c9-48ad-bfdd-540c2b27184b",
+     "name": "Apollon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-aac235c3-13f2-401f-b48e-921f621dc28a",
+     "name": "Charles",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fd6c75b8-0d67-4a2a-9b98-b462241933e5",
+     "name": "aduocat",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-69f9f34f-8f75-498d-b7cf-18d0e71438f9",
+     "name": "Henry quatrième",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-debe4cf9-e2e4-4e48-900f-e13224db3787",
+     "name": "Charles le sage",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b1d4b214-5a5d-4005-943f-cab213c7b0a4",
+     "name": "votre Maieste sire",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-96e01683-e5a4-4c17-a4a4-c404e45a0786",
+     "name": "prêter",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-277992ff-ae87-4f45-82e4-d1d9553186ac",
+     "name": "Tacite francèer",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-29061270-cd91-44c0-bdbb-51ee752b3ae3",
+     "name": "monseigneur monseigneur le éminentisime cardinal Mazarin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d27fcdd7-6b73-4932-8261-a3b5f82184f0",
+     "name": "monsieur onsieur Naudes",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-432913ac-c864-4ba1-9978-c1e1b5bf482d",
+     "name": "capitaine corfinius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    }
+   ],
+   "defaultLayer": "reg",
+   "pageCount": 129,
+   "pages": [
+    {
+     "n": 1,
+     "facsId": "f4",
+     "printed": null
+    },
+    {
+     "n": 2,
+     "facsId": "f5",
+     "printed": null
+    },
+    {
+     "n": 3,
+     "facsId": "f6",
+     "printed": null
+    },
+    {
+     "n": 4,
+     "facsId": "f7",
+     "printed": null
+    },
+    {
+     "n": 5,
+     "facsId": "f8",
+     "printed": "4"
+    },
+    {
+     "n": 6,
+     "facsId": "f9",
+     "printed": null
+    },
+    {
+     "n": 7,
+     "facsId": "f10",
+     "printed": null
+    },
+    {
+     "n": 8,
+     "facsId": "f11",
+     "printed": null
+    },
+    {
+     "n": 9,
+     "facsId": "f12",
+     "printed": null
+    },
+    {
+     "n": 10,
+     "facsId": "f13",
+     "printed": null
+    },
+    {
+     "n": 11,
+     "facsId": "f14",
+     "printed": "10"
+    },
+    {
+     "n": 12,
+     "facsId": "f15",
+     "printed": "1"
+    },
+    {
+     "n": 13,
+     "facsId": "f16",
+     "printed": "I2"
+    },
+    {
+     "n": 14,
+     "facsId": "f17",
+     "printed": "14"
+    },
+    {
+     "n": 15,
+     "facsId": "f18",
+     "printed": "4"
+    },
+    {
+     "n": 16,
+     "facsId": "f19",
+     "printed": null
+    },
+    {
+     "n": 17,
+     "facsId": "f20",
+     "printed": "16"
+    },
+    {
+     "n": 18,
+     "facsId": "f21",
+     "printed": "M"
+    },
+    {
+     "n": 19,
+     "facsId": "f22",
+     "printed": "18"
+    },
+    {
+     "n": 20,
+     "facsId": "f23",
+     "printed": "19"
+    },
+    {
+     "n": 21,
+     "facsId": "f24",
+     "printed": "20"
+    },
+    {
+     "n": 22,
+     "facsId": "f25",
+     "printed": "21"
+    },
+    {
+     "n": 23,
+     "facsId": "f26",
+     "printed": "12"
+    },
+    {
+     "n": 24,
+     "facsId": "f27",
+     "printed": "23"
+    },
+    {
+     "n": 25,
+     "facsId": "f28",
+     "printed": "24"
+    },
+    {
+     "n": 26,
+     "facsId": "f29",
+     "printed": null
+    },
+    {
+     "n": 27,
+     "facsId": "f30",
+     "printed": "L6"
+    },
+    {
+     "n": 28,
+     "facsId": "f31",
+     "printed": "27"
+    },
+    {
+     "n": 29,
+     "facsId": "f32",
+     "printed": "28"
+    },
+    {
+     "n": 30,
+     "facsId": "f33",
+     "printed": null
+    },
+    {
+     "n": 31,
+     "facsId": "f34",
+     "printed": null
+    },
+    {
+     "n": 32,
+     "facsId": "f35",
+     "printed": "71"
+    },
+    {
+     "n": 33,
+     "facsId": "f36",
+     "printed": null
+    },
+    {
+     "n": 34,
+     "facsId": "f37",
+     "printed": null
+    },
+    {
+     "n": 35,
+     "facsId": "f38",
+     "printed": null
+    },
+    {
+     "n": 36,
+     "facsId": "f39",
+     "printed": null
+    },
+    {
+     "n": 37,
+     "facsId": "f40",
+     "printed": null
+    },
+    {
+     "n": 38,
+     "facsId": "f41",
+     "printed": null
+    },
+    {
+     "n": 39,
+     "facsId": "f42",
+     "printed": null
+    },
+    {
+     "n": 40,
+     "facsId": "f43",
+     "printed": "y~"
+    },
+    {
+     "n": 41,
+     "facsId": "f44",
+     "printed": "40"
+    },
+    {
+     "n": 42,
+     "facsId": "f45",
+     "printed": null
+    },
+    {
+     "n": 43,
+     "facsId": "f46",
+     "printed": "42"
+    },
+    {
+     "n": 44,
+     "facsId": "f47",
+     "printed": null
+    },
+    {
+     "n": 45,
+     "facsId": "f48",
+     "printed": "44"
+    },
+    {
+     "n": 46,
+     "facsId": "f49",
+     "printed": "45"
+    },
+    {
+     "n": 47,
+     "facsId": "f50",
+     "printed": "46"
+    },
+    {
+     "n": 48,
+     "facsId": "f51",
+     "printed": "F"
+    },
+    {
+     "n": 49,
+     "facsId": "f52",
+     "printed": null
+    },
+    {
+     "n": 50,
+     "facsId": "f53",
+     "printed": null
+    },
+    {
+     "n": 51,
+     "facsId": "f54",
+     "printed": null
+    },
+    {
+     "n": 52,
+     "facsId": "f55",
+     "printed": null
+    },
+    {
+     "n": 53,
+     "facsId": "f56",
+     "printed": null
+    },
+    {
+     "n": 54,
+     "facsId": "f57",
+     "printed": null
+    },
+    {
+     "n": 55,
+     "facsId": "f58",
+     "printed": null
+    },
+    {
+     "n": 56,
+     "facsId": "f59",
+     "printed": null
+    },
+    {
+     "n": 57,
+     "facsId": "f60",
+     "printed": null
+    },
+    {
+     "n": 58,
+     "facsId": "f61",
+     "printed": null
+    },
+    {
+     "n": 59,
+     "facsId": "f62",
+     "printed": null
+    },
+    {
+     "n": 60,
+     "facsId": "f63",
+     "printed": null
+    },
+    {
+     "n": 61,
+     "facsId": "f64",
+     "printed": null
+    },
+    {
+     "n": 62,
+     "facsId": "f65",
+     "printed": null
+    },
+    {
+     "n": 63,
+     "facsId": "f66",
+     "printed": "62"
+    },
+    {
+     "n": 64,
+     "facsId": "f67",
+     "printed": "63"
+    },
+    {
+     "n": 65,
+     "facsId": "f68",
+     "printed": null
+    },
+    {
+     "n": 66,
+     "facsId": "f69",
+     "printed": "6"
+    },
+    {
+     "n": 67,
+     "facsId": "f70",
+     "printed": "6́6"
+    },
+    {
+     "n": 68,
+     "facsId": "f71",
+     "printed": null
+    },
+    {
+     "n": 69,
+     "facsId": "f72",
+     "printed": "68"
+    },
+    {
+     "n": 70,
+     "facsId": "f73",
+     "printed": null
+    },
+    {
+     "n": 71,
+     "facsId": "f74",
+     "printed": "o"
+    },
+    {
+     "n": 72,
+     "facsId": "f75",
+     "printed": "71"
+    },
+    {
+     "n": 73,
+     "facsId": "f76",
+     "printed": "2"
+    },
+    {
+     "n": 74,
+     "facsId": "f77",
+     "printed": "2"
+    },
+    {
+     "n": 75,
+     "facsId": "f78",
+     "printed": "4"
+    },
+    {
+     "n": 76,
+     "facsId": "f79",
+     "printed": null
+    },
+    {
+     "n": 77,
+     "facsId": "f80",
+     "printed": "6"
+    },
+    {
+     "n": 78,
+     "facsId": "f81",
+     "printed": null
+    },
+    {
+     "n": 79,
+     "facsId": "f82",
+     "printed": null
+    },
+    {
+     "n": 80,
+     "facsId": "f83",
+     "printed": null
+    },
+    {
+     "n": 81,
+     "facsId": "f84",
+     "printed": "80"
+    },
+    {
+     "n": 82,
+     "facsId": "f85",
+     "printed": null
+    },
+    {
+     "n": 83,
+     "facsId": "f86",
+     "printed": "g2"
+    },
+    {
+     "n": 84,
+     "facsId": "f87",
+     "printed": null
+    },
+    {
+     "n": 85,
+     "facsId": "f88",
+     "printed": "84"
+    },
+    {
+     "n": 86,
+     "facsId": "f89",
+     "printed": null
+    },
+    {
+     "n": 87,
+     "facsId": "f90",
+     "printed": null
+    },
+    {
+     "n": 88,
+     "facsId": "f91",
+     "printed": "C"
+    },
+    {
+     "n": 89,
+     "facsId": "f92",
+     "printed": "80"
+    },
+    {
+     "n": 90,
+     "facsId": "f93",
+     "printed": "6s"
+    },
+    {
+     "n": 91,
+     "facsId": "f94",
+     "printed": null
+    },
+    {
+     "n": 92,
+     "facsId": "f95",
+     "printed": null
+    },
+    {
+     "n": 93,
+     "facsId": "f96",
+     "printed": "92"
+    },
+    {
+     "n": 94,
+     "facsId": "f97",
+     "printed": "J"
+    },
+    {
+     "n": 95,
+     "facsId": "f98",
+     "printed": "4"
+    },
+    {
+     "n": 96,
+     "facsId": "f99",
+     "printed": null
+    },
+    {
+     "n": 97,
+     "facsId": "f100",
+     "printed": "96"
+    },
+    {
+     "n": 98,
+     "facsId": "f101",
+     "printed": "q~"
+    },
+    {
+     "n": 99,
+     "facsId": "f102",
+     "printed": null
+    },
+    {
+     "n": 100,
+     "facsId": "f103",
+     "printed": null
+    },
+    {
+     "n": 101,
+     "facsId": "f104",
+     "printed": null
+    },
+    {
+     "n": 102,
+     "facsId": "f105",
+     "printed": null
+    },
+    {
+     "n": 103,
+     "facsId": "f106",
+     "printed": "O2"
+    },
+    {
+     "n": 104,
+     "facsId": "f107",
+     "printed": null
+    },
+    {
+     "n": 105,
+     "facsId": "f108",
+     "printed": "104"
+    },
+    {
+     "n": 106,
+     "facsId": "f109",
+     "printed": null
+    },
+    {
+     "n": 107,
+     "facsId": "f110",
+     "printed": "106"
+    },
+    {
+     "n": 108,
+     "facsId": "f111",
+     "printed": null
+    },
+    {
+     "n": 109,
+     "facsId": "f112",
+     "printed": "108"
+    },
+    {
+     "n": 110,
+     "facsId": "f113",
+     "printed": null
+    },
+    {
+     "n": 111,
+     "facsId": "f114",
+     "printed": "110"
+    },
+    {
+     "n": 112,
+     "facsId": "f115",
+     "printed": null
+    },
+    {
+     "n": 113,
+     "facsId": "f116",
+     "printed": "112"
+    },
+    {
+     "n": 114,
+     "facsId": "f117",
+     "printed": null
+    },
+    {
+     "n": 115,
+     "facsId": "f118",
+     "printed": "114"
+    },
+    {
+     "n": 116,
+     "facsId": "f119",
+     "printed": "15"
+    },
+    {
+     "n": 117,
+     "facsId": "f120",
+     "printed": "116"
+    },
+    {
+     "n": 118,
+     "facsId": "f121",
+     "printed": null
+    },
+    {
+     "n": 119,
+     "facsId": "f122",
+     "printed": "I18"
+    },
+    {
+     "n": 120,
+     "facsId": "f123",
+     "printed": null
+    },
+    {
+     "n": 121,
+     "facsId": "f124",
+     "printed": "12O"
+    },
+    {
+     "n": 122,
+     "facsId": "f125",
+     "printed": null
+    },
+    {
+     "n": 123,
+     "facsId": "f126",
+     "printed": "122"
+    },
+    {
+     "n": 124,
+     "facsId": "f127",
+     "printed": null
+    },
+    {
+     "n": 125,
+     "facsId": "f128",
+     "printed": "124"
+    },
+    {
+     "n": 126,
+     "facsId": "f129",
+     "printed": "125"
+    },
+    {
+     "n": 127,
+     "facsId": "f130",
+     "printed": null
+    },
+    {
+     "n": 128,
+     "facsId": "f131",
+     "printed": null
+    },
+    {
+     "n": 129,
+     "facsId": "f137",
+     "printed": null
+    }
+   ]
+  },
+  "LIV0020": {
+   "id": "LIV0020",
+   "title": "Considérations sur l'éloquence françoise de ce tems",
+   "author": {
+    "name": "François de La Mothe Le Vayer",
+    "ref": "PERS0016",
+    "birth": {
+     "when": "1588/08/01",
+     "place": "Paris (France)"
+    },
+    "death": {
+     "when": "1672/05/09",
+     "place": "Paris (France)"
+    },
+    "ark": "ark:/12148/cb12068202v",
+    "isni": "https://isni.org/isni/108666681"
+   },
+   "pubDate": "1638",
+   "pubPlace": "Paris",
+   "printers": [
+    {
+     "role": "Libraire",
+     "ref": "PERS0019",
+     "name": "Sébastien Cramoisy"
+    }
+   ],
+   "shelfmark": "X-18566",
+   "arkNotice": "ark:/12148/cb307298680",
+   "iiifManifest": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k87018271/manifest.json",
+   "arkImages": "bpt6k87018271",
+   "nbImages": 236,
+   "languages": [
+    {
+     "ident": "fra",
+     "usage": 486
+    },
+    {
+     "ident": "lat",
+     "usage": 53
+    }
+   ],
+   "persons": [
+    {
+     "id": "pers-ca5c0035-4c1f-46a2-aba3-e78b55adf7db",
+     "name": "Cicéron",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ea82bcc3-ba63-4398-be5b-22f907543dbd",
+     "name": "Démosthène",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8074435d-f5ae-411f-98ba-d48aeb0d49fa",
+     "name": "Socrate",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-019da5f2-c392-4db7-881c-2b13b1b8569d",
+     "name": "Quintilien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4a4ef57f-94d4-4da1-a1b7-6c392d506b79",
+     "name": "Platon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f564aa29-1684-4181-b99a-e0f8b9e5f290",
+     "name": "longinus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d0561655-de3b-4b71-9bc2-4eeece406cc0",
+     "name": "Sénèque",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ebf3d5e6-aa06-4e4b-b24e-48e32b7f1015",
+     "name": "Aristote",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-77e6bded-ce2a-49ec-ae47-eab29946d87b",
+     "name": "Théopompe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a72e58a3-6c76-4eb1-bb52-7e48b88c8e0f",
+     "name": "Thucydide",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f6b48285-c448-4fa6-9f19-96dd6b1b3e9f",
+     "name": "Apollonius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c0dd98a2-af33-450b-b30a-0a0818843210",
+     "name": "Philémon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-718bd586-1ac6-4089-9354-ebfb73596321",
+     "name": "Gorgias",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-97a3ad0a-6776-4308-a113-8d16b755cdf7",
+     "name": "Zénon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b1d8ffcf-e0c1-4502-88bf-6227734e5b19",
+     "name": "Menandre",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1dc634cc-f77b-4c2b-a4ec-73b17c9f9760",
+     "name": "pollion",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-af1a1b0f-d521-44db-96a7-8a78e6a5edca",
+     "name": "mecenas",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-cfc3fa88-4ce9-4198-8f9c-b2a5ada251fe",
+     "name": "Théon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-3e367628-2d80-4a64-b69b-57a453ff3428",
+     "name": "Nicias",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c9767e3d-8274-45e3-9adf-b8f28c5c8dc6",
+     "name": "Homère",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b9767a46-4b77-476b-9374-d0a6eb24a6ed",
+     "name": "Chrysippe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b5ce681f-9fa2-4aff-a987-89ded66a2b33",
+     "name": "cardauls",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c3913016-7c00-4c14-a50c-4e9b0b1cf76b",
+     "name": "Horace",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-3b920a6c-b252-4e1f-8ba4-ec7ebc9ca085",
+     "name": "Théophrae",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9194da98-900f-4460-a4c7-1e7866b76a2e",
+     "name": "Lucilius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9523c379-93f1-44be-919a-dcdbb2249281",
+     "name": "Lucien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b51260a7-c14b-4b14-bc69-58704f80ac82",
+     "name": "Lycurgue",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-521d720e-f466-4651-b668-15f400db449b",
+     "name": "Phauorin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9b9f0ba3-fe0e-4a19-b107-80d86ae3cdae",
+     "name": "ennius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1cda4115-ae30-4217-a32e-0668fa16be95",
+     "name": "Roscius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-67a2a0f4-bc74-4594-9624-5cc713578256",
+     "name": "Gellius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bfdc421e-964c-43a5-8b09-ea1cf0030a17",
+     "name": "Lysias",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a75ca648-cb91-43b5-8b7f-627a1faf1670",
+     "name": "Pline",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fc39d1e6-0920-4394-a1a7-ca41b804e977",
+     "name": "Halie",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8c8357b0-f5b2-4f78-b3b8-44a9cbee7c63",
+     "name": "bist",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-026190e3-3458-494e-b93e-c4c1423fbfcf",
+     "name": "vulcain",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-237d6852-a44b-4480-be2e-3eea7be20c19",
+     "name": "Sueton",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ef1a34c0-2ee1-4683-b2de-a1bca39d629e",
+     "name": "Sébastien cramoisy",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-18fe3e2c-6169-4e96-9096-22428989276a",
+     "name": "Diodore",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-6793942a-ef49-4baf-9b0c-2f275fc32adf",
+     "name": "Polybe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-b039b0ca-b748-4f7c-86b3-de5e9d0f9881",
+     "name": "Pindare",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-86fa2402-c8f4-4ee9-8d3f-78d5c0941b70",
+     "name": "Térence",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0f38b6d8-5160-40ed-b40d-ba13f287bf8b",
+     "name": "carneades",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c7bc3d18-4e62-403a-b292-f402a8fc1420",
+     "name": "Salluste",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-687ae046-e133-45c5-a7ae-dbdd755b9b25",
+     "name": "archilocus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7046eed7-ba9e-4d7a-a965-45d19b345ac1",
+     "name": "Aristippe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-488fe7a9-7b6c-4d69-aea9-b2d6d245152b",
+     "name": "Périclès",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f5ab616d-46ca-45e2-96be-bc0186ec34bc",
+     "name": "Henry Étienne",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4b930ab8-616f-4f33-a2eb-82f23c8da9de",
+     "name": "Lucrèce",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1b3a29a6-41af-4fd0-9862-8ccc0fa58931",
+     "name": "Strabon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1b800220-5651-477e-900e-f599071cdf2d",
+     "name": "perionius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-82f2ec27-8711-45a3-8db1-eb602c90a706",
+     "name": "un Jean Baptiste",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-41cbde74-5f71-4473-bed6-7f76febb55a6",
+     "name": "Auguste",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1d648f21-015a-470c-8e31-873dfc1c4775",
+     "name": "Quintilien Cicéron",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8b4a1dd6-2fd6-432f-a733-c5957756d243",
+     "name": "Nicandre",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-29f8c79a-2e6d-419e-aadd-6bd791ec8a21",
+     "name": "Vlysse",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ed77cece-ba1a-43ef-969b-332d39964600",
+     "name": "Sophocle",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-dac31c6c-561f-42b7-8237-a04929d80643",
+     "name": "Halicarnasse",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2e5f9fa7-45f0-4ee5-b263-ae82755de9cc",
+     "name": "Caton",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8c37fe90-51b0-4edc-acc6-b09896e2ade6",
+     "name": "Hermogène",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-4023aee0-3f4c-4627-8f00-8201c3f064c0",
+     "name": "Épicure",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7d3b0ddb-8d5f-4466-b1d6-874b35091023",
+     "name": "demades",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c9ff998c-d171-4e10-9584-1ef0c9aae7f4",
+     "name": "Phal",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8b014f9e-326d-4b9b-8753-648cc82b8999",
+     "name": "Laéèrt",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d392c596-9dea-48d1-9add-43f0598dfc22",
+     "name": "hortensius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-276a43d0-eebc-493f-bc94-5ea3e897d548",
+     "name": "Protogène",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-eb8284ba-2cde-4036-87c8-4375117e1705",
+     "name": "Anacréon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c44a6b8b-9d97-4435-8030-66474cf7e75f",
+     "name": "état",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7fa8c1f6-6be8-4069-86d0-e81bc6577547",
+     "name": "Marc Antonin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bebdc1f3-1ead-44bf-a8d0-4ef709ad709d",
+     "name": "phidias",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ce202673-19ec-40ed-8c5a-ac0a122849d0",
+     "name": "Caligula",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d605aaa2-8c88-4825-9e9c-de1f56de97bd",
+     "name": "Pausanies",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-da726514-ddc1-4fa8-8d50-6ed0f1e95699",
+     "name": "Galien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-1d8e4047-3fe9-4933-9da8-93c5a3fe8109",
+     "name": "Hercule",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f592c316-f862-47e4-aad5-43211c329cf1",
+     "name": "silesien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fc8fa91d-f487-40e0-b964-fcf82670bf01",
+     "name": "m Pomponius Marcellus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-26dba27a-9cb2-467c-a899-255a00057156",
+     "name": "ece",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-bbf88435-9c8a-449a-9a95-f93974bd0560",
+     "name": "Apulèée",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0feb6623-dd89-4a5e-887f-06157af4a869",
+     "name": "Héliodore",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f98b7c28-b03d-4149-bd61-e64ce91e2b2b",
+     "name": "Virgile",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fb54deeb-85d1-4850-8654-fe78b0dc4a0e",
+     "name": "poeste|poeste",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-493f0517-61b7-449f-9568-04f5703c25b9",
+     "name": "haf",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0463197c-be6f-4ec3-b059-41b3e5d5d6dd",
+     "name": "deOras",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a09f71a9-0483-4827-8b6b-135a7eeeb2f6",
+     "name": "Euripide",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-c821754b-2f23-4ae8-9e1b-35d9a94dd139",
+     "name": "Isoer",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-51cb4bd2-8de4-4608-9082-2c30af679f02",
+     "name": "Anaxagore",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a17c9a2a-5e71-4122-bf04-9d980bb29658",
+     "name": "arrian",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-71230f4d-6ea9-4f4a-af3a-075d619ebccd",
+     "name": "scythe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d0236b98-df5d-4e87-80c6-148dd3f77514",
+     "name": "centon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8d72ebfd-6d62-48c0-90ef-1760161f5cdb",
+     "name": "Pétrone",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-897eae12-ed6a-463c-aca8-5ae24af97a69",
+     "name": "gorgias leontin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d017fc72-4585-4589-a4ef-f3820f6f0396",
+     "name": "Alexandre",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-d7605bfa-5d0f-4700-a675-b66a3cc7b033",
+     "name": "Achille statius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a88ccf34-9a8c-436a-925d-e0c33b3de43c",
+     "name": "Vectius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-53e09678-23ef-44af-be4e-e6dbedd91f75",
+     "name": "taison",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2f166ceb-ae08-45ea-bc9d-40543138fa13",
+     "name": "Phedrus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7bac79ad-5081-400c-9530-8204c189c247",
+     "name": "bacchilides",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f54d364a-eaf5-4abb-b08a-316b21316700",
+     "name": "Plutarque",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-cb4558ac-375c-4317-920d-0f1ef6ddaa0b",
+     "name": "Cornelius celsus",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9fab122a-49e1-4c1f-8182-c78fc67391ba",
+     "name": "Gallus Asinius",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ae0d1d83-48c5-4c21-a826-7bca789602a2",
+     "name": "Hecube",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0842733c-f6de-4ffc-bab9-0600383dc24c",
+     "name": "Hippias Élien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-24ca150e-d741-47ef-b6e7-4f3f6aef4b3e",
+     "name": "Dian",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-161bd5a2-d773-42d2-9b4d-ea32513acc55",
+     "name": "phrygien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ce8f5cf7-879d-4031-8206-dd271b921728",
+     "name": "Masear",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-75fc9a7d-88e7-4cae-a89c-32198ee04aa1",
+     "name": "Pison",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-85f76490-eae9-4f52-9b07-36aea40769b2",
+     "name": "pépiie",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-837b4cfb-31cd-4825-b425-2bd22ca43142",
+     "name": "Eschine",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-f6b50c2f-0dc4-40f9-a1c8-c5d394efd205",
+     "name": "Calamides",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-295cbd5a-57e0-4dca-a028-b670854c8485",
+     "name": "Tibère",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-2355b6e9-1d00-4704-b960-4692876c7f59",
+     "name": "Baptiste Léon",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fcafbfb1-ed53-4166-bade-e57df23e6b3f",
+     "name": "qrat",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-45cb9fef-0dc9-497d-b317-c885d1e52fda",
+     "name": "Alexandre le sophiste",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-e6826148-f788-4e80-8797-9c9b02dbf13c",
+     "name": "devitafua",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-8293d7d3-58a9-4e71-b61a-b20685d93618",
+     "name": "hadrien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-ced5e9e1-e8bd-4fe8-a691-0925ce8a01e1",
+     "name": "aetion",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-cc4409ad-cb26-4a53-aead-bb23ca79385d",
+     "name": "apologie",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-fce763f5-aaec-460d-9014-624bca401dc6",
+     "name": "Verrès",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7068b407-bbe8-470c-9e52-dd01707c897c",
+     "name": "César",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-be8c92cb-2120-49df-a97d-9f401044355f",
+     "name": "Hiéronimus le philosophe",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-7d702cc5-f7ab-4c5e-98ce-c67dc96ec455",
+     "name": "pourquoi Denis e",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9f5917a9-09a3-4707-9dcf-80969ff9a8b4",
+     "name": "zeuxis",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-22185f05-ec89-4003-9bb4-7a489d94bfaa",
+     "name": "gauiois",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a2131745-570e-4069-9cfd-da3a4dfff49a",
+     "name": "sophiste",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-07961860-fbed-4d2a-9509-44fe678e8675",
+     "name": "ExDion",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-9d7e5c61-8e76-43d2-8d70-c33fa9712f14",
+     "name": "ciest ciest dil Céron",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-92b4543b-7716-4103-bf1f-c019b02dbf3b",
+     "name": "saint Augustin",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-0b88c403-8817-4454-b23b-e6d2dbc6a133",
+     "name": "policletes",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    },
+    {
+     "id": "pers-a14f55ad-5b59-414b-90ce-81d82d7e1c64",
+     "name": "docteur gratien",
+     "forename": null,
+     "surname": null,
+     "birth": null,
+     "death": null,
+     "occupation": null,
+     "isni": null,
+     "ark": null
+    }
+   ],
+   "defaultLayer": "reg",
+   "pageCount": 226,
+   "pages": [
+    {
+     "n": 1,
+     "facsId": "f2",
+     "printed": null
+    },
+    {
+     "n": 2,
+     "facsId": "f6",
+     "printed": null
+    },
+    {
+     "n": 3,
+     "facsId": "f7",
+     "printed": null
+    },
+    {
+     "n": 4,
+     "facsId": "f8",
+     "printed": null
+    },
+    {
+     "n": 5,
+     "facsId": "f9",
+     "printed": null
+    },
+    {
+     "n": 6,
+     "facsId": "f10",
+     "printed": null
+    },
+    {
+     "n": 7,
+     "facsId": "f11",
+     "printed": null
+    },
+    {
+     "n": 8,
+     "facsId": "f12",
+     "printed": null
+    },
+    {
+     "n": 9,
+     "facsId": "f13",
+     "printed": null
+    },
+    {
+     "n": 10,
+     "facsId": "f14",
+     "printed": null
+    },
+    {
+     "n": 11,
+     "facsId": "f15",
+     "printed": null
+    },
+    {
+     "n": 12,
+     "facsId": "f16",
+     "printed": null
+    },
+    {
+     "n": 13,
+     "facsId": "f17",
+     "printed": null
+    },
+    {
+     "n": 14,
+     "facsId": "f19",
+     "printed": null
+    },
+    {
+     "n": 15,
+     "facsId": "f20",
+     "printed": "2"
+    },
+    {
+     "n": 16,
+     "facsId": "f21",
+     "printed": null
+    },
+    {
+     "n": 17,
+     "facsId": "f22",
+     "printed": null
+    },
+    {
+     "n": 18,
+     "facsId": "f23",
+     "printed": null
+    },
+    {
+     "n": 19,
+     "facsId": "f24",
+     "printed": null
+    },
+    {
+     "n": 20,
+     "facsId": "f25",
+     "printed": null
+    },
+    {
+     "n": 21,
+     "facsId": "f26",
+     "printed": null
+    },
+    {
+     "n": 22,
+     "facsId": "f27",
+     "printed": null
+    },
+    {
+     "n": 23,
+     "facsId": "f28",
+     "printed": "10"
+    },
+    {
+     "n": 24,
+     "facsId": "f29",
+     "printed": "11"
+    },
+    {
+     "n": 25,
+     "facsId": "f30",
+     "printed": "12"
+    },
+    {
+     "n": 26,
+     "facsId": "f31",
+     "printed": null
+    },
+    {
+     "n": 27,
+     "facsId": "f32",
+     "printed": "I14"
+    },
+    {
+     "n": 28,
+     "facsId": "f33",
+     "printed": null
+    },
+    {
+     "n": 29,
+     "facsId": "f34",
+     "printed": "16"
+    },
+    {
+     "n": 30,
+     "facsId": "f35",
+     "printed": null
+    },
+    {
+     "n": 31,
+     "facsId": "f36",
+     "printed": "18"
+    },
+    {
+     "n": 32,
+     "facsId": "f37",
+     "printed": null
+    },
+    {
+     "n": 33,
+     "facsId": "f38",
+     "printed": "20"
+    },
+    {
+     "n": 34,
+     "facsId": "f39",
+     "printed": "2i"
+    },
+    {
+     "n": 35,
+     "facsId": "f40",
+     "printed": "22"
+    },
+    {
+     "n": 36,
+     "facsId": "f41",
+     "printed": "18"
+    },
+    {
+     "n": 37,
+     "facsId": "f42",
+     "printed": "24"
+    },
+    {
+     "n": 38,
+     "facsId": "f43",
+     "printed": null
+    },
+    {
+     "n": 39,
+     "facsId": "f44",
+     "printed": "26"
+    },
+    {
+     "n": 40,
+     "facsId": "f45",
+     "printed": "2"
+    },
+    {
+     "n": 41,
+     "facsId": "f46",
+     "printed": "Ep. 26."
+    },
+    {
+     "n": 42,
+     "facsId": "f47",
+     "printed": "25"
+    },
+    {
+     "n": 43,
+     "facsId": "f48",
+     "printed": "C"
+    },
+    {
+     "n": 44,
+     "facsId": "f49",
+     "printed": null
+    },
+    {
+     "n": 45,
+     "facsId": "f50",
+     "printed": null
+    },
+    {
+     "n": 46,
+     "facsId": "f51",
+     "printed": null
+    },
+    {
+     "n": 47,
+     "facsId": "f52",
+     "printed": "34"
+    },
+    {
+     "n": 48,
+     "facsId": "f53",
+     "printed": null
+    },
+    {
+     "n": 49,
+     "facsId": "f54",
+     "printed": null
+    },
+    {
+     "n": 50,
+     "facsId": "f55",
+     "printed": null
+    },
+    {
+     "n": 51,
+     "facsId": "f56",
+     "printed": null
+    },
+    {
+     "n": 52,
+     "facsId": "f57",
+     "printed": null
+    },
+    {
+     "n": 53,
+     "facsId": "f58",
+     "printed": "40"
+    },
+    {
+     "n": 54,
+     "facsId": "f59",
+     "printed": "41"
+    },
+    {
+     "n": 55,
+     "facsId": "f60",
+     "printed": "42"
+    },
+    {
+     "n": 56,
+     "facsId": "f61",
+     "printed": "8"
+    },
+    {
+     "n": 57,
+     "facsId": "f62",
+     "printed": "44"
+    },
+    {
+     "n": 58,
+     "facsId": "f63",
+     "printed": null
+    },
+    {
+     "n": 59,
+     "facsId": "f64",
+     "printed": "46"
+    },
+    {
+     "n": 60,
+     "facsId": "f65",
+     "printed": null
+    },
+    {
+     "n": 61,
+     "facsId": "f66",
+     "printed": "8"
+    },
+    {
+     "n": 62,
+     "facsId": "f67",
+     "printed": null
+    },
+    {
+     "n": 63,
+     "facsId": "f68",
+     "printed": null
+    },
+    {
+     "n": 64,
+     "facsId": "f69",
+     "printed": null
+    },
+    {
+     "n": 65,
+     "facsId": "f70",
+     "printed": null
+    },
+    {
+     "n": 66,
+     "facsId": "f71",
+     "printed": null
+    },
+    {
+     "n": 67,
+     "facsId": "f72",
+     "printed": null
+    },
+    {
+     "n": 68,
+     "facsId": "f73",
+     "printed": null
+    },
+    {
+     "n": 69,
+     "facsId": "f74",
+     "printed": null
+    },
+    {
+     "n": 70,
+     "facsId": "f75",
+     "printed": null
+    },
+    {
+     "n": 71,
+     "facsId": "f76",
+     "printed": null
+    },
+    {
+     "n": 72,
+     "facsId": "f77",
+     "printed": null
+    },
+    {
+     "n": 73,
+     "facsId": "f78",
+     "printed": "G0"
+    },
+    {
+     "n": 74,
+     "facsId": "f79",
+     "printed": "¡"
+    },
+    {
+     "n": 75,
+     "facsId": "f80",
+     "printed": "62"
+    },
+    {
+     "n": 76,
+     "facsId": "f81",
+     "printed": null
+    },
+    {
+     "n": 77,
+     "facsId": "f82",
+     "printed": "64"
+    },
+    {
+     "n": 78,
+     "facsId": "f83",
+     "printed": null
+    },
+    {
+     "n": 79,
+     "facsId": "f84",
+     "printed": "66"
+    },
+    {
+     "n": 80,
+     "facsId": "f85",
+     "printed": null
+    },
+    {
+     "n": 81,
+     "facsId": "f86",
+     "printed": "8"
+    },
+    {
+     "n": 82,
+     "facsId": "f87",
+     "printed": "5"
+    },
+    {
+     "n": 83,
+     "facsId": "f88",
+     "printed": "70"
+    },
+    {
+     "n": 84,
+     "facsId": "f89",
+     "printed": null
+    },
+    {
+     "n": 85,
+     "facsId": "f90",
+     "printed": null
+    },
+    {
+     "n": 86,
+     "facsId": "f91",
+     "printed": null
+    },
+    {
+     "n": 87,
+     "facsId": "f92",
+     "printed": null
+    },
+    {
+     "n": 88,
+     "facsId": "f93",
+     "printed": null
+    },
+    {
+     "n": 89,
+     "facsId": "f94",
+     "printed": null
+    },
+    {
+     "n": 90,
+     "facsId": "f95",
+     "printed": null
+    },
+    {
+     "n": 91,
+     "facsId": "f96",
+     "printed": null
+    },
+    {
+     "n": 92,
+     "facsId": "f97",
+     "printed": null
+    },
+    {
+     "n": 93,
+     "facsId": "f98",
+     "printed": "80"
+    },
+    {
+     "n": 94,
+     "facsId": "f99",
+     "printed": "8i"
+    },
+    {
+     "n": 95,
+     "facsId": "f100",
+     "printed": "82"
+    },
+    {
+     "n": 96,
+     "facsId": "f101",
+     "printed": null
+    },
+    {
+     "n": 97,
+     "facsId": "f102",
+     "printed": "84"
+    },
+    {
+     "n": 98,
+     "facsId": "f103",
+     "printed": null
+    },
+    {
+     "n": 99,
+     "facsId": "f104",
+     "printed": "86"
+    },
+    {
+     "n": 100,
+     "facsId": "f105",
+     "printed": null
+    },
+    {
+     "n": 101,
+     "facsId": "f106",
+     "printed": "88"
+    },
+    {
+     "n": 102,
+     "facsId": "f107",
+     "printed": null
+    },
+    {
+     "n": 103,
+     "facsId": "f108",
+     "printed": "D0"
+    },
+    {
+     "n": 104,
+     "facsId": "f109",
+     "printed": "9Y"
+    },
+    {
+     "n": 105,
+     "facsId": "f110",
+     "printed": "92"
+    },
+    {
+     "n": 106,
+     "facsId": "f111",
+     "printed": null
+    },
+    {
+     "n": 107,
+     "facsId": "f112",
+     "printed": "34"
+    },
+    {
+     "n": 108,
+     "facsId": "f113",
+     "printed": null
+    },
+    {
+     "n": 109,
+     "facsId": "f114",
+     "printed": "96"
+    },
+    {
+     "n": 110,
+     "facsId": "f115",
+     "printed": null
+    },
+    {
+     "n": 111,
+     "facsId": "f116",
+     "printed": null
+    },
+    {
+     "n": 112,
+     "facsId": "f117",
+     "printed": null
+    },
+    {
+     "n": 113,
+     "facsId": "f118",
+     "printed": null
+    },
+    {
+     "n": 114,
+     "facsId": "f119",
+     "printed": "101"
+    },
+    {
+     "n": 115,
+     "facsId": "f120",
+     "printed": "102"
+    },
+    {
+     "n": 116,
+     "facsId": "f121",
+     "printed": "1O3"
+    },
+    {
+     "n": 117,
+     "facsId": "f122",
+     "printed": "104"
+    },
+    {
+     "n": 118,
+     "facsId": "f123",
+     "printed": "1Oy"
+    },
+    {
+     "n": 119,
+     "facsId": "f124",
+     "printed": "1O6"
+    },
+    {
+     "n": 120,
+     "facsId": "f125",
+     "printed": "I07"
+    },
+    {
+     "n": 121,
+     "facsId": "f126",
+     "printed": "Ios"
+    },
+    {
+     "n": 122,
+     "facsId": "f127",
+     "printed": "I0s"
+    },
+    {
+     "n": 123,
+     "facsId": "f128",
+     "printed": "IIO"
+    },
+    {
+     "n": 124,
+     "facsId": "f129",
+     "printed": "II1"
+    },
+    {
+     "n": 125,
+     "facsId": "f130",
+     "printed": "I12"
+    },
+    {
+     "n": 126,
+     "facsId": "f131",
+     "printed": "II3"
+    },
+    {
+     "n": 127,
+     "facsId": "f132",
+     "printed": "114"
+    },
+    {
+     "n": 128,
+     "facsId": "f133",
+     "printed": "115"
+    },
+    {
+     "n": 129,
+     "facsId": "f134",
+     "printed": "116"
+    },
+    {
+     "n": 130,
+     "facsId": "f135",
+     "printed": "I"
+    },
+    {
+     "n": 131,
+     "facsId": "f136",
+     "printed": "118"
+    },
+    {
+     "n": 132,
+     "facsId": "f137",
+     "printed": "I19"
+    },
+    {
+     "n": 133,
+     "facsId": "f138",
+     "printed": "I20"
+    },
+    {
+     "n": 134,
+     "facsId": "f139",
+     "printed": "121"
+    },
+    {
+     "n": 135,
+     "facsId": "f140",
+     "printed": "I22"
+    },
+    {
+     "n": 136,
+     "facsId": "f141",
+     "printed": "113"
+    },
+    {
+     "n": 137,
+     "facsId": "f142",
+     "printed": "ia4"
+    },
+    {
+     "n": 138,
+     "facsId": "f143",
+     "printed": "125"
+    },
+    {
+     "n": 139,
+     "facsId": "f144",
+     "printed": "12 6"
+    },
+    {
+     "n": 140,
+     "facsId": "f145",
+     "printed": "127"
+    },
+    {
+     "n": 141,
+     "facsId": "f146",
+     "printed": "I28"
+    },
+    {
+     "n": 142,
+     "facsId": "f147",
+     "printed": "I29"
+    },
+    {
+     "n": 143,
+     "facsId": "f148",
+     "printed": "130"
+    },
+    {
+     "n": 144,
+     "facsId": "f149",
+     "printed": "I31"
+    },
+    {
+     "n": 145,
+     "facsId": "f150",
+     "printed": "32"
+    },
+    {
+     "n": 146,
+     "facsId": "f151",
+     "printed": "7"
+    },
+    {
+     "n": 147,
+     "facsId": "f152",
+     "printed": null
+    },
+    {
+     "n": 148,
+     "facsId": "f153",
+     "printed": null
+    },
+    {
+     "n": 149,
+     "facsId": "f154",
+     "printed": "136"
+    },
+    {
+     "n": 150,
+     "facsId": "f155",
+     "printed": null
+    },
+    {
+     "n": 151,
+     "facsId": "f156",
+     "printed": null
+    },
+    {
+     "n": 152,
+     "facsId": "f157",
+     "printed": null
+    },
+    {
+     "n": 153,
+     "facsId": "f158",
+     "printed": "I40"
+    },
+    {
+     "n": 154,
+     "facsId": "f159",
+     "printed": "141"
+    },
+    {
+     "n": 155,
+     "facsId": "f160",
+     "printed": "142"
+    },
+    {
+     "n": 156,
+     "facsId": "f161",
+     "printed": null
+    },
+    {
+     "n": 157,
+     "facsId": "f162",
+     "printed": "144"
+    },
+    {
+     "n": 158,
+     "facsId": "f163",
+     "printed": "i4"
+    },
+    {
+     "n": 159,
+     "facsId": "f164",
+     "printed": "146"
+    },
+    {
+     "n": 160,
+     "facsId": "f165",
+     "printed": "147"
+    },
+    {
+     "n": 161,
+     "facsId": "f166",
+     "printed": "148"
+    },
+    {
+     "n": 162,
+     "facsId": "f167",
+     "printed": "i49"
+    },
+    {
+     "n": 163,
+     "facsId": "f168",
+     "printed": null
+    },
+    {
+     "n": 164,
+     "facsId": "f169",
+     "printed": "151"
+    },
+    {
+     "n": 165,
+     "facsId": "f170",
+     "printed": "152"
+    },
+    {
+     "n": 166,
+     "facsId": "f171",
+     "printed": null
+    },
+    {
+     "n": 167,
+     "facsId": "f172",
+     "printed": null
+    },
+    {
+     "n": 168,
+     "facsId": "f173",
+     "printed": null
+    },
+    {
+     "n": 169,
+     "facsId": "f174",
+     "printed": "156"
+    },
+    {
+     "n": 170,
+     "facsId": "f175",
+     "printed": null
+    },
+    {
+     "n": 171,
+     "facsId": "f176",
+     "printed": "5"
+    },
+    {
+     "n": 172,
+     "facsId": "f177",
+     "printed": "1y9"
+    },
+    {
+     "n": 173,
+     "facsId": "f178",
+     "printed": "I60"
+    },
+    {
+     "n": 174,
+     "facsId": "f179",
+     "printed": "161"
+    },
+    {
+     "n": 175,
+     "facsId": "f180",
+     "printed": "162"
+    },
+    {
+     "n": 176,
+     "facsId": "f181",
+     "printed": "163"
+    },
+    {
+     "n": 177,
+     "facsId": "f182",
+     "printed": "164"
+    },
+    {
+     "n": 178,
+     "facsId": "f183",
+     "printed": null
+    },
+    {
+     "n": 179,
+     "facsId": "f184",
+     "printed": "166"
+    },
+    {
+     "n": 180,
+     "facsId": "f185",
+     "printed": "167"
+    },
+    {
+     "n": 181,
+     "facsId": "f186",
+     "printed": "168"
+    },
+    {
+     "n": 182,
+     "facsId": "f187",
+     "printed": "169"
+    },
+    {
+     "n": 183,
+     "facsId": "f188",
+     "printed": "170"
+    },
+    {
+     "n": 184,
+     "facsId": "f189",
+     "printed": null
+    },
+    {
+     "n": 185,
+     "facsId": "f190",
+     "printed": "172"
+    },
+    {
+     "n": 186,
+     "facsId": "f191",
+     "printed": null
+    },
+    {
+     "n": 187,
+     "facsId": "f192",
+     "printed": "174"
+    },
+    {
+     "n": 188,
+     "facsId": "f193",
+     "printed": null
+    },
+    {
+     "n": 189,
+     "facsId": "f194",
+     "printed": "6"
+    },
+    {
+     "n": 190,
+     "facsId": "f195",
+     "printed": null
+    },
+    {
+     "n": 191,
+     "facsId": "f196",
+     "printed": "178"
+    },
+    {
+     "n": 192,
+     "facsId": "f197",
+     "printed": null
+    },
+    {
+     "n": 193,
+     "facsId": "f198",
+     "printed": "180"
+    },
+    {
+     "n": 194,
+     "facsId": "f199",
+     "printed": "181"
+    },
+    {
+     "n": 195,
+     "facsId": "f200",
+     "printed": "182"
+    },
+    {
+     "n": 196,
+     "facsId": "f201",
+     "printed": "183"
+    },
+    {
+     "n": 197,
+     "facsId": "f202",
+     "printed": "184"
+    },
+    {
+     "n": 198,
+     "facsId": "f203",
+     "printed": "185"
+    },
+    {
+     "n": 199,
+     "facsId": "f204",
+     "printed": "186"
+    },
+    {
+     "n": 200,
+     "facsId": "f205",
+     "printed": "1"
+    },
+    {
+     "n": 201,
+     "facsId": "f206",
+     "printed": "188"
+    },
+    {
+     "n": 202,
+     "facsId": "f207",
+     "printed": "189"
+    },
+    {
+     "n": 203,
+     "facsId": "f208",
+     "printed": "190"
+    },
+    {
+     "n": 204,
+     "facsId": "f209",
+     "printed": "I91"
+    },
+    {
+     "n": 205,
+     "facsId": "f210",
+     "printed": null
+    },
+    {
+     "n": 206,
+     "facsId": "f211",
+     "printed": null
+    },
+    {
+     "n": 207,
+     "facsId": "f212",
+     "printed": "194"
+    },
+    {
+     "n": 208,
+     "facsId": "f213",
+     "printed": "195"
+    },
+    {
+     "n": 209,
+     "facsId": "f214",
+     "printed": "196"
+    },
+    {
+     "n": 210,
+     "facsId": "f215",
+     "printed": null
+    },
+    {
+     "n": 211,
+     "facsId": "f216",
+     "printed": null
+    },
+    {
+     "n": 212,
+     "facsId": "f217",
+     "printed": null
+    },
+    {
+     "n": 213,
+     "facsId": "f218",
+     "printed": "200"
+    },
+    {
+     "n": 214,
+     "facsId": "f219",
+     "printed": "2o1"
+    },
+    {
+     "n": 215,
+     "facsId": "f220",
+     "printed": "202"
+    },
+    {
+     "n": 216,
+     "facsId": "f221",
+     "printed": "203"
+    },
+    {
+     "n": 217,
+     "facsId": "f222",
+     "printed": "204"
+    },
+    {
+     "n": 218,
+     "facsId": "f223",
+     "printed": "2"
+    },
+    {
+     "n": 219,
+     "facsId": "f224",
+     "printed": "206"
+    },
+    {
+     "n": 220,
+     "facsId": "f225",
+     "printed": "2o7"
+    },
+    {
+     "n": 221,
+     "facsId": "f226",
+     "printed": "20"
+    },
+    {
+     "n": 222,
+     "facsId": "f227",
+     "printed": "2O9"
+    },
+    {
+     "n": 223,
+     "facsId": "f228",
+     "printed": "210"
+    },
+    {
+     "n": 224,
+     "facsId": "f229",
+     "printed": "2II"
+    },
+    {
+     "n": 225,
+     "facsId": "f231",
+     "printed": null
+    },
+    {
+     "n": 226,
+     "facsId": "f233",
+     "printed": null
+    }
+   ]
+  }
+ }
+}

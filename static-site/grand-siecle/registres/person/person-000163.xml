@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000163" n="26">
+        <persName type="main">Crispus</persName>
+        <persName type="sort">Crispus</persName>
+        <persName type="standard">Crispus</persName>
+        <birth><date when="0303"/></birth>
+        <death><date when="0326-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q1402561">chef militaire</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q311646</idno>
+        <idno type="viaf">75236296</idno>
+        <idno type="isni">000000036663691X</idno>
+        <idno type="gnd">143871455</idno>
+        <idno type="lccn">n83206514</idno>
+        <note type="description">césar, fils de Constantin Ier</note>
+        <note type="mentions">26</note>
+        <note type="sources">LIV0010|LIV0017|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1140217</note>
+      </person>

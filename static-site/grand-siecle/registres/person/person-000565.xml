@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000565" n="7">
+        <persName type="main">Agamemnon</persName>
+        <persName type="sort">Agamemnon</persName>
+        <persName type="standard">Agamemnon</persName>
+        <persName type="variant">Agamemno</persName>
+        <sex value="Q6581097">masculin</sex>
+        <idno type="wikidata" cert="high">Q128176</idno>
+        <idno type="viaf">306386859</idno>
+        <idno type="gnd">119059738</idno>
+        <idno type="bnf">135468180</idno>
+        <idno type="lccn">no2014018248</idno>
+        <note type="description">personnage de la mythologie grecque</note>
+        <note type="mentions">7</note>
+        <note type="sources">LIV0017|LIV0025a|LIV0026c|LIV0027|LIV0031_t1|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q514891|Q10402775|Q3320792</note>
+      </person>

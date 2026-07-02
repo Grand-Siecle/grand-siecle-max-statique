@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000416" n="2">
+        <placeName type="main">Amſtelodamum</placeName>
+        <placeName type="sort">Amstelodamum</placeName>
+        <placeName type="variant">Amstelodamus</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q727|Q9899|Q79504035</note>
+      </place>

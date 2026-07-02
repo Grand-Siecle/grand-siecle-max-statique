@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001245" n="3">
+        <persName type="main">Archias</persName>
+        <persName type="sort">Archias</persName>
+        <persName type="standard">Archias</persName>
+        <birth><date when="-0121-01-01"/></birth>
+        <death><date when="-0061-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q26237228">épigrammatiste</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q218251</idno>
+        <idno type="viaf">310149294076280520007</idno>
+        <idno type="isni">0000000080167492</idno>
+        <idno type="gnd">118503847</idno>
+        <idno type="bnf">10581640t</idno>
+        <idno type="lccn">n84234520</idno>
+        <note type="description">poète antique</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0012|LIV0017</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q11906643|Q107254609|Q2860079</note>
+      </person>

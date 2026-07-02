@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000158" n="6">
+        <placeName type="main">Sion</placeName>
+        <placeName type="sort">Sion</placeName>
+        <placeName type="standard">Sion</placeName>
+        <placeName type="variant">scion|sion</placeName>
+        <location><geo>46.23045 7.36606</geo></location>
+        <country key="Q39">Suisse</country>
+        <idno type="wikidata" cert="high">Q68136</idno>
+        <idno type="geonames">7287176</idno>
+        <note type="description">ville de Suisse et chef-lieu du canton du Valais</note>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0001|LIV0005|LIV0027|LIV0028|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q339533|Q37553660|Q7533488</note>
+      </place>

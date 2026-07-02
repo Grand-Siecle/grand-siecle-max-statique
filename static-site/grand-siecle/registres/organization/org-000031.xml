@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000031" n="13">
+        <orgName type="main">Lacédémoniens</orgName>
+        <orgName type="sort">Spartiates</orgName>
+        <orgName type="variant">Les Lacédémoniens</orgName>
+        <orgName type="variant">Lacedemohiens</orgName>
+        <orgName type="variant">lacédémonien</orgName>
+        <note type="mentions">13</note>
+        <note type="sources">LIV0014|LIV0018|LIV0020|LIV0025a|LIV0026a|LIV0028</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q3215917</note>
+      </org>

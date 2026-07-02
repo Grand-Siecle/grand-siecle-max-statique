@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001472" n="3">
+        <persName type="main">Mlerimnan Zlloyen</persName>
+        <persName type="sort">Mlerimnan Zlloyen</persName>
+        <persName type="variant">Mserman Zlleyen</persName>
+        <persName type="variant">Meriman Zlheyen</persName>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0001</note>
+      </person>

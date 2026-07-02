@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000129" n="35">
+        <persName type="main">Jésus</persName>
+        <persName type="sort">Jésus-Christ</persName>
+        <persName type="standard">Jésus-Christ</persName>
+        <persName type="variant">Jusus</persName>
+        <persName type="variant">Jésus-Christ</persName>
+        <persName type="variant">Jsus</persName>
+        <persName type="variant">Iésus</persName>
+        <birth><date when="-0007"/></birth>
+        <death><date when="0030-04-07"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q432386">prédicateur</occupation>
+        <occupation key="Q42857">prophète ou prophétesse</occupation>
+        <occupation key="Q154549">charpentier ou charpentière</occupation>
+        <occupation key="Q133485">rabbin</occupation>
+        <nationality key="Q16000109">Royaume d'Hérode</nationality>
+        <idno type="wikidata" cert="high">Q302</idno>
+        <idno type="viaf">141145970137232251241</idno>
+        <idno type="isni">0000000120370699</idno>
+        <idno type="gnd">118557513</idno>
+        <idno type="bnf">119392246</idno>
+        <idno type="lccn">n79084784</idno>
+        <note type="description">messie et fils unique de Dieu pour les chrétiens</note>
+        <note type="mentions">35</note>
+        <note type="sources">LIV0001|LIV0006|LIV0026a|LIV0026c|LIV0027|LIV0028|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

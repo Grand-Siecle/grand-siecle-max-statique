@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002373" n="2">
+        <persName type="main">M. Pomponius Marcellus</persName>
+        <persName type="sort">M. Pomponius Marcellus</persName>
+        <persName type="variant">m Pomponius Marcellus</persName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0015|LIV0020</note>
+      </person>

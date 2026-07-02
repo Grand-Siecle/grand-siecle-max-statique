@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001160" n="4">
+        <persName type="main">Roscius</persName>
+        <persName type="sort">Quintus Roscius Gallus</persName>
+        <persName type="standard">Quintus Roscius Gallus</persName>
+        <birth><date when="-0126"/></birth>
+        <death><date when="-0062-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q33999">acteur ou actrice</occupation>
+        <occupation key="Q2259451">acteur ou actrice de théâtre</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q1077925</idno>
+        <idno type="viaf">67258140</idno>
+        <idno type="gnd">118602624</idno>
+        <note type="description">acteur romain</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0020|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q20164413|Q32979394|Q27587659</note>
+      </person>

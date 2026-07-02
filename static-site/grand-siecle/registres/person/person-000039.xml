@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000039" n="121">
+        <persName type="main">Joseph</persName>
+        <persName type="sort">Joseph</persName>
+        <persName type="standard">Joseph</persName>
+        <persName type="variant">S. Joseph</persName>
+        <persName type="variant">Josephe</persName>
+        <persName type="variant">saint Joseph</persName>
+        <persName type="variant">Josaph</persName>
+        <persName type="variant">Josepl</persName>
+        <persName type="variant">Jojeph</persName>
+        <persName type="variant">Ioseph</persName>
+        <persName type="variant">s joseph</persName>
+        <birth><date when="-0030"/></birth>
+        <death><date when="0020"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q12713481">ouvrier ou ouvrière</occupation>
+        <occupation key="Q1294787">artisan ou artisane</occupation>
+        <occupation key="Q154549">charpentier ou charpentière</occupation>
+        <occupation key="Q7695510">tektōn</occupation>
+        <idno type="wikidata" cert="high">Q128267</idno>
+        <idno type="viaf">147328714</idno>
+        <idno type="isni">0000000099282036</idno>
+        <idno type="gnd">118558382</idno>
+        <idno type="bnf">17023179t</idno>
+        <idno type="lccn">n79147954</idno>
+        <note type="description">personnage biblique du Nouveau Testament, époux de Marie mère de Jésus</note>
+        <note type="mentions">121</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0002b|LIV0006|LIV0008|LIV0012|LIV0022|LIV0023|LIV0024|LIV0026b|LIV0026c|LIV0028|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q145746|Q60684635|Q58978682</note>
+      </person>

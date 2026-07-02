@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001459" n="3">
+        <persName type="main">Menenius Agrippa</persName>
+        <persName type="sort">Agrippa Menenius Lanatus</persName>
+        <persName type="standard">Agrippa Menenius Lanatus</persName>
+        <birth><date when="-0600"/></birth>
+        <death><date when="-0493"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q396971</idno>
+        <idno type="viaf">20477102</idno>
+        <idno type="gnd">118819607</idno>
+        <idno type="bnf">119494766</idno>
+        <idno type="lccn">nr91022293</idno>
+        <note type="description">consul romain en 503 av. J.-C.</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0017|LIV0026c|LIV0027</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q110620446|Q139383084|Q54460577</note>
+      </person>

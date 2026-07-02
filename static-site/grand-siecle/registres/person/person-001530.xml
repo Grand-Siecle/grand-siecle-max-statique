@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001530" n="3">
+        <persName type="main">Pollion</persName>
+        <persName type="sort">Polion</persName>
+        <persName type="standard">Polion</persName>
+        <birth><date when="-0450"/></birth>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q21282419">peintre de vases attique</occupation>
+        <occupation key="Q15303045">peintre sur vases à figures rouges</occupation>
+        <nationality key="Q844930">Athènes</nationality>
+        <idno type="wikidata" cert="high">Q28552172</idno>
+        <idno type="viaf">96527192</idno>
+        <note type="description">attic red figure vase painter</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1388871|Q37512131|Q55000279</note>
+      </person>

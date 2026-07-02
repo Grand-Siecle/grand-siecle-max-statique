@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000515" n="8">
+        <persName type="main">Chrysippe</persName>
+        <persName type="sort">Chrysippe</persName>
+        <persName type="standard">Chrysippe</persName>
+        <persName type="variant">Chrysip</persName>
+        <persName type="variant">Crysippe</persName>
+        <sex value="Q6581097">masculin</sex>
+        <idno type="wikidata" cert="high">Q1043413</idno>
+        <note type="description">personnage de la mythologie grecque, fils de Pélops et d'Axioché</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0020|LIV0025b|LIV0027|LIV0028</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q15290627|Q5114612|Q211411</note>
+      </person>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="material-000002" n="77">
+        <catDesc>
+          <term type="main">marbre</term>
+          <term type="standard">marbre</term>
+          <term type="variant">marbre blanc</term>
+        </catDesc>
+        <idno type="wikidata" cert="high">Q40861</idno>
+        <idno type="aat">300011443</idno>
+        <note type="description">roche dérivée du calcaire</note>
+        <note type="mentions">77</note>
+        <note type="sources">LIV0007|LIV0008|LIV0009|LIV0011|LIV0012|LIV0017|LIV0021|LIV0025a|LIV0025b|LIV0026b|LIV0027</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q40088|Q2016506|Q2052367</note>
+      </category>

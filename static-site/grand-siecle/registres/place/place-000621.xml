@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000621" n="2">
+        <placeName type="main">Nuremberg</placeName>
+        <placeName type="sort">Nuremberg</placeName>
+        <placeName type="standard">Nuremberg</placeName>
+        <placeName type="variant">Nurember</placeName>
+        <location><geo>49.45389 11.07750</geo></location>
+        <country key="Q183">Allemagne</country>
+        <idno type="wikidata" cert="high">Q2090</idno>
+        <idno type="geonames">6556832</idno>
+        <note type="description">ville d'Allemagne</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010|LIV0023</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q248392|Q1181674|Q78909371</note>
+      </place>

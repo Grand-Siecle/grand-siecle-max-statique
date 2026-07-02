@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000587" n="7">
+        <persName type="main">Gerson</persName>
+        <persName type="sort">Gershon</persName>
+        <persName type="standard">Gershon</persName>
+        <persName type="variant">Gerion</persName>
+        <persName type="variant">Geryon</persName>
+        <sex value="Q6581097">masculin</sex>
+        <idno type="wikidata" cert="high">Q2915121</idno>
+        <note type="description">fils aîné de Lévi dans la Genèse</note>
+        <note type="mentions">7</note>
+        <note type="sources">LIV0001|LIV0003|LIV0006|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q5878908|Q21492178|Q280306</note>
+      </person>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000003" n="27">
+        <title type="main">Rhétorique</title>
+        <title type="standard">Rhétorique</title>
+        <title type="variant">Rlétorique</title>
+        <title type="variant">Rhétoriques</title>
+        <title type="variant">Rhhétorique</title>
+        <title type="variant">harRhétorique</title>
+        <author key="Q868">Aristote</author>
+        <textLang key="Q35497">grec ancien</textLang>
+        <note type="genre" key="Q384515">traité</note>
+        <idno type="wikidata" cert="high">Q1896045</idno>
+        <note type="description">œuvre d'Aristote</note>
+        <note type="mentions">27</note>
+        <note type="sources">LIV0012|LIV0020|LIV0026a|LIV0027|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q104730361|Q1973998|Q3302759</note>
+      </bibl>

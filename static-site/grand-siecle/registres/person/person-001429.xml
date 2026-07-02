@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001429" n="3">
+        <persName type="main">Lycurgue</persName>
+        <persName type="sort">Lycurgue</persName>
+        <persName type="standard">Lycurgue</persName>
+        <birth><date when="-0800"/></birth>
+        <death><date when="-0730"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q4175034">législateur ou législatrice</occupation>
+        <nationality key="Q5690">Sparte</nationality>
+        <idno type="wikidata" cert="high">Q211326</idno>
+        <idno type="viaf">54941719</idno>
+        <idno type="gnd">118640674</idno>
+        <idno type="lccn">n85202757</idno>
+        <note type="description">législateur mythique de Sparte</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0020|LIV0026b</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q373685|Q98426381|Q270117</note>
+      </person>

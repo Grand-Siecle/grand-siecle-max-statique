@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000445" n="2">
+        <placeName type="main">BOTNIA Occidentalis</placeName>
+        <placeName type="sort">BOTNIA Occidentalis</placeName>
+        <placeName type="variant">Botnia Orientalis</placeName>
+        <placeName type="variant">Bothnia occidentalis</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+      </place>

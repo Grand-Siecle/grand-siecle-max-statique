@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000080" n="2">
+        <title type="main">Dialogue</title>
+        <title type="standard">Dialogue</title>
+        <date type="publication" when="1999-02-01"/>
+        <textLang key="Q22282939">pas de contenu linguistique</textLang>
+        <note type="genre" key="Q205560">trip hop</note>
+        <idno type="wikidata" cert="medium">Q427392</idno>
+        <note type="description">album de Four Tet</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0017</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q131395|Q3025978|Q5270595</note>
+      </bibl>

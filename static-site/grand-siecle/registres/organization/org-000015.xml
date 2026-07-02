@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000015" n="26">
+        <orgName type="main">Jurisconsultes</orgName>
+        <orgName type="sort">jurisconsulte</orgName>
+        <orgName type="standard">jurisconsulte</orgName>
+        <orgName type="variant">iurisconsultes</orgName>
+        <orgName type="variant">jurisconsulte</orgName>
+        <idno type="wikidata" cert="medium">Q2664701</idno>
+        <note type="description">personne ayant une grande maitrise du droit et de la jurisprudence et prodiguant des conseils en la matière</note>
+        <note type="mentions">26</note>
+        <note type="sources">LIV0012|LIV0015|LIV0020|LIV0025a|LIV0025b|LIV0026a</note>
+        <note type="reconciliation-confidence">medium</note>
+      </org>

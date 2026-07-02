@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000132" n="35">
+        <persName type="main">Pilate</persName>
+        <persName type="sort">Ponce Pilate</persName>
+        <persName type="standard">Ponce Pilate</persName>
+        <persName type="variant">Pilote</persName>
+        <persName type="variant">Ponce Pilate</persName>
+        <birth><date when="-0012-12-01"/></birth>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q599151">officiel</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q17131</idno>
+        <idno type="viaf">172385754</idno>
+        <idno type="isni">000000012257293X</idno>
+        <idno type="gnd">118792172</idno>
+        <idno type="bnf">15113549p</idno>
+        <idno type="lccn">n50028711</idno>
+        <note type="description">préfet romain de Judée entre 26 et 36 après J.C</note>
+        <note type="mentions">35</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0003|LIV0008|LIV0031_t1|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

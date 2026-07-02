@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000507" n="8">
+        <persName type="main">Asinius</persName>
+        <persName type="sort">Caius Asinius Pollio</persName>
+        <persName type="standard">Caius Asinius Pollio</persName>
+        <persName type="variant">Vatinius</persName>
+        <persName type="variant">Afinius</persName>
+        <birth><date when="-0075"/></birth>
+        <death><date when="0004"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q214917">dramaturge</occupation>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q319273</idno>
+        <idno type="viaf">408149294315180521782</idno>
+        <idno type="isni">0000000116831237</idno>
+        <idno type="gnd">118646117</idno>
+        <idno type="bnf">179116103</idno>
+        <idno type="lccn">n82153080</idno>
+        <note type="description">homme politique, orateur et écrivain romain</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0017</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q32978860|Q2312825|Q100139457</note>
+      </person>

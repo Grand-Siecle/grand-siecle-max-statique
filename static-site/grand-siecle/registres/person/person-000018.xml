@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000018" n="209">
+        <persName type="main">saint Pierre</persName>
+        <persName type="sort">Pierre</persName>
+        <persName type="standard">Pierre</persName>
+        <persName type="variant">Pierre</persName>
+        <persName type="variant">S. Pierre</persName>
+        <persName type="variant">saint</persName>
+        <persName type="variant">Saint Jérôme</persName>
+        <persName type="variant">saint Hérôme</persName>
+        <persName type="variant">St. Pierre</persName>
+        <persName type="variant">M. Pierre</persName>
+        <persName type="variant">saint Hierome</persName>
+        <persName type="variant">saint Jérérôme</persName>
+        <persName type="variant">saint Jérérme</persName>
+        <persName type="variant">m Pierre</persName>
+        <persName type="variant">s</persName>
+        <birth><date when="-0001"/></birth>
+        <death><date when="0065"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q331432">pêcheur ou pêcheuse</occupation>
+        <occupation key="Q611644">évêque catholique</occupation>
+        <occupation key="Q43412">apôtre</occupation>
+        <idno type="wikidata" cert="high">Q33923</idno>
+        <idno type="viaf">13581141</idno>
+        <idno type="isni">0000000119847373</idno>
+        <idno type="gnd">118593323</idno>
+        <idno type="bnf">120020645</idno>
+        <idno type="lccn">n79022118</idno>
+        <note type="description">apôtre de Jésus Christ</note>
+        <note type="mentions">209</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0004a|LIV0005|LIV0006|LIV0007|LIV0008|LIV0011|LIV0012|LIV0013|LIV0015|LIV0018|LIV0019|LIV0021|LIV0022|LIV0023|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

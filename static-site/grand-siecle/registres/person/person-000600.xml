@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000600" n="7">
+        <persName type="main">Larron</persName>
+        <persName type="sort">Marcellus (I) Laroon</persName>
+        <persName type="standard">Marcellus (I) Laroon</persName>
+        <persName type="variant">Le Larron</persName>
+        <birth><date when="1653-01-01"/></birth>
+        <death><date when="1702-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1028181">artiste peintre</occupation>
+        <nationality key="Q55">Pays-Bas</nationality>
+        <idno type="wikidata" cert="medium">Q12061101</idno>
+        <idno type="viaf">8334910</idno>
+        <idno type="isni">0000000066801266</idno>
+        <idno type="gnd">124963048</idno>
+        <idno type="bnf">12205033z</idno>
+        <idno type="lccn">n90708705</idno>
+        <note type="description">peintre néerlandais</note>
+        <note type="mentions">7</note>
+        <note type="sources">LIV0001|LIV0013|LIV0025b|LIV0026a|LIV0026c</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q37527178|Q106366035|Q12261942</note>
+      </person>

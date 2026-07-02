@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000014" n="250">
+        <persName type="main">Philippe</persName>
+        <persName type="sort">Philippe</persName>
+        <persName type="standard">Philippe</persName>
+        <persName type="variant">Philippes</persName>
+        <persName type="variant">Philippe II</persName>
+        <persName type="variant">Philippe II.</persName>
+        <persName type="variant">Phihppe</persName>
+        <persName type="variant">Philip</persName>
+        <persName type="variant">Philip pe</persName>
+        <persName type="variant">Philhippe</persName>
+        <persName type="variant">Phidippe</persName>
+        <persName type="variant">Philippides</persName>
+        <persName type="variant">Philiippes</persName>
+        <persName type="variant">Philippus</persName>
+        <persName type="variant">Philippe III</persName>
+        <birth><date when="0005"/></birth>
+        <death><date when="0080-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q219477">missionnaire</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q43675</idno>
+        <idno type="viaf">25404645</idno>
+        <idno type="gnd">119067692</idno>
+        <idno type="lccn">n93096386</idno>
+        <note type="description">apôtre</note>
+        <note type="mentions">250</note>
+        <note type="sources">LIV0009|LIV0012|LIV0014|LIV0015|LIV0017|LIV0025a|LIV0025b|LIV0026a|LIV0028|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q314814</note>
+      </person>

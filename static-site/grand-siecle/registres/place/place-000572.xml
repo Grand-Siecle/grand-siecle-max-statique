@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000572" n="2">
+        <placeName type="main">Lutetia Pariſiorum</placeName>
+        <placeName type="sort">Lutèce</placeName>
+        <placeName type="standard">Lutèce</placeName>
+        <placeName type="variant">Lutetiæ Pariſiorum</placeName>
+        <placeName type="variant">Lutetia Parisii</placeName>
+        <location><geo>48.85472 2.34750</geo></location>
+        <country key="Q1747689">Rome antique</country>
+        <idno type="wikidata" cert="high">Q270273</idno>
+        <note type="description">cité gallo-romaine, actuelle Paris</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q845625|Q19125464</note>
+      </place>

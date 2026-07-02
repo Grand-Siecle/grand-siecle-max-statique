@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000090" n="2">
+        <label type="main">chute de Troie</label>
+        <label type="variant">cheval de Troie</label>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0026c</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q3821535</note>
+      </event>

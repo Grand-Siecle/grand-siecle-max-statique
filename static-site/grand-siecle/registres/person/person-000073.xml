@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000073" n="60">
+        <persName type="main">S. Hérôme</persName>
+        <persName type="sort">S. Hérôme</persName>
+        <persName type="variant">Hérôme</persName>
+        <persName type="variant">saint Hérôme</persName>
+        <persName type="variant">St.Hérôme</persName>
+        <persName type="variant">S. Hierôme</persName>
+        <persName type="variant">S.Hérôme</persName>
+        <persName type="variant">St.Hierôme</persName>
+        <persName type="variant">s Hiérosme</persName>
+        <note type="mentions">60</note>
+        <note type="sources">LIV0001|LIV0004a|LIV0008|LIV0012|LIV0014|LIV0022|LIV0023|LIV0025a|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0031_t1|LIV0031_t2|LIV0033</note>
+      </person>

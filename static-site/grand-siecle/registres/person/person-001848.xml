@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001848" n="2">
+        <persName type="main">Catullus</persName>
+        <persName type="sort">Catulle</persName>
+        <persName type="standard">Catulle</persName>
+        <persName type="variant">Catullo</persName>
+        <birth><date when="-0084"/></birth>
+        <death><date when="-0054"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q163079</idno>
+        <idno type="viaf">100218993</idno>
+        <idno type="isni">0000000121452004</idno>
+        <idno type="gnd">118519719</idno>
+        <idno type="bnf">118955751</idno>
+        <idno type="lccn">n79006943</idno>
+        <note type="description">poète lyrique latin de la République romaine</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q3663798|Q25908307|Q67135663</note>
+      </person>

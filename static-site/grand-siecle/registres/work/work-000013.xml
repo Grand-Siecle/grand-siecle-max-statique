@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000013" n="7">
+        <title type="main">Poésie</title>
+        <title type="standard">poésie lyrique</title>
+        <title type="variant">La Poesie</title>
+        <title type="variant">poestique</title>
+        <title type="variant">poéèsie</title>
+        <title type="variant">poessie</title>
+        <note type="genre" key="Q3326349">lyrisme</note>
+        <idno type="wikidata" cert="medium">Q182357</idno>
+        <note type="description">genre littéraire</note>
+        <note type="mentions">7</note>
+        <note type="sources">LIV0015|LIV0017|LIV0019|LIV0025a|LIV0026a</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q482|Q3236984|Q19530246</note>
+      </bibl>

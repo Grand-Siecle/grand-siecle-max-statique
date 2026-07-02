@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001193" n="4">
+        <persName type="main">Theopompe</persName>
+        <persName type="sort">Théopompe</persName>
+        <persName type="standard">Théopompe</persName>
+        <birth><date when="-0380"/></birth>
+        <death><date when="-0320"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q12859263">orateur ou oratrice</occupation>
+        <idno type="wikidata" cert="high">Q4318</idno>
+        <idno type="viaf">24448325</idno>
+        <idno type="isni">0000000120060068</idno>
+        <idno type="gnd">118756931</idno>
+        <idno type="bnf">121562161</idno>
+        <idno type="lccn">nr90005938</idno>
+        <note type="description">historien grec</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q10696440|Q460405|Q10696445</note>
+      </person>

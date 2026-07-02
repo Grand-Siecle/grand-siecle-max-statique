@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001997" n="2">
+        <persName type="main">DEVOTE</persName>
+        <persName type="sort">Dévote</persName>
+        <persName type="standard">Dévote</persName>
+        <birth><date when="0283"/></birth>
+        <death><date when="0304"/></death>
+        <sex value="Q6581072">féminin</sex>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q469978</idno>
+        <note type="description">sainte patronne de la Corse et de Monaco</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0001</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q193432|Q3025539|Q5267910</note>
+      </person>

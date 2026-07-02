@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000610" n="7">
+        <persName type="main">Messalla</persName>
+        <persName type="sort">Marcus Valerius Messalla Corvinus</persName>
+        <persName type="standard">Marcus Valerius Messalla Corvinus</persName>
+        <persName type="variant">Messal</persName>
+        <birth><date when="-0064-01-01"/></birth>
+        <death><date when="0008-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q508117</idno>
+        <idno type="viaf">84190722</idno>
+        <idno type="isni">0000000109202301</idno>
+        <idno type="gnd">118733109</idno>
+        <idno type="bnf">13484062f</idno>
+        <idno type="lccn">n85288052</idno>
+        <note type="description">consul romain</note>
+        <note type="mentions">7</note>
+        <note type="sources">LIV0017</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q58822216|Q2175504|Q128949931</note>
+      </person>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000532" n="2">
+        <placeName type="main">Hamburgum</placeName>
+        <placeName type="sort">Hambourg</placeName>
+        <placeName type="standard">Hambourg</placeName>
+        <placeName type="variant">Hambourg</placeName>
+        <placeName type="variant">Hamburgus</placeName>
+        <location><geo>53.55000 10.00000</geo></location>
+        <country key="Q12548">Saint-Empire romain germanique</country>
+        <idno type="wikidata" cert="high">Q1055</idno>
+        <idno type="geonames">2911297</idno>
+        <note type="description">ville et land (État fédéré) d'Allemagne</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q59640477|Q1626|Q1627</note>
+      </place>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000098" n="45">
+        <persName type="main">Crassus</persName>
+        <persName type="sort">Crassus</persName>
+        <persName type="standard">Crassus</persName>
+        <persName type="variant">Cassius</persName>
+        <persName type="variant">L. Crassus</persName>
+        <persName type="variant">L.Crassus</persName>
+        <persName type="variant">Craſſum</persName>
+        <persName type="variant">Lucius Crassus</persName>
+        <birth><date when="-0115-01-01"/></birth>
+        <death><date when="-0053-06-08"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q38239859">officier d'armée de terre</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q175121</idno>
+        <idno type="viaf">13101109</idno>
+        <idno type="isni">000000011932453X</idno>
+        <idno type="gnd">118670476</idno>
+        <idno type="bnf">12441809h</idno>
+        <idno type="lccn">n86028327</idno>
+        <note type="description">membre du premier triumvirat (vers 115-53 av. J.-C)</note>
+        <note type="mentions">45</note>
+        <note type="sources">LIV0012|LIV0017|LIV0025a|LIV0026a|LIV0027|LIV0031_t2|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q715499</note>
+      </person>

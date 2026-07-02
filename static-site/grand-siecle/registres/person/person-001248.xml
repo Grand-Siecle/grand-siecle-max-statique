@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001248" n="3">
+        <persName type="main">Aristippe</persName>
+        <persName type="sort">Aristippos</persName>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0020|LIV0026b|LIV0026c</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q189506|Q665984|Q104579868</note>
+      </person>

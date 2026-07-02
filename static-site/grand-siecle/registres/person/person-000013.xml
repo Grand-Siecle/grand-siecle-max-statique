@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000013" n="275">
+        <persName type="main">Moïse</persName>
+        <persName type="sort">Moïse</persName>
+        <persName type="standard">Moïse</persName>
+        <persName type="variant">Mose</persName>
+        <persName type="variant">Mogse</persName>
+        <persName type="variant">Moïïse</persName>
+        <persName type="variant">Moine</persName>
+        <persName type="variant">Moïse-il</persName>
+        <persName type="variant">Moyſe</persName>
+        <persName type="variant">Moiie</persName>
+        <persName type="variant">moièse</persName>
+        <persName type="variant">moise|moïse</persName>
+        <birth><date when="-1393"/></birth>
+        <death><date when="-1273"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1402561">chef militaire</occupation>
+        <occupation key="Q15995642">chef religieux</occupation>
+        <occupation key="Q4175034">législateur ou législatrice</occupation>
+        <occupation key="Q1349880">thaumaturge</occupation>
+        <idno type="wikidata" cert="high">Q9077</idno>
+        <idno type="viaf">805492</idno>
+        <idno type="isni">0000000107775288</idno>
+        <idno type="gnd">118641190</idno>
+        <idno type="bnf">17005935g</idno>
+        <idno type="lccn">n79058331</idno>
+        <note type="description">premier prophète du judaïsme</note>
+        <note type="mentions">275</note>
+        <note type="sources">LIV0001|LIV0002b|LIV0003|LIV0006|LIV0007|LIV0008|LIV0012|LIV0018|LIV0019|LIV0022|LIV0023|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0028|LIV0031_t1|LIV0031_t2|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

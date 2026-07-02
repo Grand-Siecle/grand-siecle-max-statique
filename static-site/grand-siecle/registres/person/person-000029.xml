@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000029" n="152">
+        <persName type="main">Bellarmin</persName>
+        <persName type="sort">Bellarmin</persName>
+        <persName type="variant">Bellarminus</persName>
+        <persName type="variant">Bellearmin</persName>
+        <note type="mentions">152</note>
+        <note type="sources">LIV0001|LIV0003|LIV0024|LIV0031_t2|LIV0033</note>
+      </person>

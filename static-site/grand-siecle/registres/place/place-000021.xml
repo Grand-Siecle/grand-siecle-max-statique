@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000021" n="26">
+        <placeName type="main">Strasbourg</placeName>
+        <placeName type="sort">Strasbourg</placeName>
+        <placeName type="standard">Strasbourg</placeName>
+        <placeName type="variant">strasbourger</placeName>
+        <location><geo>48.57333 7.75222</geo></location>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="high">Q6602</idno>
+        <idno type="geonames">2973783</idno>
+        <note type="description">capitale de la région historique d'Alsace, préfecture du Bas-Rhin et de la région Grand Est</note>
+        <note type="mentions">26</note>
+        <note type="sources">LIV0008|LIV0010|LIV0023</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q126334|Q801473|Q1917272</note>
+      </place>

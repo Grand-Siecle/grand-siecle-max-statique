@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001861" n="2">
+        <persName type="main">Charles chappellain</persName>
+        <persName type="sort">Charles Chappellain</persName>
+        <persName type="variant">Charles</persName>
+        <persName type="variant">Chappellain</persName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0017</note>
+        <note type="reconciliation-confidence">low</note>
+      </person>

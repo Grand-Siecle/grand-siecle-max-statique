@@ -1,0 +1,101 @@
+div.index {
+  min-width: 50%;
+}
+
+div.personnes {
+  min-width: 50%;
+}
+
+#alphabet_liste {
+  border-color: #C0C0C0;
+  border-style: solid;
+  border-width: 1px;
+  line-height: 2;
+  padding-top: 5px;
+  position: fixed;
+  right: 50px;
+  width: 15%;
+  font-size: 12px;
+}
+
+#alphabet_liste,
+tr {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.index h1 {
+  font-size: 1.4em;
+}
+
+.index .developper {
+  background-size: 100% 4px;
+  padding: 0px 0px 0px 15px;
+  width: 80%;
+  margin: 4px 0px 0px 8px;
+  border: none;
+}
+
+div.index fieldset {
+  width: 80%;
+  max-width: 800px;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  margin: 2px 2px 2px 2px;
+  /* border: 1px solid #808080; */
+  border: none;
+}
+
+.subindex>.collapsible {
+  width: 100%;
+}
+
+div.index legend.collapsible {
+  color: #808080;
+  width: 7%;
+  cursor: pointer;
+  padding-right: -65px;
+  outline: none;
+  font-size: 100%;
+  text-align: left;
+  font-weight: normal;
+  border-radius: 4px;
+  padding-left: 25px;
+  margin-left: 0px;
+}
+
+h2.collapsible::after, legend.collapsible::after {
+  content: "▶";
+  font-size: 11px;
+  padding: 0px 9px 0px 8px;
+}
+
+legend.collapsible.active::after {
+  content: "▼";
+  font-size: 11px;
+  padding-left: 9px;
+}
+
+legend.collapsible:hover,
+legend.collapsible.active {
+  background-color: #fff;
+}
+
+div.index .collapsible:hover,
+div.index .collapsible.active {
+  background-color: transparent;
+}
+
+p.entries {
+  margin: 5px 0px 0px 20px;
+  color:black;
+  max-width: 40vw;
+}
+
+.indexEntry {
+  color: var(--ead-link-color);
+  cursor: pointer;
+}
+

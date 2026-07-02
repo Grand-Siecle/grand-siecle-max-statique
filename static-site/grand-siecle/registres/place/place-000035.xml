@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000035" n="19">
+        <placeName type="main">Romæ</placeName>
+        <placeName type="sort">romani</placeName>
+        <placeName type="standard">romani</placeName>
+        <placeName type="variant">Roma</placeName>
+        <location><geo>46.80000 21.70000</geo></location>
+        <country key="Q222">Albanie</country>
+        <idno type="wikidata" cert="medium">Q13201</idno>
+        <note type="description">langue indo-européenne des Roms (Tsiganes)</note>
+        <note type="mentions">19</note>
+        <note type="sources">LIV0010|LIV0032</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q3940432|Q55829521|Q387165</note>
+      </place>

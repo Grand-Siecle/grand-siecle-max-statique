@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000697" n="6">
+        <persName type="main">Galien</persName>
+        <persName type="sort">Claude Galien</persName>
+        <persName type="standard">Claude Galien</persName>
+        <persName type="variant">Galen</persName>
+        <birth><date when="0200"/></birth>
+        <death><date when="0300"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q551835">médecin écrivain</occupation>
+        <occupation key="Q774306">chirurgien ou chirurgienne</occupation>
+        <occupation key="Q6337803">neurobiologiste</occupation>
+        <occupation key="Q39631">médecin</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q8778</idno>
+        <idno type="viaf">44299175</idno>
+        <idno type="isni">0000000121302401</idno>
+        <idno type="gnd">118537202</idno>
+        <idno type="bnf">119039184</idno>
+        <idno type="lccn">n79059644</idno>
+        <note type="description">médecin antique</note>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0020|LIV0028|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q2147908|Q110071158|Q1373490</note>
+      </person>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000137" n="2">
+        <title type="main">Topiques</title>
+        <title type="standard">Topiques</title>
+        <title type="variant">topique</title>
+        <author key="Q868">Aristote</author>
+        <textLang key="Q35497">grec ancien</textLang>
+        <note type="genre" key="Q384515">traité</note>
+        <idno type="wikidata" cert="high">Q1095335</idno>
+        <note type="description">œuvre d'Aristote</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q112175088</note>
+      </bibl>

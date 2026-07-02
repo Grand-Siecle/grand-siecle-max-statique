@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000015" n="6">
+        <title type="main">Cantiques</title>
+        <title type="standard">Cantiques</title>
+        <title type="variant">Cantique</title>
+        <title type="variant">cartique</title>
+        <date type="publication" when="1947-01-01"/>
+        <idno type="wikidata" cert="high">Q5455847</idno>
+        <note type="description">compositions (5) de Benjamin Britten</note>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0001|LIV0026b|LIV0026c|LIV0028</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q2509255|Q6176502|Q1705521</note>
+      </bibl>

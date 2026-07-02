@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000177" n="5">
+        <placeName type="main">Brienneum</placeName>
+        <placeName type="sort">Brienne</placeName>
+        <placeName type="standard">Brienne</placeName>
+        <placeName type="variant">BRIENNE</placeName>
+        <placeName type="variant">Brienneo</placeName>
+        <placeName type="variant">Brinnum</placeName>
+        <placeName type="variant">Brienneus</placeName>
+        <location><geo>46.55694 5.02167</geo></location>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="medium">Q1150168</idno>
+        <idno type="geonames">6450881</idno>
+        <note type="description">commune française du département de Saône-et-Loire</note>
+        <note type="mentions">5</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q498869|Q732495|Q72595368</note>
+      </place>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000126" n="36">
+        <persName type="main">Jacob</persName>
+        <persName type="sort">Jacob</persName>
+        <persName type="standard">Jacob</persName>
+        <persName type="variant">Iacob</persName>
+        <persName type="variant">IIacob</persName>
+        <birth><date when="-1791"/></birth>
+        <death><date when="-1644"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q81710">berger ou bergère</occupation>
+        <idno type="wikidata" cert="high">Q289957</idno>
+        <idno type="viaf">202148389276110710871</idno>
+        <idno type="isni">0000000105349672</idno>
+        <idno type="gnd">118556746</idno>
+        <idno type="bnf">11947614q</idno>
+        <idno type="lccn">n82025275</idno>
+        <note type="description">personnage de la Bible et du Coran</note>
+        <note type="mentions">36</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0005|LIV0008|LIV0012|LIV0024|LIV0026a|LIV0026b|LIV0026c|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q213612|Q2634352</note>
+      </person>

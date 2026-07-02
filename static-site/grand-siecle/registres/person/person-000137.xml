@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000137" n="34">
+        <persName type="main">Zénon</persName>
+        <persName type="sort">Zénon</persName>
+        <persName type="standard">Zénon</persName>
+        <persName type="variant">saint Zénon</persName>
+        <persName type="variant">Zénons</persName>
+        <persName type="variant">Zéon</persName>
+        <persName type="variant">Menon</persName>
+        <persName type="variant">S. Zénon</persName>
+        <persName type="variant">Zénoé</persName>
+        <birth><date when="0425"/></birth>
+        <death><date when="0491-04-09"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q116">monarque</occupation>
+        <nationality key="Q12544">Empire byzantin</nationality>
+        <idno type="wikidata" cert="high">Q183452</idno>
+        <idno type="viaf">122312050</idno>
+        <idno type="isni">0000000078206827</idno>
+        <idno type="gnd">100445349</idno>
+        <idno type="bnf">16003358v</idno>
+        <idno type="lccn">n92096309</idno>
+        <note type="description">empereur byzantin de 474 à 491</note>
+        <note type="mentions">34</note>
+        <note type="sources">LIV0019|LIV0020|LIV0025a|LIV0025b|LIV0026c|LIV0027|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q3576498</note>
+      </person>

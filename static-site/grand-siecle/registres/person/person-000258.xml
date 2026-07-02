@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000258" n="16">
+        <persName type="main">Lucrece</persName>
+        <persName type="sort">Lucrèce</persName>
+        <persName type="standard">Lucrèce</persName>
+        <persName type="variant">Lucrecc</persName>
+        <birth><date when="-0600"/></birth>
+        <death><date when="-0509"/></death>
+        <sex value="Q6581072">féminin</sex>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q229432</idno>
+        <idno type="viaf">47554385</idno>
+        <idno type="isni">0000000448872246</idno>
+        <idno type="gnd">118574817</idno>
+        <idno type="lccn">n81147022</idno>
+        <note type="description">femme romaine dont le viol conduit à la fin de la monarchie romaine</note>
+        <note type="mentions">16</note>
+        <note type="sources">LIV0007|LIV0012|LIV0020|LIV0025b|LIV0026b|LIV0026c|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q191103</note>
+      </person>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000156" n="27">
+        <persName type="main">Homère</persName>
+        <persName type="sort">Homère</persName>
+        <persName type="standard">Homère</persName>
+        <persName type="variant">Home</persName>
+        <persName type="variant">Hoère</persName>
+        <persName type="variant">Homerea</persName>
+        <persName type="variant">HIomère</persName>
+        <birth><date when="-0900"/></birth>
+        <death><date when="-0800"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q482980">auteur</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q1568260">Confédération ionienne</nationality>
+        <idno type="wikidata" cert="high">Q6691</idno>
+        <idno type="viaf">224924963</idno>
+        <idno type="isni">000000036354151X</idno>
+        <idno type="gnd">11855333X</idno>
+        <idno type="bnf">11907688f</idno>
+        <idno type="lccn">n78095639</idno>
+        <note type="description">poète épique de la Grèce antique, auteur de l’Illiade et de l’Odyssée</note>
+        <note type="mentions">27</note>
+        <note type="sources">LIV0015|LIV0020|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q724800</note>
+      </person>

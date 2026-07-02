@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000556" n="8">
+        <persName type="main">Thucidide</persName>
+        <persName type="sort">Thucydide</persName>
+        <persName type="standard">Thucydide</persName>
+        <persName type="variant">Thucidides</persName>
+        <persName type="variant">Thucydide</persName>
+        <birth><date when="-0460"/></birth>
+        <death><date when="-0395"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q844930">Athènes</nationality>
+        <idno type="wikidata" cert="high">Q41683</idno>
+        <idno type="viaf">95161463</idno>
+        <idno type="isni">000000012144141X</idno>
+        <idno type="gnd">11862234X</idno>
+        <idno type="bnf">119266111</idno>
+        <idno type="lccn">n79021175</idno>
+        <note type="description">stratège et historien athénien</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0020|LIV0026a|LIV0027</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q57487595</note>
+      </person>

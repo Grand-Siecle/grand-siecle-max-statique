@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000247" n="4">
+        <placeName type="main">Germania</placeName>
+        <placeName type="sort">Germania</placeName>
+        <placeName type="standard">Germania</placeName>
+        <placeName type="variant">Angermaniam</placeName>
+        <placeName type="variant">ANGERMANIA</placeName>
+        <country key="Q183">Allemagne</country>
+        <idno type="wikidata" cert="high">Q699945</idno>
+        <note type="description">compagnie aérienne allemande disparue</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1514097|Q328257|Q2067231</note>
+      </place>

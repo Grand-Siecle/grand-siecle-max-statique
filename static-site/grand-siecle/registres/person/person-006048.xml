@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-006048" n="1">
+        <persName type="main">Popielus Rex</persName>
+        <persName type="sort">Popielus Rex</persName>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0010</note>
+      </person>

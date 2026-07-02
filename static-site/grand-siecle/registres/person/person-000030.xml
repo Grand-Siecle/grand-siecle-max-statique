@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000030" n="152">
+        <persName type="main">Demôthène</persName>
+        <persName type="sort">Demôthène</persName>
+        <persName type="variant">Demôtne</persName>
+        <persName type="variant">Demosthène</persName>
+        <persName type="variant">Démhène</persName>
+        <persName type="variant">Demœfthène</persName>
+        <persName type="variant">Demostne</persName>
+        <persName type="variant">Demôthènes</persName>
+        <persName type="variant">Démmène</persName>
+        <persName type="variant">Demostte</persName>
+        <persName type="variant">Demôthène Paianien</persName>
+        <persName type="variant">Demofthène</persName>
+        <persName type="variant">Démosthes</persName>
+        <persName type="variant">De</persName>
+        <note type="mentions">152</note>
+        <note type="sources">LIV0012|LIV0014|LIV0017|LIV0020|LIV0025a|LIV0025b|LIV0027</note>
+      </person>

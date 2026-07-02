@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000057" n="8">
+        <orgName type="main">Stoiciens</orgName>
+        <orgName type="sort">stoïcisme</orgName>
+        <orgName type="standard">stoïcisme</orgName>
+        <orgName type="variant">Stoicies</orgName>
+        <orgName type="variant">stoïcien</orgName>
+        <orgName type="variant">stoïécien</orgName>
+        <orgName type="variant">stoïscien</orgName>
+        <event type="foundation"><date when="-0300"/></event>
+        <idno type="wikidata" cert="high">Q48235</idno>
+        <idno type="gnd">4077910-5</idno>
+        <note type="description">courant philosophique</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0017|LIV0020|LIV0026a|LIV0026c|LIV0028</note>
+        <note type="reconciliation-confidence">high</note>
+      </org>

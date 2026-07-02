@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000356" n="12">
+        <persName type="main">Maténus</persName>
+        <persName type="sort">Maténus</persName>
+        <persName type="variant">Matternus</persName>
+        <persName type="variant">Maternus</persName>
+        <note type="mentions">12</note>
+        <note type="sources">LIV0017</note>
+      </person>

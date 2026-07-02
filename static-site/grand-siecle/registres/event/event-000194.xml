@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000194" n="1">
+        <label type="main">bellum Germanicum</label>
+        <label type="variant">bellum Germanicus</label>
+        <note type="mentions">1</note>
+        <note type="sources">LIV0010</note>
+      </event>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000602" n="7">
+        <persName type="main">Lucien</persName>
+        <persName type="sort">Lucien</persName>
+        <persName type="variant">Lucienqu</persName>
+        <note type="mentions">7</note>
+        <note type="sources">LIV0015|LIV0020|LIV0024</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q15728056|Q36883296|Q932451</note>
+      </person>

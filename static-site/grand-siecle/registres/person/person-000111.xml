@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000111" n="41">
+        <persName type="main">Poète</persName>
+        <persName type="sort">Poète</persName>
+        <persName type="variant">Poète ancien</persName>
+        <persName type="variant">Poète-ci</persName>
+        <persName type="variant">Un Poète</persName>
+        <persName type="variant">le Poète</persName>
+        <persName type="variant">grand Poète</persName>
+        <persName type="variant">poeite</persName>
+        <persName type="variant">poerte</persName>
+        <persName type="variant">poeste|poéette|poête</persName>
+        <persName type="variant">poeste|poeste|poête Martial</persName>
+        <note type="mentions">41</note>
+        <note type="sources">LIV0008|LIV0012|LIV0015|LIV0020|LIV0025a|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0028|LIV0031_t1</note>
+      </person>

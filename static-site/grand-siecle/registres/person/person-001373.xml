@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001373" n="3">
+        <persName type="main">Hermogène</persName>
+        <persName type="sort">Hermogène</persName>
+        <persName type="standard">Hermogène</persName>
+        <persName type="variant">Hermogénei</persName>
+        <birth><date when="1530-01-01"/></birth>
+        <death><date when="1612-02-27"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q42603">prêtre</occupation>
+        <nationality key="Q186096">tsarat de Moscou</nationality>
+        <idno type="wikidata" cert="high">Q561645</idno>
+        <idno type="viaf">47624237</idno>
+        <idno type="isni">0000000055387119</idno>
+        <idno type="gnd">12167049X</idno>
+        <idno type="lccn">nr91005871</idno>
+        <note type="description">Russian bishop</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0012|LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q716811|Q1336424|Q9291676</note>
+      </person>

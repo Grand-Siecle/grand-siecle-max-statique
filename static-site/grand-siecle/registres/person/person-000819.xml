@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000819" n="5">
+        <persName type="main">César Auguste</persName>
+        <persName type="sort">Auguste</persName>
+        <persName type="standard">Auguste</persName>
+        <birth><date when="-0063"/></birth>
+        <death><date when="0014-08-19"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q47064">militaire</occupation>
+        <occupation key="Q1097498">dirigeant ou dirigeante</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q1405</idno>
+        <idno type="viaf">18013086</idno>
+        <idno type="isni">0000000121227317</idno>
+        <idno type="gnd">118505122</idno>
+        <idno type="bnf">12326866z</idno>
+        <idno type="lccn">n79033006</idno>
+        <note type="description">premier empereur romain de 27 av. J.-C. à 14</note>
+        <note type="mentions">5</note>
+        <note type="sources">LIV0008|LIV0017</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q50187|Q2994847|Q115381456</note>
+      </person>

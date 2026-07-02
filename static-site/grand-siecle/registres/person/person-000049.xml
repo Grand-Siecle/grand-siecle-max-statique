@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000049" n="86">
+        <persName type="main">Malherbe</persName>
+        <persName type="sort">Malherbe</persName>
+        <persName type="variant">M. de Malherbe</persName>
+        <persName type="variant">de Malherbe</persName>
+        <persName type="variant">ONSIEUR de Malherbe</persName>
+        <persName type="variant">Monfieur de Malherbe</persName>
+        <persName type="variant">Monsieur Malherbe</persName>
+        <persName type="variant">Monsieur de Malherbe</persName>
+        <persName type="variant">M. Malherbe</persName>
+        <persName type="variant">de Malherbe Malherbe</persName>
+        <note type="mentions">86</note>
+        <note type="sources">LIV0012|LIV0015|LIV0019</note>
+      </person>

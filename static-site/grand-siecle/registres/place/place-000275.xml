@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000275" n="4">
+        <placeName type="main">Riga</placeName>
+        <placeName type="sort">Riga</placeName>
+        <placeName type="standard">Riga</placeName>
+        <placeName type="variant">Rigam</placeName>
+        <placeName type="variant">Rigæ</placeName>
+        <location><geo>56.94750 24.10694</geo></location>
+        <country key="Q211">Lettonie</country>
+        <idno type="wikidata" cert="high">Q1773</idno>
+        <idno type="geonames">456172</idno>
+        <note type="description">capitale de la Lettonie</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q20727049|Q3494576|Q178382</note>
+      </place>

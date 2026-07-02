@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000125" n="2">
+        <label type="main">guerres</label>
+        <label type="standard">guerres indiennes</label>
+        <label type="variant">guerre</label>
+        <date notBefore="1622"/>
+        <date notAfter="1924"/>
+        <placeName key="Q49">Amérique du Nord</placeName>
+        <idno type="wikidata" cert="medium">Q849680</idno>
+        <desc>conflits frontaliers intermittents entre les colons américains, canadiens et européens et les peuples autochtones d'Amérique du Nord</desc>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0002a|LIV0017</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q78994|Q207318|Q2697981</note>
+      </event>

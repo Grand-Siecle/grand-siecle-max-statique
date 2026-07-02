@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000153" n="28">
+        <persName type="main">Apollon</persName>
+        <persName type="sort">Apollon</persName>
+        <persName type="standard">Apollon</persName>
+        <persName type="variant">Apollode</persName>
+        <persName type="variant">Appollon</persName>
+        <persName type="variant">Apollonius</persName>
+        <persName type="variant">Apollo</persName>
+        <persName type="variant">ApRollon</persName>
+        <persName type="variant">Apllo</persName>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1365214">sauroctones</occupation>
+        <occupation key="Q890527">archer ou archère</occupation>
+        <idno type="wikidata" cert="high">Q37340</idno>
+        <idno type="viaf">3261638</idno>
+        <idno type="gnd">118503642</idno>
+        <idno type="bnf">11950847r</idno>
+        <idno type="lccn">n2014033988</idno>
+        <note type="description">dieu de la musique, de la poésie, des oracles et des épidémies dans la religion grecque antique et la mythologie grecque</note>
+        <note type="mentions">28</note>
+        <note type="sources">LIV0002b|LIV0014|LIV0019|LIV0025b|LIV0026b|LIV0026c|LIV0031_t1|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

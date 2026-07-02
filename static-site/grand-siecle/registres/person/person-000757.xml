@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000757" n="6">
+        <persName type="main">Saleius Bassus</persName>
+        <persName type="sort">Saleius Bassus</persName>
+        <persName type="standard">Saleius Bassus</persName>
+        <persName type="variant">Salius Bassus</persName>
+        <persName type="variant">Saleus Bassus</persName>
+        <birth><date when="0050"/></birth>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q718185</idno>
+        <idno type="viaf">255045890</idno>
+        <idno type="isni">0000000377862621</idno>
+        <idno type="gnd">11933870X</idno>
+        <idno type="bnf">135167481</idno>
+        <note type="description">poète romain</note>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0017</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q139575928</note>
+      </person>

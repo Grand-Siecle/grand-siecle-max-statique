@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000727" n="2">
+        <placeName type="main">VERONA</placeName>
+        <placeName type="sort">Véronne</placeName>
+        <placeName type="standard">Véronne</placeName>
+        <placeName type="variant">Uerona</placeName>
+        <location><geo>44.73556 5.20861</geo></location>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="high">Q314585</idno>
+        <idno type="geonames">6430268</idno>
+        <note type="description">commune française de la Drôme (-2024)</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q37452460|Q1087483|Q2028</note>
+      </place>

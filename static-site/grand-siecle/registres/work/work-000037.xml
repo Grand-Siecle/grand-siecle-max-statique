@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000037" n="4">
+        <title type="main">Homère</title>
+        <title type="standard">Homère</title>
+        <note type="genre" key="Q37484">épopée</note>
+        <idno type="wikidata" cert="high">Q6691</idno>
+        <note type="description">poète épique de la Grèce antique, auteur de l’Illiade et de l’Odyssée</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0019|LIV0026a|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q65557968|Q49126008|Q11710021</note>
+      </bibl>

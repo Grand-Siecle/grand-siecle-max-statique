@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000050" n="8">
+        <orgName type="main">armée</orgName>
+        <orgName type="sort">armée</orgName>
+        <orgName type="standard">armée</orgName>
+        <orgName type="variant">armées</orgName>
+        <orgName type="variant">armèée</orgName>
+        <idno type="wikidata" cert="high">Q8473</idno>
+        <idno type="gnd">4039305-7</idno>
+        <note type="description">groupe armé agissant au nom d'une société</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0015|LIV0020|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q37726|Q222595|Q9212</note>
+      </org>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000836" n="5">
+        <persName type="main">Florus</persName>
+        <persName type="sort">Florus</persName>
+        <persName type="standard">Florus</persName>
+        <birth><date when="0070-01-01"/></birth>
+        <death><date when="0140"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q361809">rhéteur ou rhétrice</occupation>
+        <occupation key="Q12859263">orateur ou oratrice</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q316483</idno>
+        <idno type="viaf">89604346</idno>
+        <idno type="isni">0000000121228184</idno>
+        <idno type="gnd">118691910</idno>
+        <idno type="bnf">11886317b</idno>
+        <idno type="lccn">n84212566</idno>
+        <note type="description">historien romain</note>
+        <note type="mentions">5</note>
+        <note type="sources">LIV0014|LIV0019|LIV0025b|LIV0027|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q15621261|Q96078389|Q3074419</note>
+      </person>

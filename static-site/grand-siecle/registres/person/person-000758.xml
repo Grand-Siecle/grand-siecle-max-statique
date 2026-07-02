@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000758" n="6">
+        <persName type="main">Saluste</persName>
+        <persName type="sort">Saluste</persName>
+        <persName type="variant">Salust</persName>
+        <persName type="variant">Salluste</persName>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0012|LIV0019|LIV0025b</note>
+      </person>

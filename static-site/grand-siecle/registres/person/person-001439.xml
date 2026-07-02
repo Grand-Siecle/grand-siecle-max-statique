@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001439" n="3">
+        <persName type="main">Macrobe</persName>
+        <persName type="sort">Macrobe</persName>
+        <persName type="standard">Macrobe</persName>
+        <birth><date when="0370"/></birth>
+        <death><date when="0430"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q4964182">philosophe</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q212238">fonctionnaire</occupation>
+        <occupation key="Q16031530">théoricien ou théoricienne de la musique</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q313934</idno>
+        <idno type="viaf">39387062</idno>
+        <idno type="isni">000000011624565X</idno>
+        <idno type="gnd">118640763</idno>
+        <idno type="bnf">11999201s</idno>
+        <idno type="lccn">n50043606</idno>
+        <note type="description">philosophe antique</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0012|LIV0019|LIV0027</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q6725164|Q182238|Q6725166</note>
+      </person>

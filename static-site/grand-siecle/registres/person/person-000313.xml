@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000313" n="13">
+        <persName type="main">Alexandre le Grand</persName>
+        <persName type="sort">Alexandre le Grand</persName>
+        <persName type="standard">Alexandre le Grand</persName>
+        <persName type="variant">Alexandre Tyran</persName>
+        <persName type="variant">Alexan</persName>
+        <persName type="variant">Alexandre le</persName>
+        <persName type="variant">Grand</persName>
+        <birth><date when="-0356-07-20"/></birth>
+        <death><date when="-0323-06-10"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q82955">personnalité politique</occupation>
+        <occupation key="Q1402561">chef militaire</occupation>
+        <occupation key="Q116">monarque</occupation>
+        <nationality key="Q83958">royaume de Macédoine</nationality>
+        <idno type="wikidata" cert="high">Q8409</idno>
+        <idno type="viaf">88742742</idno>
+        <idno type="isni">0000000122835816</idno>
+        <idno type="gnd">118501828</idno>
+        <idno type="bnf">11946296j</idno>
+        <idno type="lccn">n79004067</idno>
+        <note type="description">roi de Macédoine et conquérant de la Perse achéménide (356-323 av. J.-C.)</note>
+        <note type="mentions">13</note>
+        <note type="sources">LIV0015|LIV0019|LIV0024|LIV0025a|LIV0025b</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

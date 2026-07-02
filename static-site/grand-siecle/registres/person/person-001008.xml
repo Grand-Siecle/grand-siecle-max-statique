@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001008" n="4">
+        <persName type="main">Cornélia</persName>
+        <persName type="sort">Cornelia Africana</persName>
+        <persName type="standard">Cornelia Africana</persName>
+        <persName type="variant">Cornell</persName>
+        <birth><date when="-0190"/></birth>
+        <death><date when="-0110-01-01"/></death>
+        <sex value="Q6581072">féminin</sex>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q234533</idno>
+        <idno type="viaf">26957386</idno>
+        <idno type="isni">0000000103952558</idno>
+        <idno type="gnd">102385661</idno>
+        <idno type="lccn">nr95039337</idno>
+        <note type="description">noble romaine, fille de Scipion l'Africain et mère des Gracques</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0015|LIV0017|LIV0025a</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q1119228|Q235423|Q3538787</note>
+      </person>

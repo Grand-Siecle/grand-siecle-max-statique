@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000123" n="2">
+        <title type="main">Philosophie</title>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020|LIV0025b</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q5891|Q9471|Q179805</note>
+      </bibl>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001278" n="3">
+        <persName type="main">Carneades</persName>
+        <persName type="sort">Carnéade</persName>
+        <persName type="standard">Carnéade</persName>
+        <birth><date when="-0213"/></birth>
+        <death><date when="-0129"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q4964182">philosophe</occupation>
+        <idno type="wikidata" cert="medium">Q284994</idno>
+        <idno type="viaf">61151889</idno>
+        <idno type="isni">0000000369814339</idno>
+        <idno type="gnd">118560263</idno>
+        <idno type="bnf">12862286n</idno>
+        <idno type="lccn">no97052157</idno>
+        <note type="description">philosophe stoïcien, fondateur de la Nouvelle Académie d’Athènes (ou « Troisième Académie »)</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0020|LIV0022</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q14839814|Q25408456|Q14839799</note>
+      </person>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000252" n="17">
+        <persName type="main">Virgile</persName>
+        <persName type="sort">Virgile</persName>
+        <note type="mentions">17</note>
+        <note type="sources">LIV0004a|LIV0008|LIV0012|LIV0015|LIV0017|LIV0019|LIV0020|LIV0024|LIV0025b|LIV0031_t2</note>
+      </person>

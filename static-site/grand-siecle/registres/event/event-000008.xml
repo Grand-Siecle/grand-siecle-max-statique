@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event xmlns="http://www.tei-c.org/ns/1.0" xml:id="event-000008" n="26">
+        <label type="main">siècle</label>
+        <label type="standard">siècle des Lumières</label>
+        <label type="variant">le siècle</label>
+        <date notBefore="1700"/>
+        <date notAfter="1820"/>
+        <placeName key="Q27496">Europe de l'Ouest</placeName>
+        <idno type="wikidata" cert="medium">Q12539</idno>
+        <desc>période historique</desc>
+        <note type="mentions">26</note>
+        <note type="sources">LIV0003|LIV0006|LIV0017|LIV0026b|LIV0026c|LIV0031_t2</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q578|Q3104547|Q530936</note>
+      </event>

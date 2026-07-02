@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002131" n="2">
+        <persName type="main">Gracchus</persName>
+        <persName type="sort">Gracchus</persName>
+        <persName type="standard">Gracchus</persName>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q189290">officier</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q4147627</idno>
+        <note type="description">préfet de Rome en 415</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0017|LIV0026a|LIV0027</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q111685925|Q1541122|Q66466869</note>
+      </person>

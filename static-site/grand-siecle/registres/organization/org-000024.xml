@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="org-000024" n="18">
+        <orgName type="main">République</orgName>
+        <orgName type="sort">République du Congo</orgName>
+        <orgName type="standard">République du Congo</orgName>
+        <orgName type="variant">la République</orgName>
+        <orgName type="variant">république romain</orgName>
+        <event type="foundation"><date when="1960-01-01"/></event>
+        <idno type="wikidata" cert="medium">Q971</idno>
+        <idno type="viaf">173167475</idno>
+        <idno type="isni">0000000123242385</idno>
+        <idno type="gnd">4032097-2</idno>
+        <note type="description">pays d'Afrique centrale, dont la capitale est Brazzaville, indépendant depuis 1960</note>
+        <note type="mentions">18</note>
+        <note type="sources">LIV0012|LIV0014|LIV0020|LIV0022|LIV0025b</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q183|Q148|Q668</note>
+      </org>

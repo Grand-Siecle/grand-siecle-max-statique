@@ -1,0 +1,147 @@
+@import 'header.css';
+
+:root{
+  --header-height: 80px;
+  --footer-height: 80px;
+  --anchor-padding: 125px;
+}
+
+html {
+    scroll-padding-top: var(--anchor-padding);
+}
+
+body {
+  padding-top: 150px;
+}
+
+body.maxhome{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color:white;
+  background-color:black;
+
+}
+
+
+.error {
+  color: red;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+#txt_options {
+  display: none;
+}
+
+
+#main-max-container {
+  text-align: justify;
+  margin-bottom: calc(20px + var(--footer-height));
+}
+#main-max-container .manchette_droite,
+#main-max-container .manchette_gauche,
+#main-max-container .manchette {
+  display: inline;
+  font-size: 75%;
+  position: absolute;
+  text-align: left;
+  text-indent: 0;
+  width: 200px;
+  padding: 0px;
+  padding-left: 5px;
+  background-color: #ddd;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#main-max-container sup {
+  font-weight: bold;
+}
+#main-max-container .note_to_text {
+  padding-right: 5px;
+}
+#main-max-container .italic {
+  font-style: italic;
+}
+#main-max-container #bas_de_page {
+  display: none;
+}
+
+#search {
+  margin: 10px;
+}
+#search #search-form {
+  padding: 5px;
+}
+
+
+#bottom {
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  border-top: 1px solid black;
+  padding-top: 15px;
+}
+
+#toc li a{
+    vertical-align:top;
+}
+
+
+.target mark {
+  background-color: yellow;
+}
+
+#target, .target {
+  background-color: rgba(200, 200, 200, 0.4);
+}
+
+footer {
+  text-align: center;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:black;
+  max-height: var(--footer-height);
+}
+
+.footer-logos {
+  width: var(--footer-height);
+}
+
+
+span.max-doc-title{
+    display :inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 350px;
+    text-overflow: '[...]';
+}
+
+#toc .max-doc-title{
+    max-width: none;
+}
+
+ul.dropdown-menu {
+    overflow: auto;
+    max-height: 700px;
+    padding: 5px;
+}
+
+#text :target {
+    font-weight: bold;
+}
+
+#toc h1, #document-toc h1{
+ margin-bottom: 50px;
+}

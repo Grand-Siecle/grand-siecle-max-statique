@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000197" n="21">
+        <persName type="main">Jacques</persName>
+        <persName type="sort">Jacques de Zébédée</persName>
+        <persName type="standard">Jacques de Zébédée</persName>
+        <persName type="variant">saint Jacques</persName>
+        <persName type="variant">S. Jacques</persName>
+        <persName type="variant">iacques</persName>
+        <birth><date when="0001"/></birth>
+        <death><date when="0044"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q331432">pêcheur ou pêcheuse</occupation>
+        <occupation key="Q219477">missionnaire</occupation>
+        <occupation key="Q43412">apôtre</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q43999</idno>
+        <idno type="viaf">289664662</idno>
+        <idno type="isni">0000000395038177</idno>
+        <idno type="gnd">118556800</idno>
+        <idno type="lccn">n80004184</idno>
+        <note type="description">apôtre du Christ</note>
+        <note type="mentions">21</note>
+        <note type="sources">LIV0002a|LIV0002b|LIV0007|LIV0008|LIV0009|LIV0012|LIV0019|LIV0024|LIV0025b|LIV0026a</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q112631511|Q12891742|Q460124</note>
+      </person>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000399" n="3">
+        <placeName type="main">Vpſaliam</placeName>
+        <placeName type="sort">Vpſaliam</placeName>
+        <placeName type="variant">VESALIA</placeName>
+        <placeName type="variant">VPSALIA</placeName>
+        <placeName type="variant">upsalia</placeName>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0010</note>
+      </place>

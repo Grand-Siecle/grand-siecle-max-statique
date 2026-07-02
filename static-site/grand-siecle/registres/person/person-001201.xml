@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001201" n="4">
+        <persName type="main">Théon</persName>
+        <persName type="sort">Théon d'Alexandrie</persName>
+        <persName type="standard">Théon d'Alexandrie</persName>
+        <birth><date when="0335-01-01"/></birth>
+        <death><date when="0400-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q170790">mathématicien ou mathématicienne</occupation>
+        <occupation key="Q182436">bibliothécaire</occupation>
+        <occupation key="Q11063">astronome</occupation>
+        <idno type="wikidata" cert="high">Q354384</idno>
+        <idno type="viaf">88940669</idno>
+        <idno type="isni">0000000374003469</idno>
+        <idno type="gnd">118801856</idno>
+        <idno type="bnf">12043035n</idno>
+        <idno type="lccn">n86048557</idno>
+        <note type="description">mathématicien grec</note>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0012|LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q2927554|Q75772584|Q4115910</note>
+      </person>

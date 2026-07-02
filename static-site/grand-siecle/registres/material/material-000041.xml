@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns="http://www.tei-c.org/ns/1.0" xml:id="material-000041" n="4">
+        <catDesc>
+          <term type="main">liège</term>
+        </catDesc>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0007|LIV0020</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q21765571|Q1866688|Q94000</note>
+      </category>

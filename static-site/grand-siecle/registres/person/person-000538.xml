@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000538" n="8">
+        <persName type="main">Maxime</persName>
+        <persName type="sort">Maxime</persName>
+        <persName type="standard">Maxime</persName>
+        <persName type="variant">Saint Maxime</persName>
+        <persName type="variant">Manima</persName>
+        <birth><date when="0400-01-01"/></birth>
+        <death><date when="0422-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1136723">usurpateur</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q550622</idno>
+        <note type="description">usurpateur romain de 409 à 411 et de 420 à 422</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0010|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q18216057|Q918268|Q113015423</note>
+      </person>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000411" n="2">
+        <placeName type="main">Alſatia</placeName>
+        <placeName type="sort">Éditions Alsatia</placeName>
+        <placeName type="standard">Éditions Alsatia</placeName>
+        <placeName type="variant">Holſatiam</placeName>
+        <placeName type="variant">Holsatia</placeName>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="high">Q13142475</idno>
+        <note type="description">maison d'édition</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q112402|Q107282500|Q38280</note>
+      </place>

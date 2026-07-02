@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000019" n="31">
+        <placeName type="main">Sparte</placeName>
+        <placeName type="sort">Sparte</placeName>
+        <placeName type="standard">Sparte</placeName>
+        <placeName type="variant">Spartes</placeName>
+        <placeName type="variant">Sparta</placeName>
+        <location><geo>37.08194 22.42361</geo></location>
+        <country key="Q41">Grèce</country>
+        <idno type="wikidata" cert="high">Q5690</idno>
+        <idno type="geonames">253394</idno>
+        <note type="description">ancienne ville grecque du Péloponnèse</note>
+        <note type="mentions">31</note>
+        <note type="sources">LIV0020|LIV0025a|LIV0025b|LIV0026c|LIV0027|LIV0028|LIV0031_t2</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q629049|Q2308046|Q738931</note>
+      </place>

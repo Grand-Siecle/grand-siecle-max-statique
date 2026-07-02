@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001230" n="3">
+        <persName type="main">Anacreon</persName>
+        <persName type="sort">Anacréon</persName>
+        <persName type="standard">Anacréon</persName>
+        <birth><date when="-0570"/></birth>
+        <death><date when="-0485-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q26237228">épigrammatiste</occupation>
+        <occupation key="Q609016">Hofmeister</occupation>
+        <idno type="wikidata" cert="high">Q213484</idno>
+        <idno type="viaf">100165204</idno>
+        <idno type="isni">0000000121033619</idno>
+        <idno type="gnd">118649035</idno>
+        <idno type="bnf">11888717x</idno>
+        <idno type="lccn">n83015407</idno>
+        <note type="description">poète lyrique grec de l'Antiquité</note>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0004a|LIV0020|LIV0031_t1</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q4750726|Q11679825|Q13420014</note>
+      </person>

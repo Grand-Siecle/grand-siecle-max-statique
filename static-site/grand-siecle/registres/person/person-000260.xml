@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000260" n="16">
+        <persName type="main">Pausanias</persName>
+        <persName type="sort">Pausanias le Périégète</persName>
+        <persName type="standard">Pausanias le Périégète</persName>
+        <persName type="variant">Pausantas</persName>
+        <persName type="variant">Pausanies</persName>
+        <birth><date when="0110"/></birth>
+        <death><date when="0180"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q901402">géographe</occupation>
+        <occupation key="Q3579035">chroniqueur de voyage</occupation>
+        <idno type="wikidata" cert="high">Q192931</idno>
+        <idno type="viaf">77132959</idno>
+        <idno type="isni">0000000374376038</idno>
+        <idno type="gnd">118592246</idno>
+        <idno type="bnf">11918834h</idno>
+        <idno type="lccn">n93113203</idno>
+        <note type="description">géographe et voyageur grec de l'Antiquité</note>
+        <note type="mentions">16</note>
+        <note type="sources">LIV0007|LIV0014|LIV0015|LIV0020|LIV0024|LIV0025a|LIV0025b|LIV0026a|LIV0026c|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q314518|Q457994|Q3624780</note>
+      </person>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002280" n="2">
+        <persName type="main">la Vierge</persName>
+        <persName type="sort">Marie</persName>
+        <persName type="standard">Marie</persName>
+        <persName type="variant">le vierge</persName>
+        <birth><date when="-0018"/></birth>
+        <death><date when="0048"/></death>
+        <sex value="Q6581072">féminin</sex>
+        <occupation key="Q67205775">piqueuse</occupation>
+        <idno type="wikidata" cert="high">Q345</idno>
+        <idno type="viaf">86913753</idno>
+        <idno type="isni">0000000427570951</idno>
+        <idno type="gnd">118640909</idno>
+        <idno type="bnf">11934598c</idno>
+        <idno type="lccn">n81018544</idno>
+        <note type="description">mère de Jésus de Nazareth</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0001|LIV0024</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q112915057|Q3213748|Q2480921</note>
+      </person>

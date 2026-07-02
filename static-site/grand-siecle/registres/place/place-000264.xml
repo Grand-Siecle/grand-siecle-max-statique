@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000264" n="4">
+        <placeName type="main">Monti Briſiaco</placeName>
+        <placeName type="sort">Monti Briſiaco</placeName>
+        <placeName type="variant">Montem Briſiacum</placeName>
+        <placeName type="variant">Monte Briſiaco</placeName>
+        <placeName type="variant">MONS BRISIACVS</placeName>
+        <placeName type="variant">mons Brisiacus</placeName>
+        <note type="mentions">4</note>
+        <note type="sources">LIV0010</note>
+      </place>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001474" n="3">
+        <persName type="main">Monseigneur l’Eminentisime Cardinal</persName>
+        <persName type="sort">Monseigneur l’Eminentisime Cardinal</persName>
+        <persName type="variant">Monseigneur</persName>
+        <note type="mentions">3</note>
+        <note type="sources">LIV0019</note>
+      </person>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000016" n="230">
+        <persName type="main">Salomon</persName>
+        <persName type="sort">Salomon</persName>
+        <persName type="standard">Salomon</persName>
+        <persName type="variant">Salomo</persName>
+        <persName type="variant">Salomoe</persName>
+        <birth><date when="-0990"/></birth>
+        <death><date when="-0931-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q116">monarque</occupation>
+        <occupation key="Q168827">prophète de l'islam</occupation>
+        <nationality key="Q3185305">Monarchie unifiée d'Israël et Juda</nationality>
+        <idno type="wikidata" cert="high">Q37085</idno>
+        <idno type="viaf">100963493</idno>
+        <idno type="isni">0000000108040267</idno>
+        <idno type="gnd">118605100</idno>
+        <idno type="bnf">12095820b</idno>
+        <idno type="lccn">n80024516</idno>
+        <note type="description">personnage biblique, troisième roi d'Israël, fils de David</note>
+        <note type="mentions">230</note>
+        <note type="sources">LIV0001|LIV0002a|LIV0003|LIV0005|LIV0008|LIV0009|LIV0012|LIV0022|LIV0025b|LIV0026a|LIV0026b|LIV0026c|LIV0027|LIV0028|LIV0031_t1|LIV0031_t2|LIV0032</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

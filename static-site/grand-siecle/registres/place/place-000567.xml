@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000567" n="2">
+        <placeName type="main">Liuoniam</placeName>
+        <placeName type="sort">Liuoniam</placeName>
+        <placeName type="variant">LIVONIA</placeName>
+        <placeName type="variant">Liuonia</placeName>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0010</note>
+      </place>

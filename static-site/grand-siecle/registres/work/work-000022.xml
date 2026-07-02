@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="work-000022" n="6">
+        <title type="main">vers</title>
+        <note type="mentions">6</note>
+        <note type="sources">LIV0004a|LIV0015|LIV0017</note>
+        <note type="reconciliation-confidence">low</note>
+        <note type="wikidata-candidates">Q1625766|Q781817|Q621</note>
+      </bibl>

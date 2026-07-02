@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://www.tei-c.org/ns/1.0" xml:id="place-000101" n="8">
+        <placeName type="main">Candie</placeName>
+        <placeName type="sort">Candie Prune</placeName>
+        <placeName type="standard">Candie Prune</placeName>
+        <placeName type="variant">Candis</placeName>
+        <placeName type="variant">Ande</placeName>
+        <country key="Q142">France</country>
+        <idno type="wikidata" cert="medium">Q2936292</idno>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0007|LIV0008|LIV0010</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q1366214|Q1033007|Q3655216</note>
+      </place>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns="http://www.tei-c.org/ns/1.0" xml:id="artwork-000014" n="2">
+        <objectName type="main">ornement</objectName>
+        <objectName type="standard">ornement</objectName>
+        <idno type="wikidata" cert="high">Q335261</idno>
+        <idno type="aat">300266794</idno>
+        <note type="description">décoration utilisée pour embellir un bâtiment ou un objet</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0019</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q4470686|Q739589|Q3356530</note>
+      </object>

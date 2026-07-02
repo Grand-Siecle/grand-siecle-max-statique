@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000075" n="58">
+        <persName type="main">Saint Bonaventure</persName>
+        <persName type="sort">Bonaventure de Bagnoregio</persName>
+        <persName type="standard">Bonaventure de Bagnoregio</persName>
+        <persName type="variant">S. Bonaventure</persName>
+        <persName type="variant">Bonaventure</persName>
+        <persName type="variant">Saint Bonauenture</persName>
+        <persName type="variant">saint</persName>
+        <persName type="variant">SAINT BONAUENTVRE</persName>
+        <persName type="variant">s bonauenture</persName>
+        <birth><date when="1221"/></birth>
+        <death><date when="1274-07-15"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q1234713">théologien ou théologienne</occupation>
+        <occupation key="Q2029179">prêtre régulier</occupation>
+        <occupation key="Q4964182">philosophe</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <idno type="wikidata" cert="high">Q43746</idno>
+        <idno type="viaf">89657091</idno>
+        <idno type="isni">0000000117741110</idno>
+        <idno type="gnd">118513176</idno>
+        <idno type="bnf">118857861</idno>
+        <idno type="lccn">n79043613</idno>
+        <note type="description">frère franciscain, théologien, docteur de l'Église et saint</note>
+        <note type="mentions">58</note>
+        <note type="sources">LIV0001|LIV0003|LIV0005|LIV0031_t1|LIV0033</note>
+        <note type="reconciliation-confidence">high</note>
+      </person>

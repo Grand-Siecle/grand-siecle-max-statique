@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-002044" n="2">
+        <persName type="main">Ennius</persName>
+        <persName type="sort">Ennius</persName>
+        <persName type="standard">Ennius</persName>
+        <birth><date when="-0239-07-16"/></birth>
+        <death><date when="-0169-10-08"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q49757">poète ou poétesse</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q67102720">annaliste</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="high">Q47130</idno>
+        <idno type="viaf">84976347</idno>
+        <idno type="isni">0000000109208922</idno>
+        <idno type="gnd">118682105</idno>
+        <idno type="bnf">120078470</idno>
+        <idno type="lccn">n79109712</idno>
+        <note type="description">poète et dramaturge romain</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0020</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q32979109|Q123603805|Q63490215</note>
+      </person>

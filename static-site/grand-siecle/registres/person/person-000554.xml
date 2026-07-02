@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000554" n="8">
+        <persName type="main">Strabon</persName>
+        <persName type="sort">Strabon</persName>
+        <persName type="standard">Strabon</persName>
+        <persName type="variant">Strabo</persName>
+        <birth><date when="-0064"/></birth>
+        <death><date when="0023-01-01"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q901402">géographe</occupation>
+        <occupation key="Q201788">historien ou historienne</occupation>
+        <occupation key="Q4964182">philosophe</occupation>
+        <occupation key="Q36180">écrivain ou écrivaine</occupation>
+        <idno type="wikidata" cert="high">Q45936</idno>
+        <idno type="viaf">100219883</idno>
+        <idno type="isni">0000000355646565</idno>
+        <idno type="gnd">118618806</idno>
+        <idno type="bnf">11925629v</idno>
+        <idno type="lccn">n80035710</idno>
+        <note type="description">philosophe, historien, voyageur et géographe grec du 1er s. av. J.-C.</note>
+        <note type="mentions">8</note>
+        <note type="sources">LIV0009|LIV0011|LIV0015|LIV0020|LIV0025a|LIV0025b</note>
+        <note type="reconciliation-confidence">high</note>
+        <note type="wikidata-candidates">Q143595|Q21221352|Q60320171</note>
+      </person>

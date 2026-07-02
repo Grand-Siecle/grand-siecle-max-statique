@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-001719" n="2">
+        <persName type="main">Aper</persName>
+        <persName type="sort">Marcus Aper</persName>
+        <persName type="standard">Marcus Aper</persName>
+        <birth><date when="0100-01-01"/></birth>
+        <death><date when="0085"/></death>
+        <sex value="Q6581097">masculin</sex>
+        <occupation key="Q12859263">orateur ou oratrice</occupation>
+        <occupation key="Q20056508">sénateur romain</occupation>
+        <nationality key="Q1747689">Rome antique</nationality>
+        <idno type="wikidata" cert="medium">Q1595134</idno>
+        <note type="description">orateur romain d'origine gauloise</note>
+        <note type="mentions">2</note>
+        <note type="sources">LIV0017</note>
+        <note type="reconciliation-confidence">medium</note>
+        <note type="wikidata-candidates">Q37231099|Q111976297|Q11955725</note>
+      </person>

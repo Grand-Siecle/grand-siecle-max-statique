@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="person-000059" n="75">
+        <persName type="main">Caton</persName>
+        <persName type="sort">Caton</persName>
+        <persName type="variant">Caron</persName>
+        <persName type="variant">Carbon</persName>
+        <persName type="variant">Cato</persName>
+        <persName type="variant">Hécaton</persName>
+        <persName type="variant">Catan</persName>
+        <persName type="variant">Cabon</persName>
+        <persName type="variant">Maton</persName>
+        <persName type="variant">Catbn</persName>
+        <note type="mentions">75</note>
+        <note type="sources">LIV0011|LIV0012|LIV0014|LIV0015|LIV0017|LIV0020|LIV0025a|LIV0025b|LIV0026a|LIV0027|LIV0028|LIV0031_t1</note>
+      </person>
