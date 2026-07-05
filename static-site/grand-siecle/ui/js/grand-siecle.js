@@ -2,8 +2,11 @@
  * Grand Siècle — JS d'édition MaX (vanilla, sans pb-components)
  * (a) bascule Original/Modernisé  (b) toggle éléments de forme (fw)
  * (c) toggle analyse linguistique + tooltip délégué sur .w
- * (d) popover entité délégué     (e) contrôle de confiance NER
+ * (d) popover entité délégué     (e) contrôle de confiance NER (+ Masquées)
  * (f) chargement de registres-browse.js sur les pages d'index
+ * (g) légende des entités        (h) repli fac-similé IIIF en erreur
+ * (i) hydratation progressive des vignettes du sommaire (max 8 en vol)
+ * (j) raccourcis clavier ←/→ sur les pages de lecture
  */
 (function () {
     'use strict';
@@ -110,6 +113,89 @@
         return g;
     }
 
+    /* état partagé analyse linguistique (couplée à la couche, cf. setLing) */
+    var lingBtn = null;
+    var lingStatus = null;
+
+    function setLingStatus(msg) {
+        if (lingStatus) { lingStatus.textContent = msg || ''; }
+    }
+
+    function setLing(on) {
+        document.body.classList.toggle('gs-ling-on', on);
+        if (lingBtn) {
+            lingBtn.classList.toggle('is-active', on);
+            lingBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        }
+        lsSet('ling', on ? 'on' : 'off');
+        if (!on) {
+            hideTooltip();
+            setLingStatus('');
+        }
+    }
+
+    /* les .w n'existent que dans la couche originale : si l'analyse est activée
+       en couche modernisée, on bascule sur Original et on le signale */
+    function ensureLingLayer() {
+        if (document.documentElement.getAttribute('data-layer') === 'reg') {
+            applyLayer('orig');
+            lsSet(LAYER_KEY, 'orig');
+            setLingStatus('affichée sur la couche originale');
+        }
+    }
+
+    /* légende des types d'entités et des liserés de confiance */
+    var LEGEND_TYPES = [
+        ['person', 'Personne'], ['place', 'Lieu'], ['organization', 'Organisation'],
+        ['work', 'Œuvre'], ['event', 'Événement'], ['technique', 'Technique'],
+        ['date', 'Date'], ['artwork', 'Objet'], ['material', 'Matériau']
+    ];
+    var LEGEND_LINES = [
+        ['gs-legend-line-solid', 'filet plein — haute'],
+        ['gs-legend-line-dotted', 'pointillé — moyenne'],
+        ['gs-legend-line-faded', 'pointillé estompé — faible']
+    ];
+
+    function mkLegendTitle(panel, text) {
+        var t = document.createElement('div');
+        t.className = 'gs-legend-title';
+        t.textContent = text;
+        panel.appendChild(t);
+    }
+
+    function mkLegendItem(panel, sample, label) {
+        var item = document.createElement('div');
+        item.className = 'gs-legend-item';
+        item.appendChild(sample);
+        item.appendChild(document.createTextNode(label));
+        panel.appendChild(item);
+    }
+
+    function buildLegend() {
+        var det = document.createElement('details');
+        det.className = 'gs-legend';
+        var sum = document.createElement('summary');
+        sum.textContent = 'Légende';
+        det.appendChild(sum);
+        var panel = document.createElement('div');
+        panel.className = 'gs-legend-panel';
+        mkLegendTitle(panel, 'Types d’entités');
+        LEGEND_TYPES.forEach(function (pair) {
+            var sw = document.createElement('span');
+            sw.className = 'gs-legend-swatch';
+            sw.style.setProperty('--gs-type', 'var(--gs-type-' + pair[0] + ')');
+            mkLegendItem(panel, sw, pair[1]);
+        });
+        mkLegendTitle(panel, 'Confiance de détection');
+        LEGEND_LINES.forEach(function (pair) {
+            var line = document.createElement('span');
+            line.className = 'gs-legend-line ' + pair[0];
+            mkLegendItem(panel, line, pair[1]);
+        });
+        det.appendChild(panel);
+        return det;
+    }
+
     function buildToolbar() {
         var main = document.getElementById('main-max-container');
         if (!main) { return; }
@@ -126,6 +212,11 @@
             btn.addEventListener('click', function () {
                 applyLayer(pair[0]);
                 lsSet(LAYER_KEY, pair[0]);
+                /* les annotations .w n'existent pas en couche modernisée :
+                   retour en Modernisé = désactivation propre de l'analyse */
+                if (pair[0] === 'reg' && document.body.classList.contains('gs-ling-on')) {
+                    setLing(false);
+                }
             });
             gLayer.appendChild(btn);
         });
@@ -143,40 +234,57 @@
         });
         bar.appendChild(fwBtn);
 
-        /* (c) analyse linguistique */
+        /* (c) analyse linguistique (+ état "couche originale", aria-live) */
         var lingOn = lsGet('ling') === 'on';
         if (lingOn) { document.body.classList.add('gs-ling-on'); }
-        var lingBtn = mkBtn('Analyse linguistique', 'gs-ling-btn', lingOn);
+        lingBtn = mkBtn('Analyse linguistique', 'gs-ling-btn', lingOn);
+        lingStatus = document.createElement('span');
+        lingStatus.className = 'gs-ling-status';
+        lingStatus.setAttribute('aria-live', 'polite');
+        /* pas de classe CSS dédiée : style discret inline (design system intact) */
+        lingStatus.style.fontStyle = 'italic';
+        lingStatus.style.fontSize = '0.78rem';
+        lingStatus.style.color = 'var(--gs-sepia-text)';
         lingBtn.addEventListener('click', function () {
-            var on = document.body.classList.toggle('gs-ling-on');
-            lingBtn.classList.toggle('is-active', on);
-            lingBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
-            lsSet('ling', on ? 'on' : 'off');
-            if (!on) { hideTooltip(); }
+            var on = !document.body.classList.contains('gs-ling-on');
+            setLing(on);
+            if (on) { ensureLingLayer(); }
         });
         bar.appendChild(lingBtn);
+        bar.appendChild(lingStatus);
 
-        /* (e) confiance NER */
-        var gNer = mkGroup('Confiance NER');
+        /* (e) confiance NER : Toutes / Haute confiance / Masquées */
+        var gNer = mkGroup('Entités');
         var sel = document.createElement('select');
         sel.className = 'gs-toolbar-select';
         sel.setAttribute('aria-label', 'Filtrer les entités par confiance NER');
-        [['all', 'Toutes les entités'], ['high', 'Haute confiance']].forEach(function (pair) {
-            var o = document.createElement('option');
-            o.value = pair[0];
-            o.textContent = pair[1];
-            sel.appendChild(o);
-        });
-        sel.value = lsGet('ner') === 'high' ? 'high' : 'all';
-        document.body.classList.toggle('gs-ner-high', sel.value === 'high');
+        [['all', 'Toutes les entités'], ['high', 'Haute confiance'], ['off', 'Masquées']]
+            .forEach(function (pair) {
+                var o = document.createElement('option');
+                o.value = pair[0];
+                o.textContent = pair[1];
+                sel.appendChild(o);
+            });
+        var storedNer = lsGet('ner');
+        sel.value = (storedNer === 'high' || storedNer === 'off') ? storedNer : 'all';
+        applyNerMode(sel.value);
         sel.addEventListener('change', function () {
-            document.body.classList.toggle('gs-ner-high', sel.value === 'high');
+            applyNerMode(sel.value);
             lsSet('ner', sel.value);
         });
         gNer.appendChild(sel);
         bar.appendChild(gNer);
 
+        /* (g) légende */
+        bar.appendChild(buildLegend());
+
         main.insertBefore(bar, main.firstChild);
+    }
+
+    function applyNerMode(mode) {
+        document.body.classList.toggle('gs-ner-high', mode === 'high');
+        document.body.classList.toggle('gs-ent-off', mode === 'off');
+        if (mode !== 'all' && popover) { popover.hidden = true; }
     }
 
     /* -------------------------------------- (c) tooltip linguistique délégué */
@@ -226,12 +334,25 @@
         Abl: 'ablatif', Voc: 'vocatif', Loc: 'locatif',
         Sing: 'singulier', Plur: 'pluriel',
         Masc: 'masculin', Fem: 'féminin', Neut: 'neutre', Com: 'commun',
+        MascNeut: 'masculin/neutre', MascFem: 'masculin/féminin',
         Ind: 'indicatif', Sub: 'subjonctif', Imp: 'impératif', Inf: 'infinitif',
         Par: 'participe', Ger: 'gérondif', Adj: 'adjectif verbal', Sup: 'supin',
+        SupUm: 'supin en -um',
         Pres: 'présent', Impa: 'imparfait', Fut: 'futur', Perf: 'parfait',
         Pqp: 'plus-que-parfait', PeriFut: 'futur périphrastique',
+        FutAnt: 'futur antérieur',
         Act: 'actif', Pass: 'passif', Dep: 'déponent',
         Pos: 'positif', Comp: 'comparatif', Superl: 'superlatif'
+    };
+
+    /* valeurs ambiguës selon la clé (prioritaires sur les deux tables plates) :
+       Case=Ind ≠ Mood=Ind, Deg=Sup ≠ Mood=Sup, GENRE=n ≠ CAS=n, etc. */
+    var MSD_OVERRIDES = {
+        'Case=Ind': 'indéclinable',
+        'Deg=Sup': 'superlatif',
+        'GENRE=n': 'neutre',
+        'MODE=con': 'conditionnel',
+        'PERS.=0': 'impersonnel'
     };
 
     function decodeMsd(msd) {
@@ -246,8 +367,22 @@
             if (i < 0) { return pair; }
             var k = pair.slice(0, i), v = pair.slice(i + 1);
             if (v === 'empty' || v === '_' || v === '') { return ''; }
-            return (keys[k] || k.toLowerCase()) + ' ' + (values[v] || v);
+            var label = (keys[k] || k.toLowerCase());
+            if (MSD_OVERRIDES[k + '=' + v]) {
+                return label + ' ' + MSD_OVERRIDES[k + '=' + v];
+            }
+            return label + ' ' + (values[v] || v);
         }).filter(Boolean).join(' · ');
+    }
+
+    /* lemme affichable : ni marqueur outil (@latin, @card, @unknown…), ni bruit
+       sans lettre (chiffres, '_', diacritiques isolés) ; « sum1 » → « sum »
+       (indice d'homographie des lemmatiseurs latins) */
+    function displayLemma(lemma) {
+        if (!lemma) { return ''; }
+        if (lemma.charAt(0) === '@') { return ''; }
+        if (!/[a-zà-öø-ÿœæ]/i.test(lemma)) { return ''; }
+        return lemma.replace(/(\D)\d+$/, '$1');
     }
 
     var tooltip = null;
@@ -278,7 +413,7 @@
     }
 
     function showWordTooltip(w) {
-        var lemma = w.getAttribute('data-lemma') || '';
+        var lemma = displayLemma(w.getAttribute('data-lemma'));
         var pos = w.getAttribute('data-pos') || '';
         var msd = decodeMsd(w.getAttribute('data-msd'));
         var norm = w.getAttribute('data-norm') || '';
@@ -287,7 +422,8 @@
         tt.textContent = '';
         var l1 = document.createElement('div');
         l1.className = 'gs-tt-line1';
-        l1.textContent = lemma || w.textContent;
+        /* lemme bruité : on affiche la forme du mot, sans ligne lemme */
+        l1.textContent = lemma || w.textContent.trim();
         if (pos) {
             var posSpan = document.createElement('span');
             posSpan.className = 'gs-tt-pos';
@@ -402,10 +538,22 @@
 
     /* --------------------------------------------------- écouteurs délégués */
 
+    /* entité neutralisée par le filtre courant : Masquées, ou mid/low en mode
+       Haute confiance (le CSS coupe déjà pointer-events ; cette garde couvre
+       le focus clavier et sert de filet de sécurité) */
+    function entBlocked(ent) {
+        if (document.body.classList.contains('gs-ent-off')) { return true; }
+        if (document.body.classList.contains('gs-ner-high')) {
+            var cert = ent.getAttribute('data-cert');
+            if (cert === 'mid' || cert === 'low') { return true; }
+        }
+        return false;
+    }
+
     function initDelegation() {
         document.addEventListener('mouseover', function (ev) {
             var ent = ev.target.closest ? ev.target.closest('.ent') : null;
-            if (ent && !document.body.classList.contains('gs-ent-off')) {
+            if (ent && !entBlocked(ent)) {
                 showEntityPopover(ent);
                 return;
             }
@@ -422,7 +570,10 @@
         });
         document.addEventListener('focusin', function (ev) {
             var ent = ev.target.closest ? ev.target.closest('.ent') : null;
-            if (ent) { showEntityPopover(ent); return; }
+            if (ent) {
+                if (!entBlocked(ent)) { showEntityPopover(ent); }
+                return;
+            }
             if (document.body.classList.contains('gs-ling-on')) {
                 var w = ev.target.closest ? ev.target.closest('.w') : null;
                 if (w) { showWordTooltip(w); }
@@ -432,12 +583,145 @@
             hideTooltip();
             schedulePopHide();
         });
+        /* clic (souris ou Entrée clavier) sur une entité filtrée : pas de navigation */
+        document.addEventListener('click', function (ev) {
+            var ent = ev.target.closest ? ev.target.closest('.ent') : null;
+            if (ent && entBlocked(ent)) { ev.preventDefault(); }
+        });
         document.addEventListener('keydown', function (ev) {
             if (ev.key === 'Escape') {
                 hideTooltip();
                 if (popover) { popover.hidden = true; }
             }
         });
+        /* popover/tooltip fantômes après défilement */
+        window.addEventListener('scroll', function () {
+            hideTooltip();
+            if (popover) { popover.hidden = true; }
+        }, { passive: true });
+    }
+
+    /* -------------------------------------- (j) raccourcis clavier ← / → */
+
+    function initKeyboardNav() {
+        document.addEventListener('keydown', function (ev) {
+            if (ev.key !== 'ArrowLeft' && ev.key !== 'ArrowRight') { return; }
+            if (ev.ctrlKey || ev.metaKey || ev.altKey || ev.shiftKey) { return; }
+            var t = ev.target;
+            if (t && (/^(INPUT|SELECT|TEXTAREA)$/.test(t.tagName) || t.isContentEditable)) { return; }
+            var link = document.querySelector(
+                ev.key === 'ArrowLeft' ? 'a.gs-page-prev' : 'a.gs-page-next');
+            if (link && link.href) { window.location = link.href; }
+        });
+    }
+
+    /* ----------------------- (h) repli fac-similé IIIF (Gallica en erreur) */
+
+    /* URL de la page Gallica déduite de l'URL IIIF :
+       https://gallica.bnf.fr/iiif/ark:/…/bpt6k…/f19/full/,800/0/native.jpg
+       → https://gallica.bnf.fr/ark:/…/bpt6k…/f19 */
+    function gallicaPageURL(src) {
+        var m = /^https?:\/\/gallica\.bnf\.fr\/iiif\/(ark:\/[^/]+\/[^/]+(?:\/f\d+)?)\//.exec(src || '');
+        return m ? 'https://gallica.bnf.fr/' + m[1] : null;
+    }
+
+    function facsFallback(img) {
+        if (img.getAttribute('data-gs-failed')) { return; }
+        img.setAttribute('data-gs-failed', 'true');
+        var src = img.currentSrc || img.getAttribute('src') || img.getAttribute('data-src') || '';
+        if (img.classList.contains('gs-page-thumb')) {
+            /* vignette du sommaire : placeholder compact, le n° de page reste */
+            var ph = document.createElement('div');
+            ph.className = 'gs-page-thumb';
+            ph.setAttribute('aria-hidden', 'true');
+            img.replaceWith(ph);
+            return;
+        }
+        var wrap = img.closest ? img.closest('.page-facsimile') : null;
+        if (!wrap) { return; }
+        var fb = document.createElement('div');
+        fb.className = 'gs-facs-fallback';
+        fb.appendChild(document.createTextNode('Fac-similé indisponible'));
+        fb.appendChild(document.createElement('br'));
+        var url = gallicaPageURL(src);
+        if (url) {
+            var a = document.createElement('a');
+            a.href = url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.textContent = 'Voir sur Gallica ↗';
+            fb.appendChild(a);
+        }
+        var anchor = img.closest('a');
+        (anchor || img).replaceWith(fb);
+    }
+
+    function isFacsImg(el) {
+        return el && el.tagName === 'IMG' &&
+            (el.classList.contains('gs-page-thumb') ||
+                (el.closest && el.closest('section.page .page-facsimile')));
+    }
+
+    function initFacsErrors() {
+        /* les événements error ne remontent pas (pas de bubbling) :
+           délégation en phase de capture */
+        document.addEventListener('error', function (ev) {
+            if (isFacsImg(ev.target)) { facsFallback(ev.target); }
+        }, true);
+        /* images déjà en échec avant l'attachement du listener */
+        document.querySelectorAll('section.page .page-facsimile img, img.gs-page-thumb')
+            .forEach(function (img) {
+                if (img.getAttribute('src') && img.complete && img.naturalWidth === 0) {
+                    facsFallback(img);
+                }
+            });
+    }
+
+    /* ------------------- (i) vignettes du sommaire : hydratation par lots */
+
+    function initThumbQueue() {
+        var thumbs = Array.prototype.slice.call(
+            document.querySelectorAll('.gs-page-grid img.gs-page-thumb[src]'));
+        if (thumbs.length === 0 || !('IntersectionObserver' in window)) { return; }
+        var MAX_INFLIGHT = 8;
+        var inflight = 0;
+        var queue = [];
+        /* no-JS : le src d'origine reste dans le HTML ; ici (JS actif) on le
+           déporte en data-src pour hydrater progressivement */
+        thumbs.forEach(function (img) {
+            img.setAttribute('data-src', img.getAttribute('src'));
+            img.removeAttribute('src');
+        });
+        function pump() {
+            while (inflight < MAX_INFLIGHT && queue.length > 0) {
+                hydrate(queue.shift());
+            }
+        }
+        function hydrate(img) {
+            var src = img.getAttribute('data-src');
+            if (!src) { return; }
+            inflight += 1;
+            var done = function () {
+                img.removeEventListener('load', done);
+                img.removeEventListener('error', done);
+                inflight -= 1;
+                pump();
+            };
+            img.addEventListener('load', done);
+            img.addEventListener('error', done);
+            img.removeAttribute('data-src');
+            img.src = src;
+        }
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    io.unobserve(entry.target);
+                    queue.push(entry.target);
+                }
+            });
+            pump();
+        }, { rootMargin: '400px 0px' });
+        thumbs.forEach(function (img) { io.observe(img); });
     }
 
     /* ------------------------------- (f) pages d'index : registres-browse.js */
@@ -464,8 +748,16 @@
         if (isDocumentPage()) {
             buildToolbar();
             initLayer();
+            /* préférences incohérentes au chargement : analyse linguistique
+               active mais couche modernisée → bascule sur Original */
+            if (document.body.classList.contains('gs-ling-on')) {
+                ensureLingLayer();
+            }
+            initKeyboardNav();
         }
         initDelegation();
+        initFacsErrors();
+        initThumbQueue();
         initIndexPages();
     }
 

@@ -32,6 +32,14 @@
     --gs-type-date: #7A5A3A;
     --gs-type-artwork: #8A5A2A;
     --gs-type-material: #4A5A6A;
+    /* tons assombris (même teinte) pour les petits corps — AA 4.5:1 sur crème */
+    --gs-gold-text: #7F612A;
+    --gs-sepia-text: #766655;
+    /* badge de confiance réconciliation (glyphe + libellé, jamais couleur seule) */
+    --gs-conf-high: var(--gs-green);
+    --gs-conf-medium: var(--gs-gold-text);
+    --gs-conf-low: var(--gs-type-work);
+    --gs-conf-none: var(--gs-sepia-text);
 }
 
 /* ---------- socle de page (fiches + hub autonomes) ---------- */
@@ -44,6 +52,9 @@
     font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
     font-size: 1.05rem;
     line-height: 1.6;
+    /* le header des pages registres n'est pas fixe : la compensation de
+       grand-siecle.css (padding-top 96px) créait une bande vide */
+    padding-top: 0;
 }
 
 .gs-entity-page .gs-main,
@@ -78,6 +89,18 @@
     gap: 2rem;
     margin: 0;
     padding: 0;
+}
+
+/* petit écran : la nav passait sous le bord droit (aucun repli prévu) */
+@media (max-width: 640px) {
+    .gs-menubar ul { flex-wrap: wrap; gap: 0.5rem 1.2rem; }
+    .gs-nav-dropdown ul {
+        position: static;
+        min-width: 0;
+        border: none;
+        margin-top: 0;
+        padding-left: 0.9rem;
+    }
 }
 
 .gs-menubar a, .gs-menubar summary {
@@ -131,10 +154,11 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 0.75rem;
-    color: var(--gs-gold);
+    color: var(--gs-gold-text);
     font-family: 'Cormorant Garamond', Georgia, serif;
 }
-.gs-entity-kicker a { color: var(--gs-gold); text-decoration: none; }
+.gs-entity-kicker a { color: var(--gs-gold-text); text-decoration: none; }
+.gs-entity-kicker a:hover { color: var(--gs-blue); }
 
 .gs-authority-head { border-left: 4px solid var(--gs-type); padding-left: 1rem; margin: 1rem 0 1.5rem; }
 
@@ -150,7 +174,7 @@
 .gs-authority-meta {
     font-family: 'JetBrains Mono', ui-monospace, monospace;
     font-size: 0.75rem;
-    color: var(--gs-sepia-light);
+    color: var(--gs-sepia-text);
     margin: 0.3rem 0 0;
 }
 .gs-entity-id { color: var(--gs-type); }
@@ -162,8 +186,10 @@
     padding-left: 1rem;
 }
 
-/* badge de confiance ◆ (glyph + couleur, jamais couleur seule) */
-.gs-conf { font-size: 0.8rem; vertical-align: middle; white-space: nowrap; }
+/* badge de confiance ◆ (glyph + couleur, jamais couleur seule) —
+   le libellé peut se replier sur petit écran (pas de nowrap : débordement) */
+.gs-conf { font-size: 0.8rem; vertical-align: middle; }
+.gs-conf-glyph { white-space: nowrap; }
 .gs-conf-glyph { letter-spacing: 0.1em; }
 .gs-conf-text {
     font-family: 'Cormorant Garamond', Georgia, serif;
@@ -172,10 +198,10 @@
     letter-spacing: 0.08em;
     margin-left: 0.35rem;
 }
-.gs-conf-high { color: #2e7d32; }
-.gs-conf-medium { color: var(--gs-gold); }
-.gs-conf-low { color: #b06a28; }
-.gs-conf-none { color: #b3a48f; }
+.gs-conf-high { color: var(--gs-conf-high); }
+.gs-conf-medium { color: var(--gs-conf-medium); }
+.gs-conf-low { color: var(--gs-conf-low); }
+.gs-conf-none { color: var(--gs-conf-none); }
 
 /* sections */
 .gs-entity-detail section, .gs-entity-detail aside { margin: 1.75rem 0; }
@@ -207,7 +233,7 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 0.8rem;
-    color: var(--gs-gold);
+    color: var(--gs-gold-text);
 }
 .gs-meta-row dd { margin: 0; }
 
@@ -216,6 +242,10 @@
 .gs-authority-ids ul { list-style: none; margin: 0; padding: 0; }
 .gs-authority-ids li { padding: 0.2rem 0; }
 .gs-auth-link { text-decoration: none; }
+/* affordance : ces identifiants sont l'essentiel d'un fichier d'autorité —
+   flèche « lien externe » + soulignement au survol */
+.gs-auth-link::after { content: " ↗"; color: var(--gs-gold-text); font-size: 0.8em; }
+.gs-auth-link:hover .gs-auth-val { text-decoration: underline; }
 .gs-auth-chip {
     display: inline-block;
     font-family: 'JetBrains Mono', ui-monospace, monospace;
@@ -228,7 +258,7 @@
     margin-right: 0.35rem;
 }
 .gs-auth-val { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.8rem; }
-.gs-idno-cert { color: var(--gs-sepia-light); font-size: 0.75rem; }
+.gs-idno-cert { color: var(--gs-sepia-text); font-size: 0.75rem; }
 
 /* provenance */
 .gs-provenance {
@@ -247,13 +277,13 @@
     letter-spacing: 0.12em;
     font-size: 0.8rem;
     font-style: normal;
-    color: var(--gs-gold);
+    color: var(--gs-gold-text);
     text-decoration: none;
-    border: 1px solid var(--gs-gold-light);
+    border: 1px solid var(--gs-gold);
     border-radius: 2px;
-    padding: 0.2rem 0.6rem;
+    padding: 0.25rem 0.6rem;
 }
-.gs-export-link:hover { background: var(--gs-gold); color: var(--gs-cream-light); }
+.gs-export-link:hover { background: var(--gs-gold-text); color: var(--gs-cream-light); }
 
 /* co-occurrences */
 .gs-cooccur-title::before, .gs-backlinks-title::before { content: "❦ "; color: var(--gs-gold); }
@@ -268,7 +298,7 @@
     font-size: 0.9rem;
 }
 .gs-cooccur-item:hover { background: var(--gs-cream-warm); }
-.gs-cooccur-meta { color: var(--gs-sepia-light); font-size: 0.72rem; }
+.gs-cooccur-meta { color: var(--gs-sepia-text); font-size: 0.72rem; }
 .gs-cooccur-person { border-left-color: var(--gs-type-person); }
 .gs-cooccur-place { border-left-color: var(--gs-type-place); }
 .gs-cooccur-organization { border-left-color: var(--gs-type-organization); }
@@ -280,14 +310,14 @@
 .gs-cooccur-date { border-left-color: var(--gs-type-date); }
 
 /* backlinks + KWIC */
-.gs-backlinks-count, .gs-backlinks-mentions { color: var(--gs-gold); }
+.gs-backlinks-count, .gs-backlinks-mentions { color: var(--gs-gold-text); }
 .gs-backlinks-list { list-style: none; margin: 0; padding: 0; }
 .gs-backlinks-item { padding: 0.6rem 0; border-bottom: 1px solid var(--gs-gold-light); }
 .gs-backlinks-doc { font-weight: 600; text-decoration: none; }
 .gs-backlinks-id {
     font-family: 'JetBrains Mono', ui-monospace, monospace;
     font-size: 0.7rem;
-    color: var(--gs-sepia-light);
+    color: var(--gs-sepia-text);
     background: var(--gs-cream-warm);
     border-radius: 2px;
     padding: 0.05rem 0.35rem;
@@ -301,7 +331,7 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 0.78rem;
-    color: var(--gs-gold);
+    color: var(--gs-gold-text);
 }
 .gs-kwic-details summary::marker { color: var(--gs-gold); }
 .gs-kwic-line {
@@ -312,7 +342,8 @@
     font-size: 0.95rem;
 }
 .gs-kwic-line a { text-decoration: none; color: var(--gs-sepia); }
-.gs-kwic-line a:hover mark { background: var(--gs-gold-bright); }
+/* au survol : on garde le fond lisible (or clair) et on souligne la cible */
+.gs-kwic-line a:hover mark { text-decoration: underline; }
 .gs-kwic-line mark {
     background: var(--gs-gold-light);
     color: var(--gs-blue);
@@ -323,7 +354,7 @@
 .gs-kwic-page {
     font-family: 'JetBrains Mono', ui-monospace, monospace;
     font-size: 0.7rem;
-    color: var(--gs-sepia-light);
+    color: var(--gs-sepia-text);
 }
 
 /* badge expérimental */
@@ -331,7 +362,7 @@
     font-family: 'JetBrains Mono', ui-monospace, monospace;
     font-size: 0.6rem;
     text-transform: uppercase;
-    background: var(--gs-gold);
+    background: var(--gs-gold-text);
     color: var(--gs-cream-light);
     border-radius: 2px;
     padding: 0.05rem 0.3rem;
@@ -398,8 +429,8 @@
 }
 .gs-hub-total { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 2.9rem; font-weight: 300; line-height: 1; color: var(--gs-type); }
 .gs-hub-stats { display: flex; flex-direction: column; font-size: 0.8rem; color: var(--gs-sepia-medium); }
-.gs-hub-recon::before { content: "✓ "; color: #2e7d32; }
-.gs-hub-corpus, .gs-hub-top { color: var(--gs-sepia-light); }
+.gs-hub-recon::before { content: "✓ "; color: var(--gs-conf-high); }
+.gs-hub-corpus, .gs-hub-top { color: var(--gs-sepia-text); }
 
 /* ---------- footer ---------- */
 
@@ -419,65 +450,6 @@
 .gs-footer-sep { color: var(--gs-gold); margin: 0 0.5rem; }
 
 /* ==========================================================================
-   Enhancement browse (registres-browse.js) sur les pages d'index MaX
+   Enhancement browse (registres-browse.js) : styles déplacés dans
+   grand-siecle.css §17 — les pages d'index MaX ne chargent que ce fichier-là.
    ========================================================================== */
-
-.gs-browse-toolbar {
-    background: var(--gs-cream-light);
-    border: 1px solid var(--gs-gold-light);
-    border-radius: 2px;
-    padding: 0.9rem 1rem;
-    margin: 1rem 0 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    align-items: end;
-    font-family: 'EB Garamond', Georgia, serif;
-}
-.gs-browse-field { display: flex; flex-direction: column; gap: 0.2rem; }
-.gs-browse-field label {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.72rem;
-    color: var(--gs-gold);
-}
-.gs-browse-toolbar input[type="search"],
-.gs-browse-toolbar select {
-    font-family: inherit;
-    font-size: 0.95rem;
-    color: var(--gs-sepia);
-    background: var(--gs-cream);
-    border: 1px solid var(--gs-gold-light);
-    border-radius: 2px;
-    padding: 0.3rem 0.5rem;
-    min-width: 11rem;
-    accent-color: var(--gs-blue);
-}
-.gs-browse-count {
-    font-family: 'JetBrains Mono', ui-monospace, monospace;
-    font-size: 0.78rem;
-    color: var(--gs-sepia-medium);
-    margin-left: auto;
-    align-self: center;
-}
-.gs-browse-reset {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.78rem;
-    color: var(--gs-blue);
-    background: none;
-    border: 1px solid var(--gs-gold-light);
-    border-radius: 2px;
-    padding: 0.35rem 0.7rem;
-    cursor: pointer;
-}
-.gs-browse-reset:hover { background: var(--gs-gold); color: var(--gs-cream-light); border-color: var(--gs-gold); }
-.gs-browse-hidden { display: none !important; }
-.gs-browse-empty {
-    font-style: italic;
-    color: var(--gs-sepia-light);
-    padding: 1rem 0;
-}
-.gs-browse-empty::before { content: "❦ "; color: var(--gs-gold); font-style: normal; }

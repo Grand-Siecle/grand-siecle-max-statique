@@ -1,46 +1,103 @@
-<!DOCTYPE html><html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="../grand-siecle/ui/images/favicon.ico"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&amp;display=swap"><link rel="stylesheet" href="../grand-siecle/core/ui/lib/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/core/ui/css/tei.css"><title>Entités | Grand Siècle</title><meta name="description" content="Le discours français sur la peinture au XVIIe siècle — corpus TEI enrichi (NER, Wikidata). Démonstrateur statique MaX."><meta name="DC.title" content="Entités | Grand Siècle"><meta name="DC.language" content="fr"><meta name="DC.publisher" content="Projet Grand Siècle — UNIL / UNIGE"><meta property="og:title" content="Entités | Grand Siècle"><meta property="og:description" content="Le discours français sur la peinture au XVIIe siècle — corpus TEI enrichi (NER, Wikidata). Démonstrateur statique MaX."><meta property="og:type" content="article"><link rel="stylesheet" type="text/css" href="../grand-siecle/plugins/breadcrumb/breadcrumb.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/plugins/search/search.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/plugins/index/index.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/plugins/mirador_viewer/mirador_viewer.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/ui/css/grand-siecle.css"></head><body><header id="topbar" class="gs-header"><div class="gs-menubar"><a class="gs-brand" href="../grand-siecle/accueil.html" aria-label="Grand Siècle"><span class="gs-brand-grand">Grand</span><span class="gs-brand-siecle">Siècle</span></a><div id="menu" class="gs-menu"><nav class="gs-nav" aria-label="Navigation principale"><button class="gs-nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#gsNavContent" aria-controls="gsNavContent" aria-expanded="false" aria-label="Afficher la navigation">☰</button><div class="collapse gs-nav-collapse" id="gsNavContent"><ul class="gs-nav-list"><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/accueil.html">Accueil</a></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/sommaire.html">Parcourir</a></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/search.html">Recherche</a></li><li class="gs-nav-item gs-nav-item-dropdown active"><details class="gs-nav-dropdown"><summary><a class="gs-nav-link" href="../grand-siecle/entites.html">Entités</a><span class="gs-nav-caret" aria-hidden="true">▾</span></summary><ul class="gs-nav-submenu"><li><a class="gs-nav-sublink" href="../grand-siecle/index/personnes.html">Personnes</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/lieux.html">Lieux</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/organisations.html">Organisations</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/oeuvres.html">Œuvres</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/evenements.html">Événements</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/objets.html">Objets &amp; œuvres d'art</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/materiaux.html">Matériaux</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/techniques.html">Techniques</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/dates.html">Dates</a></li></ul></details></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/carte.html">Carte</a></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/chronologie.html">Chronologie</a></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/about.html">À propos</a></li></ul></div></nav><ul class="i18n-menu"><li class="max-lang selected"><a role="button" onclick="MAX.setLanguage('fr')">fr</a></li><li class="max-lang"><a role="button" onclick="MAX.setLanguage('')"></a></li></ul></div><div id="navigation-wrap" class="gs-navigation-wrap"></div><div class="gs-textoptions-wrap"></div></div></header><main data-pagefind-body id="main-max-container" class="container gs-main"><span hidden data-pagefind-filter="Type">Pages du site</span><div><div id="gs-entites" class="gs-hub">
+<!DOCTYPE html><html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="../grand-siecle/ui/images/favicon.ico"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&amp;display=swap"><link rel="stylesheet" href="../grand-siecle/core/ui/lib/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/core/ui/css/tei.css"><title>Entités | Grand Siècle</title><meta name="description" content="Neuf registres d’entités — personnes, lieux, œuvres… — issus de la NER, réconciliés avec Wikidata."><meta name="DC.title" content="Entités | Grand Siècle"><meta name="DC.language" content="fr"><meta name="DC.publisher" content="Projet Grand Siècle — UNIL / UNIGE"><meta property="og:title" content="Entités | Grand Siècle"><meta property="og:description" content="Neuf registres d’entités — personnes, lieux, œuvres… — issus de la NER, réconciliés avec Wikidata."><meta property="og:type" content="article"><link rel="stylesheet" type="text/css" href="../grand-siecle/plugins/breadcrumb/breadcrumb.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/plugins/search/search.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/plugins/index/index.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/plugins/mirador_viewer/mirador_viewer.css"><link rel="stylesheet" type="text/css" href="../grand-siecle/ui/css/grand-siecle.css"></head><body><a class="gs-skip-link" href="#main-max-container">Aller au contenu</a><header id="topbar" class="gs-header"><div class="gs-menubar"><a class="gs-brand" href="../grand-siecle/accueil.html" aria-label="Grand Siècle"><span class="gs-brand-grand">Grand</span><span class="gs-brand-siecle">Siècle</span></a><div id="menu" class="gs-menu"><nav class="gs-nav" aria-label="Navigation principale"><button class="gs-nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#gsNavContent" aria-controls="gsNavContent" aria-expanded="false" aria-label="Afficher la navigation">☰</button><div class="collapse gs-nav-collapse" id="gsNavContent"><ul class="gs-nav-list"><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/accueil.html">Accueil</a></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/sommaire.html">Corpus</a></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/search.html">Recherche</a></li><li class="gs-nav-item gs-nav-item-dropdown active"><details class="gs-nav-dropdown"><summary><a class="gs-nav-link" href="../grand-siecle/entites.html">Entités</a><span class="gs-nav-caret" aria-hidden="true">▾</span></summary><ul class="gs-nav-submenu"><li><a class="gs-nav-sublink" href="../grand-siecle/index/personnes.html">Personnes</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/lieux.html">Lieux</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/organisations.html">Organisations</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/oeuvres.html">Œuvres</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/evenements.html">Événements</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/objets.html">Objets &amp; œuvres d'art</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/materiaux.html">Matériaux</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/techniques.html">Techniques</a></li><li><a class="gs-nav-sublink" href="../grand-siecle/index/dates.html">Dates citées</a></li></ul></details></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/carte.html">Carte</a></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/chronologie.html">Chronologie</a></li><li class="gs-nav-item"><a class="gs-nav-link" href="../grand-siecle/about.html">À propos</a></li></ul></div></nav><ul class="i18n-menu"><li class="max-lang selected"><a role="button" onclick="MAX.setLanguage('fr')">fr</a></li></ul></div><div id="navigation-wrap" class="gs-navigation-wrap"></div><div class="gs-textoptions-wrap"></div></div></header><main data-pagefind-body id="main-max-container" class="container gs-main"><span hidden data-pagefind-filter="Type">Pages du site</span><div><div id="gs-entites" class="gs-hub">
   <link rel="stylesheet" href="ui/css/registres.css">
   <p class="gs-section-marker">Référentiels d'autorité</p>
   <h1 class="gs-hub-title">Index des entités</h1>
   <p class="gs-hub-intro">Personnes, lieux, organisations, œuvres et autres entités
     identifiées dans le corpus par détection automatique (NER) puis réconciliées avec
-    Wikidata. Chaque notice renvoie aux documents qui la citent.</p>
+    Wikidata. Chaque notice renvoie aux documents qui la citent. Les registres marqués
+    <span class="gs-exp-badge" title="Registre expérimental : extraction automatique en cours de validation">exp.</span>
+    sont expérimentaux : leur extraction automatique est encore en cours de validation.
+    Démo : 665 entités citées dans les cinq documents présentés.</p>
 
   <div class="gs-hub-grid">
     <a class="gs-hub-card gs-hub-card-person" href="index/personnes.html">
       <span class="gs-hub-type">Personnes</span>
+      <span class="gs-hub-total">365</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">135 réconciliées</span>
+        <span class="gs-hub-corpus">7439 dans le corpus complet</span>
+        <span class="gs-hub-top">Ciceron · 56 mentions</span>
+      </span>
       <span class="gs-hub-desc">Auteurs, peintres, imprimeurs, figures antiques…</span>
     </a>
     <a class="gs-hub-card gs-hub-card-place" href="index/lieux.html">
       <span class="gs-hub-type">Lieux</span>
+      <span class="gs-hub-total">187</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">35 réconciliées</span>
+        <span class="gs-hub-corpus">2089 dans le corpus complet</span>
+        <span class="gs-hub-top">Romæ · 9 mentions</span>
+      </span>
       <span class="gs-hub-desc">Villes, régions et lieux cités, en partie géolocalisés.</span>
     </a>
     <a class="gs-hub-card gs-hub-card-organization" href="index/organisations.html">
       <span class="gs-hub-type">Organisations</span>
+      <span class="gs-hub-total">26</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">8 réconciliées</span>
+        <span class="gs-hub-corpus">698 dans le corpus complet</span>
+        <span class="gs-hub-top">Sénat · 8 mentions</span>
+      </span>
       <span class="gs-hub-desc">Académies, institutions, communautés.</span>
     </a>
     <a class="gs-hub-card gs-hub-card-work" href="index/oeuvres.html">
       <span class="gs-hub-type">Œuvres</span>
+      <span class="gs-hub-total">40</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">10 réconciliées</span>
+        <span class="gs-hub-corpus">341 dans le corpus complet</span>
+        <span class="gs-hub-top">Rhétorique · 11 mentions</span>
+      </span>
       <span class="gs-hub-desc">Œuvres textuelles citées dans le corpus.</span>
     </a>
     <a class="gs-hub-card gs-hub-card-event" href="index/evenements.html">
       <span class="gs-hub-type">Événements</span>
+      <span class="gs-hub-total">17</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">3 réconciliées</span>
+        <span class="gs-hub-corpus">376 dans le corpus complet</span>
+        <span class="gs-hub-top">siècle · 4 mentions</span>
+      </span>
       <span class="gs-hub-desc">Événements historiques mentionnés.</span>
     </a>
     <a class="gs-hub-card gs-hub-card-artwork" href="index/objets.html">
-      <span class="gs-hub-type">Objets &amp; œuvres d'art<span class="gs-exp-badge">exp.</span></span>
+      <span class="gs-hub-type">Objets &amp; œuvres d'art<span class="gs-exp-badge" title="Registre expérimental : extraction automatique en cours de validation">exp.</span></span>
+      <span class="gs-hub-total">2</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">1 réconciliée</span>
+        <span class="gs-hub-corpus">54 dans le corpus complet</span>
+        <span class="gs-hub-top">ornement · 2 mentions</span>
+      </span>
       <span class="gs-hub-desc">Objets matériels et œuvres d'art — registre expérimental.</span>
     </a>
     <a class="gs-hub-card gs-hub-card-material" href="index/materiaux.html">
       <span class="gs-hub-type">Matériaux</span>
+      <span class="gs-hub-total">13</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">4 réconciliées</span>
+        <span class="gs-hub-corpus">266 dans le corpus complet</span>
+        <span class="gs-hub-top">matière · 6 mentions</span>
+      </span>
       <span class="gs-hub-desc">Matériaux de la peinture et des arts.</span>
     </a>
     <a class="gs-hub-card gs-hub-card-technique" href="index/techniques.html">
       <span class="gs-hub-type">Techniques</span>
+      <span class="gs-hub-total">5</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">1 réconciliée</span>
+        <span class="gs-hub-corpus">69 dans le corpus complet</span>
+        <span class="gs-hub-top">style · 11 mentions</span>
+      </span>
       <span class="gs-hub-desc">Techniques et procédés artistiques.</span>
     </a>
     <a class="gs-hub-card gs-hub-card-date" href="index/dates.html">
-      <span class="gs-hub-type">Dates<span class="gs-exp-badge">exp.</span></span>
+      <span class="gs-hub-type">Dates<span class="gs-exp-badge" title="Registre expérimental : extraction automatique en cours de validation">exp.</span></span>
+      <span class="gs-hub-total">10</span>
+      <span class="gs-hub-stats">
+        <span class="gs-hub-recon">0 réconciliée</span>
+        <span class="gs-hub-corpus">142 dans le corpus complet</span>
+        <span class="gs-hub-top">cents ans auparavant · 2 mentions</span>
+      </span>
       <span class="gs-hub-desc">Mentions de dates — registre expérimental.</span>
     </a>
   </div>
@@ -49,6 +106,15 @@
     <span class="gs-footer-title">Grand Siècle</span>
     <span class="gs-footer-sep">|</span>
     <span>Universités de Lausanne (UNIL) et de Genève (UNIGE)</span>
+  </div>
+  <div class="gs-footer-line">
+    <a href="sommaire.html">Corpus</a>
+    <span class="gs-footer-sep">·</span>
+    <a href="entites.html">Entités</a>
+    <span class="gs-footer-sep">·</span>
+    <a href="search.html">Recherche</a>
+    <span class="gs-footer-sep">·</span>
+    <a href="about.html">À propos</a>
   </div>
   <div class="gs-footer-line">
     <span>Textes et données sous licence

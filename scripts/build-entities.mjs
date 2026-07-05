@@ -36,15 +36,15 @@ const DEMO_DOCS = ['LIV0001', 'LIV0010', 'LIV0017', 'LIV0019', 'LIV0020'];
 
 /** type → tout ce qu'il faut savoir (fichier, élément, préfixe id, slug index MaX FR, libellés) */
 const TYPES = {
-  person:       { file: 'persons.xml',       tag: 'person',   prefix: 'person-',    indexSlug: 'personnes',    label: 'Personnes',              singular: 'Personne' },
-  place:        { file: 'places.xml',        tag: 'place',    prefix: 'place-',     indexSlug: 'lieux',        label: 'Lieux',                  singular: 'Lieu' },
-  organization: { file: 'organizations.xml', tag: 'org',      prefix: 'org-',       indexSlug: 'organisations',label: 'Organisations',          singular: 'Organisation' },
-  work:         { file: 'works.xml',         tag: 'bibl',     prefix: 'work-',      indexSlug: 'oeuvres',      label: 'Œuvres',                 singular: 'Œuvre' },
-  event:        { file: 'events.xml',        tag: 'event',    prefix: 'event-',     indexSlug: 'evenements',   label: 'Événements',             singular: 'Événement' },
-  artwork:      { file: 'artworks.xml',      tag: 'object',   prefix: 'artwork-',   indexSlug: 'objets',       label: 'Objets & œuvres d’art',  singular: 'Objet', exp: true },
-  material:     { file: 'materials.xml',     tag: 'category', prefix: 'material-',  indexSlug: 'materiaux',    label: 'Matériaux',              singular: 'Matériau' },
-  technique:    { file: 'techniques.xml',    tag: 'category', prefix: 'technique-', indexSlug: 'techniques',   label: 'Techniques',             singular: 'Technique' },
-  date:         { file: 'dates.xml',         tag: 'item',     prefix: 'date-',      indexSlug: 'dates',        label: 'Chronologie',            singular: 'Date', exp: true },
+  person:       { file: 'persons.xml',       tag: 'person',   prefix: 'person-',    indexSlug: 'personnes',    label: 'Personnes',              singular: 'Personne',     backLabel: 'Toutes les personnes' },
+  place:        { file: 'places.xml',        tag: 'place',    prefix: 'place-',     indexSlug: 'lieux',        label: 'Lieux',                  singular: 'Lieu',         backLabel: 'Tous les lieux' },
+  organization: { file: 'organizations.xml', tag: 'org',      prefix: 'org-',       indexSlug: 'organisations',label: 'Organisations',          singular: 'Organisation', backLabel: 'Toutes les organisations' },
+  work:         { file: 'works.xml',         tag: 'bibl',     prefix: 'work-',      indexSlug: 'oeuvres',      label: 'Œuvres',                 singular: 'Œuvre',        backLabel: 'Toutes les œuvres' },
+  event:        { file: 'events.xml',        tag: 'event',    prefix: 'event-',     indexSlug: 'evenements',   label: 'Événements',             singular: 'Événement',    backLabel: 'Tous les événements' },
+  artwork:      { file: 'artworks.xml',      tag: 'object',   prefix: 'artwork-',   indexSlug: 'objets',       label: 'Objets & œuvres d’art',  singular: 'Objet', exp: true, backLabel: 'Tous les objets' },
+  material:     { file: 'materials.xml',     tag: 'category', prefix: 'material-',  indexSlug: 'materiaux',    label: 'Matériaux',              singular: 'Matériau',     backLabel: 'Tous les matériaux' },
+  technique:    { file: 'techniques.xml',    tag: 'category', prefix: 'technique-', indexSlug: 'techniques',   label: 'Techniques',             singular: 'Technique',    backLabel: 'Toutes les techniques' },
+  date:         { file: 'dates.xml',         tag: 'item',     prefix: 'date-',      indexSlug: 'dates',        label: 'Chronologie',            singular: 'Date', exp: true, backLabel: 'Toutes les dates' },
 };
 
 /** préfixe d'@xml:id → type */
@@ -55,19 +55,25 @@ const PREFIX2TYPE = {
 
 /** Référentiels externes — rview:auth-url (spec D §1.10) */
 const AUTH = {
-  wikidata: { abbr: 'Wikidata',  url: v => `https://www.wikidata.org/wiki/${v}` },
-  viaf:     { abbr: 'VIAF',      url: v => `https://viaf.org/viaf/${v}` },
-  isni:     { abbr: 'ISNI',      url: v => `https://isni.org/isni/${v}` },
-  gnd:      { abbr: 'GND',       url: v => `https://d-nb.info/gnd/${v}` },
-  bnf:      { abbr: 'BnF',       url: v => `https://catalogue.bnf.fr/ark:/12148/cb${v}` },
-  lccn:     { abbr: 'LCCN',      url: v => `https://id.loc.gov/authorities/names/${v}` },
-  geonames: { abbr: 'GeoNames',  url: v => `https://www.geonames.org/${v}` },
-  aat:      { abbr: 'Getty AAT', url: v => `http://vocab.getty.edu/aat/${v}` },
+  wikidata: { abbr: 'Wikidata',  host: 'wikidata.org',      url: v => `https://www.wikidata.org/wiki/${v}` },
+  viaf:     { abbr: 'VIAF',      host: 'viaf.org',          url: v => `https://viaf.org/viaf/${v}` },
+  isni:     { abbr: 'ISNI',      host: 'isni.org',          url: v => `https://isni.org/isni/${v}` },
+  gnd:      { abbr: 'GND',       host: 'd-nb.info',         url: v => `https://d-nb.info/gnd/${v}` },
+  bnf:      { abbr: 'BnF',       host: 'catalogue.bnf.fr',  url: v => `https://catalogue.bnf.fr/ark:/12148/cb${v}` },
+  lccn:     { abbr: 'LCCN',      host: 'id.loc.gov',        url: v => `https://id.loc.gov/authorities/names/${v}` },
+  geonames: { abbr: 'GeoNames',  host: 'geonames.org',      url: v => `https://www.geonames.org/${v}` },
+  aat:      { abbr: 'Getty AAT', host: 'vocab.getty.edu',   url: v => `http://vocab.getty.edu/aat/${v}` },
 };
 
-const CONF_FR = { high: 'fiable', medium: 'moyenne', low: 'incertaine', none: 'non réconciliée' };
+const CONF_FR = { high: 'confiance forte', medium: 'confiance moyenne', low: 'confiance faible', none: 'non réconciliée' };
 const CONF_GLYPH = { high: '◆◆◆', medium: '◆◆', low: '◆', none: '○' };
-const CONF_TITLE = { high: 'réconciliation fiable', medium: 'réconciliation moyenne', low: 'réconciliation incertaine', none: 'non réconciliée' };
+const CONF_TITLE = {
+  high: 'réconciliation automatique — confiance forte',
+  medium: 'réconciliation automatique — confiance moyenne',
+  low: 'réconciliation automatique — confiance faible',
+  none: 'non réconciliée',
+};
+const EXP_TITLE = 'Registre expérimental : extraction automatique en cours de validation';
 
 /* ------------------------------------------------------------------ */
 /* Petits utilitaires XML / texte                                      */
@@ -351,11 +357,56 @@ function scanDoc(docId) {
   return { docId, title: stripTags(title), xml, mentions, blocks, blockOf, npb: pbOffsets.length };
 }
 
+/** Plie un token de bord pour comparaison : minuscules, sans diacritiques,
+ *  sans ponctuation. */
+function foldToken(t) {
+  return String(t || '').toLowerCase().normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, '');
+}
+
+/** Distance d'édition (Levenshtein) ≤ max — petites chaînes uniquement. */
+function editDistanceLE(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return false;
+  const dp = Array.from({ length: a.length + 1 }, (_, i) => i);
+  for (let j = 1; j <= b.length; j++) {
+    let prev = dp[0];
+    dp[0] = j;
+    let rowMin = dp[0];
+    for (let i = 1; i <= a.length; i++) {
+      const tmp = dp[i];
+      dp[i] = Math.min(dp[i] + 1, dp[i - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1));
+      prev = tmp;
+      if (dp[i] < rowMin) rowMin = dp[i];
+    }
+    if (rowMin > max) return false;
+  }
+  return dp[a.length] <= max;
+}
+
+/** Deux tokens de bord représentent-ils le même mot recollé ? (insensible à
+ *  la casse/diacritiques ; tolère 1–2 coquilles de modernisation, p. ex.
+ *  « Rhétorique » / « Rhhétorique ») */
+function sameEdgeToken(a, b) {
+  const fa = foldToken(a), fb = foldToken(b);
+  if (!fa || !fb) return false;
+  if (fa === fb) return true;
+  const min = Math.min(fa.length, fb.length);
+  return min >= 4 && editDistanceLE(fa, fb, min >= 6 ? 2 : 1);
+}
+
 /** Texte KWIC : bloc du document, couche reg préférée (sinon orig),
- *  sauf pour le choice contenant la mention (couche qui la contient). */
+ *  sauf pour le choice contenant la mention (couche qui la contient —
+ *  jamais orig + reg côte à côte).
+ *  Les <choice> sont alignés ligne à ligne : un mot coupé en fin de ligne
+ *  réapparaît ENTIER au début de la couche reg de la ligne suivante (dont
+ *  la couche orig commence par <w part="F">). On dédoublonne donc le
+ *  chevauchement entre fin de ligne n et début de ligne n+1 en comparant
+ *  les tokens de bord, en conservant la copie qui porte la mention. */
 function kwicFor(doc, mention) {
   const bi = doc.blockOf(mention.off);
-  const S = '', E = '';
+  const S = '', E = '';           // sentinelles de la mention
+  const SEG = '', SEGDUP = '';    // frontières de ligne (DUP = mot recollé en tête)
   let raw, rel;
   if (bi >= 0) {
     const b = doc.blocks[bi];
@@ -374,19 +425,45 @@ function kwicFor(doc, mention) {
   if (!cm) return null;
   raw = raw.slice(0, openEnd) + S + raw.slice(openEnd, cm.index) + E + raw.slice(cm.index);
 
-  // 2. résolution des <choice> : reg sinon orig ; couche de la mention si sentinelle dedans
+  // 2. résolution des <choice> : reg sinon orig ; couche de la mention si sentinelle
+  //    dedans (une SEULE couche, jamais orig + reg côte à côte). Chaque choice émet
+  //    une frontière de ligne : SEGDUP si sa couche orig commence par un <w part="F">
+  //    (mot coupé recollé en tête → doublon avec la fin de la ligne précédente).
   const resolved = raw.replace(/<choice>([\s\S]*?)<\/choice>/g, (_, inner) => {
     const reg = inner.match(/<reg\b[^>]*>([\s\S]*?)<\/reg>/);
     const orig = inner.match(/<orig\b[^>]*>([\s\S]*?)<\/orig>/);
+    const firstW = orig && orig[1].match(/<w\b([^>]*)>/);
+    const mark = firstW && /\bpart="F"/.test(firstW[1]) ? SEGDUP : SEG;
+    let layer;
     if (inner.includes(S)) {
-      if (reg && reg[1].includes(S)) return ` ${reg[1]} `;
-      if (orig && orig[1].includes(S)) return ` ${orig[1]} `;
+      if (reg && reg[1].includes(S)) layer = reg[1];
+      else if (orig && orig[1].includes(S)) layer = orig[1];
+      else layer = orig ? inner.replace(orig[0], ' ') : inner;
+    } else {
+      layer = reg ? reg[1] : orig ? orig[1] : inner;
     }
-    return ` ${reg ? reg[1] : orig ? orig[1] : inner} `;
+    return ` ${mark}${layer} `;
   });
 
-  // 3. aplatir
-  const flat = decodeEntities(resolved.replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
+  // 3. aplatir puis dédoublonner les chevauchements aux frontières de ligne
+  const flatRaw = decodeEntities(resolved.replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
+  const tokens = [];
+  for (let part of flatRaw.split(new RegExp(`(?=[${SEG}${SEGDUP}])`))) {
+    const dup = part.charAt(0) === SEGDUP;
+    part = part.replace(new RegExp(`^[${SEG}${SEGDUP}]\\s*`), '').trim();
+    if (!part) continue;
+    const words = part.split(' ');
+    if (dup && tokens.length && words.length) {
+      const prev = tokens[tokens.length - 1], cur = words[0];
+      if (sameEdgeToken(prev, cur)) {
+        // conserver la copie qui porte la mention ; sinon la première
+        if (cur.includes(S) || cur.includes(E)) tokens.pop();
+        else words.shift();
+      }
+    }
+    for (const w of words) if (w) tokens.push(w);
+  }
+  const flat = tokens.join(' ');
   const i = flat.indexOf(S), j = flat.indexOf(E);
   if (i < 0 || j < 0 || j <= i) return null;
   const kw = flat.slice(i + 1, j).trim();
@@ -590,12 +667,15 @@ function main() {
   /* ------------------------------------------------------------------ */
 
   console.log('— Génération des pages détail…');
+  // Wikidata QID → entité person du périmètre (liens auteur → fiche, spec #16)
+  const wikidata2person = new Map();
+  for (const e of byType.person) if (e.idnos.wikidata) wikidata2person.set(e.idnos.wikidata, e);
   let pageCount = 0;
   for (const [type] of Object.entries(TYPES)) {
     const dir = path.join(SITE_EXTRA, type);
     fs.mkdirSync(dir, { recursive: true });
     for (const e of byType[type]) {
-      fs.writeFileSync(path.join(dir, `${e.id}.html`), detailPage(e, docs, cooccurOf(e)));
+      fs.writeFileSync(path.join(dir, `${e.id}.html`), detailPage(e, docs, cooccurOf(e), wikidata2person));
       const teiFrag = e.raw.replace(/^<(\w+)\s/, '<$1 xmlns="http://www.tei-c.org/ns/1.0" ');
       fs.writeFileSync(path.join(dir, `${e.id}.xml`), `<?xml version="1.0" encoding="UTF-8"?>\n` + teiFrag + '\n');
       pageCount++;
@@ -632,15 +712,21 @@ function pageShell({ depth, title, bodyClass, content }) {
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>${escapeHtml(title)} — Grand Siècle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&amp;display=swap"/>
   <link rel="stylesheet" href="${up}ui/css/grand-siecle.css"/>
   <link rel="stylesheet" href="${up}ui/css/registres.css"/>
 </head>
 <body class="${bodyClass}">
+  <a class="gs-skip-link" href="#gs-registres-main">Aller au contenu</a>
   <header class="gs-page-header">
     <nav class="gs-menubar">
       <ul class="gs-menubar-left">
         <li class="gs-brand"><a href="${up}accueil.html">Grand Siècle</a></li>
         <li><a href="${up}accueil.html">Accueil</a></li>
+        <li><a href="${up}sommaire.html">Corpus</a></li>
+        <li><a href="${up}search.html">Recherche</a></li>
         <li>
           <details class="gs-nav-dropdown">
             <summary>Index</summary>
@@ -650,18 +736,29 @@ function pageShell({ depth, title, bodyClass, content }) {
             </ul>
           </details>
         </li>
+        <li><a href="${up}carte.html">Carte</a></li>
+        <li><a href="${up}chronologie.html">Chronologie</a></li>
+        <li><a href="${up}about.html">À propos</a></li>
       </ul>
     </nav>
   </header>
-  <main class="gs-main">
+  <main class="gs-main" id="gs-registres-main">
 ${content}
   </main>
   <footer class="gs-footer">
-    <span class="gs-footer-title">Grand Siècle</span>
-    <span class="gs-footer-sep">|</span>
-    <span>Université de Lausanne — UNIL</span>
-    <span class="gs-footer-sep">|</span>
-    <span>Démo statique MaX v1</span>
+    <div>
+      <span class="gs-footer-title">Grand Siècle</span>
+      <span class="gs-footer-sep">|</span>
+      <span>Universités de Lausanne (UNIL) et de Genève (UNIGE)</span>
+    </div>
+    <div class="gs-footer-line">
+      <span>Textes et données sous licence
+        <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" rel="license">CC BY 4.0</a></span>
+      <span class="gs-footer-sep">|</span>
+      <span>Édition réalisée avec
+        <a href="https://pdn-certic.pages.unicaen.fr/max-documentation/">MaX</a>
+        — Certic, Université de Caen Normandie</span>
+    </div>
   </footer>
 </body>
 </html>
@@ -670,12 +767,13 @@ ${content}
 
 function confBadge(conf) {
   const c = CONF_GLYPH[conf] ? conf : 'none';
-  return `<span class="gs-conf gs-conf-${c}" title="${CONF_TITLE[c]}"><span class="gs-conf-glyph">${CONF_GLYPH[c]}</span><span class="gs-conf-text">${CONF_TITLE[c]}</span></span>`;
+  return `<span class="gs-conf gs-conf-${c}" title="${CONF_TITLE[c]}" data-pagefind-ignore><span class="gs-conf-glyph">${CONF_GLYPH[c]}</span><span class="gs-conf-text">${CONF_TITLE[c]}</span></span>`;
 }
 
-function factsRows(e) {
+/** rows : [clé, valeur, isHtml?] — valeur déjà échappée quand isHtml */
+function factsRows(e, wikidata2person) {
   const rows = [];
-  const add = (k, v) => { if (v) rows.push([k, v]); };
+  const add = (k, v, isHtml) => { if (v) rows.push([k, v, Boolean(isHtml)]); };
   switch (e.type) {
     case 'person':
       add('Naissance', dispYear(e.birth));
@@ -686,13 +784,26 @@ function factsRows(e) {
       break;
     case 'place':
       add('Pays', e.country?.label);
-      add('Coordonnées', e.geo ? `${e.geo[0]} ${e.geo[1]}` : '');
+      if (e.geo) {
+        const [lat, lon] = e.geo;
+        const osm = `https://www.openstreetmap.org/?mlat=${lat}&amp;mlon=${lon}#map=6/${lat}/${lon}`;
+        add('Coordonnées',
+          `${escapeHtml(`${lat} ${lon}`)} · <a href="../../carte.html">voir sur la carte</a> · ` +
+          `<a href="${osm}" rel="external noopener" target="_blank" title="Ouvre openstreetmap.org dans un nouvel onglet">OpenStreetMap</a>`,
+          true);
+      }
       break;
-    case 'work':
-      add('Auteur', e.author?.label);
+    case 'work': {
+      const authorPerson = e.author?.key && wikidata2person ? wikidata2person.get(e.author.key) : null;
+      if (authorPerson) {
+        add('Auteur', `<a href="../person/${authorPerson.id}.html">${escapeHtml(e.author.label)}</a>`, true);
+      } else {
+        add('Auteur', e.author?.label);
+      }
       add('Langue', e.lang?.label);
       add('Publication', dispYear(e.pubYear));
       break;
+    }
     case 'event': {
       const d = e.dates || {};
       const dv = d.when != null ? dispYear(d.when)
@@ -711,26 +822,33 @@ function factsRows(e) {
   return rows;
 }
 
+/** intervalle d'années : un seul « av. J.-C. » final quand les deux bornes sont négatives */
+function yearRange(a, b, sep = ' – ') {
+  if (a != null && b != null && a < 0 && b < 0) return `${-a}${sep}${-b} av. J.-C.`;
+  return `${a != null ? dispYear(a) : '?'}${sep}${b != null ? dispYear(b) : '?'}`;
+}
+
 function subhead(e) {
   if (e.type === 'person' && (e.birth != null || e.death != null)) {
-    return `${dispYear(e.birth) || '?'} – ${dispYear(e.death) || '?'}`;
+    return yearRange(e.birth, e.death);
   }
   if (e.type === 'place' && e.country?.label) return e.country.label;
   return '';
 }
 
-function detailPage(e, docs, cooccur) {
+function detailPage(e, docs, cooccur, wikidata2person) {
   const info = TYPES[e.type];
   const forms = [...new Set([e.standard, ...(e.variants || [])])]
     .filter(f => f && f !== e.label);
 
   const sh = subhead(e);
-  const facts = factsRows(e);
+  const facts = factsRows(e, wikidata2person);
   const idnoLinks = Object.entries(e.idnos)
     .filter(([k, v]) => AUTH[k] && v)
     .map(([k, v]) => {
-      const cert = k === 'wikidata' && e.wikidataCert ? ` <span class="gs-idno-cert">(${escapeHtml(e.wikidataCert)})</span>` : '';
-      return `<li><a class="gs-auth-link" href="${AUTH[k].url(encodeURIComponent(v).replace(/%2F/g, '/'))}" rel="external noopener" target="_blank"><span class="gs-auth-chip gs-auth-${k}">${AUTH[k].abbr}</span> <span class="gs-auth-val">${escapeHtml(v)}</span></a>${cert}</li>`;
+      const certFr = e.wikidataCert ? (CONF_FR[e.wikidataCert] || e.wikidataCert) : '';
+      const cert = k === 'wikidata' && certFr ? ` <span class="gs-idno-cert">(${escapeHtml(certFr)})</span>` : '';
+      return `<li><a class="gs-auth-link" href="${AUTH[k].url(encodeURIComponent(v).replace(/%2F/g, '/'))}" rel="external noopener" target="_blank" title="Ouvre ${AUTH[k].host} dans un nouvel onglet"><span class="gs-auth-chip gs-auth-${k}">${AUTH[k].abbr}</span> <span class="gs-auth-val">${escapeHtml(v)}</span></a>${cert}</li>`;
     });
 
   // Cité dans
@@ -743,6 +861,7 @@ function detailPage(e, docs, cooccur) {
     // KWIC : max 5 par doc, dédoublonnés par bloc
     const seen = new Set();
     const lines = [];
+    let truncated = false;
     for (const m of mentionsInDoc) {
       const bi = doc.blockOf(m.off);
       const key = bi >= 0 ? `b${bi}` : `o${m.off}`;
@@ -750,20 +869,24 @@ function detailPage(e, docs, cooccur) {
       seen.add(key);
       const k = kwicFor(doc, m);
       if (!k) continue;
+      if (lines.length >= 5) { truncated = true; break; }
       lines.push(`<div class="gs-kwic-line"><a href="../../${d}.xml/${d}-page-${k.page}.html">${escapeHtml(k.left)} <mark>${escapeHtml(k.kw)}</mark> ${escapeHtml(k.right)} <span class="gs-kwic-page">p.&nbsp;${k.page}</span></a></div>`);
-      if (lines.length >= 5) break;
     }
+    const summaryLabel = truncated ? `Extraits (${lines.length} premiers)` : `Extraits (${lines.length})`;
+    const moreLine = truncated
+      ? `\n<div class="gs-kwic-line"><a href="${readHref}">Toutes les occurrences dans le document →</a></div>`
+      : '';
     const kwicBlock = lines.length
-      ? `\n      <details class="gs-kwic-details"><summary>Extraits (${lines.length})</summary><div class="gs-kwic-panel">${lines.join('\n')}</div></details>`
+      ? `\n      <details class="gs-kwic-details"><summary>${summaryLabel}</summary><div class="gs-kwic-panel">${lines.join('\n')}${moreLine}</div></details>`
       : '';
     return `    <li class="gs-backlinks-item">
-      <div class="gs-backlinks-row"><a class="gs-backlinks-doc" href="${readHref}">${escapeHtml(doc.title)}</a> <span class="gs-backlinks-id">${d}</span>${ms ? ` <span class="gs-backlinks-n">${ms} mention${ms > 1 ? 's' : ''}</span>` : ''}</div>${kwicBlock}
+      <div class="gs-backlinks-row"><a class="gs-backlinks-doc" href="${readHref}">${escapeHtml(doc.title)}</a> <a class="gs-backlinks-id" href="../../sommaire/${d}.html" title="${escapeHtml(doc.title)}">${d}</a>${ms ? ` <span class="gs-backlinks-n">${ms} mention${ms > 1 ? 's' : ''}</span>` : ''}</div>${kwicBlock}
     </li>`;
   });
 
   const coBlock = cooccur.length ? `
   <section class="gs-cooccur">
-    <h2 class="gs-cooccur-title">Apparaît avec</h2>
+    <h2 class="gs-cooccur-title">Cité dans les mêmes documents</h2>
     <ul class="gs-cooccur-list">
 ${cooccur.map(({ e: o, nd }) => `      <li><a class="gs-cooccur-item gs-cooccur-${o.type}" href="../${o.type}/${o.id}.html">${escapeHtml(o.label)} <span class="gs-cooccur-meta">${TYPES[o.type].singular} · ${nd} doc${nd > 1 ? 's' : ''}</span></a></li>`).join('\n')}
     </ul>
@@ -772,12 +895,17 @@ ${cooccur.map(({ e: o, nd }) => `      <li><a class="gs-cooccur-item gs-cooccur-
   const candBlock = e.candidates.length ? `
       <p class="gs-candidates">Candidats non retenus : ${e.candidates.map(q => `<a href="https://www.wikidata.org/wiki/${escapeHtml(q)}" rel="external noopener" target="_blank">${escapeHtml(q)}</a>`).join(' · ')}</p>` : '';
 
+  // compteurs : masquer les zéros (fiche pauvre = id seul, pas de « 0 mention »)
+  const metaParts = [`<span class="gs-entity-id">${e.id}</span>`];
+  if (e.demoMentions > 0) metaParts.push(`<span class="gs-entity-mentions" title="mentions dans les documents de la démo">${e.demoMentions} mention${e.demoMentions > 1 ? 's' : ''} (démo)</span>`);
+  if (e.n > 0) metaParts.push(`<span title="mentions dans le corpus complet">${e.n} dans le corpus</span>`);
+
   const content = `  <article class="gs-entity-detail gs-entity-detail-${e.type}">
-    <p class="gs-entity-kicker"><a href="../index.html">Entités</a> · <a href="../../index/${info.indexSlug}.html">${escapeHtml(info.label)}</a>${info.exp ? ' <span class="gs-exp-badge">exp.</span>' : ''}</p>
+    <p class="gs-entity-kicker"><a href="../index.html">Entités</a> · <a href="../../index/${info.indexSlug}.html">${escapeHtml(info.label)}</a>${info.exp ? ` <span class="gs-exp-badge" title="${EXP_TITLE}">exp.</span>` : ''} · <a href="../../index/${info.indexSlug}.html">← ${escapeHtml(info.backLabel)}</a></p>
     <header class="gs-authority-head">
-      <h1 class="gs-authority-title">${escapeHtml(e.label)} ${confBadge(e.confidence)}</h1>
+      <h1 class="gs-authority-title"><span data-pagefind-meta="title" data-pagefind-weight="7">${escapeHtml(e.label)}</span> ${confBadge(e.confidence)}</h1>
       ${sh ? `<p class="gs-authority-sub">${escapeHtml(sh)}</p>` : ''}
-      <p class="gs-authority-meta"><span class="gs-entity-id">${e.id}</span> · <span class="gs-entity-mentions" title="mentions dans les documents de la démo">${e.demoMentions} mention${e.demoMentions > 1 ? 's' : ''} (démo)</span> · <span title="mentions dans le corpus complet">${e.n} dans le corpus</span></p>
+      <p class="gs-authority-meta">${metaParts.join(' · ')}</p>
     </header>
 ${e.description ? `    <p class="gs-authority-desc">${escapeHtml(e.description)}</p>\n` : ''}${forms.length ? `    <section class="gs-forms">
       <h2>Formes attestées</h2>
@@ -785,7 +913,7 @@ ${e.description ? `    <p class="gs-authority-desc">${escapeHtml(e.description)}
     </section>\n` : ''}${facts.length ? `    <section class="gs-facts">
       <h2>Informations</h2>
       <dl class="gs-meta-rows">
-${facts.map(([k, v]) => `        <div class="gs-meta-row"><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join('\n')}
+${facts.map(([k, v, isHtml]) => `        <div class="gs-meta-row"><dt>${escapeHtml(k)}</dt><dd>${isHtml ? v : escapeHtml(v)}</dd></div>`).join('\n')}
       </dl>
     </section>\n` : ''}${idnoLinks.length ? `    <aside class="gs-authority-ids">
       <h2>Référentiels</h2>
@@ -793,8 +921,9 @@ ${facts.map(([k, v]) => `        <div class="gs-meta-row"><dt>${escapeHtml(k)}</
 ${idnoLinks.map(l => '        ' + l).join('\n')}
       </ul>
     </aside>\n` : ''}    <section class="gs-provenance">
-      <p>Entité détectée automatiquement (NER CamemBERT + GLiNER), réconciliation Wikidata : <strong>${CONF_FR[e.confidence] || CONF_FR.none}</strong>.</p>${candBlock}
-      <p class="gs-export-actions"><a class="gs-export-link" href="${e.id}.xml" download>↓ Exporter TEI</a></p>
+      <p>Entité détectée automatiquement (NER CamemBERT + GLiNER), réconciliation Wikidata : <strong>${CONF_FR[e.confidence] || CONF_FR.none}</strong>.</p>${e.demoMentions === 0 && e.docsCited.length ? `
+      <p>Relevée dans le registre de ${e.docsCited.map(d => `<a href="../../sommaire/${d}.html">${escapeHtml(docs[d].title)}</a>`).join(' et de ')}, sans occurrence localisable dans la transcription.</p>` : ''}${candBlock}
+      <p class="gs-export-actions"><a class="gs-export-link" href="${e.id}.xml" download>↓ Exporter TEI</a> <a class="gs-export-link" href="../../about.html">Signaler une erreur d’identification</a></p>
     </section>
 ${coBlock}
   <section class="gs-backlinks">
@@ -818,7 +947,7 @@ function hubPage(byType, totals, perimeter) {
     const recon = list.filter(e => e.idnos.wikidata).length;
     const top = [...list].sort((a, b) => b.demoMentions - a.demoMentions)[0];
     return `      <a class="gs-hub-card gs-hub-card-${type}" href="../index/${info.indexSlug}.html">
-        <span class="gs-hub-type">${escapeHtml(info.label)}${info.exp ? ' <span class="gs-exp-badge">exp.</span>' : ''}</span>
+        <span class="gs-hub-type">${escapeHtml(info.label)}${info.exp ? ` <span class="gs-exp-badge" title="${EXP_TITLE}">exp.</span>` : ''}</span>
         <span class="gs-hub-total">${list.length}</span>
         <span class="gs-hub-stats">
           <span class="gs-hub-recon">${recon} réconciliée${recon > 1 ? 's' : ''}</span>
@@ -833,6 +962,8 @@ function hubPage(byType, totals, perimeter) {
     <h1 class="gs-hub-title">Index des entités</h1>
     <p class="gs-hub-intro">Personnes, lieux, organisations, œuvres et autres entités identifiées dans le corpus par
       détection automatique (NER) puis réconciliées avec Wikidata. Chaque notice renvoie aux documents qui la citent.
+      Les registres marqués <span class="gs-exp-badge" title="${EXP_TITLE}">exp.</span> sont expérimentaux :
+      leur extraction automatique est encore en cours de validation.
       Démo : ${perimeter.size} entités citées dans les cinq documents présentés.</p>
     <div class="gs-hub-grid">
 ${cards}

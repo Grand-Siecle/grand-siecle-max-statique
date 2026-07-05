@@ -16,7 +16,12 @@
  *   - filtres à facettes simples par type (occupation / nationalité / sexe
  *     pour les personnes, pays pour les lieux, langue pour les œuvres…)
  *     + confiance de réconciliation pour tous ;
- *   - compteur de résultats + bouton Réinitialiser.
+ *   - compteur de résultats + bouton Réinitialiser ;
+ *   - masquage des groupes de lettres vides + estompage (gs-az-off) des
+ *     lettres correspondantes de la barre A–Z pendant le filtrage ;
+ *   - état de filtre sérialisé dans location.hash (#q=…&conf=…), relu au
+ *     chargement — URL partageable ;
+ *   - passerelle vers la recherche globale quand le filtre ne donne rien.
  * Le filtrage se fait en masquant/affichant les éléments DOM existants.
  * En cas d'échec (JSON absent, markup inattendu), la page reste intacte.
  */
@@ -56,7 +61,7 @@
     ]
   };
 
-  var CONF_LABELS = { high: 'fiable', medium: 'moyenne', low: 'incertaine', none: 'non réconciliée' };
+  var CONF_LABELS = { high: 'confiance forte', medium: 'confiance moyenne', low: 'confiance faible', none: 'non réconciliée' };
 
   function lbl(o) { return (o && o.label) || ''; }
 
@@ -129,22 +134,63 @@
     return e;
   }
 
+  /** état de filtre ↔ location.hash (#q=…&conf=…) — URL partageable */
+  function readHashState() {
+    var h = (location.hash || '').replace(/^#/, '');
+    if (h.indexOf('=') === -1) return {};   // ancre A–Z (#az-P), pas un état
+    var state = {};
+    h.split('&').forEach(function (pair) {
+      var i = pair.indexOf('=');
+      if (i === -1) return;
+      try {
+        state[decodeURIComponent(pair.slice(0, i))] = decodeURIComponent(pair.slice(i + 1));
+      } catch (e) { /* fragment mal encodé : ignoré */ }
+    });
+    return state;
+  }
+
+  function writeHashState(state) {
+    var parts = [];
+    for (var k in state) {
+      if (state[k]) parts.push(encodeURIComponent(k) + '=' + encodeURIComponent(state[k]));
+    }
+    if (parts.length) {
+      history.replaceState(null, '', '#' + parts.join('&'));
+    } else if (location.hash.indexOf('=') !== -1) {
+      // ne nettoyer que nos états (ne pas toucher aux ancres #az-X)
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+  }
+
   function init() {
     var ctx = findContainer();
     if (!ctx) return;
+
+    // réserver l'espace de la toolbar dès le chargement pour éviter le saut
+    // de mise en page quand elle sera injectée (le JSON arrive après le paint)
+    var placeholder = el('div', { 'class': 'gs-browse-toolbar', 'aria-hidden': 'true' });
+    placeholder.style.minHeight = '4.4rem';
+    ctx.el.insertBefore(placeholder, ctx.el.firstChild);
+    ctx.placeholder = placeholder;
 
     fetch('../ui/js/data/browse/' + ctx.type + '.json')
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) { enhance(ctx, data); })
       .catch(function (err) {
         // silencieux : la page d'index reste utilisable sans enhancement
+        if (placeholder.parentNode) placeholder.parentNode.removeChild(placeholder);
         if (window.console) console.warn('registres-browse: JSON indisponible —', err);
       });
   }
 
   function enhance(ctx, data) {
     var items = (data && data.items) || [];
-    if (!items.length) return;
+    var removePlaceholder = function () {
+      if (ctx.placeholder && ctx.placeholder.parentNode) {
+        ctx.placeholder.parentNode.removeChild(ctx.placeholder);
+      }
+    };
+    if (!items.length) { removePlaceholder(); return; }
 
     var byRef = {};
     items.forEach(function (it) {
@@ -156,8 +202,22 @@
     });
 
     var rows = collectRows(ctx.el);
-    if (!rows.length) return;
-    rows.forEach(function (r) { r.item = byRef[r.ref] || null; });
+    if (!rows.length) { removePlaceholder(); return; }
+    rows.forEach(function (r) {
+      r.item = byRef[r.ref] || null;
+      r.group = r.el.closest ? r.el.closest('.gs-az-group') : null;
+    });
+
+    // groupes de lettres + liens correspondants de la barre A–Z
+    var letterGroups = [];
+    var groupList = ctx.el.querySelectorAll('.gs-az-group');
+    for (var g = 0; g < groupList.length; g++) {
+      var section = groupList[g];
+      letterGroups.push({
+        section: section,
+        azLink: section.id ? document.querySelector('.gs-az a[href="#' + section.id + '"]') : null
+      });
+    }
 
     /* ------ toolbar ------ */
     var toolbar = el('div', { 'class': 'gs-browse-toolbar', role: 'search' });
@@ -174,7 +234,7 @@
 
     var selects = [];
 
-    function addSelect(label, options, getValues) {
+    function addSelect(key, label, options, getValues) {
       if (!options.length) return;
       var sel = el('select', { 'aria-label': label });
       sel.appendChild(el('option', { value: '', text: label + ' — toutes' }));
@@ -185,12 +245,12 @@
         el('label', { text: label }),
         sel
       ]));
-      selects.push({ sel: sel, getValues: getValues });
+      selects.push({ key: key, sel: sel, getValues: getValues });
       sel.addEventListener('change', apply);
     }
 
     (FACETS[ctx.type] || []).forEach(function (f) {
-      addSelect(f[1], buildFacetOptions(items, f[2]), f[2]);
+      addSelect(f[0], f[1], buildFacetOptions(items, f[2]), f[2]);
     });
 
     // facette universelle : confiance de réconciliation
@@ -210,6 +270,7 @@
         confSel
       ]));
       selects.push({
+        key: 'conf',
         sel: confSel,
         getValues: function (it) { return [it.confidence || 'none']; },
         raw: true
@@ -225,13 +286,26 @@
 
     var empty = el('p', { 'class': 'gs-browse-empty gs-browse-hidden', text: 'Aucun résultat pour ces critères.' });
 
-    ctx.el.insertBefore(toolbar, ctx.el.firstChild);
+    if (ctx.placeholder && ctx.placeholder.parentNode === ctx.el) {
+      ctx.el.replaceChild(toolbar, ctx.placeholder);
+    } else {
+      ctx.el.insertBefore(toolbar, ctx.el.firstChild);
+    }
     toolbar.parentNode.insertBefore(empty, toolbar.nextSibling);
 
     /* ------ filtrage ------ */
+    var filtering = false;
+
     function apply() {
-      var q = fold(searchInput.value.trim());
+      var rawQ = searchInput.value.trim();
+      var q = fold(rawQ);
       var visible = 0;
+      var anyFilter = Boolean(q);
+      var state = { q: rawQ };
+      selects.forEach(function (s) {
+        state[s.key] = s.sel.value;
+        if (s.sel.value) anyFilter = true;
+      });
       rows.forEach(function (r) {
         var ok = true;
         if (q) {
@@ -250,8 +324,28 @@
         r.el.classList.toggle('gs-browse-hidden', !ok);
         if (ok) visible++;
       });
+
+      // groupes de lettres sans résultat : masqués + lettre A–Z estompée
+      letterGroups.forEach(function (lg) {
+        var hasVisible = Boolean(lg.section.querySelector('li:not(.gs-browse-hidden)'));
+        lg.section.classList.toggle('gs-browse-hidden', anyFilter && !hasVisible);
+        if (lg.azLink) lg.azLink.classList.toggle('gs-az-off', anyFilter && !hasVisible);
+      });
+
       counter.textContent = visible + ' / ' + rows.length + ' résultat' + (visible > 1 ? 's' : '');
+
+      // état vide : proposer la recherche globale sur la même requête
+      empty.textContent = 'Aucun résultat pour ces critères.';
+      if (visible === 0 && rawQ) {
+        empty.appendChild(document.createTextNode(' — '));
+        empty.appendChild(el('a', {
+          href: '../search.html?q=' + encodeURIComponent(rawQ),
+          text: 'chercher « ' + rawQ + ' » dans toute l’édition →'
+        }));
+      }
       empty.classList.toggle('gs-browse-hidden', visible !== 0);
+
+      if (filtering) writeHashState(state);
     }
 
     searchInput.addEventListener('input', debounce(apply, 150));
@@ -261,7 +355,16 @@
       apply();
     });
 
-    apply();
+    // relire un éventuel état sérialisé (#q=…&conf=…) avant le premier apply
+    var initial = readHashState();
+    if (initial.q) searchInput.value = initial.q;
+    selects.forEach(function (s) {
+      if (initial[s.key]) s.sel.value = initial[s.key];
+    });
+
+    apply();          // premier rendu sans réécrire le hash (préserve #az-X)
+    filtering = true;
+    if (initial.q || selects.some(function (s) { return s.sel.value; })) apply();
   }
 
   if (document.readyState === 'loading') {

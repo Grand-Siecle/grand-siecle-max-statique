@@ -3,7 +3,7 @@
 <properties>
   <!-- Navigation principale -->
   <entry key="menu.home">Accueil</entry>
-  <entry key="menu.sommaire">Parcourir</entry>
+  <entry key="menu.sommaire">Corpus</entry>
   <entry key="menu.recherche">Recherche</entry>
   <entry key="menu.entites">Entités</entry>
   <entry key="menu.carte">Carte</entry>
@@ -19,7 +19,7 @@
   <entry key="menu.index_objets">Objets &amp; œuvres d'art</entry>
   <entry key="menu.index_materiaux">Matériaux</entry>
   <entry key="menu.index_techniques">Techniques</entry>
-  <entry key="menu.index_dates">Dates</entry>
+  <entry key="menu.index_dates">Dates citées</entry>
 
   <!-- Options de lecture (textOptions) -->
   <entry key="reading-options">Options de lecture</entry>

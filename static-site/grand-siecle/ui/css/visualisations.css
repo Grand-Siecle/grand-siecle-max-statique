@@ -1,0 +1,204 @@
+/* ==========================================================================
+   GRAND SIÈCLE — visualisations (carte Leaflet + frise chronologique)
+   Correctifs UX post-audit. Les tokens --gs-* viennent de grand-siecle.css
+   (chargée avant) : aucun token n'est redéfini ici.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. CARTE — harmonisation chromatique du fond OSM
+   (l'attribution est dans un pane séparé : elle n'est pas filtrée)
+   -------------------------------------------------------------------------- */
+#gs-map .leaflet-tile-pane {
+    filter: sepia(0.3) saturate(0.55) brightness(1.03);
+}
+
+#gs-map .leaflet-control-attribution {
+    background: rgba(254, 252, 247, 0.85);
+    color: var(--gs-sepia-text);
+    font-family: var(--gs-font-text);
+}
+
+/* liens dans la carte : style du site plutôt que le bleu Leaflet par défaut */
+#gs-map.leaflet-container a {
+    color: var(--gs-blue);
+}
+#gs-map.leaflet-container a:hover {
+    color: var(--gs-gold);
+}
+
+/* --------------------------------------------------------------------------
+   2. CARTE — popups (Leaflet impose une border-radius forte par défaut)
+   -------------------------------------------------------------------------- */
+#gs-map .leaflet-popup-content-wrapper,
+#gs-map .leaflet-popup-tip {
+    background: var(--gs-cream-light);
+    border: 1px solid var(--gs-border);
+    border-radius: 3px;
+    color: var(--gs-sepia);
+    font-family: var(--gs-font-text);
+    box-shadow: 0 6px 18px rgba(44, 36, 24, 0.18);
+}
+
+#gs-map .leaflet-popup-content {
+    margin: 0.7rem 0.95rem;
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+#gs-map .leaflet-popup-close-button {
+    color: var(--gs-sepia-light);
+}
+
+.gs-map-popup-type {
+    display: inline-block;
+    background: var(--gs-type-place, #3A6B4A);
+    color: var(--gs-cream-light);
+    text-transform: uppercase;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    padding: 0.1rem 0.5rem;
+    border-radius: var(--gs-radius, 2px);
+}
+
+.gs-map-popup-name {
+    display: block;
+    font-family: var(--gs-font-display);
+    font-size: 1.2rem;
+    line-height: 1.25;
+    margin: 0.3rem 0 0.15rem;
+}
+
+.gs-map-popup-mentions {
+    display: block;
+    color: var(--gs-sepia-medium);
+}
+
+.gs-map-popup-country {
+    display: block;
+    font-style: italic;
+    color: var(--gs-sepia-text);
+}
+
+/* --------------------------------------------------------------------------
+   3. FRISE — axe supérieur sticky (nouvelle classe : .gs-tl-axis d'origine
+   intouchée) + graduations positionnées en absolu (nice ticks)
+   -------------------------------------------------------------------------- */
+.gs-tl-axis-sticky {
+    position: sticky;
+    top: var(--header-height, 64px); /* header fixe sur desktop */
+    z-index: 10;
+    background: var(--gs-cream);
+    border-bottom: 1px solid var(--gs-gold-light);
+}
+@media (max-width: 900px) {
+    /* le header repasse en position: static sous 900px */
+    .gs-tl-axis-sticky { top: 0; }
+}
+
+.gs-tl-axis-sticky .gs-tl-axis {
+    border-top: none;
+    margin: 0 0 0 14.8rem;
+    padding: 0.3rem 0 0.25rem;
+}
+
+/* graduations « nice ticks » : positionnement proportionnel, pas space-between */
+.gs-tl-axis.gs-tl-scale {
+    display: block;
+    position: relative;
+    height: 1.35rem;
+}
+.gs-tl-axis.gs-tl-scale span {
+    position: absolute;
+    top: 0.25rem;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
+   4. FRISE — décor de la zone des barres : bandes d'époques + grille séculaire
+   -------------------------------------------------------------------------- */
+#gs-timeline .gs-tl-list {
+    position: relative;
+}
+#gs-timeline .gs-tl-list.gs-tl-has-epochs {
+    padding-top: 1.6rem; /* place pour les libellés d'époques */
+}
+
+/* les rangées passent au-dessus du décor absolu */
+#gs-timeline .gs-tl-item {
+    position: relative;
+    z-index: 1;
+}
+
+/* les bandes d'époques remplacent le fond des pistes */
+#gs-timeline .gs-tl-track {
+    background: transparent;
+}
+
+.gs-tl-deco {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 14.8rem; /* 14rem (colonne label) + 0.8rem (gap) */
+    right: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.gs-tl-epoch {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.gs-tl-epoch.gs-tl-epoch-alt {
+    background: var(--gs-cream-warm);
+}
+.gs-tl-epoch-label {
+    position: absolute;
+    top: 0.15rem;
+    left: 0.45rem;
+    font-family: var(--gs-font-display);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.09em;
+    color: var(--gs-gold-text);
+    white-space: nowrap;
+}
+
+.gs-tl-gridline {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--gs-gold-light);
+}
+
+/* --------------------------------------------------------------------------
+   5. FRISE — dates en clair après chaque label
+   -------------------------------------------------------------------------- */
+#gs-timeline .gs-tl-label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 0.45rem;
+    min-width: 0;
+}
+.gs-tl-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+}
+.gs-tl-year {
+    font-family: var(--gs-font-mono);
+    font-size: 0.72rem;
+    color: var(--gs-sepia-text);
+    flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+    .gs-tl-axis-sticky .gs-tl-axis { margin-left: 8.8rem; }
+    .gs-tl-deco { left: 8.8rem; } /* 8rem (colonne label) + 0.8rem (gap) */
+}
