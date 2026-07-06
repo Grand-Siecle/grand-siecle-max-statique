@@ -1,0 +1,47 @@
+name: Déploiement GitHub Pages (site gelé)
+
+# Publie le contenu déjà commis de static-site/ (aucun build : le gel MaX,
+# les 665 fiches d'entités et l'index Pagefind sont générés hors CI par
+# scripts/freeze.sh — non reproductible sur GitHub car dépend de BaseX +
+# du dépôt grand-siecle-TeiAPP voisin).
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'static-site/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch: # bouton « Run workflow » manuel
+
+# Permissions minimales requises par le déploiement Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un seul déploiement à la fois ; on n'annule pas un déploiement en cours
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Configurer Pages
+        uses: actions/configure-pages@v6
+
+      - name: Uploader l'artefact (static-site/)
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: static-site
+
+      - name: Déployer sur Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
